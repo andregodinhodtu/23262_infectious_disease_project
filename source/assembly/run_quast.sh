@@ -28,5 +28,5 @@ mkdir -p -m 777 "$Quast_folder"
 
 ASSEMBLY_DIR="/home/projects/course_23262/group/group1/23262_infectious_disease_project/data/assemblies"
 
-quast.py --threads 4 -o "$OUT_DIR" "$ASSEMBLY_DIR"/*.fasta
+quast.py --threads 4 -o "$Quast_folder" "$ASSEMBLY_DIR"/*.fasta
 

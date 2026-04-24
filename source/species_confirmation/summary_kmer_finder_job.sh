@@ -15,11 +15,11 @@
 ### Requesting time
 #PBS -l walltime=1:00:00
 
-RESULTS_DIR="/home/projects/course_23262/group/group1/23262_infectious_disease_project/results/kmerfinder"
+RESULTS_DIR="/home/projects/course_23262/group/group1/23262_infectious_disease_project/results/kmerfinder/"
 echo Working directory is $RESULTS_DIR
 cd $RESULTS_DIR
 
-module unload
+module purge
 module load tools
 module load anaconda3/2023.09-0
 module load perl/5.36.1
