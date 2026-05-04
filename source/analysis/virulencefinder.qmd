@@ -1,0 +1,54 @@
+---
+title: "Infectious Disease Bioinoformatics Project "
+format:
+  html:
+    embed-resources: true
+editor: visual 
+---
+
+# Load Libraries
+
+```{r}
+#| label: setup
+#| include: true
+
+library(tidyverse)
+library(readxl)
+library(here)
+```
+
+# Data Upload
+
+```{r}
+
+# the list used passed QC
+sample_list <- here("results_for_analysis",
+                    "sample_list_QC_passed.txt")
+
+sample_list <- readLines(sample_list)
+```
+
+```{r}
+#| label: load-virulencefinder
+
+virulence_finder_path <- here("results_for_analysis",
+                              "virulencefinder",
+                              "virulencefinder_summary.xlsx")
+
+
+
+virfinder_exoenzyme  <- read_excel(virulence_finder_path, sheet = "s.aureus_exoenzyme_database")
+virfinder_toxin  <- read_excel(virulence_finder_path, sheet = "s.aureus_toxin_database")
+virfinder_hostimm    <- read_excel(virulence_finder_path, sheet = "s.aureus_hostimm_database")
+virfinder_overview  <- read_excel(virulence_finder_path, sheet = "Detailed_overview")
+```
+
+```{r}
+virfinder_overview |>
+  filter(`Virulence factor` == "splA")
+```
+
+```{r}
+
+sample_list
+```
