@@ -14,20 +14,35 @@ module load prank/140603
 module load mcl/14-137
 module load cd-hit/4.6.1
 module load fasttree/2.1.9
-module load roary/3.13.0 
+module load roary/3.13.0
 
-WORKING_DIR="home/projects/course_23262/group/group1/23262_infectious_disease_project/results/pan_genome_GWAS/prokka"
-GFF_folder="${WORKING_DIR}/all_GFFs/"
-OUTPUT_BASE="/home/projects/course_23262/group/group1/23262_infectious_disease_project/results/pan_genome_GWAS/prokka"
+WORKING_DIR="/home/projects/course_23262/group/group1/23262_infectious_disease_project/results/pan_genome_GWAS/prokka"
+GFF_folder="${WORKING_DIR}/all_GFFs"
+OUTPUT_DIR="/home/projects/course_23262/group/group1/23262_infectious_disease_project/results/pan_genome_GWAS/roary/"
 
-mkdir -p 777 "$GFF_fodler"
+PLOT_SCRIPT="/home/projects/course_23262/course/week08/pangenome/roary_output/roary_plot/roary_plots.py"
 
-cd "$INPUT_DIR" || exit
+mkdir -p -m 777 "$GFF_folder"
+mkdir -p -m 777 "$OUTPUT_DIR"
+
+cd "$WORKING_DIR" || exit
+
+# Gathering all GFF files in one folder
 for folder in */; do
-    # Ignoring the logs and errs folders
-    if [[ "$folder" != "all_GFFs/"]]; then
-        sample=${folder%/}
-        cp "${folder}scaffolds.fasta" "$Assembly_folder${sample}.fasta"
+    # Ignoring the destination folder containing all gff file
+	sample=${folder%/}
+    if [[ "$sample" != "all_GFFs" ]]; then
+        cp "${sample}/${sample}.gff" "${GFF_folder}/${sample}.gff"
     fi
 done
 
+# Running roary on this folder
+
+roary -f "$OUTPUT_DIR" -p 4 -e -n -v "$GFF_folder"/*gff
+
+# Constructing a phylogeny tree from the aligned core genes
+cd "$OUTPUT_DIR" || exit
+FastTree -nt -gtr "${OUTPUT_DIR}core_gene_alignment.aln" > "${OUTPUT_DIR}core_genome_tree.nwk"
+
+# generating plots
+python "$PLOT_SCRIPT" "${OUTPUT_DIR}core_genome_tree.nwk" "${OUTPUT_DIR}gene_presence_absence.csv"
