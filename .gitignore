@@ -1,3 +1,14 @@
 /results
 /data
 
+# macOS junk
+.DS_Store
+**/.DS_Store
+
+# RStudio personal state — never commit
+.Rproj.user/
+
+# R session leftovers — never commit
+.Rhistory
+.RData
+.Ruserdata
