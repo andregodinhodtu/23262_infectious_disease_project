@@ -15,7 +15,7 @@
 ### Requesting time
 #PBS -l walltime=1:00:00
 
-RESULTS_DIR="/home/projects/course_23262/group/group1/23262_infectious_disease_project/results/kmerfinder/"
+RESULTS_DIR="/home/projects/course_23262/group/group1/23262_infectious_disease_project/results/kmerfinder"
 echo Working directory is $RESULTS_DIR
 cd $RESULTS_DIR
 
@@ -30,4 +30,5 @@ output_file="kmerfinder_summary"
 
 python $summary_script \
     -i $RESULTS_DIR/. \
-    -o $output_file
+    -o $output_file \
+    -t 5
