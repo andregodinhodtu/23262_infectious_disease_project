@@ -1,0 +1,2034 @@
+sample	# ResFinder phenotype results for staphylococcus aureus.
+Q0003_BC00102	# Sample: Q0003_BC00102.fasta
+Q0003_BC00102	# 
+Q0003_BC00102	# The phenotype 'No resistance' should be interpreted with
+Q0003_BC00102	# caution, as it only means that nothing in the used
+Q0003_BC00102	# database indicate resistance, but resistance could exist
+Q0003_BC00102	# from 'unknown' or not yet implemented sources.
+Q0003_BC00102	# 
+Q0003_BC00102	# The 'Match' column stores one of the integers 0, 1, 2, 3.
+Q0003_BC00102	#      0: No match found
+Q0003_BC00102	#      1: Match < 100% ID AND match length < ref length
+Q0003_BC00102	#      2: Match < 100% ID AND match length = ref length
+Q0003_BC00102	#      3: Match = 100% ID AND match length = ref length
+Q0003_BC00102	# If several hits causing the same resistance are found,
+Q0003_BC00102	# the highest number will be stored in the 'Match' column.
+Q0003_BC00102	# Antimicrobial	Class	WGS-predicted phenotype	Match	Genetic background
+Q0003_BC00102	fosfomycin	fosfomycin	No resistance	0	
+Q0003_BC00102	quinupristin+dalfopristin	streptogramin a	No resistance	0	
+Q0003_BC00102	penicillin	beta-lactam	Resistant	3	blaZ (blaZ_AHVO01000010)
+Q0003_BC00102	tiamulin	pleuromutilin	No resistance	0	
+Q0003_BC00102	fusidic acid	steroid antibacterial	No resistance	0	
+Q0003_BC00102	sulfamethoxazole	folate pathway antagonist	No resistance	0	
+Q0003_BC00102	chloramphenicol	amphenicol	No resistance	0	
+Q0003_BC00102	telithromycin	macrolide	No resistance	0	
+Q0003_BC00102	vancomycin	glycopeptide	No resistance	0	
+Q0003_BC00102	teicoplanin	glycopeptide	No resistance	0	
+Q0003_BC00102	amikacin	aminoglycoside	No resistance	0	
+Q0003_BC00102	cefoxitin	beta-lactam	No resistance	0	
+Q0003_BC00102	spiramycin	macrolide	No resistance	0	
+Q0003_BC00102	erythromycin	macrolide	No resistance	0	
+Q0003_BC00102	linezolid	oxazolidinone	No resistance	0	
+Q0003_BC00102	mupirocin	pseudomonic acid	No resistance	0	
+Q0003_BC00102	clindamycin	lincosamide	No resistance	0	
+Q0003_BC00102	trimethoprim	folate pathway antagonist	No resistance	0	
+Q0003_BC00102	gentamicin	aminoglycoside	No resistance	0	
+Q0003_BC00102	ciprofloxacin	quinolone	No resistance	0	
+Q0003_BC00102	tobramycin	aminoglycoside	No resistance	0	
+Q0003_BC00102	tetracycline	tetracycline	No resistance	0	
+Q0003_BC00102	# WARNING: Features with unknown phenotype 
+Q0003_BC00102	# Feature_ID	Region	Database	Hit	Class
+Q0003_BC00102	grlB;;1;;CP026964.1_422_d_AA	grlB;;1;;CP026964.1			
+Q0003_BC00104	# Sample: Q0003_BC00104.fasta
+Q0003_BC00104	# 
+Q0003_BC00104	# The phenotype 'No resistance' should be interpreted with
+Q0003_BC00104	# caution, as it only means that nothing in the used
+Q0003_BC00104	# database indicate resistance, but resistance could exist
+Q0003_BC00104	# from 'unknown' or not yet implemented sources.
+Q0003_BC00104	# 
+Q0003_BC00104	# The 'Match' column stores one of the integers 0, 1, 2, 3.
+Q0003_BC00104	#      0: No match found
+Q0003_BC00104	#      1: Match < 100% ID AND match length < ref length
+Q0003_BC00104	#      2: Match < 100% ID AND match length = ref length
+Q0003_BC00104	#      3: Match = 100% ID AND match length = ref length
+Q0003_BC00104	# If several hits causing the same resistance are found,
+Q0003_BC00104	# the highest number will be stored in the 'Match' column.
+Q0003_BC00104	# Antimicrobial	Class	WGS-predicted phenotype	Match	Genetic background
+Q0003_BC00104	clindamycin	lincosamide	No resistance	0	
+Q0003_BC00104	vancomycin	glycopeptide	No resistance	0	
+Q0003_BC00104	chloramphenicol	amphenicol	No resistance	0	
+Q0003_BC00104	fusidic acid	steroid antibacterial	No resistance	0	
+Q0003_BC00104	spiramycin	macrolide	No resistance	0	
+Q0003_BC00104	teicoplanin	glycopeptide	No resistance	0	
+Q0003_BC00104	tetracycline	tetracycline	No resistance	0	
+Q0003_BC00104	fosfomycin	fosfomycin	No resistance	0	
+Q0003_BC00104	gentamicin	aminoglycoside	No resistance	0	
+Q0003_BC00104	trimethoprim	folate pathway antagonist	No resistance	0	
+Q0003_BC00104	mupirocin	pseudomonic acid	No resistance	0	
+Q0003_BC00104	quinupristin+dalfopristin	streptogramin a	No resistance	0	
+Q0003_BC00104	sulfamethoxazole	folate pathway antagonist	No resistance	0	
+Q0003_BC00104	penicillin	beta-lactam	Resistant	3	blaZ (blaZ_AHVO01000010)
+Q0003_BC00104	erythromycin	macrolide	No resistance	0	
+Q0003_BC00104	tobramycin	aminoglycoside	No resistance	0	
+Q0003_BC00104	tiamulin	pleuromutilin	No resistance	0	
+Q0003_BC00104	telithromycin	macrolide	No resistance	0	
+Q0003_BC00104	amikacin	aminoglycoside	No resistance	0	
+Q0003_BC00104	cefoxitin	beta-lactam	No resistance	0	
+Q0003_BC00104	linezolid	oxazolidinone	No resistance	0	
+Q0003_BC00104	ciprofloxacin	quinolone	No resistance	0	
+Q0003_BC00104	# WARNING: Features with unknown phenotype 
+Q0003_BC00104	# Feature_ID	Region	Database	Hit	Class
+Q0003_BC00104	grlB;;1;;CP026964.1_422_d_AA	grlB;;1;;CP026964.1			
+Q0003_BC00105	# Sample: Q0003_BC00105.fasta
+Q0003_BC00105	# 
+Q0003_BC00105	# The phenotype 'No resistance' should be interpreted with
+Q0003_BC00105	# caution, as it only means that nothing in the used
+Q0003_BC00105	# database indicate resistance, but resistance could exist
+Q0003_BC00105	# from 'unknown' or not yet implemented sources.
+Q0003_BC00105	# 
+Q0003_BC00105	# The 'Match' column stores one of the integers 0, 1, 2, 3.
+Q0003_BC00105	#      0: No match found
+Q0003_BC00105	#      1: Match < 100% ID AND match length < ref length
+Q0003_BC00105	#      2: Match < 100% ID AND match length = ref length
+Q0003_BC00105	#      3: Match = 100% ID AND match length = ref length
+Q0003_BC00105	# If several hits causing the same resistance are found,
+Q0003_BC00105	# the highest number will be stored in the 'Match' column.
+Q0003_BC00105	# Antimicrobial	Class	WGS-predicted phenotype	Match	Genetic background
+Q0003_BC00105	gentamicin	aminoglycoside	No resistance	0	
+Q0003_BC00105	teicoplanin	glycopeptide	No resistance	0	
+Q0003_BC00105	fosfomycin	fosfomycin	No resistance	0	
+Q0003_BC00105	tiamulin	pleuromutilin	No resistance	0	
+Q0003_BC00105	mupirocin	pseudomonic acid	No resistance	0	
+Q0003_BC00105	ciprofloxacin	quinolone	No resistance	0	
+Q0003_BC00105	cefoxitin	beta-lactam	No resistance	0	
+Q0003_BC00105	trimethoprim	folate pathway antagonist	No resistance	0	
+Q0003_BC00105	vancomycin	glycopeptide	No resistance	0	
+Q0003_BC00105	chloramphenicol	amphenicol	No resistance	0	
+Q0003_BC00105	telithromycin	macrolide	No resistance	0	
+Q0003_BC00105	clindamycin	lincosamide	No resistance	0	
+Q0003_BC00105	linezolid	oxazolidinone	No resistance	0	
+Q0003_BC00105	penicillin	beta-lactam	Resistant	3	blaZ (blaZ_CP000732)
+Q0003_BC00105	spiramycin	macrolide	No resistance	0	
+Q0003_BC00105	erythromycin	macrolide	No resistance	0	
+Q0003_BC00105	sulfamethoxazole	folate pathway antagonist	No resistance	0	
+Q0003_BC00105	fusidic acid	steroid antibacterial	No resistance	0	
+Q0003_BC00105	amikacin	aminoglycoside	No resistance	0	
+Q0003_BC00105	tobramycin	aminoglycoside	No resistance	0	
+Q0003_BC00105	quinupristin+dalfopristin	streptogramin a	No resistance	0	
+Q0003_BC00105	tetracycline	tetracycline	Resistant	3	tet(K) (tet(K)_U38656)
+Q0003_BC00106	# Sample: Q0003_BC00106.fasta
+Q0003_BC00106	# 
+Q0003_BC00106	# The phenotype 'No resistance' should be interpreted with
+Q0003_BC00106	# caution, as it only means that nothing in the used
+Q0003_BC00106	# database indicate resistance, but resistance could exist
+Q0003_BC00106	# from 'unknown' or not yet implemented sources.
+Q0003_BC00106	# 
+Q0003_BC00106	# The 'Match' column stores one of the integers 0, 1, 2, 3.
+Q0003_BC00106	#      0: No match found
+Q0003_BC00106	#      1: Match < 100% ID AND match length < ref length
+Q0003_BC00106	#      2: Match < 100% ID AND match length = ref length
+Q0003_BC00106	#      3: Match = 100% ID AND match length = ref length
+Q0003_BC00106	# If several hits causing the same resistance are found,
+Q0003_BC00106	# the highest number will be stored in the 'Match' column.
+Q0003_BC00106	# Antimicrobial	Class	WGS-predicted phenotype	Match	Genetic background
+Q0003_BC00106	erythromycin	macrolide	No resistance	0	
+Q0003_BC00106	vancomycin	glycopeptide	No resistance	0	
+Q0003_BC00106	linezolid	oxazolidinone	No resistance	0	
+Q0003_BC00106	quinupristin+dalfopristin	streptogramin a	No resistance	0	
+Q0003_BC00106	fosfomycin	fosfomycin	No resistance	0	
+Q0003_BC00106	penicillin	beta-lactam	Resistant	3	blaZ (blaZ_AHVO01000010)
+Q0003_BC00106	tobramycin	aminoglycoside	No resistance	0	
+Q0003_BC00106	clindamycin	lincosamide	No resistance	0	
+Q0003_BC00106	amikacin	aminoglycoside	No resistance	0	
+Q0003_BC00106	fusidic acid	steroid antibacterial	No resistance	0	
+Q0003_BC00106	cefoxitin	beta-lactam	No resistance	0	
+Q0003_BC00106	mupirocin	pseudomonic acid	No resistance	0	
+Q0003_BC00106	chloramphenicol	amphenicol	No resistance	0	
+Q0003_BC00106	ciprofloxacin	quinolone	No resistance	0	
+Q0003_BC00106	gentamicin	aminoglycoside	No resistance	0	
+Q0003_BC00106	telithromycin	macrolide	No resistance	0	
+Q0003_BC00106	tetracycline	tetracycline	No resistance	0	
+Q0003_BC00106	tiamulin	pleuromutilin	No resistance	0	
+Q0003_BC00106	trimethoprim	folate pathway antagonist	No resistance	0	
+Q0003_BC00106	teicoplanin	glycopeptide	No resistance	0	
+Q0003_BC00106	spiramycin	macrolide	No resistance	0	
+Q0003_BC00106	sulfamethoxazole	folate pathway antagonist	No resistance	0	
+Q0003_BC00106	# WARNING: Features with unknown phenotype 
+Q0003_BC00106	# Feature_ID	Region	Database	Hit	Class
+Q0003_BC00106	grlB;;1;;CP026964.1_422_d_AA	grlB;;1;;CP026964.1			
+Q0003_BC00107	# Sample: Q0003_BC00107.fasta
+Q0003_BC00107	# 
+Q0003_BC00107	# The phenotype 'No resistance' should be interpreted with
+Q0003_BC00107	# caution, as it only means that nothing in the used
+Q0003_BC00107	# database indicate resistance, but resistance could exist
+Q0003_BC00107	# from 'unknown' or not yet implemented sources.
+Q0003_BC00107	# 
+Q0003_BC00107	# The 'Match' column stores one of the integers 0, 1, 2, 3.
+Q0003_BC00107	#      0: No match found
+Q0003_BC00107	#      1: Match < 100% ID AND match length < ref length
+Q0003_BC00107	#      2: Match < 100% ID AND match length = ref length
+Q0003_BC00107	#      3: Match = 100% ID AND match length = ref length
+Q0003_BC00107	# If several hits causing the same resistance are found,
+Q0003_BC00107	# the highest number will be stored in the 'Match' column.
+Q0003_BC00107	# Antimicrobial	Class	WGS-predicted phenotype	Match	Genetic background
+Q0003_BC00107	gentamicin	aminoglycoside	No resistance	0	
+Q0003_BC00107	tetracycline	tetracycline	No resistance	0	
+Q0003_BC00107	clindamycin	lincosamide	No resistance	0	
+Q0003_BC00107	trimethoprim	folate pathway antagonist	No resistance	0	
+Q0003_BC00107	penicillin	beta-lactam	Resistant	3	blaZ (blaZ_AHVO01000010)
+Q0003_BC00107	linezolid	oxazolidinone	No resistance	0	
+Q0003_BC00107	mupirocin	pseudomonic acid	No resistance	0	
+Q0003_BC00107	teicoplanin	glycopeptide	No resistance	0	
+Q0003_BC00107	tobramycin	aminoglycoside	No resistance	0	
+Q0003_BC00107	ciprofloxacin	quinolone	No resistance	0	
+Q0003_BC00107	cefoxitin	beta-lactam	No resistance	0	
+Q0003_BC00107	fusidic acid	steroid antibacterial	No resistance	0	
+Q0003_BC00107	chloramphenicol	amphenicol	No resistance	0	
+Q0003_BC00107	fosfomycin	fosfomycin	No resistance	0	
+Q0003_BC00107	sulfamethoxazole	folate pathway antagonist	No resistance	0	
+Q0003_BC00107	vancomycin	glycopeptide	No resistance	0	
+Q0003_BC00107	telithromycin	macrolide	No resistance	0	
+Q0003_BC00107	amikacin	aminoglycoside	No resistance	0	
+Q0003_BC00107	tiamulin	pleuromutilin	No resistance	0	
+Q0003_BC00107	quinupristin+dalfopristin	streptogramin a	No resistance	0	
+Q0003_BC00107	spiramycin	macrolide	No resistance	0	
+Q0003_BC00107	erythromycin	macrolide	No resistance	0	
+Q0003_BC00107	# WARNING: Features with unknown phenotype 
+Q0003_BC00107	# Feature_ID	Region	Database	Hit	Class
+Q0003_BC00107	grlB;;1;;CP026964.1_422_d_AA	grlB;;1;;CP026964.1			
+Q0003_BC00108	# Sample: Q0003_BC00108.fasta
+Q0003_BC00108	# 
+Q0003_BC00108	# The phenotype 'No resistance' should be interpreted with
+Q0003_BC00108	# caution, as it only means that nothing in the used
+Q0003_BC00108	# database indicate resistance, but resistance could exist
+Q0003_BC00108	# from 'unknown' or not yet implemented sources.
+Q0003_BC00108	# 
+Q0003_BC00108	# The 'Match' column stores one of the integers 0, 1, 2, 3.
+Q0003_BC00108	#      0: No match found
+Q0003_BC00108	#      1: Match < 100% ID AND match length < ref length
+Q0003_BC00108	#      2: Match < 100% ID AND match length = ref length
+Q0003_BC00108	#      3: Match = 100% ID AND match length = ref length
+Q0003_BC00108	# If several hits causing the same resistance are found,
+Q0003_BC00108	# the highest number will be stored in the 'Match' column.
+Q0003_BC00108	# Antimicrobial	Class	WGS-predicted phenotype	Match	Genetic background
+Q0003_BC00108	clindamycin	lincosamide	No resistance	0	
+Q0003_BC00108	chloramphenicol	amphenicol	No resistance	0	
+Q0003_BC00108	quinupristin+dalfopristin	streptogramin a	No resistance	0	
+Q0003_BC00108	tobramycin	aminoglycoside	No resistance	0	
+Q0003_BC00108	tetracycline	tetracycline	No resistance	0	
+Q0003_BC00108	erythromycin	macrolide	No resistance	0	
+Q0003_BC00108	teicoplanin	glycopeptide	No resistance	0	
+Q0003_BC00108	tiamulin	pleuromutilin	No resistance	0	
+Q0003_BC00108	sulfamethoxazole	folate pathway antagonist	No resistance	0	
+Q0003_BC00108	spiramycin	macrolide	No resistance	0	
+Q0003_BC00108	fosfomycin	fosfomycin	No resistance	0	
+Q0003_BC00108	mupirocin	pseudomonic acid	No resistance	0	
+Q0003_BC00108	telithromycin	macrolide	No resistance	0	
+Q0003_BC00108	penicillin	beta-lactam	Resistant	2	blaZ (blaZ_MAJJ01000071), blaZ (blaZ_FKPS01000007), blaZ (blaZ_NZ_JVAT01000021), blaZ (blaZ_NZ_JUUA01000057), blaZ (blaZ_NZ_JVLY01000044), blaZ (blaZ_NZ_JVRB01000003), blaZ (blaZ_JIFD01000012), blaZ (blaZ_JIFU01000008)
+Q0003_BC00108	linezolid	oxazolidinone	No resistance	0	
+Q0003_BC00108	amikacin	aminoglycoside	No resistance	0	
+Q0003_BC00108	gentamicin	aminoglycoside	No resistance	0	
+Q0003_BC00108	ciprofloxacin	quinolone	No resistance	0	
+Q0003_BC00108	fusidic acid	steroid antibacterial	No resistance	0	
+Q0003_BC00108	cefoxitin	beta-lactam	No resistance	0	
+Q0003_BC00108	trimethoprim	folate pathway antagonist	No resistance	0	
+Q0003_BC00108	vancomycin	glycopeptide	No resistance	0	
+Q0003_BC00110	# Sample: Q0003_BC00110.fasta
+Q0003_BC00110	# 
+Q0003_BC00110	# The phenotype 'No resistance' should be interpreted with
+Q0003_BC00110	# caution, as it only means that nothing in the used
+Q0003_BC00110	# database indicate resistance, but resistance could exist
+Q0003_BC00110	# from 'unknown' or not yet implemented sources.
+Q0003_BC00110	# 
+Q0003_BC00110	# The 'Match' column stores one of the integers 0, 1, 2, 3.
+Q0003_BC00110	#      0: No match found
+Q0003_BC00110	#      1: Match < 100% ID AND match length < ref length
+Q0003_BC00110	#      2: Match < 100% ID AND match length = ref length
+Q0003_BC00110	#      3: Match = 100% ID AND match length = ref length
+Q0003_BC00110	# If several hits causing the same resistance are found,
+Q0003_BC00110	# the highest number will be stored in the 'Match' column.
+Q0003_BC00110	# Antimicrobial	Class	WGS-predicted phenotype	Match	Genetic background
+Q0003_BC00110	penicillin	beta-lactam	Resistant	2	blaZ (blaZ_MAJJ01000071), blaZ (blaZ_FKPS01000007), blaZ (blaZ_NZ_JVAT01000021), blaZ (blaZ_NZ_JUUA01000057), blaZ (blaZ_NZ_JVLY01000044), blaZ (blaZ_NZ_JVRB01000003), blaZ (blaZ_JIFD01000012), blaZ (blaZ_JIFU01000008)
+Q0003_BC00110	cefoxitin	beta-lactam	No resistance	0	
+Q0003_BC00110	spiramycin	macrolide	No resistance	0	
+Q0003_BC00110	sulfamethoxazole	folate pathway antagonist	No resistance	0	
+Q0003_BC00110	linezolid	oxazolidinone	No resistance	0	
+Q0003_BC00110	tobramycin	aminoglycoside	No resistance	0	
+Q0003_BC00110	fosfomycin	fosfomycin	No resistance	0	
+Q0003_BC00110	erythromycin	macrolide	No resistance	0	
+Q0003_BC00110	quinupristin+dalfopristin	streptogramin a	No resistance	0	
+Q0003_BC00110	vancomycin	glycopeptide	No resistance	0	
+Q0003_BC00110	gentamicin	aminoglycoside	No resistance	0	
+Q0003_BC00110	teicoplanin	glycopeptide	No resistance	0	
+Q0003_BC00110	tiamulin	pleuromutilin	No resistance	0	
+Q0003_BC00110	ciprofloxacin	quinolone	No resistance	0	
+Q0003_BC00110	fusidic acid	steroid antibacterial	No resistance	0	
+Q0003_BC00110	tetracycline	tetracycline	No resistance	0	
+Q0003_BC00110	amikacin	aminoglycoside	No resistance	0	
+Q0003_BC00110	clindamycin	lincosamide	No resistance	0	
+Q0003_BC00110	chloramphenicol	amphenicol	No resistance	0	
+Q0003_BC00110	trimethoprim	folate pathway antagonist	No resistance	0	
+Q0003_BC00110	telithromycin	macrolide	No resistance	0	
+Q0003_BC00110	mupirocin	pseudomonic acid	No resistance	0	
+Q0003_BC00111	# Sample: Q0003_BC00111.fasta
+Q0003_BC00111	# 
+Q0003_BC00111	# The phenotype 'No resistance' should be interpreted with
+Q0003_BC00111	# caution, as it only means that nothing in the used
+Q0003_BC00111	# database indicate resistance, but resistance could exist
+Q0003_BC00111	# from 'unknown' or not yet implemented sources.
+Q0003_BC00111	# 
+Q0003_BC00111	# The 'Match' column stores one of the integers 0, 1, 2, 3.
+Q0003_BC00111	#      0: No match found
+Q0003_BC00111	#      1: Match < 100% ID AND match length < ref length
+Q0003_BC00111	#      2: Match < 100% ID AND match length = ref length
+Q0003_BC00111	#      3: Match = 100% ID AND match length = ref length
+Q0003_BC00111	# If several hits causing the same resistance are found,
+Q0003_BC00111	# the highest number will be stored in the 'Match' column.
+Q0003_BC00111	# Antimicrobial	Class	WGS-predicted phenotype	Match	Genetic background
+Q0003_BC00111	tetracycline	tetracycline	No resistance	0	
+Q0003_BC00111	fosfomycin	fosfomycin	No resistance	0	
+Q0003_BC00111	spiramycin	macrolide	No resistance	0	
+Q0003_BC00111	fusidic acid	steroid antibacterial	No resistance	0	
+Q0003_BC00111	penicillin	beta-lactam	Resistant	2	blaZ (blaZ_CP003979)
+Q0003_BC00111	cefoxitin	beta-lactam	No resistance	0	
+Q0003_BC00111	sulfamethoxazole	folate pathway antagonist	No resistance	0	
+Q0003_BC00111	tiamulin	pleuromutilin	No resistance	0	
+Q0003_BC00111	mupirocin	pseudomonic acid	No resistance	0	
+Q0003_BC00111	gentamicin	aminoglycoside	No resistance	0	
+Q0003_BC00111	tobramycin	aminoglycoside	No resistance	0	
+Q0003_BC00111	linezolid	oxazolidinone	No resistance	0	
+Q0003_BC00111	ciprofloxacin	quinolone	No resistance	0	
+Q0003_BC00111	amikacin	aminoglycoside	No resistance	0	
+Q0003_BC00111	clindamycin	lincosamide	No resistance	0	
+Q0003_BC00111	erythromycin	macrolide	No resistance	0	
+Q0003_BC00111	telithromycin	macrolide	No resistance	0	
+Q0003_BC00111	quinupristin+dalfopristin	streptogramin a	No resistance	0	
+Q0003_BC00111	chloramphenicol	amphenicol	No resistance	0	
+Q0003_BC00111	teicoplanin	glycopeptide	No resistance	0	
+Q0003_BC00111	vancomycin	glycopeptide	No resistance	0	
+Q0003_BC00111	trimethoprim	folate pathway antagonist	No resistance	0	
+Q0003_BC00117	# Sample: Q0003_BC00117.fasta
+Q0003_BC00117	# 
+Q0003_BC00117	# The phenotype 'No resistance' should be interpreted with
+Q0003_BC00117	# caution, as it only means that nothing in the used
+Q0003_BC00117	# database indicate resistance, but resistance could exist
+Q0003_BC00117	# from 'unknown' or not yet implemented sources.
+Q0003_BC00117	# 
+Q0003_BC00117	# The 'Match' column stores one of the integers 0, 1, 2, 3.
+Q0003_BC00117	#      0: No match found
+Q0003_BC00117	#      1: Match < 100% ID AND match length < ref length
+Q0003_BC00117	#      2: Match < 100% ID AND match length = ref length
+Q0003_BC00117	#      3: Match = 100% ID AND match length = ref length
+Q0003_BC00117	# If several hits causing the same resistance are found,
+Q0003_BC00117	# the highest number will be stored in the 'Match' column.
+Q0003_BC00117	# Antimicrobial	Class	WGS-predicted phenotype	Match	Genetic background
+Q0003_BC00117	chloramphenicol	amphenicol	No resistance	0	
+Q0003_BC00117	trimethoprim	folate pathway antagonist	No resistance	0	
+Q0003_BC00117	linezolid	oxazolidinone	No resistance	0	
+Q0003_BC00117	teicoplanin	glycopeptide	No resistance	0	
+Q0003_BC00117	fosfomycin	fosfomycin	No resistance	0	
+Q0003_BC00117	penicillin	beta-lactam	Resistant	3	blaZ (blaZ_CP000732)
+Q0003_BC00117	sulfamethoxazole	folate pathway antagonist	No resistance	0	
+Q0003_BC00117	ciprofloxacin	quinolone	No resistance	0	
+Q0003_BC00117	clindamycin	lincosamide	No resistance	0	
+Q0003_BC00117	spiramycin	macrolide	No resistance	0	
+Q0003_BC00117	erythromycin	macrolide	No resistance	0	
+Q0003_BC00117	tobramycin	aminoglycoside	No resistance	0	
+Q0003_BC00117	vancomycin	glycopeptide	No resistance	0	
+Q0003_BC00117	cefoxitin	beta-lactam	No resistance	0	
+Q0003_BC00117	quinupristin+dalfopristin	streptogramin a	No resistance	0	
+Q0003_BC00117	tetracycline	tetracycline	Resistant	3	tet(K) (tet(K)_U38656)
+Q0003_BC00117	fusidic acid	steroid antibacterial	No resistance	0	
+Q0003_BC00117	gentamicin	aminoglycoside	No resistance	0	
+Q0003_BC00117	mupirocin	pseudomonic acid	No resistance	0	
+Q0003_BC00117	amikacin	aminoglycoside	No resistance	0	
+Q0003_BC00117	tiamulin	pleuromutilin	No resistance	0	
+Q0003_BC00117	telithromycin	macrolide	No resistance	0	
+Q0003_BC00118	# Sample: Q0003_BC00118.fasta
+Q0003_BC00118	# 
+Q0003_BC00118	# The phenotype 'No resistance' should be interpreted with
+Q0003_BC00118	# caution, as it only means that nothing in the used
+Q0003_BC00118	# database indicate resistance, but resistance could exist
+Q0003_BC00118	# from 'unknown' or not yet implemented sources.
+Q0003_BC00118	# 
+Q0003_BC00118	# The 'Match' column stores one of the integers 0, 1, 2, 3.
+Q0003_BC00118	#      0: No match found
+Q0003_BC00118	#      1: Match < 100% ID AND match length < ref length
+Q0003_BC00118	#      2: Match < 100% ID AND match length = ref length
+Q0003_BC00118	#      3: Match = 100% ID AND match length = ref length
+Q0003_BC00118	# If several hits causing the same resistance are found,
+Q0003_BC00118	# the highest number will be stored in the 'Match' column.
+Q0003_BC00118	# Antimicrobial	Class	WGS-predicted phenotype	Match	Genetic background
+Q0003_BC00118	penicillin	beta-lactam	Resistant	3	blaZ (blaZ_CP000732)
+Q0003_BC00118	fosfomycin	fosfomycin	No resistance	0	
+Q0003_BC00118	spiramycin	macrolide	No resistance	0	
+Q0003_BC00118	linezolid	oxazolidinone	No resistance	0	
+Q0003_BC00118	trimethoprim	folate pathway antagonist	No resistance	0	
+Q0003_BC00118	gentamicin	aminoglycoside	No resistance	0	
+Q0003_BC00118	mupirocin	pseudomonic acid	No resistance	0	
+Q0003_BC00118	telithromycin	macrolide	No resistance	0	
+Q0003_BC00118	ciprofloxacin	quinolone	No resistance	0	
+Q0003_BC00118	fusidic acid	steroid antibacterial	No resistance	0	
+Q0003_BC00118	amikacin	aminoglycoside	No resistance	0	
+Q0003_BC00118	sulfamethoxazole	folate pathway antagonist	No resistance	0	
+Q0003_BC00118	tiamulin	pleuromutilin	No resistance	0	
+Q0003_BC00118	quinupristin+dalfopristin	streptogramin a	No resistance	0	
+Q0003_BC00118	tetracycline	tetracycline	Resistant	3	tet(K) (tet(K)_U38656)
+Q0003_BC00118	vancomycin	glycopeptide	No resistance	0	
+Q0003_BC00118	clindamycin	lincosamide	No resistance	0	
+Q0003_BC00118	tobramycin	aminoglycoside	No resistance	0	
+Q0003_BC00118	chloramphenicol	amphenicol	No resistance	0	
+Q0003_BC00118	cefoxitin	beta-lactam	No resistance	0	
+Q0003_BC00118	erythromycin	macrolide	No resistance	0	
+Q0003_BC00118	teicoplanin	glycopeptide	No resistance	0	
+Q0003_BC00201	# Sample: Q0003_BC00201.fasta
+Q0003_BC00201	# 
+Q0003_BC00201	# The phenotype 'No resistance' should be interpreted with
+Q0003_BC00201	# caution, as it only means that nothing in the used
+Q0003_BC00201	# database indicate resistance, but resistance could exist
+Q0003_BC00201	# from 'unknown' or not yet implemented sources.
+Q0003_BC00201	# 
+Q0003_BC00201	# The 'Match' column stores one of the integers 0, 1, 2, 3.
+Q0003_BC00201	#      0: No match found
+Q0003_BC00201	#      1: Match < 100% ID AND match length < ref length
+Q0003_BC00201	#      2: Match < 100% ID AND match length = ref length
+Q0003_BC00201	#      3: Match = 100% ID AND match length = ref length
+Q0003_BC00201	# If several hits causing the same resistance are found,
+Q0003_BC00201	# the highest number will be stored in the 'Match' column.
+Q0003_BC00201	# Antimicrobial	Class	WGS-predicted phenotype	Match	Genetic background
+Q0003_BC00201	tetracycline	tetracycline	Resistant	2	tet(K) (tet(K)_J01764)
+Q0003_BC00201	trimethoprim	folate pathway antagonist	No resistance	0	
+Q0003_BC00201	cefoxitin	beta-lactam	No resistance	0	
+Q0003_BC00201	vancomycin	glycopeptide	No resistance	0	
+Q0003_BC00201	amikacin	aminoglycoside	No resistance	0	
+Q0003_BC00201	ciprofloxacin	quinolone	No resistance	0	
+Q0003_BC00201	spiramycin	macrolide	No resistance	0	
+Q0003_BC00201	telithromycin	macrolide	No resistance	0	
+Q0003_BC00201	quinupristin+dalfopristin	streptogramin a	No resistance	0	
+Q0003_BC00201	sulfamethoxazole	folate pathway antagonist	No resistance	0	
+Q0003_BC00201	linezolid	oxazolidinone	No resistance	0	
+Q0003_BC00201	gentamicin	aminoglycoside	No resistance	0	
+Q0003_BC00201	clindamycin	lincosamide	No resistance	0	
+Q0003_BC00201	tobramycin	aminoglycoside	No resistance	0	
+Q0003_BC00201	fosfomycin	fosfomycin	No resistance	0	
+Q0003_BC00201	chloramphenicol	amphenicol	No resistance	0	
+Q0003_BC00201	teicoplanin	glycopeptide	No resistance	0	
+Q0003_BC00201	mupirocin	pseudomonic acid	No resistance	0	
+Q0003_BC00201	penicillin	beta-lactam	Resistant	3	blaZ (blaZ_AHVO01000010)
+Q0003_BC00201	tiamulin	pleuromutilin	No resistance	0	
+Q0003_BC00201	erythromycin	macrolide	No resistance	0	
+Q0003_BC00201	fusidic acid	steroid antibacterial	No resistance	0	
+Q0003_BC00201	# WARNING: Features with unknown phenotype 
+Q0003_BC00201	# Feature_ID	Region	Database	Hit	Class
+Q0003_BC00201	grlB;;1;;CP026964.1_422_d_AA	grlB;;1;;CP026964.1			
+Q0003_BC00211	# Sample: Q0003_BC00211.fasta
+Q0003_BC00211	# 
+Q0003_BC00211	# The phenotype 'No resistance' should be interpreted with
+Q0003_BC00211	# caution, as it only means that nothing in the used
+Q0003_BC00211	# database indicate resistance, but resistance could exist
+Q0003_BC00211	# from 'unknown' or not yet implemented sources.
+Q0003_BC00211	# 
+Q0003_BC00211	# The 'Match' column stores one of the integers 0, 1, 2, 3.
+Q0003_BC00211	#      0: No match found
+Q0003_BC00211	#      1: Match < 100% ID AND match length < ref length
+Q0003_BC00211	#      2: Match < 100% ID AND match length = ref length
+Q0003_BC00211	#      3: Match = 100% ID AND match length = ref length
+Q0003_BC00211	# If several hits causing the same resistance are found,
+Q0003_BC00211	# the highest number will be stored in the 'Match' column.
+Q0003_BC00211	# Antimicrobial	Class	WGS-predicted phenotype	Match	Genetic background
+Q0003_BC00211	tetracycline	tetracycline	No resistance	0	
+Q0003_BC00211	amikacin	aminoglycoside	No resistance	0	
+Q0003_BC00211	penicillin	beta-lactam	Resistant	2	blaZ (blaZ_MAJJ01000071), blaZ (blaZ_FKPS01000007), blaZ (blaZ_NZ_JVAT01000021), blaZ (blaZ_NZ_JUUA01000057), blaZ (blaZ_NZ_JVLY01000044), blaZ (blaZ_NZ_JVRB01000003), blaZ (blaZ_JIFD01000012), blaZ (blaZ_JIFU01000008)
+Q0003_BC00211	cefoxitin	beta-lactam	No resistance	0	
+Q0003_BC00211	teicoplanin	glycopeptide	No resistance	0	
+Q0003_BC00211	ciprofloxacin	quinolone	No resistance	0	
+Q0003_BC00211	tiamulin	pleuromutilin	No resistance	0	
+Q0003_BC00211	linezolid	oxazolidinone	No resistance	0	
+Q0003_BC00211	telithromycin	macrolide	No resistance	0	
+Q0003_BC00211	tobramycin	aminoglycoside	No resistance	0	
+Q0003_BC00211	chloramphenicol	amphenicol	No resistance	0	
+Q0003_BC00211	spiramycin	macrolide	No resistance	0	
+Q0003_BC00211	clindamycin	lincosamide	No resistance	0	
+Q0003_BC00211	fusidic acid	steroid antibacterial	No resistance	0	
+Q0003_BC00211	mupirocin	pseudomonic acid	No resistance	0	
+Q0003_BC00211	erythromycin	macrolide	No resistance	0	
+Q0003_BC00211	gentamicin	aminoglycoside	No resistance	0	
+Q0003_BC00211	fosfomycin	fosfomycin	No resistance	0	
+Q0003_BC00211	quinupristin+dalfopristin	streptogramin a	No resistance	0	
+Q0003_BC00211	trimethoprim	folate pathway antagonist	No resistance	0	
+Q0003_BC00211	vancomycin	glycopeptide	No resistance	0	
+Q0003_BC00211	sulfamethoxazole	folate pathway antagonist	No resistance	0	
+Q0003_BC00303	# Sample: Q0003_BC00303.fasta
+Q0003_BC00303	# 
+Q0003_BC00303	# The phenotype 'No resistance' should be interpreted with
+Q0003_BC00303	# caution, as it only means that nothing in the used
+Q0003_BC00303	# database indicate resistance, but resistance could exist
+Q0003_BC00303	# from 'unknown' or not yet implemented sources.
+Q0003_BC00303	# 
+Q0003_BC00303	# The 'Match' column stores one of the integers 0, 1, 2, 3.
+Q0003_BC00303	#      0: No match found
+Q0003_BC00303	#      1: Match < 100% ID AND match length < ref length
+Q0003_BC00303	#      2: Match < 100% ID AND match length = ref length
+Q0003_BC00303	#      3: Match = 100% ID AND match length = ref length
+Q0003_BC00303	# If several hits causing the same resistance are found,
+Q0003_BC00303	# the highest number will be stored in the 'Match' column.
+Q0003_BC00303	# Antimicrobial	Class	WGS-predicted phenotype	Match	Genetic background
+Q0003_BC00303	quinupristin+dalfopristin	streptogramin a	No resistance	0	
+Q0003_BC00303	linezolid	oxazolidinone	No resistance	0	
+Q0003_BC00303	cefoxitin	beta-lactam	No resistance	0	
+Q0003_BC00303	tetracycline	tetracycline	Resistant	2	tet(K) (tet(K)_J01764)
+Q0003_BC00303	fusidic acid	steroid antibacterial	No resistance	0	
+Q0003_BC00303	vancomycin	glycopeptide	No resistance	0	
+Q0003_BC00303	clindamycin	lincosamide	Resistant	3	erm(C) (erm(C)_M13761)
+Q0003_BC00303	fosfomycin	fosfomycin	No resistance	0	
+Q0003_BC00303	erythromycin	macrolide	Resistant	3	erm(C) (erm(C)_M13761)
+Q0003_BC00303	mupirocin	pseudomonic acid	No resistance	0	
+Q0003_BC00303	tiamulin	pleuromutilin	No resistance	0	
+Q0003_BC00303	telithromycin	macrolide	No resistance	0	
+Q0003_BC00303	trimethoprim	folate pathway antagonist	Resistant	3	dfrG (dfrG_AB205645)
+Q0003_BC00303	amikacin	aminoglycoside	No resistance	0	
+Q0003_BC00303	sulfamethoxazole	folate pathway antagonist	No resistance	0	
+Q0003_BC00303	spiramycin	macrolide	No resistance	0	
+Q0003_BC00303	chloramphenicol	amphenicol	No resistance	0	
+Q0003_BC00303	penicillin	beta-lactam	No resistance	0	
+Q0003_BC00303	gentamicin	aminoglycoside	No resistance	0	
+Q0003_BC00303	tobramycin	aminoglycoside	No resistance	0	
+Q0003_BC00303	teicoplanin	glycopeptide	No resistance	0	
+Q0003_BC00303	ciprofloxacin	quinolone	No resistance	0	
+Q0003_BC00303	# WARNING: Features with unknown phenotype 
+Q0003_BC00303	# Feature_ID	Region	Database	Hit	Class
+Q0003_BC00303	grlB;;1;;CP026964.1_422_d_AA	grlB;;1;;CP026964.1			
+Q0003_BC00304	# Sample: Q0003_BC00304.fasta
+Q0003_BC00304	# 
+Q0003_BC00304	# The phenotype 'No resistance' should be interpreted with
+Q0003_BC00304	# caution, as it only means that nothing in the used
+Q0003_BC00304	# database indicate resistance, but resistance could exist
+Q0003_BC00304	# from 'unknown' or not yet implemented sources.
+Q0003_BC00304	# 
+Q0003_BC00304	# The 'Match' column stores one of the integers 0, 1, 2, 3.
+Q0003_BC00304	#      0: No match found
+Q0003_BC00304	#      1: Match < 100% ID AND match length < ref length
+Q0003_BC00304	#      2: Match < 100% ID AND match length = ref length
+Q0003_BC00304	#      3: Match = 100% ID AND match length = ref length
+Q0003_BC00304	# If several hits causing the same resistance are found,
+Q0003_BC00304	# the highest number will be stored in the 'Match' column.
+Q0003_BC00304	# Antimicrobial	Class	WGS-predicted phenotype	Match	Genetic background
+Q0003_BC00304	teicoplanin	glycopeptide	No resistance	0	
+Q0003_BC00304	mupirocin	pseudomonic acid	No resistance	0	
+Q0003_BC00304	telithromycin	macrolide	No resistance	0	
+Q0003_BC00304	tetracycline	tetracycline	No resistance	0	
+Q0003_BC00304	chloramphenicol	amphenicol	No resistance	0	
+Q0003_BC00304	amikacin	aminoglycoside	No resistance	0	
+Q0003_BC00304	fosfomycin	fosfomycin	No resistance	0	
+Q0003_BC00304	quinupristin+dalfopristin	streptogramin a	No resistance	0	
+Q0003_BC00304	vancomycin	glycopeptide	No resistance	0	
+Q0003_BC00304	tiamulin	pleuromutilin	No resistance	0	
+Q0003_BC00304	cefoxitin	beta-lactam	No resistance	0	
+Q0003_BC00304	linezolid	oxazolidinone	No resistance	0	
+Q0003_BC00304	trimethoprim	folate pathway antagonist	No resistance	0	
+Q0003_BC00304	clindamycin	lincosamide	No resistance	0	
+Q0003_BC00304	spiramycin	macrolide	No resistance	0	
+Q0003_BC00304	penicillin	beta-lactam	Resistant	2	blaZ (blaZ_MAJJ01000071), blaZ (blaZ_FKPS01000007), blaZ (blaZ_NZ_JVAT01000021), blaZ (blaZ_NZ_JUUA01000057), blaZ (blaZ_NZ_JVLY01000044), blaZ (blaZ_NZ_JVRB01000003), blaZ (blaZ_JIFD01000012), blaZ (blaZ_JIFU01000008)
+Q0003_BC00304	gentamicin	aminoglycoside	No resistance	0	
+Q0003_BC00304	ciprofloxacin	quinolone	No resistance	0	
+Q0003_BC00304	erythromycin	macrolide	No resistance	0	
+Q0003_BC00304	sulfamethoxazole	folate pathway antagonist	No resistance	0	
+Q0003_BC00304	tobramycin	aminoglycoside	No resistance	0	
+Q0003_BC00304	fusidic acid	steroid antibacterial	No resistance	0	
+Q0003_BC00310	# Sample: Q0003_BC00310.fasta
+Q0003_BC00310	# 
+Q0003_BC00310	# The phenotype 'No resistance' should be interpreted with
+Q0003_BC00310	# caution, as it only means that nothing in the used
+Q0003_BC00310	# database indicate resistance, but resistance could exist
+Q0003_BC00310	# from 'unknown' or not yet implemented sources.
+Q0003_BC00310	# 
+Q0003_BC00310	# The 'Match' column stores one of the integers 0, 1, 2, 3.
+Q0003_BC00310	#      0: No match found
+Q0003_BC00310	#      1: Match < 100% ID AND match length < ref length
+Q0003_BC00310	#      2: Match < 100% ID AND match length = ref length
+Q0003_BC00310	#      3: Match = 100% ID AND match length = ref length
+Q0003_BC00310	# If several hits causing the same resistance are found,
+Q0003_BC00310	# the highest number will be stored in the 'Match' column.
+Q0003_BC00310	# Antimicrobial	Class	WGS-predicted phenotype	Match	Genetic background
+Q0003_BC00310	trimethoprim	folate pathway antagonist	No resistance	0	
+Q0003_BC00310	chloramphenicol	amphenicol	No resistance	0	
+Q0003_BC00310	spiramycin	macrolide	No resistance	0	
+Q0003_BC00310	ciprofloxacin	quinolone	No resistance	0	
+Q0003_BC00310	gentamicin	aminoglycoside	No resistance	0	
+Q0003_BC00310	fosfomycin	fosfomycin	No resistance	0	
+Q0003_BC00310	penicillin	beta-lactam	Resistant	3	blaZ (blaZ_AHVO01000010)
+Q0003_BC00310	quinupristin+dalfopristin	streptogramin a	No resistance	0	
+Q0003_BC00310	amikacin	aminoglycoside	No resistance	0	
+Q0003_BC00310	sulfamethoxazole	folate pathway antagonist	No resistance	0	
+Q0003_BC00310	mupirocin	pseudomonic acid	No resistance	0	
+Q0003_BC00310	linezolid	oxazolidinone	No resistance	0	
+Q0003_BC00310	tetracycline	tetracycline	No resistance	0	
+Q0003_BC00310	telithromycin	macrolide	No resistance	0	
+Q0003_BC00310	vancomycin	glycopeptide	No resistance	0	
+Q0003_BC00310	erythromycin	macrolide	No resistance	0	
+Q0003_BC00310	clindamycin	lincosamide	No resistance	0	
+Q0003_BC00310	cefoxitin	beta-lactam	No resistance	0	
+Q0003_BC00310	teicoplanin	glycopeptide	No resistance	0	
+Q0003_BC00310	tobramycin	aminoglycoside	No resistance	0	
+Q0003_BC00310	tiamulin	pleuromutilin	No resistance	0	
+Q0003_BC00310	fusidic acid	steroid antibacterial	No resistance	0	
+Q0003_BC00310	# WARNING: Features with unknown phenotype 
+Q0003_BC00310	# Feature_ID	Region	Database	Hit	Class
+Q0003_BC00310	grlB;;1;;CP026964.1_422_d_AA	grlB;;1;;CP026964.1			
+Q0003_BC00406	# Sample: Q0003_BC00406.fasta
+Q0003_BC00406	# 
+Q0003_BC00406	# The phenotype 'No resistance' should be interpreted with
+Q0003_BC00406	# caution, as it only means that nothing in the used
+Q0003_BC00406	# database indicate resistance, but resistance could exist
+Q0003_BC00406	# from 'unknown' or not yet implemented sources.
+Q0003_BC00406	# 
+Q0003_BC00406	# The 'Match' column stores one of the integers 0, 1, 2, 3.
+Q0003_BC00406	#      0: No match found
+Q0003_BC00406	#      1: Match < 100% ID AND match length < ref length
+Q0003_BC00406	#      2: Match < 100% ID AND match length = ref length
+Q0003_BC00406	#      3: Match = 100% ID AND match length = ref length
+Q0003_BC00406	# If several hits causing the same resistance are found,
+Q0003_BC00406	# the highest number will be stored in the 'Match' column.
+Q0003_BC00406	# Antimicrobial	Class	WGS-predicted phenotype	Match	Genetic background
+Q0003_BC00406	penicillin	beta-lactam	Resistant	2	blaZ (blaZ_CP003979)
+Q0003_BC00406	linezolid	oxazolidinone	No resistance	0	
+Q0003_BC00406	ciprofloxacin	quinolone	No resistance	0	
+Q0003_BC00406	chloramphenicol	amphenicol	No resistance	0	
+Q0003_BC00406	sulfamethoxazole	folate pathway antagonist	No resistance	0	
+Q0003_BC00406	clindamycin	lincosamide	No resistance	0	
+Q0003_BC00406	tiamulin	pleuromutilin	No resistance	0	
+Q0003_BC00406	cefoxitin	beta-lactam	No resistance	0	
+Q0003_BC00406	vancomycin	glycopeptide	No resistance	0	
+Q0003_BC00406	telithromycin	macrolide	No resistance	0	
+Q0003_BC00406	tobramycin	aminoglycoside	No resistance	0	
+Q0003_BC00406	erythromycin	macrolide	No resistance	0	
+Q0003_BC00406	fusidic acid	steroid antibacterial	No resistance	0	
+Q0003_BC00406	spiramycin	macrolide	No resistance	0	
+Q0003_BC00406	fosfomycin	fosfomycin	No resistance	0	
+Q0003_BC00406	tetracycline	tetracycline	Resistant	3	tet(K) (tet(K)_U38656)
+Q0003_BC00406	quinupristin+dalfopristin	streptogramin a	No resistance	0	
+Q0003_BC00406	amikacin	aminoglycoside	No resistance	0	
+Q0003_BC00406	teicoplanin	glycopeptide	No resistance	0	
+Q0003_BC00406	trimethoprim	folate pathway antagonist	No resistance	0	
+Q0003_BC00406	mupirocin	pseudomonic acid	No resistance	0	
+Q0003_BC00406	gentamicin	aminoglycoside	No resistance	0	
+Q0003_BC00410-2	# Sample: Q0003_BC00410-2.fasta
+Q0003_BC00410-2	# 
+Q0003_BC00410-2	# The phenotype 'No resistance' should be interpreted with
+Q0003_BC00410-2	# caution, as it only means that nothing in the used
+Q0003_BC00410-2	# database indicate resistance, but resistance could exist
+Q0003_BC00410-2	# from 'unknown' or not yet implemented sources.
+Q0003_BC00410-2	# 
+Q0003_BC00410-2	# The 'Match' column stores one of the integers 0, 1, 2, 3.
+Q0003_BC00410-2	#      0: No match found
+Q0003_BC00410-2	#      1: Match < 100% ID AND match length < ref length
+Q0003_BC00410-2	#      2: Match < 100% ID AND match length = ref length
+Q0003_BC00410-2	#      3: Match = 100% ID AND match length = ref length
+Q0003_BC00410-2	# If several hits causing the same resistance are found,
+Q0003_BC00410-2	# the highest number will be stored in the 'Match' column.
+Q0003_BC00410-2	# Antimicrobial	Class	WGS-predicted phenotype	Match	Genetic background
+Q0003_BC00410-2	penicillin	beta-lactam	No resistance	0	
+Q0003_BC00410-2	erythromycin	macrolide	No resistance	0	
+Q0003_BC00410-2	linezolid	oxazolidinone	No resistance	0	
+Q0003_BC00410-2	telithromycin	macrolide	No resistance	0	
+Q0003_BC00410-2	tetracycline	tetracycline	No resistance	0	
+Q0003_BC00410-2	sulfamethoxazole	folate pathway antagonist	No resistance	0	
+Q0003_BC00410-2	clindamycin	lincosamide	No resistance	0	
+Q0003_BC00410-2	chloramphenicol	amphenicol	No resistance	0	
+Q0003_BC00410-2	fusidic acid	steroid antibacterial	No resistance	0	
+Q0003_BC00410-2	ciprofloxacin	quinolone	No resistance	0	
+Q0003_BC00410-2	trimethoprim	folate pathway antagonist	No resistance	0	
+Q0003_BC00410-2	cefoxitin	beta-lactam	No resistance	0	
+Q0003_BC00410-2	tiamulin	pleuromutilin	No resistance	0	
+Q0003_BC00410-2	vancomycin	glycopeptide	No resistance	0	
+Q0003_BC00410-2	spiramycin	macrolide	No resistance	0	
+Q0003_BC00410-2	quinupristin+dalfopristin	streptogramin a	No resistance	0	
+Q0003_BC00410-2	tobramycin	aminoglycoside	No resistance	0	
+Q0003_BC00410-2	amikacin	aminoglycoside	No resistance	0	
+Q0003_BC00410-2	fosfomycin	fosfomycin	No resistance	0	
+Q0003_BC00410-2	gentamicin	aminoglycoside	No resistance	0	
+Q0003_BC00410-2	mupirocin	pseudomonic acid	No resistance	0	
+Q0003_BC00410-2	teicoplanin	glycopeptide	No resistance	0	
+Q0003_BC00416	# Sample: Q0003_BC00416.fasta
+Q0003_BC00416	# 
+Q0003_BC00416	# The phenotype 'No resistance' should be interpreted with
+Q0003_BC00416	# caution, as it only means that nothing in the used
+Q0003_BC00416	# database indicate resistance, but resistance could exist
+Q0003_BC00416	# from 'unknown' or not yet implemented sources.
+Q0003_BC00416	# 
+Q0003_BC00416	# The 'Match' column stores one of the integers 0, 1, 2, 3.
+Q0003_BC00416	#      0: No match found
+Q0003_BC00416	#      1: Match < 100% ID AND match length < ref length
+Q0003_BC00416	#      2: Match < 100% ID AND match length = ref length
+Q0003_BC00416	#      3: Match = 100% ID AND match length = ref length
+Q0003_BC00416	# If several hits causing the same resistance are found,
+Q0003_BC00416	# the highest number will be stored in the 'Match' column.
+Q0003_BC00416	# Antimicrobial	Class	WGS-predicted phenotype	Match	Genetic background
+Q0003_BC00416	mupirocin	pseudomonic acid	No resistance	0	
+Q0003_BC00416	fusidic acid	steroid antibacterial	No resistance	0	
+Q0003_BC00416	tobramycin	aminoglycoside	No resistance	0	
+Q0003_BC00416	linezolid	oxazolidinone	No resistance	0	
+Q0003_BC00416	sulfamethoxazole	folate pathway antagonist	No resistance	0	
+Q0003_BC00416	tetracycline	tetracycline	Resistant	3	tet(K) (tet(K)_U38656)
+Q0003_BC00416	spiramycin	macrolide	No resistance	0	
+Q0003_BC00416	amikacin	aminoglycoside	No resistance	0	
+Q0003_BC00416	cefoxitin	beta-lactam	No resistance	0	
+Q0003_BC00416	chloramphenicol	amphenicol	No resistance	0	
+Q0003_BC00416	erythromycin	macrolide	No resistance	0	
+Q0003_BC00416	fosfomycin	fosfomycin	No resistance	0	
+Q0003_BC00416	gentamicin	aminoglycoside	No resistance	0	
+Q0003_BC00416	telithromycin	macrolide	No resistance	0	
+Q0003_BC00416	tiamulin	pleuromutilin	No resistance	0	
+Q0003_BC00416	teicoplanin	glycopeptide	No resistance	0	
+Q0003_BC00416	clindamycin	lincosamide	No resistance	0	
+Q0003_BC00416	penicillin	beta-lactam	Resistant	2	blaZ (blaZ_CP003979)
+Q0003_BC00416	vancomycin	glycopeptide	No resistance	0	
+Q0003_BC00416	trimethoprim	folate pathway antagonist	No resistance	0	
+Q0003_BC00416	ciprofloxacin	quinolone	No resistance	0	
+Q0003_BC00416	quinupristin+dalfopristin	streptogramin a	No resistance	0	
+Q0003_BH404	# Sample: Q0003_BH404.fasta
+Q0003_BH404	# 
+Q0003_BH404	# The phenotype 'No resistance' should be interpreted with
+Q0003_BH404	# caution, as it only means that nothing in the used
+Q0003_BH404	# database indicate resistance, but resistance could exist
+Q0003_BH404	# from 'unknown' or not yet implemented sources.
+Q0003_BH404	# 
+Q0003_BH404	# The 'Match' column stores one of the integers 0, 1, 2, 3.
+Q0003_BH404	#      0: No match found
+Q0003_BH404	#      1: Match < 100% ID AND match length < ref length
+Q0003_BH404	#      2: Match < 100% ID AND match length = ref length
+Q0003_BH404	#      3: Match = 100% ID AND match length = ref length
+Q0003_BH404	# If several hits causing the same resistance are found,
+Q0003_BH404	# the highest number will be stored in the 'Match' column.
+Q0003_BH404	# Antimicrobial	Class	WGS-predicted phenotype	Match	Genetic background
+Q0003_BH404	tetracycline	tetracycline	Resistant	1	tet(K) (tet(K)_U38656)
+Q0003_BH404	ciprofloxacin	quinolone	No resistance	0	
+Q0003_BH404	teicoplanin	glycopeptide	No resistance	0	
+Q0003_BH404	spiramycin	macrolide	No resistance	0	
+Q0003_BH404	fosfomycin	fosfomycin	No resistance	0	
+Q0003_BH404	telithromycin	macrolide	No resistance	0	
+Q0003_BH404	chloramphenicol	amphenicol	No resistance	0	
+Q0003_BH404	amikacin	aminoglycoside	No resistance	0	
+Q0003_BH404	tiamulin	pleuromutilin	No resistance	0	
+Q0003_BH404	clindamycin	lincosamide	No resistance	0	
+Q0003_BH404	linezolid	oxazolidinone	No resistance	0	
+Q0003_BH404	gentamicin	aminoglycoside	No resistance	0	
+Q0003_BH404	tobramycin	aminoglycoside	No resistance	0	
+Q0003_BH404	sulfamethoxazole	folate pathway antagonist	No resistance	0	
+Q0003_BH404	cefoxitin	beta-lactam	No resistance	0	
+Q0003_BH404	erythromycin	macrolide	No resistance	0	
+Q0003_BH404	mupirocin	pseudomonic acid	No resistance	0	
+Q0003_BH404	quinupristin+dalfopristin	streptogramin a	No resistance	0	
+Q0003_BH404	fusidic acid	steroid antibacterial	No resistance	0	
+Q0003_BH404	vancomycin	glycopeptide	No resistance	0	
+Q0003_BH404	trimethoprim	folate pathway antagonist	No resistance	0	
+Q0003_BH404	penicillin	beta-lactam	No resistance	0	
+Q0003_BH404	# WARNING: Features with unknown phenotype 
+Q0003_BH404	# Feature_ID	Region	Database	Hit	Class
+Q0003_BH404	grlB;;1;;CP026964.1_422_d_AA	grlB;;1;;CP026964.1			
+Q0003_HB00604	# Sample: Q0003_HB00604.fasta
+Q0003_HB00604	# 
+Q0003_HB00604	# The phenotype 'No resistance' should be interpreted with
+Q0003_HB00604	# caution, as it only means that nothing in the used
+Q0003_HB00604	# database indicate resistance, but resistance could exist
+Q0003_HB00604	# from 'unknown' or not yet implemented sources.
+Q0003_HB00604	# 
+Q0003_HB00604	# The 'Match' column stores one of the integers 0, 1, 2, 3.
+Q0003_HB00604	#      0: No match found
+Q0003_HB00604	#      1: Match < 100% ID AND match length < ref length
+Q0003_HB00604	#      2: Match < 100% ID AND match length = ref length
+Q0003_HB00604	#      3: Match = 100% ID AND match length = ref length
+Q0003_HB00604	# If several hits causing the same resistance are found,
+Q0003_HB00604	# the highest number will be stored in the 'Match' column.
+Q0003_HB00604	# Antimicrobial	Class	WGS-predicted phenotype	Match	Genetic background
+Q0003_HB00604	gentamicin	aminoglycoside	No resistance	0	
+Q0003_HB00604	ciprofloxacin	quinolone	No resistance	0	
+Q0003_HB00604	cefoxitin	beta-lactam	No resistance	0	
+Q0003_HB00604	fusidic acid	steroid antibacterial	No resistance	0	
+Q0003_HB00604	vancomycin	glycopeptide	No resistance	0	
+Q0003_HB00604	quinupristin+dalfopristin	streptogramin a	No resistance	0	
+Q0003_HB00604	tiamulin	pleuromutilin	No resistance	0	
+Q0003_HB00604	linezolid	oxazolidinone	No resistance	0	
+Q0003_HB00604	fosfomycin	fosfomycin	No resistance	0	
+Q0003_HB00604	spiramycin	macrolide	No resistance	0	
+Q0003_HB00604	clindamycin	lincosamide	Resistant	3	erm(C) (erm(C)_M13761)
+Q0003_HB00604	mupirocin	pseudomonic acid	No resistance	0	
+Q0003_HB00604	chloramphenicol	amphenicol	No resistance	0	
+Q0003_HB00604	penicillin	beta-lactam	Resistant	1	blaZ (blaZ_AB811795), blaZ (blaZ_FMOK01000003), blaZ (blaZ_CP010941), blaZ (blaZ_NZ_CAVU010000015), blaZ (blaZ_AP004832)
+Q0003_HB00604	amikacin	aminoglycoside	No resistance	0	
+Q0003_HB00604	tetracycline	tetracycline	No resistance	0	
+Q0003_HB00604	trimethoprim	folate pathway antagonist	Resistant	3	dfrG (dfrG_AB205645)
+Q0003_HB00604	erythromycin	macrolide	Resistant	3	erm(C) (erm(C)_M13761)
+Q0003_HB00604	tobramycin	aminoglycoside	No resistance	0	
+Q0003_HB00604	telithromycin	macrolide	No resistance	0	
+Q0003_HB00604	sulfamethoxazole	folate pathway antagonist	No resistance	0	
+Q0003_HB00604	teicoplanin	glycopeptide	No resistance	0	
+Q0003_HB00604	# WARNING: Features with unknown phenotype 
+Q0003_HB00604	# Feature_ID	Region	Database	Hit	Class
+Q0003_HB00604	grlB;;1;;CP026964.1_422_d_AA	grlB;;1;;CP026964.1			
+Q0003_MC00105	# Sample: Q0003_MC00105.fasta
+Q0003_MC00105	# 
+Q0003_MC00105	# The phenotype 'No resistance' should be interpreted with
+Q0003_MC00105	# caution, as it only means that nothing in the used
+Q0003_MC00105	# database indicate resistance, but resistance could exist
+Q0003_MC00105	# from 'unknown' or not yet implemented sources.
+Q0003_MC00105	# 
+Q0003_MC00105	# The 'Match' column stores one of the integers 0, 1, 2, 3.
+Q0003_MC00105	#      0: No match found
+Q0003_MC00105	#      1: Match < 100% ID AND match length < ref length
+Q0003_MC00105	#      2: Match < 100% ID AND match length = ref length
+Q0003_MC00105	#      3: Match = 100% ID AND match length = ref length
+Q0003_MC00105	# If several hits causing the same resistance are found,
+Q0003_MC00105	# the highest number will be stored in the 'Match' column.
+Q0003_MC00105	# Antimicrobial	Class	WGS-predicted phenotype	Match	Genetic background
+Q0003_MC00105	fusidic acid	steroid antibacterial	No resistance	0	
+Q0003_MC00105	cefoxitin	beta-lactam	No resistance	0	
+Q0003_MC00105	amikacin	aminoglycoside	No resistance	0	
+Q0003_MC00105	teicoplanin	glycopeptide	No resistance	0	
+Q0003_MC00105	sulfamethoxazole	folate pathway antagonist	No resistance	0	
+Q0003_MC00105	clindamycin	lincosamide	No resistance	0	
+Q0003_MC00105	spiramycin	macrolide	No resistance	0	
+Q0003_MC00105	fosfomycin	fosfomycin	No resistance	0	
+Q0003_MC00105	tiamulin	pleuromutilin	No resistance	0	
+Q0003_MC00105	telithromycin	macrolide	No resistance	0	
+Q0003_MC00105	penicillin	beta-lactam	Resistant	2	blaZ (blaZ_CP010941)
+Q0003_MC00105	mupirocin	pseudomonic acid	No resistance	0	
+Q0003_MC00105	trimethoprim	folate pathway antagonist	Resistant	3	dfrG (dfrG_AB205645)
+Q0003_MC00105	quinupristin+dalfopristin	streptogramin a	No resistance	0	
+Q0003_MC00105	ciprofloxacin	quinolone	No resistance	0	
+Q0003_MC00105	vancomycin	glycopeptide	No resistance	0	
+Q0003_MC00105	erythromycin	macrolide	No resistance	0	
+Q0003_MC00105	chloramphenicol	amphenicol	No resistance	0	
+Q0003_MC00105	gentamicin	aminoglycoside	No resistance	0	
+Q0003_MC00105	tobramycin	aminoglycoside	No resistance	0	
+Q0003_MC00105	linezolid	oxazolidinone	No resistance	0	
+Q0003_MC00105	tetracycline	tetracycline	Resistant	3	tet(K) (tet(K)_U38656)
+Q0003_MC00105	# WARNING: Features with unknown phenotype 
+Q0003_MC00105	# Feature_ID	Region	Database	Hit	Class
+Q0003_MC00105	grlB;;1;;CP026964.1_422_d_AA	grlB;;1;;CP026964.1			
+Q0003_MC00111	# Sample: Q0003_MC00111.fasta
+Q0003_MC00111	# 
+Q0003_MC00111	# The phenotype 'No resistance' should be interpreted with
+Q0003_MC00111	# caution, as it only means that nothing in the used
+Q0003_MC00111	# database indicate resistance, but resistance could exist
+Q0003_MC00111	# from 'unknown' or not yet implemented sources.
+Q0003_MC00111	# 
+Q0003_MC00111	# The 'Match' column stores one of the integers 0, 1, 2, 3.
+Q0003_MC00111	#      0: No match found
+Q0003_MC00111	#      1: Match < 100% ID AND match length < ref length
+Q0003_MC00111	#      2: Match < 100% ID AND match length = ref length
+Q0003_MC00111	#      3: Match = 100% ID AND match length = ref length
+Q0003_MC00111	# If several hits causing the same resistance are found,
+Q0003_MC00111	# the highest number will be stored in the 'Match' column.
+Q0003_MC00111	# Antimicrobial	Class	WGS-predicted phenotype	Match	Genetic background
+Q0003_MC00111	erythromycin	macrolide	Resistant	3	erm(C) (erm(C)_M13761)
+Q0003_MC00111	linezolid	oxazolidinone	No resistance	0	
+Q0003_MC00111	tetracycline	tetracycline	No resistance	0	
+Q0003_MC00111	amikacin	aminoglycoside	No resistance	0	
+Q0003_MC00111	clindamycin	lincosamide	Resistant	3	erm(C) (erm(C)_M13761)
+Q0003_MC00111	ciprofloxacin	quinolone	No resistance	0	
+Q0003_MC00111	fosfomycin	fosfomycin	No resistance	0	
+Q0003_MC00111	fusidic acid	steroid antibacterial	No resistance	0	
+Q0003_MC00111	trimethoprim	folate pathway antagonist	No resistance	0	
+Q0003_MC00111	mupirocin	pseudomonic acid	No resistance	0	
+Q0003_MC00111	sulfamethoxazole	folate pathway antagonist	No resistance	0	
+Q0003_MC00111	cefoxitin	beta-lactam	No resistance	0	
+Q0003_MC00111	teicoplanin	glycopeptide	No resistance	0	
+Q0003_MC00111	chloramphenicol	amphenicol	No resistance	0	
+Q0003_MC00111	telithromycin	macrolide	No resistance	0	
+Q0003_MC00111	vancomycin	glycopeptide	No resistance	0	
+Q0003_MC00111	tiamulin	pleuromutilin	No resistance	0	
+Q0003_MC00111	spiramycin	macrolide	No resistance	0	
+Q0003_MC00111	penicillin	beta-lactam	No resistance	0	
+Q0003_MC00111	tobramycin	aminoglycoside	No resistance	0	
+Q0003_MC00111	gentamicin	aminoglycoside	No resistance	0	
+Q0003_MC00111	quinupristin+dalfopristin	streptogramin a	No resistance	0	
+Q0003_MC00111	# WARNING: Features with unknown phenotype 
+Q0003_MC00111	# Feature_ID	Region	Database	Hit	Class
+Q0003_MC00111	grlB;;1;;CP026964.1_422_d_AA	grlB;;1;;CP026964.1			
+Q0003_MC00114-1	# Sample: Q0003_MC00114-1.fasta
+Q0003_MC00114-1	# 
+Q0003_MC00114-1	# The phenotype 'No resistance' should be interpreted with
+Q0003_MC00114-1	# caution, as it only means that nothing in the used
+Q0003_MC00114-1	# database indicate resistance, but resistance could exist
+Q0003_MC00114-1	# from 'unknown' or not yet implemented sources.
+Q0003_MC00114-1	# 
+Q0003_MC00114-1	# The 'Match' column stores one of the integers 0, 1, 2, 3.
+Q0003_MC00114-1	#      0: No match found
+Q0003_MC00114-1	#      1: Match < 100% ID AND match length < ref length
+Q0003_MC00114-1	#      2: Match < 100% ID AND match length = ref length
+Q0003_MC00114-1	#      3: Match = 100% ID AND match length = ref length
+Q0003_MC00114-1	# If several hits causing the same resistance are found,
+Q0003_MC00114-1	# the highest number will be stored in the 'Match' column.
+Q0003_MC00114-1	# Antimicrobial	Class	WGS-predicted phenotype	Match	Genetic background
+Q0003_MC00114-1	gentamicin	aminoglycoside	No resistance	0	
+Q0003_MC00114-1	amikacin	aminoglycoside	No resistance	0	
+Q0003_MC00114-1	fosfomycin	fosfomycin	No resistance	0	
+Q0003_MC00114-1	ciprofloxacin	quinolone	No resistance	0	
+Q0003_MC00114-1	cefoxitin	beta-lactam	No resistance	0	
+Q0003_MC00114-1	erythromycin	macrolide	No resistance	0	
+Q0003_MC00114-1	quinupristin+dalfopristin	streptogramin a	No resistance	0	
+Q0003_MC00114-1	fusidic acid	steroid antibacterial	No resistance	0	
+Q0003_MC00114-1	mupirocin	pseudomonic acid	No resistance	0	
+Q0003_MC00114-1	sulfamethoxazole	folate pathway antagonist	No resistance	0	
+Q0003_MC00114-1	vancomycin	glycopeptide	No resistance	0	
+Q0003_MC00114-1	chloramphenicol	amphenicol	No resistance	0	
+Q0003_MC00114-1	spiramycin	macrolide	No resistance	0	
+Q0003_MC00114-1	tetracycline	tetracycline	No resistance	0	
+Q0003_MC00114-1	clindamycin	lincosamide	No resistance	0	
+Q0003_MC00114-1	tiamulin	pleuromutilin	No resistance	0	
+Q0003_MC00114-1	linezolid	oxazolidinone	No resistance	0	
+Q0003_MC00114-1	teicoplanin	glycopeptide	No resistance	0	
+Q0003_MC00114-1	penicillin	beta-lactam	No resistance	0	
+Q0003_MC00114-1	trimethoprim	folate pathway antagonist	No resistance	0	
+Q0003_MC00114-1	tobramycin	aminoglycoside	No resistance	0	
+Q0003_MC00114-1	telithromycin	macrolide	No resistance	0	
+Q0003_MC00114-1	# WARNING: Features with unknown phenotype 
+Q0003_MC00114-1	# Feature_ID	Region	Database	Hit	Class
+Q0003_MC00114-1	grlB;;1;;CP026964.1_422_d_AA	grlB;;1;;CP026964.1			
+Q0003_MC00115-2	# Sample: Q0003_MC00115-2.fasta
+Q0003_MC00115-2	# 
+Q0003_MC00115-2	# The phenotype 'No resistance' should be interpreted with
+Q0003_MC00115-2	# caution, as it only means that nothing in the used
+Q0003_MC00115-2	# database indicate resistance, but resistance could exist
+Q0003_MC00115-2	# from 'unknown' or not yet implemented sources.
+Q0003_MC00115-2	# 
+Q0003_MC00115-2	# The 'Match' column stores one of the integers 0, 1, 2, 3.
+Q0003_MC00115-2	#      0: No match found
+Q0003_MC00115-2	#      1: Match < 100% ID AND match length < ref length
+Q0003_MC00115-2	#      2: Match < 100% ID AND match length = ref length
+Q0003_MC00115-2	#      3: Match = 100% ID AND match length = ref length
+Q0003_MC00115-2	# If several hits causing the same resistance are found,
+Q0003_MC00115-2	# the highest number will be stored in the 'Match' column.
+Q0003_MC00115-2	# Antimicrobial	Class	WGS-predicted phenotype	Match	Genetic background
+Q0003_MC00115-2	clindamycin	lincosamide	No resistance	0	
+Q0003_MC00115-2	vancomycin	glycopeptide	No resistance	0	
+Q0003_MC00115-2	ciprofloxacin	quinolone	No resistance	0	
+Q0003_MC00115-2	teicoplanin	glycopeptide	No resistance	0	
+Q0003_MC00115-2	mupirocin	pseudomonic acid	No resistance	0	
+Q0003_MC00115-2	chloramphenicol	amphenicol	No resistance	0	
+Q0003_MC00115-2	fosfomycin	fosfomycin	No resistance	0	
+Q0003_MC00115-2	gentamicin	aminoglycoside	No resistance	0	
+Q0003_MC00115-2	tobramycin	aminoglycoside	No resistance	0	
+Q0003_MC00115-2	erythromycin	macrolide	No resistance	0	
+Q0003_MC00115-2	quinupristin+dalfopristin	streptogramin a	No resistance	0	
+Q0003_MC00115-2	telithromycin	macrolide	No resistance	0	
+Q0003_MC00115-2	amikacin	aminoglycoside	No resistance	0	
+Q0003_MC00115-2	fusidic acid	steroid antibacterial	No resistance	0	
+Q0003_MC00115-2	tetracycline	tetracycline	No resistance	0	
+Q0003_MC00115-2	cefoxitin	beta-lactam	No resistance	0	
+Q0003_MC00115-2	sulfamethoxazole	folate pathway antagonist	No resistance	0	
+Q0003_MC00115-2	penicillin	beta-lactam	No resistance	0	
+Q0003_MC00115-2	trimethoprim	folate pathway antagonist	No resistance	0	
+Q0003_MC00115-2	linezolid	oxazolidinone	No resistance	0	
+Q0003_MC00115-2	spiramycin	macrolide	No resistance	0	
+Q0003_MC00115-2	tiamulin	pleuromutilin	No resistance	0	
+Q0003_MC00115-2	# WARNING: Features with unknown phenotype 
+Q0003_MC00115-2	# Feature_ID	Region	Database	Hit	Class
+Q0003_MC00115-2	grlB;;1;;CP026964.1_422_d_AA	grlB;;1;;CP026964.1			
+Q0003_MC00201	# Sample: Q0003_MC00201.fasta
+Q0003_MC00201	# 
+Q0003_MC00201	# The phenotype 'No resistance' should be interpreted with
+Q0003_MC00201	# caution, as it only means that nothing in the used
+Q0003_MC00201	# database indicate resistance, but resistance could exist
+Q0003_MC00201	# from 'unknown' or not yet implemented sources.
+Q0003_MC00201	# 
+Q0003_MC00201	# The 'Match' column stores one of the integers 0, 1, 2, 3.
+Q0003_MC00201	#      0: No match found
+Q0003_MC00201	#      1: Match < 100% ID AND match length < ref length
+Q0003_MC00201	#      2: Match < 100% ID AND match length = ref length
+Q0003_MC00201	#      3: Match = 100% ID AND match length = ref length
+Q0003_MC00201	# If several hits causing the same resistance are found,
+Q0003_MC00201	# the highest number will be stored in the 'Match' column.
+Q0003_MC00201	# Antimicrobial	Class	WGS-predicted phenotype	Match	Genetic background
+Q0003_MC00201	penicillin	beta-lactam	Resistant	2	blaZ (blaZ_MAJJ01000071), blaZ (blaZ_FKPS01000007), blaZ (blaZ_NZ_JVAT01000021), blaZ (blaZ_NZ_JUUA01000057), blaZ (blaZ_NZ_JVLY01000044), blaZ (blaZ_NZ_JVRB01000003), blaZ (blaZ_JIFD01000012), blaZ (blaZ_JIFU01000008)
+Q0003_MC00201	teicoplanin	glycopeptide	No resistance	0	
+Q0003_MC00201	vancomycin	glycopeptide	No resistance	0	
+Q0003_MC00201	fusidic acid	steroid antibacterial	No resistance	0	
+Q0003_MC00201	cefoxitin	beta-lactam	No resistance	0	
+Q0003_MC00201	gentamicin	aminoglycoside	No resistance	0	
+Q0003_MC00201	erythromycin	macrolide	No resistance	0	
+Q0003_MC00201	telithromycin	macrolide	No resistance	0	
+Q0003_MC00201	clindamycin	lincosamide	No resistance	0	
+Q0003_MC00201	chloramphenicol	amphenicol	No resistance	0	
+Q0003_MC00201	tiamulin	pleuromutilin	No resistance	0	
+Q0003_MC00201	ciprofloxacin	quinolone	No resistance	0	
+Q0003_MC00201	mupirocin	pseudomonic acid	No resistance	0	
+Q0003_MC00201	sulfamethoxazole	folate pathway antagonist	No resistance	0	
+Q0003_MC00201	quinupristin+dalfopristin	streptogramin a	No resistance	0	
+Q0003_MC00201	tetracycline	tetracycline	Resistant	3	tet(K) (tet(K)_U38656)
+Q0003_MC00201	fosfomycin	fosfomycin	No resistance	0	
+Q0003_MC00201	spiramycin	macrolide	No resistance	0	
+Q0003_MC00201	trimethoprim	folate pathway antagonist	No resistance	0	
+Q0003_MC00201	linezolid	oxazolidinone	No resistance	0	
+Q0003_MC00201	amikacin	aminoglycoside	No resistance	0	
+Q0003_MC00201	tobramycin	aminoglycoside	No resistance	0	
+Q0003_MC00203	# Sample: Q0003_MC00203.fasta
+Q0003_MC00203	# 
+Q0003_MC00203	# The phenotype 'No resistance' should be interpreted with
+Q0003_MC00203	# caution, as it only means that nothing in the used
+Q0003_MC00203	# database indicate resistance, but resistance could exist
+Q0003_MC00203	# from 'unknown' or not yet implemented sources.
+Q0003_MC00203	# 
+Q0003_MC00203	# The 'Match' column stores one of the integers 0, 1, 2, 3.
+Q0003_MC00203	#      0: No match found
+Q0003_MC00203	#      1: Match < 100% ID AND match length < ref length
+Q0003_MC00203	#      2: Match < 100% ID AND match length = ref length
+Q0003_MC00203	#      3: Match = 100% ID AND match length = ref length
+Q0003_MC00203	# If several hits causing the same resistance are found,
+Q0003_MC00203	# the highest number will be stored in the 'Match' column.
+Q0003_MC00203	# Antimicrobial	Class	WGS-predicted phenotype	Match	Genetic background
+Q0003_MC00203	vancomycin	glycopeptide	No resistance	0	
+Q0003_MC00203	ciprofloxacin	quinolone	No resistance	0	
+Q0003_MC00203	tiamulin	pleuromutilin	No resistance	0	
+Q0003_MC00203	mupirocin	pseudomonic acid	No resistance	0	
+Q0003_MC00203	linezolid	oxazolidinone	No resistance	0	
+Q0003_MC00203	erythromycin	macrolide	No resistance	0	
+Q0003_MC00203	quinupristin+dalfopristin	streptogramin a	No resistance	0	
+Q0003_MC00203	penicillin	beta-lactam	Resistant	2	blaZ (blaZ_MAJJ01000071), blaZ (blaZ_FKPS01000007), blaZ (blaZ_NZ_JVAT01000021), blaZ (blaZ_NZ_JUUA01000057), blaZ (blaZ_NZ_JVLY01000044), blaZ (blaZ_NZ_JVRB01000003), blaZ (blaZ_JIFD01000012), blaZ (blaZ_JIFU01000008)
+Q0003_MC00203	fosfomycin	fosfomycin	No resistance	0	
+Q0003_MC00203	chloramphenicol	amphenicol	No resistance	0	
+Q0003_MC00203	sulfamethoxazole	folate pathway antagonist	No resistance	0	
+Q0003_MC00203	teicoplanin	glycopeptide	No resistance	0	
+Q0003_MC00203	fusidic acid	steroid antibacterial	No resistance	0	
+Q0003_MC00203	telithromycin	macrolide	No resistance	0	
+Q0003_MC00203	tobramycin	aminoglycoside	No resistance	0	
+Q0003_MC00203	trimethoprim	folate pathway antagonist	No resistance	0	
+Q0003_MC00203	spiramycin	macrolide	No resistance	0	
+Q0003_MC00203	clindamycin	lincosamide	No resistance	0	
+Q0003_MC00203	tetracycline	tetracycline	No resistance	0	
+Q0003_MC00203	cefoxitin	beta-lactam	No resistance	0	
+Q0003_MC00203	amikacin	aminoglycoside	No resistance	0	
+Q0003_MC00203	gentamicin	aminoglycoside	No resistance	0	
+Q0003_MC00205	# Sample: Q0003_MC00205.fasta
+Q0003_MC00205	# 
+Q0003_MC00205	# The phenotype 'No resistance' should be interpreted with
+Q0003_MC00205	# caution, as it only means that nothing in the used
+Q0003_MC00205	# database indicate resistance, but resistance could exist
+Q0003_MC00205	# from 'unknown' or not yet implemented sources.
+Q0003_MC00205	# 
+Q0003_MC00205	# The 'Match' column stores one of the integers 0, 1, 2, 3.
+Q0003_MC00205	#      0: No match found
+Q0003_MC00205	#      1: Match < 100% ID AND match length < ref length
+Q0003_MC00205	#      2: Match < 100% ID AND match length = ref length
+Q0003_MC00205	#      3: Match = 100% ID AND match length = ref length
+Q0003_MC00205	# If several hits causing the same resistance are found,
+Q0003_MC00205	# the highest number will be stored in the 'Match' column.
+Q0003_MC00205	# Antimicrobial	Class	WGS-predicted phenotype	Match	Genetic background
+Q0003_MC00205	tetracycline	tetracycline	No resistance	0	
+Q0003_MC00205	chloramphenicol	amphenicol	No resistance	0	
+Q0003_MC00205	erythromycin	macrolide	No resistance	0	
+Q0003_MC00205	spiramycin	macrolide	No resistance	0	
+Q0003_MC00205	mupirocin	pseudomonic acid	No resistance	0	
+Q0003_MC00205	penicillin	beta-lactam	Resistant	2	blaZ (blaZ_MAJJ01000071), blaZ (blaZ_FKPS01000007), blaZ (blaZ_NZ_JVAT01000021), blaZ (blaZ_NZ_JUUA01000057), blaZ (blaZ_NZ_JVLY01000044), blaZ (blaZ_NZ_JVRB01000003), blaZ (blaZ_JIFD01000012), blaZ (blaZ_JIFU01000008)
+Q0003_MC00205	sulfamethoxazole	folate pathway antagonist	No resistance	0	
+Q0003_MC00205	ciprofloxacin	quinolone	No resistance	0	
+Q0003_MC00205	tobramycin	aminoglycoside	No resistance	0	
+Q0003_MC00205	gentamicin	aminoglycoside	No resistance	0	
+Q0003_MC00205	fusidic acid	steroid antibacterial	No resistance	0	
+Q0003_MC00205	vancomycin	glycopeptide	No resistance	0	
+Q0003_MC00205	clindamycin	lincosamide	No resistance	0	
+Q0003_MC00205	quinupristin+dalfopristin	streptogramin a	No resistance	0	
+Q0003_MC00205	fosfomycin	fosfomycin	No resistance	0	
+Q0003_MC00205	amikacin	aminoglycoside	No resistance	0	
+Q0003_MC00205	trimethoprim	folate pathway antagonist	No resistance	0	
+Q0003_MC00205	cefoxitin	beta-lactam	No resistance	0	
+Q0003_MC00205	linezolid	oxazolidinone	No resistance	0	
+Q0003_MC00205	teicoplanin	glycopeptide	No resistance	0	
+Q0003_MC00205	tiamulin	pleuromutilin	No resistance	0	
+Q0003_MC00205	telithromycin	macrolide	No resistance	0	
+Q0003_MC00210	# Sample: Q0003_MC00210.fasta
+Q0003_MC00210	# 
+Q0003_MC00210	# The phenotype 'No resistance' should be interpreted with
+Q0003_MC00210	# caution, as it only means that nothing in the used
+Q0003_MC00210	# database indicate resistance, but resistance could exist
+Q0003_MC00210	# from 'unknown' or not yet implemented sources.
+Q0003_MC00210	# 
+Q0003_MC00210	# The 'Match' column stores one of the integers 0, 1, 2, 3.
+Q0003_MC00210	#      0: No match found
+Q0003_MC00210	#      1: Match < 100% ID AND match length < ref length
+Q0003_MC00210	#      2: Match < 100% ID AND match length = ref length
+Q0003_MC00210	#      3: Match = 100% ID AND match length = ref length
+Q0003_MC00210	# If several hits causing the same resistance are found,
+Q0003_MC00210	# the highest number will be stored in the 'Match' column.
+Q0003_MC00210	# Antimicrobial	Class	WGS-predicted phenotype	Match	Genetic background
+Q0003_MC00210	penicillin	beta-lactam	Resistant	2	blaZ (blaZ_MAJJ01000071), blaZ (blaZ_FKPS01000007), blaZ (blaZ_NZ_JVAT01000021), blaZ (blaZ_NZ_JUUA01000057), blaZ (blaZ_NZ_JVLY01000044), blaZ (blaZ_NZ_JVRB01000003), blaZ (blaZ_JIFD01000012), blaZ (blaZ_JIFU01000008)
+Q0003_MC00210	spiramycin	macrolide	No resistance	0	
+Q0003_MC00210	vancomycin	glycopeptide	No resistance	0	
+Q0003_MC00210	erythromycin	macrolide	No resistance	0	
+Q0003_MC00210	tiamulin	pleuromutilin	No resistance	0	
+Q0003_MC00210	teicoplanin	glycopeptide	No resistance	0	
+Q0003_MC00210	gentamicin	aminoglycoside	No resistance	0	
+Q0003_MC00210	tobramycin	aminoglycoside	No resistance	0	
+Q0003_MC00210	amikacin	aminoglycoside	No resistance	0	
+Q0003_MC00210	fosfomycin	fosfomycin	No resistance	0	
+Q0003_MC00210	mupirocin	pseudomonic acid	No resistance	0	
+Q0003_MC00210	fusidic acid	steroid antibacterial	No resistance	0	
+Q0003_MC00210	clindamycin	lincosamide	No resistance	0	
+Q0003_MC00210	trimethoprim	folate pathway antagonist	No resistance	0	
+Q0003_MC00210	quinupristin+dalfopristin	streptogramin a	No resistance	0	
+Q0003_MC00210	telithromycin	macrolide	No resistance	0	
+Q0003_MC00210	ciprofloxacin	quinolone	No resistance	0	
+Q0003_MC00210	tetracycline	tetracycline	No resistance	0	
+Q0003_MC00210	sulfamethoxazole	folate pathway antagonist	No resistance	0	
+Q0003_MC00210	chloramphenicol	amphenicol	No resistance	0	
+Q0003_MC00210	linezolid	oxazolidinone	No resistance	0	
+Q0003_MC00210	cefoxitin	beta-lactam	No resistance	0	
+Q0003_MC00211	# Sample: Q0003_MC00211.fasta
+Q0003_MC00211	# 
+Q0003_MC00211	# The phenotype 'No resistance' should be interpreted with
+Q0003_MC00211	# caution, as it only means that nothing in the used
+Q0003_MC00211	# database indicate resistance, but resistance could exist
+Q0003_MC00211	# from 'unknown' or not yet implemented sources.
+Q0003_MC00211	# 
+Q0003_MC00211	# The 'Match' column stores one of the integers 0, 1, 2, 3.
+Q0003_MC00211	#      0: No match found
+Q0003_MC00211	#      1: Match < 100% ID AND match length < ref length
+Q0003_MC00211	#      2: Match < 100% ID AND match length = ref length
+Q0003_MC00211	#      3: Match = 100% ID AND match length = ref length
+Q0003_MC00211	# If several hits causing the same resistance are found,
+Q0003_MC00211	# the highest number will be stored in the 'Match' column.
+Q0003_MC00211	# Antimicrobial	Class	WGS-predicted phenotype	Match	Genetic background
+Q0003_MC00211	gentamicin	aminoglycoside	No resistance	0	
+Q0003_MC00211	cefoxitin	beta-lactam	No resistance	0	
+Q0003_MC00211	ciprofloxacin	quinolone	No resistance	0	
+Q0003_MC00211	sulfamethoxazole	folate pathway antagonist	No resistance	0	
+Q0003_MC00211	erythromycin	macrolide	No resistance	0	
+Q0003_MC00211	trimethoprim	folate pathway antagonist	No resistance	0	
+Q0003_MC00211	clindamycin	lincosamide	No resistance	0	
+Q0003_MC00211	tobramycin	aminoglycoside	No resistance	0	
+Q0003_MC00211	spiramycin	macrolide	No resistance	0	
+Q0003_MC00211	quinupristin+dalfopristin	streptogramin a	No resistance	0	
+Q0003_MC00211	telithromycin	macrolide	No resistance	0	
+Q0003_MC00211	fusidic acid	steroid antibacterial	No resistance	0	
+Q0003_MC00211	mupirocin	pseudomonic acid	No resistance	0	
+Q0003_MC00211	tetracycline	tetracycline	No resistance	0	
+Q0003_MC00211	chloramphenicol	amphenicol	No resistance	0	
+Q0003_MC00211	linezolid	oxazolidinone	No resistance	0	
+Q0003_MC00211	tiamulin	pleuromutilin	No resistance	0	
+Q0003_MC00211	teicoplanin	glycopeptide	No resistance	0	
+Q0003_MC00211	fosfomycin	fosfomycin	No resistance	0	
+Q0003_MC00211	vancomycin	glycopeptide	No resistance	0	
+Q0003_MC00211	amikacin	aminoglycoside	No resistance	0	
+Q0003_MC00211	penicillin	beta-lactam	Resistant	2	blaZ (blaZ_MAJJ01000071), blaZ (blaZ_FKPS01000007), blaZ (blaZ_NZ_JVAT01000021), blaZ (blaZ_NZ_JUUA01000057), blaZ (blaZ_NZ_JVLY01000044), blaZ (blaZ_NZ_JVRB01000003), blaZ (blaZ_JIFD01000012), blaZ (blaZ_JIFU01000008)
+Q0003_MC00214	# Sample: Q0003_MC00214.fasta
+Q0003_MC00214	# 
+Q0003_MC00214	# The phenotype 'No resistance' should be interpreted with
+Q0003_MC00214	# caution, as it only means that nothing in the used
+Q0003_MC00214	# database indicate resistance, but resistance could exist
+Q0003_MC00214	# from 'unknown' or not yet implemented sources.
+Q0003_MC00214	# 
+Q0003_MC00214	# The 'Match' column stores one of the integers 0, 1, 2, 3.
+Q0003_MC00214	#      0: No match found
+Q0003_MC00214	#      1: Match < 100% ID AND match length < ref length
+Q0003_MC00214	#      2: Match < 100% ID AND match length = ref length
+Q0003_MC00214	#      3: Match = 100% ID AND match length = ref length
+Q0003_MC00214	# If several hits causing the same resistance are found,
+Q0003_MC00214	# the highest number will be stored in the 'Match' column.
+Q0003_MC00214	# Antimicrobial	Class	WGS-predicted phenotype	Match	Genetic background
+Q0003_MC00214	gentamicin	aminoglycoside	No resistance	0	
+Q0003_MC00214	teicoplanin	glycopeptide	No resistance	0	
+Q0003_MC00214	fusidic acid	steroid antibacterial	No resistance	0	
+Q0003_MC00214	sulfamethoxazole	folate pathway antagonist	No resistance	0	
+Q0003_MC00214	tobramycin	aminoglycoside	No resistance	0	
+Q0003_MC00214	telithromycin	macrolide	No resistance	0	
+Q0003_MC00214	ciprofloxacin	quinolone	No resistance	0	
+Q0003_MC00214	trimethoprim	folate pathway antagonist	No resistance	0	
+Q0003_MC00214	amikacin	aminoglycoside	No resistance	0	
+Q0003_MC00214	fosfomycin	fosfomycin	No resistance	0	
+Q0003_MC00214	linezolid	oxazolidinone	No resistance	0	
+Q0003_MC00214	quinupristin+dalfopristin	streptogramin a	No resistance	0	
+Q0003_MC00214	tetracycline	tetracycline	No resistance	0	
+Q0003_MC00214	penicillin	beta-lactam	Resistant	2	blaZ (blaZ_MAJJ01000071), blaZ (blaZ_FKPS01000007), blaZ (blaZ_NZ_JVAT01000021), blaZ (blaZ_NZ_JUUA01000057), blaZ (blaZ_NZ_JVLY01000044), blaZ (blaZ_NZ_JVRB01000003), blaZ (blaZ_JIFD01000012), blaZ (blaZ_JIFU01000008)
+Q0003_MC00214	vancomycin	glycopeptide	No resistance	0	
+Q0003_MC00214	spiramycin	macrolide	No resistance	0	
+Q0003_MC00214	erythromycin	macrolide	No resistance	0	
+Q0003_MC00214	chloramphenicol	amphenicol	No resistance	0	
+Q0003_MC00214	tiamulin	pleuromutilin	No resistance	0	
+Q0003_MC00214	cefoxitin	beta-lactam	No resistance	0	
+Q0003_MC00214	mupirocin	pseudomonic acid	No resistance	0	
+Q0003_MC00214	clindamycin	lincosamide	No resistance	0	
+Q0003_MC00215	# Sample: Q0003_MC00215.fasta
+Q0003_MC00215	# 
+Q0003_MC00215	# The phenotype 'No resistance' should be interpreted with
+Q0003_MC00215	# caution, as it only means that nothing in the used
+Q0003_MC00215	# database indicate resistance, but resistance could exist
+Q0003_MC00215	# from 'unknown' or not yet implemented sources.
+Q0003_MC00215	# 
+Q0003_MC00215	# The 'Match' column stores one of the integers 0, 1, 2, 3.
+Q0003_MC00215	#      0: No match found
+Q0003_MC00215	#      1: Match < 100% ID AND match length < ref length
+Q0003_MC00215	#      2: Match < 100% ID AND match length = ref length
+Q0003_MC00215	#      3: Match = 100% ID AND match length = ref length
+Q0003_MC00215	# If several hits causing the same resistance are found,
+Q0003_MC00215	# the highest number will be stored in the 'Match' column.
+Q0003_MC00215	# Antimicrobial	Class	WGS-predicted phenotype	Match	Genetic background
+Q0003_MC00215	tiamulin	pleuromutilin	No resistance	0	
+Q0003_MC00215	fosfomycin	fosfomycin	No resistance	0	
+Q0003_MC00215	tobramycin	aminoglycoside	No resistance	0	
+Q0003_MC00215	trimethoprim	folate pathway antagonist	No resistance	0	
+Q0003_MC00215	cefoxitin	beta-lactam	No resistance	0	
+Q0003_MC00215	vancomycin	glycopeptide	No resistance	0	
+Q0003_MC00215	spiramycin	macrolide	No resistance	0	
+Q0003_MC00215	teicoplanin	glycopeptide	No resistance	0	
+Q0003_MC00215	amikacin	aminoglycoside	No resistance	0	
+Q0003_MC00215	gentamicin	aminoglycoside	No resistance	0	
+Q0003_MC00215	linezolid	oxazolidinone	No resistance	0	
+Q0003_MC00215	mupirocin	pseudomonic acid	No resistance	0	
+Q0003_MC00215	tetracycline	tetracycline	No resistance	0	
+Q0003_MC00215	telithromycin	macrolide	No resistance	0	
+Q0003_MC00215	clindamycin	lincosamide	No resistance	0	
+Q0003_MC00215	quinupristin+dalfopristin	streptogramin a	No resistance	0	
+Q0003_MC00215	chloramphenicol	amphenicol	No resistance	0	
+Q0003_MC00215	sulfamethoxazole	folate pathway antagonist	No resistance	0	
+Q0003_MC00215	erythromycin	macrolide	No resistance	0	
+Q0003_MC00215	ciprofloxacin	quinolone	No resistance	0	
+Q0003_MC00215	fusidic acid	steroid antibacterial	No resistance	0	
+Q0003_MC00215	penicillin	beta-lactam	Resistant	2	blaZ (blaZ_MAJJ01000071), blaZ (blaZ_FKPS01000007), blaZ (blaZ_NZ_JVAT01000021), blaZ (blaZ_NZ_JUUA01000057), blaZ (blaZ_NZ_JVLY01000044), blaZ (blaZ_NZ_JVRB01000003), blaZ (blaZ_JIFD01000012), blaZ (blaZ_JIFU01000008)
+Q0003_MC00216	# Sample: Q0003_MC00216.fasta
+Q0003_MC00216	# 
+Q0003_MC00216	# The phenotype 'No resistance' should be interpreted with
+Q0003_MC00216	# caution, as it only means that nothing in the used
+Q0003_MC00216	# database indicate resistance, but resistance could exist
+Q0003_MC00216	# from 'unknown' or not yet implemented sources.
+Q0003_MC00216	# 
+Q0003_MC00216	# The 'Match' column stores one of the integers 0, 1, 2, 3.
+Q0003_MC00216	#      0: No match found
+Q0003_MC00216	#      1: Match < 100% ID AND match length < ref length
+Q0003_MC00216	#      2: Match < 100% ID AND match length = ref length
+Q0003_MC00216	#      3: Match = 100% ID AND match length = ref length
+Q0003_MC00216	# If several hits causing the same resistance are found,
+Q0003_MC00216	# the highest number will be stored in the 'Match' column.
+Q0003_MC00216	# Antimicrobial	Class	WGS-predicted phenotype	Match	Genetic background
+Q0003_MC00216	sulfamethoxazole	folate pathway antagonist	No resistance	0	
+Q0003_MC00216	clindamycin	lincosamide	No resistance	0	
+Q0003_MC00216	trimethoprim	folate pathway antagonist	No resistance	0	
+Q0003_MC00216	mupirocin	pseudomonic acid	No resistance	0	
+Q0003_MC00216	chloramphenicol	amphenicol	No resistance	0	
+Q0003_MC00216	fusidic acid	steroid antibacterial	No resistance	0	
+Q0003_MC00216	tiamulin	pleuromutilin	No resistance	0	
+Q0003_MC00216	ciprofloxacin	quinolone	No resistance	0	
+Q0003_MC00216	spiramycin	macrolide	No resistance	0	
+Q0003_MC00216	vancomycin	glycopeptide	No resistance	0	
+Q0003_MC00216	teicoplanin	glycopeptide	No resistance	0	
+Q0003_MC00216	quinupristin+dalfopristin	streptogramin a	No resistance	0	
+Q0003_MC00216	erythromycin	macrolide	No resistance	0	
+Q0003_MC00216	fosfomycin	fosfomycin	No resistance	0	
+Q0003_MC00216	penicillin	beta-lactam	Resistant	2	blaZ (blaZ_MAJJ01000071), blaZ (blaZ_FKPS01000007), blaZ (blaZ_NZ_JVAT01000021), blaZ (blaZ_NZ_JUUA01000057), blaZ (blaZ_NZ_JVLY01000044), blaZ (blaZ_NZ_JVRB01000003), blaZ (blaZ_JIFD01000012), blaZ (blaZ_JIFU01000008)
+Q0003_MC00216	linezolid	oxazolidinone	No resistance	0	
+Q0003_MC00216	tobramycin	aminoglycoside	No resistance	0	
+Q0003_MC00216	cefoxitin	beta-lactam	No resistance	0	
+Q0003_MC00216	tetracycline	tetracycline	No resistance	0	
+Q0003_MC00216	amikacin	aminoglycoside	No resistance	0	
+Q0003_MC00216	telithromycin	macrolide	No resistance	0	
+Q0003_MC00216	gentamicin	aminoglycoside	No resistance	0	
+Q0003_MC0026	# Sample: Q0003_MC0026.fasta
+Q0003_MC0026	# 
+Q0003_MC0026	# The phenotype 'No resistance' should be interpreted with
+Q0003_MC0026	# caution, as it only means that nothing in the used
+Q0003_MC0026	# database indicate resistance, but resistance could exist
+Q0003_MC0026	# from 'unknown' or not yet implemented sources.
+Q0003_MC0026	# 
+Q0003_MC0026	# The 'Match' column stores one of the integers 0, 1, 2, 3.
+Q0003_MC0026	#      0: No match found
+Q0003_MC0026	#      1: Match < 100% ID AND match length < ref length
+Q0003_MC0026	#      2: Match < 100% ID AND match length = ref length
+Q0003_MC0026	#      3: Match = 100% ID AND match length = ref length
+Q0003_MC0026	# If several hits causing the same resistance are found,
+Q0003_MC0026	# the highest number will be stored in the 'Match' column.
+Q0003_MC0026	# Antimicrobial	Class	WGS-predicted phenotype	Match	Genetic background
+Q0003_MC0026	ciprofloxacin	quinolone	No resistance	0	
+Q0003_MC0026	cefoxitin	beta-lactam	No resistance	0	
+Q0003_MC0026	spiramycin	macrolide	No resistance	0	
+Q0003_MC0026	teicoplanin	glycopeptide	No resistance	0	
+Q0003_MC0026	tetracycline	tetracycline	No resistance	0	
+Q0003_MC0026	quinupristin+dalfopristin	streptogramin a	No resistance	0	
+Q0003_MC0026	mupirocin	pseudomonic acid	No resistance	0	
+Q0003_MC0026	penicillin	beta-lactam	Resistant	2	blaZ (blaZ_MAJJ01000071), blaZ (blaZ_FKPS01000007), blaZ (blaZ_NZ_JVAT01000021), blaZ (blaZ_NZ_JUUA01000057), blaZ (blaZ_NZ_JVLY01000044), blaZ (blaZ_NZ_JVRB01000003), blaZ (blaZ_JIFD01000012), blaZ (blaZ_JIFU01000008)
+Q0003_MC0026	gentamicin	aminoglycoside	No resistance	0	
+Q0003_MC0026	linezolid	oxazolidinone	No resistance	0	
+Q0003_MC0026	clindamycin	lincosamide	No resistance	0	
+Q0003_MC0026	tobramycin	aminoglycoside	No resistance	0	
+Q0003_MC0026	amikacin	aminoglycoside	No resistance	0	
+Q0003_MC0026	fosfomycin	fosfomycin	No resistance	0	
+Q0003_MC0026	chloramphenicol	amphenicol	No resistance	0	
+Q0003_MC0026	vancomycin	glycopeptide	No resistance	0	
+Q0003_MC0026	telithromycin	macrolide	No resistance	0	
+Q0003_MC0026	tiamulin	pleuromutilin	No resistance	0	
+Q0003_MC0026	fusidic acid	steroid antibacterial	No resistance	0	
+Q0003_MC0026	sulfamethoxazole	folate pathway antagonist	No resistance	0	
+Q0003_MC0026	erythromycin	macrolide	No resistance	0	
+Q0003_MC0026	trimethoprim	folate pathway antagonist	No resistance	0	
+Q0003_TC00102	# Sample: Q0003_TC00102.fasta
+Q0003_TC00102	# 
+Q0003_TC00102	# The phenotype 'No resistance' should be interpreted with
+Q0003_TC00102	# caution, as it only means that nothing in the used
+Q0003_TC00102	# database indicate resistance, but resistance could exist
+Q0003_TC00102	# from 'unknown' or not yet implemented sources.
+Q0003_TC00102	# 
+Q0003_TC00102	# The 'Match' column stores one of the integers 0, 1, 2, 3.
+Q0003_TC00102	#      0: No match found
+Q0003_TC00102	#      1: Match < 100% ID AND match length < ref length
+Q0003_TC00102	#      2: Match < 100% ID AND match length = ref length
+Q0003_TC00102	#      3: Match = 100% ID AND match length = ref length
+Q0003_TC00102	# If several hits causing the same resistance are found,
+Q0003_TC00102	# the highest number will be stored in the 'Match' column.
+Q0003_TC00102	# Antimicrobial	Class	WGS-predicted phenotype	Match	Genetic background
+Q0003_TC00102	mupirocin	pseudomonic acid	No resistance	0	
+Q0003_TC00102	erythromycin	macrolide	No resistance	0	
+Q0003_TC00102	tiamulin	pleuromutilin	No resistance	0	
+Q0003_TC00102	teicoplanin	glycopeptide	No resistance	0	
+Q0003_TC00102	spiramycin	macrolide	No resistance	0	
+Q0003_TC00102	penicillin	beta-lactam	Resistant	2	blaZ (blaZ_CP003979)
+Q0003_TC00102	fusidic acid	steroid antibacterial	No resistance	0	
+Q0003_TC00102	gentamicin	aminoglycoside	No resistance	0	
+Q0003_TC00102	fosfomycin	fosfomycin	No resistance	0	
+Q0003_TC00102	clindamycin	lincosamide	No resistance	0	
+Q0003_TC00102	tobramycin	aminoglycoside	No resistance	0	
+Q0003_TC00102	telithromycin	macrolide	No resistance	0	
+Q0003_TC00102	chloramphenicol	amphenicol	No resistance	0	
+Q0003_TC00102	ciprofloxacin	quinolone	No resistance	0	
+Q0003_TC00102	tetracycline	tetracycline	No resistance	0	
+Q0003_TC00102	sulfamethoxazole	folate pathway antagonist	No resistance	0	
+Q0003_TC00102	trimethoprim	folate pathway antagonist	No resistance	0	
+Q0003_TC00102	quinupristin+dalfopristin	streptogramin a	No resistance	0	
+Q0003_TC00102	cefoxitin	beta-lactam	No resistance	0	
+Q0003_TC00102	amikacin	aminoglycoside	No resistance	0	
+Q0003_TC00102	vancomycin	glycopeptide	No resistance	0	
+Q0003_TC00102	linezolid	oxazolidinone	No resistance	0	
+Q0003_TC00512	# Sample: Q0003_TC00512.fasta
+Q0003_TC00512	# 
+Q0003_TC00512	# The phenotype 'No resistance' should be interpreted with
+Q0003_TC00512	# caution, as it only means that nothing in the used
+Q0003_TC00512	# database indicate resistance, but resistance could exist
+Q0003_TC00512	# from 'unknown' or not yet implemented sources.
+Q0003_TC00512	# 
+Q0003_TC00512	# The 'Match' column stores one of the integers 0, 1, 2, 3.
+Q0003_TC00512	#      0: No match found
+Q0003_TC00512	#      1: Match < 100% ID AND match length < ref length
+Q0003_TC00512	#      2: Match < 100% ID AND match length = ref length
+Q0003_TC00512	#      3: Match = 100% ID AND match length = ref length
+Q0003_TC00512	# If several hits causing the same resistance are found,
+Q0003_TC00512	# the highest number will be stored in the 'Match' column.
+Q0003_TC00512	# Antimicrobial	Class	WGS-predicted phenotype	Match	Genetic background
+Q0003_TC00512	cefoxitin	beta-lactam	No resistance	0	
+Q0003_TC00512	gentamicin	aminoglycoside	No resistance	0	
+Q0003_TC00512	amikacin	aminoglycoside	No resistance	0	
+Q0003_TC00512	tiamulin	pleuromutilin	No resistance	0	
+Q0003_TC00512	penicillin	beta-lactam	Resistant	3	blaZ (blaZ_AHVO01000010)
+Q0003_TC00512	clindamycin	lincosamide	No resistance	0	
+Q0003_TC00512	telithromycin	macrolide	No resistance	0	
+Q0003_TC00512	erythromycin	macrolide	No resistance	0	
+Q0003_TC00512	teicoplanin	glycopeptide	No resistance	0	
+Q0003_TC00512	spiramycin	macrolide	No resistance	0	
+Q0003_TC00512	trimethoprim	folate pathway antagonist	No resistance	0	
+Q0003_TC00512	fosfomycin	fosfomycin	No resistance	0	
+Q0003_TC00512	tobramycin	aminoglycoside	No resistance	0	
+Q0003_TC00512	ciprofloxacin	quinolone	No resistance	0	
+Q0003_TC00512	mupirocin	pseudomonic acid	No resistance	0	
+Q0003_TC00512	linezolid	oxazolidinone	No resistance	0	
+Q0003_TC00512	chloramphenicol	amphenicol	No resistance	0	
+Q0003_TC00512	quinupristin+dalfopristin	streptogramin a	No resistance	0	
+Q0003_TC00512	vancomycin	glycopeptide	No resistance	0	
+Q0003_TC00512	tetracycline	tetracycline	No resistance	0	
+Q0003_TC00512	sulfamethoxazole	folate pathway antagonist	No resistance	0	
+Q0003_TC00512	fusidic acid	steroid antibacterial	No resistance	0	
+Q0003_TC00512	# WARNING: Features with unknown phenotype 
+Q0003_TC00512	# Feature_ID	Region	Database	Hit	Class
+Q0003_TC00512	grlB;;1;;CP026964.1_422_d_AA	grlB;;1;;CP026964.1			
+Q0003_TC00516	# Sample: Q0003_TC00516.fasta
+Q0003_TC00516	# 
+Q0003_TC00516	# The phenotype 'No resistance' should be interpreted with
+Q0003_TC00516	# caution, as it only means that nothing in the used
+Q0003_TC00516	# database indicate resistance, but resistance could exist
+Q0003_TC00516	# from 'unknown' or not yet implemented sources.
+Q0003_TC00516	# 
+Q0003_TC00516	# The 'Match' column stores one of the integers 0, 1, 2, 3.
+Q0003_TC00516	#      0: No match found
+Q0003_TC00516	#      1: Match < 100% ID AND match length < ref length
+Q0003_TC00516	#      2: Match < 100% ID AND match length = ref length
+Q0003_TC00516	#      3: Match = 100% ID AND match length = ref length
+Q0003_TC00516	# If several hits causing the same resistance are found,
+Q0003_TC00516	# the highest number will be stored in the 'Match' column.
+Q0003_TC00516	# Antimicrobial	Class	WGS-predicted phenotype	Match	Genetic background
+Q0003_TC00516	amikacin	aminoglycoside	No resistance	0	
+Q0003_TC00516	vancomycin	glycopeptide	No resistance	0	
+Q0003_TC00516	fosfomycin	fosfomycin	No resistance	0	
+Q0003_TC00516	telithromycin	macrolide	No resistance	0	
+Q0003_TC00516	clindamycin	lincosamide	Resistant	3	erm(C) (erm(C)_M13761)
+Q0003_TC00516	spiramycin	macrolide	No resistance	0	
+Q0003_TC00516	ciprofloxacin	quinolone	No resistance	0	
+Q0003_TC00516	tiamulin	pleuromutilin	No resistance	0	
+Q0003_TC00516	chloramphenicol	amphenicol	No resistance	0	
+Q0003_TC00516	linezolid	oxazolidinone	No resistance	0	
+Q0003_TC00516	sulfamethoxazole	folate pathway antagonist	No resistance	0	
+Q0003_TC00516	tetracycline	tetracycline	No resistance	0	
+Q0003_TC00516	gentamicin	aminoglycoside	No resistance	0	
+Q0003_TC00516	erythromycin	macrolide	Resistant	3	erm(C) (erm(C)_M13761)
+Q0003_TC00516	mupirocin	pseudomonic acid	No resistance	0	
+Q0003_TC00516	teicoplanin	glycopeptide	No resistance	0	
+Q0003_TC00516	penicillin	beta-lactam	Resistant	2	blaZ (blaZ_CP010941)
+Q0003_TC00516	tobramycin	aminoglycoside	No resistance	0	
+Q0003_TC00516	fusidic acid	steroid antibacterial	No resistance	0	
+Q0003_TC00516	quinupristin+dalfopristin	streptogramin a	No resistance	0	
+Q0003_TC00516	trimethoprim	folate pathway antagonist	Resistant	3	dfrG (dfrG_AB205645)
+Q0003_TC00516	cefoxitin	beta-lactam	No resistance	0	
+Q0003_TC00516	# WARNING: Features with unknown phenotype 
+Q0003_TC00516	# Feature_ID	Region	Database	Hit	Class
+Q0003_TC00516	grlB;;1;;CP026964.1_422_d_AA	grlB;;1;;CP026964.1			
+Q0003_TC00522	# Sample: Q0003_TC00522.fasta
+Q0003_TC00522	# 
+Q0003_TC00522	# The phenotype 'No resistance' should be interpreted with
+Q0003_TC00522	# caution, as it only means that nothing in the used
+Q0003_TC00522	# database indicate resistance, but resistance could exist
+Q0003_TC00522	# from 'unknown' or not yet implemented sources.
+Q0003_TC00522	# 
+Q0003_TC00522	# The 'Match' column stores one of the integers 0, 1, 2, 3.
+Q0003_TC00522	#      0: No match found
+Q0003_TC00522	#      1: Match < 100% ID AND match length < ref length
+Q0003_TC00522	#      2: Match < 100% ID AND match length = ref length
+Q0003_TC00522	#      3: Match = 100% ID AND match length = ref length
+Q0003_TC00522	# If several hits causing the same resistance are found,
+Q0003_TC00522	# the highest number will be stored in the 'Match' column.
+Q0003_TC00522	# Antimicrobial	Class	WGS-predicted phenotype	Match	Genetic background
+Q0003_TC00522	fusidic acid	steroid antibacterial	No resistance	0	
+Q0003_TC00522	chloramphenicol	amphenicol	No resistance	0	
+Q0003_TC00522	sulfamethoxazole	folate pathway antagonist	No resistance	0	
+Q0003_TC00522	amikacin	aminoglycoside	No resistance	0	
+Q0003_TC00522	fosfomycin	fosfomycin	No resistance	0	
+Q0003_TC00522	quinupristin+dalfopristin	streptogramin a	No resistance	0	
+Q0003_TC00522	clindamycin	lincosamide	Resistant	3	erm(C) (erm(C)_M13761)
+Q0003_TC00522	telithromycin	macrolide	No resistance	0	
+Q0003_TC00522	spiramycin	macrolide	No resistance	0	
+Q0003_TC00522	vancomycin	glycopeptide	No resistance	0	
+Q0003_TC00522	gentamicin	aminoglycoside	No resistance	0	
+Q0003_TC00522	penicillin	beta-lactam	Resistant	2	blaZ (blaZ_CP010941)
+Q0003_TC00522	teicoplanin	glycopeptide	No resistance	0	
+Q0003_TC00522	erythromycin	macrolide	Resistant	3	erm(C) (erm(C)_M13761)
+Q0003_TC00522	ciprofloxacin	quinolone	No resistance	0	
+Q0003_TC00522	tetracycline	tetracycline	No resistance	0	
+Q0003_TC00522	linezolid	oxazolidinone	No resistance	0	
+Q0003_TC00522	tiamulin	pleuromutilin	No resistance	0	
+Q0003_TC00522	trimethoprim	folate pathway antagonist	Resistant	3	dfrG (dfrG_AB205645)
+Q0003_TC00522	mupirocin	pseudomonic acid	No resistance	0	
+Q0003_TC00522	cefoxitin	beta-lactam	No resistance	0	
+Q0003_TC00522	tobramycin	aminoglycoside	No resistance	0	
+Q0003_TC00522	# WARNING: Features with unknown phenotype 
+Q0003_TC00522	# Feature_ID	Region	Database	Hit	Class
+Q0003_TC00522	grlB;;1;;CP026964.1_422_d_AA	grlB;;1;;CP026964.1			
+Q0003_TC00523	# Sample: Q0003_TC00523.fasta
+Q0003_TC00523	# 
+Q0003_TC00523	# The phenotype 'No resistance' should be interpreted with
+Q0003_TC00523	# caution, as it only means that nothing in the used
+Q0003_TC00523	# database indicate resistance, but resistance could exist
+Q0003_TC00523	# from 'unknown' or not yet implemented sources.
+Q0003_TC00523	# 
+Q0003_TC00523	# The 'Match' column stores one of the integers 0, 1, 2, 3.
+Q0003_TC00523	#      0: No match found
+Q0003_TC00523	#      1: Match < 100% ID AND match length < ref length
+Q0003_TC00523	#      2: Match < 100% ID AND match length = ref length
+Q0003_TC00523	#      3: Match = 100% ID AND match length = ref length
+Q0003_TC00523	# If several hits causing the same resistance are found,
+Q0003_TC00523	# the highest number will be stored in the 'Match' column.
+Q0003_TC00523	# Antimicrobial	Class	WGS-predicted phenotype	Match	Genetic background
+Q0003_TC00523	fosfomycin	fosfomycin	No resistance	0	
+Q0003_TC00523	fusidic acid	steroid antibacterial	No resistance	0	
+Q0003_TC00523	clindamycin	lincosamide	Resistant	3	erm(C) (erm(C)_M13761)
+Q0003_TC00523	tetracycline	tetracycline	No resistance	0	
+Q0003_TC00523	cefoxitin	beta-lactam	No resistance	0	
+Q0003_TC00523	amikacin	aminoglycoside	No resistance	0	
+Q0003_TC00523	vancomycin	glycopeptide	No resistance	0	
+Q0003_TC00523	mupirocin	pseudomonic acid	No resistance	0	
+Q0003_TC00523	tiamulin	pleuromutilin	No resistance	0	
+Q0003_TC00523	ciprofloxacin	quinolone	No resistance	0	
+Q0003_TC00523	spiramycin	macrolide	No resistance	0	
+Q0003_TC00523	penicillin	beta-lactam	Resistant	2	blaZ (blaZ_CP010941)
+Q0003_TC00523	sulfamethoxazole	folate pathway antagonist	No resistance	0	
+Q0003_TC00523	linezolid	oxazolidinone	No resistance	0	
+Q0003_TC00523	quinupristin+dalfopristin	streptogramin a	No resistance	0	
+Q0003_TC00523	chloramphenicol	amphenicol	No resistance	0	
+Q0003_TC00523	tobramycin	aminoglycoside	No resistance	0	
+Q0003_TC00523	gentamicin	aminoglycoside	No resistance	0	
+Q0003_TC00523	erythromycin	macrolide	Resistant	3	erm(C) (erm(C)_M13761)
+Q0003_TC00523	trimethoprim	folate pathway antagonist	Resistant	3	dfrG (dfrG_AB205645)
+Q0003_TC00523	teicoplanin	glycopeptide	No resistance	0	
+Q0003_TC00523	telithromycin	macrolide	No resistance	0	
+Q0003_TC00523	# WARNING: Features with unknown phenotype 
+Q0003_TC00523	# Feature_ID	Region	Database	Hit	Class
+Q0003_TC00523	grlB;;1;;CP026964.1_422_d_AA	grlB;;1;;CP026964.1			
+R0047_DABST013	# Sample: R0047_DABST013.fasta
+R0047_DABST013	# 
+R0047_DABST013	# The phenotype 'No resistance' should be interpreted with
+R0047_DABST013	# caution, as it only means that nothing in the used
+R0047_DABST013	# database indicate resistance, but resistance could exist
+R0047_DABST013	# from 'unknown' or not yet implemented sources.
+R0047_DABST013	# 
+R0047_DABST013	# The 'Match' column stores one of the integers 0, 1, 2, 3.
+R0047_DABST013	#      0: No match found
+R0047_DABST013	#      1: Match < 100% ID AND match length < ref length
+R0047_DABST013	#      2: Match < 100% ID AND match length = ref length
+R0047_DABST013	#      3: Match = 100% ID AND match length = ref length
+R0047_DABST013	# If several hits causing the same resistance are found,
+R0047_DABST013	# the highest number will be stored in the 'Match' column.
+R0047_DABST013	# Antimicrobial	Class	WGS-predicted phenotype	Match	Genetic background
+R0047_DABST013	sulfamethoxazole	folate pathway antagonist	No resistance	0	
+R0047_DABST013	vancomycin	glycopeptide	No resistance	0	
+R0047_DABST013	cefoxitin	beta-lactam	No resistance	0	
+R0047_DABST013	tetracycline	tetracycline	Resistant	1	tet(K) (tet(K)_J01764)
+R0047_DABST013	spiramycin	macrolide	No resistance	0	
+R0047_DABST013	trimethoprim	folate pathway antagonist	Resistant	3	dfrG (dfrG_AB205645)
+R0047_DABST013	quinupristin+dalfopristin	streptogramin a	No resistance	0	
+R0047_DABST013	teicoplanin	glycopeptide	No resistance	0	
+R0047_DABST013	penicillin	beta-lactam	Resistant	2	blaZ (blaZ_CP003979)
+R0047_DABST013	tiamulin	pleuromutilin	No resistance	0	
+R0047_DABST013	clindamycin	lincosamide	Resistant	3	erm(C) (erm(C)_M13761)
+R0047_DABST013	mupirocin	pseudomonic acid	No resistance	0	
+R0047_DABST013	fosfomycin	fosfomycin	No resistance	0	
+R0047_DABST013	linezolid	oxazolidinone	No resistance	0	
+R0047_DABST013	tobramycin	aminoglycoside	No resistance	0	
+R0047_DABST013	chloramphenicol	amphenicol	No resistance	0	
+R0047_DABST013	amikacin	aminoglycoside	No resistance	0	
+R0047_DABST013	fusidic acid	steroid antibacterial	No resistance	0	
+R0047_DABST013	erythromycin	macrolide	Resistant	3	erm(C) (erm(C)_M13761)
+R0047_DABST013	ciprofloxacin	quinolone	No resistance	0	
+R0047_DABST013	gentamicin	aminoglycoside	No resistance	0	
+R0047_DABST013	telithromycin	macrolide	No resistance	0	
+R0047_DABST013	# WARNING: Features with unknown phenotype 
+R0047_DABST013	# Feature_ID	Region	Database	Hit	Class
+R0047_DABST013	grlB;;1;;CP026964.1_422_d_AA	grlB;;1;;CP026964.1			
+R0047_DADST035	# Sample: R0047_DADST035.fasta
+R0047_DADST035	# 
+R0047_DADST035	# The phenotype 'No resistance' should be interpreted with
+R0047_DADST035	# caution, as it only means that nothing in the used
+R0047_DADST035	# database indicate resistance, but resistance could exist
+R0047_DADST035	# from 'unknown' or not yet implemented sources.
+R0047_DADST035	# 
+R0047_DADST035	# The 'Match' column stores one of the integers 0, 1, 2, 3.
+R0047_DADST035	#      0: No match found
+R0047_DADST035	#      1: Match < 100% ID AND match length < ref length
+R0047_DADST035	#      2: Match < 100% ID AND match length = ref length
+R0047_DADST035	#      3: Match = 100% ID AND match length = ref length
+R0047_DADST035	# If several hits causing the same resistance are found,
+R0047_DADST035	# the highest number will be stored in the 'Match' column.
+R0047_DADST035	# Antimicrobial	Class	WGS-predicted phenotype	Match	Genetic background
+R0047_DADST035	cefoxitin	beta-lactam	No resistance	0	
+R0047_DADST035	fusidic acid	steroid antibacterial	No resistance	0	
+R0047_DADST035	clindamycin	lincosamide	No resistance	0	
+R0047_DADST035	mupirocin	pseudomonic acid	No resistance	0	
+R0047_DADST035	erythromycin	macrolide	No resistance	0	
+R0047_DADST035	quinupristin+dalfopristin	streptogramin a	No resistance	0	
+R0047_DADST035	chloramphenicol	amphenicol	No resistance	0	
+R0047_DADST035	tiamulin	pleuromutilin	No resistance	0	
+R0047_DADST035	trimethoprim	folate pathway antagonist	Resistant	3	dfrG (dfrG_AB205645)
+R0047_DADST035	vancomycin	glycopeptide	No resistance	0	
+R0047_DADST035	penicillin	beta-lactam	Resistant	3	blaZ (blaZ_CP003979)
+R0047_DADST035	amikacin	aminoglycoside	No resistance	0	
+R0047_DADST035	tetracycline	tetracycline	No resistance	0	
+R0047_DADST035	spiramycin	macrolide	No resistance	0	
+R0047_DADST035	fosfomycin	fosfomycin	No resistance	0	
+R0047_DADST035	teicoplanin	glycopeptide	No resistance	0	
+R0047_DADST035	ciprofloxacin	quinolone	No resistance	0	
+R0047_DADST035	telithromycin	macrolide	No resistance	0	
+R0047_DADST035	tobramycin	aminoglycoside	No resistance	0	
+R0047_DADST035	gentamicin	aminoglycoside	No resistance	0	
+R0047_DADST035	linezolid	oxazolidinone	No resistance	0	
+R0047_DADST035	sulfamethoxazole	folate pathway antagonist	No resistance	0	
+R0047_MH0081	# Sample: R0047_MH0081.fasta
+R0047_MH0081	# 
+R0047_MH0081	# The phenotype 'No resistance' should be interpreted with
+R0047_MH0081	# caution, as it only means that nothing in the used
+R0047_MH0081	# database indicate resistance, but resistance could exist
+R0047_MH0081	# from 'unknown' or not yet implemented sources.
+R0047_MH0081	# 
+R0047_MH0081	# The 'Match' column stores one of the integers 0, 1, 2, 3.
+R0047_MH0081	#      0: No match found
+R0047_MH0081	#      1: Match < 100% ID AND match length < ref length
+R0047_MH0081	#      2: Match < 100% ID AND match length = ref length
+R0047_MH0081	#      3: Match = 100% ID AND match length = ref length
+R0047_MH0081	# If several hits causing the same resistance are found,
+R0047_MH0081	# the highest number will be stored in the 'Match' column.
+R0047_MH0081	# Antimicrobial	Class	WGS-predicted phenotype	Match	Genetic background
+R0047_MH0081	ciprofloxacin	quinolone	Resistant	3	
+R0047_MH0081	fusidic acid	steroid antibacterial	No resistance	0	
+R0047_MH0081	amikacin	aminoglycoside	Resistant	3	aac(6')-aph(2'') (aac(6')-aph(2'')_M13771)
+R0047_MH0081	spiramycin	macrolide	No resistance	0	
+R0047_MH0081	chloramphenicol	amphenicol	No resistance	0	
+R0047_MH0081	telithromycin	macrolide	No resistance	0	
+R0047_MH0081	linezolid	oxazolidinone	No resistance	0	
+R0047_MH0081	erythromycin	macrolide	Resistant	3	erm(C) (erm(C)_M13761)
+R0047_MH0081	cefoxitin	beta-lactam	Resistant	3	mecA (mecA_NC_007168)
+R0047_MH0081	mupirocin	pseudomonic acid	No resistance	0	
+R0047_MH0081	fosfomycin	fosfomycin	No resistance	0	
+R0047_MH0081	sulfamethoxazole	folate pathway antagonist	No resistance	0	
+R0047_MH0081	gentamicin	aminoglycoside	Resistant	3	aac(6')-aph(2'') (aac(6')-aph(2'')_M13771)
+R0047_MH0081	penicillin	beta-lactam	Resistant	3	blaZ (blaZ_AHVO01000010)
+R0047_MH0081	vancomycin	glycopeptide	No resistance	0	
+R0047_MH0081	tetracycline	tetracycline	Resistant	2	tet(K) (tet(K)_U38656)
+R0047_MH0081	quinupristin+dalfopristin	streptogramin a	No resistance	0	
+R0047_MH0081	teicoplanin	glycopeptide	No resistance	0	
+R0047_MH0081	tobramycin	aminoglycoside	Resistant	3	aac(6')-aph(2'') (aac(6')-aph(2'')_M13771)
+R0047_MH0081	clindamycin	lincosamide	Resistant	3	erm(C) (erm(C)_M13761)
+R0047_MH0081	trimethoprim	folate pathway antagonist	Resistant	3	dfrG (dfrG_AB205645)
+R0047_MH0081	tiamulin	pleuromutilin	No resistance	0	
+R0047_TC0201	# Sample: R0047_TC0201.fasta
+R0047_TC0201	# 
+R0047_TC0201	# The phenotype 'No resistance' should be interpreted with
+R0047_TC0201	# caution, as it only means that nothing in the used
+R0047_TC0201	# database indicate resistance, but resistance could exist
+R0047_TC0201	# from 'unknown' or not yet implemented sources.
+R0047_TC0201	# 
+R0047_TC0201	# The 'Match' column stores one of the integers 0, 1, 2, 3.
+R0047_TC0201	#      0: No match found
+R0047_TC0201	#      1: Match < 100% ID AND match length < ref length
+R0047_TC0201	#      2: Match < 100% ID AND match length = ref length
+R0047_TC0201	#      3: Match = 100% ID AND match length = ref length
+R0047_TC0201	# If several hits causing the same resistance are found,
+R0047_TC0201	# the highest number will be stored in the 'Match' column.
+R0047_TC0201	# Antimicrobial	Class	WGS-predicted phenotype	Match	Genetic background
+R0047_TC0201	erythromycin	macrolide	No resistance	0	
+R0047_TC0201	tiamulin	pleuromutilin	No resistance	0	
+R0047_TC0201	telithromycin	macrolide	No resistance	0	
+R0047_TC0201	fusidic acid	steroid antibacterial	No resistance	0	
+R0047_TC0201	chloramphenicol	amphenicol	No resistance	0	
+R0047_TC0201	tobramycin	aminoglycoside	No resistance	0	
+R0047_TC0201	spiramycin	macrolide	No resistance	0	
+R0047_TC0201	cefoxitin	beta-lactam	No resistance	0	
+R0047_TC0201	sulfamethoxazole	folate pathway antagonist	No resistance	0	
+R0047_TC0201	vancomycin	glycopeptide	No resistance	0	
+R0047_TC0201	gentamicin	aminoglycoside	No resistance	0	
+R0047_TC0201	penicillin	beta-lactam	Resistant	3	blaZ (blaZ_AHVO01000010)
+R0047_TC0201	fosfomycin	fosfomycin	No resistance	0	
+R0047_TC0201	ciprofloxacin	quinolone	No resistance	0	
+R0047_TC0201	mupirocin	pseudomonic acid	No resistance	0	
+R0047_TC0201	trimethoprim	folate pathway antagonist	No resistance	0	
+R0047_TC0201	linezolid	oxazolidinone	No resistance	0	
+R0047_TC0201	teicoplanin	glycopeptide	No resistance	0	
+R0047_TC0201	clindamycin	lincosamide	No resistance	0	
+R0047_TC0201	tetracycline	tetracycline	No resistance	0	
+R0047_TC0201	amikacin	aminoglycoside	No resistance	0	
+R0047_TC0201	quinupristin+dalfopristin	streptogramin a	No resistance	0	
+R0047_TC0201	# WARNING: Features with unknown phenotype 
+R0047_TC0201	# Feature_ID	Region	Database	Hit	Class
+R0047_TC0201	grlB;;1;;CP026964.1_422_d_AA	grlB;;1;;CP026964.1			
+R0047_TH0405	# Sample: R0047_TH0405.fasta
+R0047_TH0405	# 
+R0047_TH0405	# The phenotype 'No resistance' should be interpreted with
+R0047_TH0405	# caution, as it only means that nothing in the used
+R0047_TH0405	# database indicate resistance, but resistance could exist
+R0047_TH0405	# from 'unknown' or not yet implemented sources.
+R0047_TH0405	# 
+R0047_TH0405	# The 'Match' column stores one of the integers 0, 1, 2, 3.
+R0047_TH0405	#      0: No match found
+R0047_TH0405	#      1: Match < 100% ID AND match length < ref length
+R0047_TH0405	#      2: Match < 100% ID AND match length = ref length
+R0047_TH0405	#      3: Match = 100% ID AND match length = ref length
+R0047_TH0405	# If several hits causing the same resistance are found,
+R0047_TH0405	# the highest number will be stored in the 'Match' column.
+R0047_TH0405	# Antimicrobial	Class	WGS-predicted phenotype	Match	Genetic background
+R0047_TH0405	teicoplanin	glycopeptide	No resistance	0	
+R0047_TH0405	telithromycin	macrolide	No resistance	0	
+R0047_TH0405	trimethoprim	folate pathway antagonist	No resistance	0	
+R0047_TH0405	cefoxitin	beta-lactam	No resistance	0	
+R0047_TH0405	vancomycin	glycopeptide	No resistance	0	
+R0047_TH0405	chloramphenicol	amphenicol	No resistance	0	
+R0047_TH0405	clindamycin	lincosamide	No resistance	0	
+R0047_TH0405	erythromycin	macrolide	No resistance	0	
+R0047_TH0405	tobramycin	aminoglycoside	No resistance	0	
+R0047_TH0405	tetracycline	tetracycline	Resistant	3	tet(K) (tet(K)_U38656)
+R0047_TH0405	quinupristin+dalfopristin	streptogramin a	No resistance	0	
+R0047_TH0405	ciprofloxacin	quinolone	No resistance	0	
+R0047_TH0405	gentamicin	aminoglycoside	No resistance	0	
+R0047_TH0405	tiamulin	pleuromutilin	No resistance	0	
+R0047_TH0405	sulfamethoxazole	folate pathway antagonist	No resistance	0	
+R0047_TH0405	linezolid	oxazolidinone	No resistance	0	
+R0047_TH0405	penicillin	beta-lactam	Resistant	3	blaZ (blaZ_CP010941)
+R0047_TH0405	fosfomycin	fosfomycin	No resistance	0	
+R0047_TH0405	amikacin	aminoglycoside	No resistance	0	
+R0047_TH0405	spiramycin	macrolide	No resistance	0	
+R0047_TH0405	mupirocin	pseudomonic acid	No resistance	0	
+R0047_TH0405	fusidic acid	steroid antibacterial	No resistance	0	
+R0047_TH0405	# WARNING: Features with unknown phenotype 
+R0047_TH0405	# Feature_ID	Region	Database	Hit	Class
+R0047_TH0405	grlB;;1;;CP026964.1_422_d_AA	grlB;;1;;CP026964.1			
+R0051_BC00101	# Sample: R0051_BC00101.fasta
+R0051_BC00101	# 
+R0051_BC00101	# The phenotype 'No resistance' should be interpreted with
+R0051_BC00101	# caution, as it only means that nothing in the used
+R0051_BC00101	# database indicate resistance, but resistance could exist
+R0051_BC00101	# from 'unknown' or not yet implemented sources.
+R0051_BC00101	# 
+R0051_BC00101	# The 'Match' column stores one of the integers 0, 1, 2, 3.
+R0051_BC00101	#      0: No match found
+R0051_BC00101	#      1: Match < 100% ID AND match length < ref length
+R0051_BC00101	#      2: Match < 100% ID AND match length = ref length
+R0051_BC00101	#      3: Match = 100% ID AND match length = ref length
+R0051_BC00101	# If several hits causing the same resistance are found,
+R0051_BC00101	# the highest number will be stored in the 'Match' column.
+R0051_BC00101	# Antimicrobial	Class	WGS-predicted phenotype	Match	Genetic background
+R0051_BC00101	sulfamethoxazole	folate pathway antagonist	No resistance	0	
+R0051_BC00101	mupirocin	pseudomonic acid	No resistance	0	
+R0051_BC00101	amikacin	aminoglycoside	No resistance	0	
+R0051_BC00101	trimethoprim	folate pathway antagonist	No resistance	0	
+R0051_BC00101	tiamulin	pleuromutilin	No resistance	0	
+R0051_BC00101	erythromycin	macrolide	No resistance	0	
+R0051_BC00101	linezolid	oxazolidinone	No resistance	0	
+R0051_BC00101	fusidic acid	steroid antibacterial	No resistance	0	
+R0051_BC00101	quinupristin+dalfopristin	streptogramin a	No resistance	0	
+R0051_BC00101	cefoxitin	beta-lactam	No resistance	0	
+R0051_BC00101	tetracycline	tetracycline	No resistance	0	
+R0051_BC00101	tobramycin	aminoglycoside	No resistance	0	
+R0051_BC00101	teicoplanin	glycopeptide	No resistance	0	
+R0051_BC00101	ciprofloxacin	quinolone	No resistance	0	
+R0051_BC00101	penicillin	beta-lactam	Resistant	2	blaZ (blaZ_MAJJ01000071), blaZ (blaZ_FKPS01000007), blaZ (blaZ_NZ_JVAT01000021), blaZ (blaZ_NZ_JUUA01000057), blaZ (blaZ_NZ_JVLY01000044), blaZ (blaZ_NZ_JVRB01000003), blaZ (blaZ_JIFD01000012), blaZ (blaZ_JIFU01000008)
+R0051_BC00101	spiramycin	macrolide	No resistance	0	
+R0051_BC00101	chloramphenicol	amphenicol	No resistance	0	
+R0051_BC00101	telithromycin	macrolide	No resistance	0	
+R0051_BC00101	gentamicin	aminoglycoside	No resistance	0	
+R0051_BC00101	fosfomycin	fosfomycin	No resistance	0	
+R0051_BC00101	vancomycin	glycopeptide	No resistance	0	
+R0051_BC00101	clindamycin	lincosamide	No resistance	0	
+R0051_BC00115	# Sample: R0051_BC00115.fasta
+R0051_BC00115	# 
+R0051_BC00115	# The phenotype 'No resistance' should be interpreted with
+R0051_BC00115	# caution, as it only means that nothing in the used
+R0051_BC00115	# database indicate resistance, but resistance could exist
+R0051_BC00115	# from 'unknown' or not yet implemented sources.
+R0051_BC00115	# 
+R0051_BC00115	# The 'Match' column stores one of the integers 0, 1, 2, 3.
+R0051_BC00115	#      0: No match found
+R0051_BC00115	#      1: Match < 100% ID AND match length < ref length
+R0051_BC00115	#      2: Match < 100% ID AND match length = ref length
+R0051_BC00115	#      3: Match = 100% ID AND match length = ref length
+R0051_BC00115	# If several hits causing the same resistance are found,
+R0051_BC00115	# the highest number will be stored in the 'Match' column.
+R0051_BC00115	# Antimicrobial	Class	WGS-predicted phenotype	Match	Genetic background
+R0051_BC00115	mupirocin	pseudomonic acid	No resistance	0	
+R0051_BC00115	cefoxitin	beta-lactam	No resistance	0	
+R0051_BC00115	telithromycin	macrolide	No resistance	0	
+R0051_BC00115	penicillin	beta-lactam	Resistant	2	blaZ (blaZ_MAJJ01000071), blaZ (blaZ_FKPS01000007), blaZ (blaZ_NZ_JVAT01000021), blaZ (blaZ_NZ_JUUA01000057), blaZ (blaZ_NZ_JVLY01000044), blaZ (blaZ_NZ_JVRB01000003), blaZ (blaZ_JIFD01000012), blaZ (blaZ_JIFU01000008)
+R0051_BC00115	vancomycin	glycopeptide	No resistance	0	
+R0051_BC00115	clindamycin	lincosamide	No resistance	0	
+R0051_BC00115	erythromycin	macrolide	No resistance	0	
+R0051_BC00115	amikacin	aminoglycoside	No resistance	0	
+R0051_BC00115	sulfamethoxazole	folate pathway antagonist	No resistance	0	
+R0051_BC00115	tobramycin	aminoglycoside	No resistance	0	
+R0051_BC00115	gentamicin	aminoglycoside	No resistance	0	
+R0051_BC00115	chloramphenicol	amphenicol	No resistance	0	
+R0051_BC00115	teicoplanin	glycopeptide	No resistance	0	
+R0051_BC00115	tiamulin	pleuromutilin	No resistance	0	
+R0051_BC00115	tetracycline	tetracycline	No resistance	0	
+R0051_BC00115	linezolid	oxazolidinone	No resistance	0	
+R0051_BC00115	ciprofloxacin	quinolone	No resistance	0	
+R0051_BC00115	fosfomycin	fosfomycin	No resistance	0	
+R0051_BC00115	fusidic acid	steroid antibacterial	No resistance	0	
+R0051_BC00115	trimethoprim	folate pathway antagonist	No resistance	0	
+R0051_BC00115	quinupristin+dalfopristin	streptogramin a	No resistance	0	
+R0051_BC00115	spiramycin	macrolide	No resistance	0	
+R0051_BC00306	# Sample: R0051_BC00306.fasta
+R0051_BC00306	# 
+R0051_BC00306	# The phenotype 'No resistance' should be interpreted with
+R0051_BC00306	# caution, as it only means that nothing in the used
+R0051_BC00306	# database indicate resistance, but resistance could exist
+R0051_BC00306	# from 'unknown' or not yet implemented sources.
+R0051_BC00306	# 
+R0051_BC00306	# The 'Match' column stores one of the integers 0, 1, 2, 3.
+R0051_BC00306	#      0: No match found
+R0051_BC00306	#      1: Match < 100% ID AND match length < ref length
+R0051_BC00306	#      2: Match < 100% ID AND match length = ref length
+R0051_BC00306	#      3: Match = 100% ID AND match length = ref length
+R0051_BC00306	# If several hits causing the same resistance are found,
+R0051_BC00306	# the highest number will be stored in the 'Match' column.
+R0051_BC00306	# Antimicrobial	Class	WGS-predicted phenotype	Match	Genetic background
+R0051_BC00306	cefoxitin	beta-lactam	No resistance	0	
+R0051_BC00306	teicoplanin	glycopeptide	No resistance	0	
+R0051_BC00306	chloramphenicol	amphenicol	No resistance	0	
+R0051_BC00306	trimethoprim	folate pathway antagonist	Resistant	3	dfrG (dfrG_AB205645)
+R0051_BC00306	linezolid	oxazolidinone	No resistance	0	
+R0051_BC00306	gentamicin	aminoglycoside	No resistance	0	
+R0051_BC00306	ciprofloxacin	quinolone	No resistance	0	
+R0051_BC00306	fusidic acid	steroid antibacterial	No resistance	0	
+R0051_BC00306	vancomycin	glycopeptide	No resistance	0	
+R0051_BC00306	mupirocin	pseudomonic acid	No resistance	0	
+R0051_BC00306	penicillin	beta-lactam	Resistant	2	blaZ (blaZ_CP010941)
+R0051_BC00306	spiramycin	macrolide	No resistance	0	
+R0051_BC00306	sulfamethoxazole	folate pathway antagonist	No resistance	0	
+R0051_BC00306	tetracycline	tetracycline	Resistant	3	tet(K) (tet(K)_U38656)
+R0051_BC00306	amikacin	aminoglycoside	No resistance	0	
+R0051_BC00306	erythromycin	macrolide	Resistant	3	erm(C) (erm(C)_M13761)
+R0051_BC00306	tobramycin	aminoglycoside	No resistance	0	
+R0051_BC00306	clindamycin	lincosamide	Resistant	3	erm(C) (erm(C)_M13761)
+R0051_BC00306	fosfomycin	fosfomycin	No resistance	0	
+R0051_BC00306	quinupristin+dalfopristin	streptogramin a	No resistance	0	
+R0051_BC00306	tiamulin	pleuromutilin	No resistance	0	
+R0051_BC00306	telithromycin	macrolide	No resistance	0	
+R0051_BC00306	# WARNING: Features with unknown phenotype 
+R0051_BC00306	# Feature_ID	Region	Database	Hit	Class
+R0051_BC00306	grlB;;1;;CP026964.1_422_d_AA	grlB;;1;;CP026964.1			
+R0051_BH00403	# Sample: R0051_BH00403.fasta
+R0051_BH00403	# 
+R0051_BH00403	# The phenotype 'No resistance' should be interpreted with
+R0051_BH00403	# caution, as it only means that nothing in the used
+R0051_BH00403	# database indicate resistance, but resistance could exist
+R0051_BH00403	# from 'unknown' or not yet implemented sources.
+R0051_BH00403	# 
+R0051_BH00403	# The 'Match' column stores one of the integers 0, 1, 2, 3.
+R0051_BH00403	#      0: No match found
+R0051_BH00403	#      1: Match < 100% ID AND match length < ref length
+R0051_BH00403	#      2: Match < 100% ID AND match length = ref length
+R0051_BH00403	#      3: Match = 100% ID AND match length = ref length
+R0051_BH00403	# If several hits causing the same resistance are found,
+R0051_BH00403	# the highest number will be stored in the 'Match' column.
+R0051_BH00403	# Antimicrobial	Class	WGS-predicted phenotype	Match	Genetic background
+R0051_BH00403	linezolid	oxazolidinone	No resistance	0	
+R0051_BH00403	chloramphenicol	amphenicol	No resistance	0	
+R0051_BH00403	erythromycin	macrolide	No resistance	0	
+R0051_BH00403	sulfamethoxazole	folate pathway antagonist	No resistance	0	
+R0051_BH00403	amikacin	aminoglycoside	No resistance	0	
+R0051_BH00403	tetracycline	tetracycline	Resistant	3	tet(K) (tet(K)_U38656)
+R0051_BH00403	gentamicin	aminoglycoside	No resistance	0	
+R0051_BH00403	trimethoprim	folate pathway antagonist	No resistance	0	
+R0051_BH00403	ciprofloxacin	quinolone	No resistance	0	
+R0051_BH00403	telithromycin	macrolide	No resistance	0	
+R0051_BH00403	fusidic acid	steroid antibacterial	No resistance	0	
+R0051_BH00403	clindamycin	lincosamide	No resistance	0	
+R0051_BH00403	cefoxitin	beta-lactam	No resistance	0	
+R0051_BH00403	spiramycin	macrolide	No resistance	0	
+R0051_BH00403	vancomycin	glycopeptide	No resistance	0	
+R0051_BH00403	mupirocin	pseudomonic acid	No resistance	0	
+R0051_BH00403	penicillin	beta-lactam	Resistant	2	blaZ (blaZ_MAJJ01000071), blaZ (blaZ_FKPS01000007), blaZ (blaZ_NZ_JVAT01000021), blaZ (blaZ_NZ_JUUA01000057), blaZ (blaZ_NZ_JVLY01000044), blaZ (blaZ_NZ_JVRB01000003), blaZ (blaZ_JIFD01000012), blaZ (blaZ_JIFU01000008)
+R0051_BH00403	teicoplanin	glycopeptide	No resistance	0	
+R0051_BH00403	tiamulin	pleuromutilin	No resistance	0	
+R0051_BH00403	quinupristin+dalfopristin	streptogramin a	No resistance	0	
+R0051_BH00403	fosfomycin	fosfomycin	No resistance	0	
+R0051_BH00403	tobramycin	aminoglycoside	No resistance	0	
+R0051_DADST084	# Sample: R0051_DADST084.fasta
+R0051_DADST084	# 
+R0051_DADST084	# The phenotype 'No resistance' should be interpreted with
+R0051_DADST084	# caution, as it only means that nothing in the used
+R0051_DADST084	# database indicate resistance, but resistance could exist
+R0051_DADST084	# from 'unknown' or not yet implemented sources.
+R0051_DADST084	# 
+R0051_DADST084	# The 'Match' column stores one of the integers 0, 1, 2, 3.
+R0051_DADST084	#      0: No match found
+R0051_DADST084	#      1: Match < 100% ID AND match length < ref length
+R0051_DADST084	#      2: Match < 100% ID AND match length = ref length
+R0051_DADST084	#      3: Match = 100% ID AND match length = ref length
+R0051_DADST084	# If several hits causing the same resistance are found,
+R0051_DADST084	# the highest number will be stored in the 'Match' column.
+R0051_DADST084	# Antimicrobial	Class	WGS-predicted phenotype	Match	Genetic background
+R0051_DADST084	tiamulin	pleuromutilin	No resistance	0	
+R0051_DADST084	penicillin	beta-lactam	Resistant	3	blaZ (blaZ_CP000732)
+R0051_DADST084	sulfamethoxazole	folate pathway antagonist	No resistance	0	
+R0051_DADST084	teicoplanin	glycopeptide	No resistance	0	
+R0051_DADST084	ciprofloxacin	quinolone	No resistance	0	
+R0051_DADST084	tetracycline	tetracycline	No resistance	0	
+R0051_DADST084	spiramycin	macrolide	No resistance	0	
+R0051_DADST084	linezolid	oxazolidinone	No resistance	0	
+R0051_DADST084	fusidic acid	steroid antibacterial	No resistance	0	
+R0051_DADST084	telithromycin	macrolide	No resistance	0	
+R0051_DADST084	vancomycin	glycopeptide	No resistance	0	
+R0051_DADST084	quinupristin+dalfopristin	streptogramin a	No resistance	0	
+R0051_DADST084	amikacin	aminoglycoside	No resistance	0	
+R0051_DADST084	tobramycin	aminoglycoside	No resistance	0	
+R0051_DADST084	clindamycin	lincosamide	No resistance	0	
+R0051_DADST084	erythromycin	macrolide	No resistance	0	
+R0051_DADST084	gentamicin	aminoglycoside	No resistance	0	
+R0051_DADST084	fosfomycin	fosfomycin	No resistance	0	
+R0051_DADST084	trimethoprim	folate pathway antagonist	No resistance	0	
+R0051_DADST084	chloramphenicol	amphenicol	No resistance	0	
+R0051_DADST084	cefoxitin	beta-lactam	No resistance	0	
+R0051_DADST084	mupirocin	pseudomonic acid	No resistance	0	
+R0051_DADST088	# Sample: R0051_DADST088.fasta
+R0051_DADST088	# 
+R0051_DADST088	# The phenotype 'No resistance' should be interpreted with
+R0051_DADST088	# caution, as it only means that nothing in the used
+R0051_DADST088	# database indicate resistance, but resistance could exist
+R0051_DADST088	# from 'unknown' or not yet implemented sources.
+R0051_DADST088	# 
+R0051_DADST088	# The 'Match' column stores one of the integers 0, 1, 2, 3.
+R0051_DADST088	#      0: No match found
+R0051_DADST088	#      1: Match < 100% ID AND match length < ref length
+R0051_DADST088	#      2: Match < 100% ID AND match length = ref length
+R0051_DADST088	#      3: Match = 100% ID AND match length = ref length
+R0051_DADST088	# If several hits causing the same resistance are found,
+R0051_DADST088	# the highest number will be stored in the 'Match' column.
+R0051_DADST088	# Antimicrobial	Class	WGS-predicted phenotype	Match	Genetic background
+R0051_DADST088	fosfomycin	fosfomycin	No resistance	0	
+R0051_DADST088	cefoxitin	beta-lactam	No resistance	0	
+R0051_DADST088	linezolid	oxazolidinone	No resistance	0	
+R0051_DADST088	mupirocin	pseudomonic acid	No resistance	0	
+R0051_DADST088	ciprofloxacin	quinolone	No resistance	0	
+R0051_DADST088	teicoplanin	glycopeptide	No resistance	0	
+R0051_DADST088	chloramphenicol	amphenicol	No resistance	0	
+R0051_DADST088	sulfamethoxazole	folate pathway antagonist	No resistance	0	
+R0051_DADST088	fusidic acid	steroid antibacterial	No resistance	0	
+R0051_DADST088	telithromycin	macrolide	No resistance	0	
+R0051_DADST088	clindamycin	lincosamide	No resistance	0	
+R0051_DADST088	tobramycin	aminoglycoside	No resistance	0	
+R0051_DADST088	tetracycline	tetracycline	No resistance	0	
+R0051_DADST088	quinupristin+dalfopristin	streptogramin a	No resistance	0	
+R0051_DADST088	erythromycin	macrolide	No resistance	0	
+R0051_DADST088	penicillin	beta-lactam	Resistant	3	blaZ (blaZ_CP000732)
+R0051_DADST088	gentamicin	aminoglycoside	No resistance	0	
+R0051_DADST088	vancomycin	glycopeptide	No resistance	0	
+R0051_DADST088	amikacin	aminoglycoside	No resistance	0	
+R0051_DADST088	trimethoprim	folate pathway antagonist	No resistance	0	
+R0051_DADST088	tiamulin	pleuromutilin	No resistance	0	
+R0051_DADST088	spiramycin	macrolide	No resistance	0	
+R0051_HK2002	# Sample: R0051_HK2002.fasta
+R0051_HK2002	# 
+R0051_HK2002	# The phenotype 'No resistance' should be interpreted with
+R0051_HK2002	# caution, as it only means that nothing in the used
+R0051_HK2002	# database indicate resistance, but resistance could exist
+R0051_HK2002	# from 'unknown' or not yet implemented sources.
+R0051_HK2002	# 
+R0051_HK2002	# The 'Match' column stores one of the integers 0, 1, 2, 3.
+R0051_HK2002	#      0: No match found
+R0051_HK2002	#      1: Match < 100% ID AND match length < ref length
+R0051_HK2002	#      2: Match < 100% ID AND match length = ref length
+R0051_HK2002	#      3: Match = 100% ID AND match length = ref length
+R0051_HK2002	# If several hits causing the same resistance are found,
+R0051_HK2002	# the highest number will be stored in the 'Match' column.
+R0051_HK2002	# Antimicrobial	Class	WGS-predicted phenotype	Match	Genetic background
+R0051_HK2002	tobramycin	aminoglycoside	No resistance	0	
+R0051_HK2002	chloramphenicol	amphenicol	No resistance	0	
+R0051_HK2002	trimethoprim	folate pathway antagonist	No resistance	0	
+R0051_HK2002	mupirocin	pseudomonic acid	No resistance	0	
+R0051_HK2002	telithromycin	macrolide	No resistance	0	
+R0051_HK2002	ciprofloxacin	quinolone	No resistance	0	
+R0051_HK2002	tiamulin	pleuromutilin	No resistance	0	
+R0051_HK2002	clindamycin	lincosamide	No resistance	0	
+R0051_HK2002	cefoxitin	beta-lactam	No resistance	0	
+R0051_HK2002	linezolid	oxazolidinone	No resistance	0	
+R0051_HK2002	fosfomycin	fosfomycin	No resistance	0	
+R0051_HK2002	quinupristin+dalfopristin	streptogramin a	No resistance	0	
+R0051_HK2002	teicoplanin	glycopeptide	No resistance	0	
+R0051_HK2002	sulfamethoxazole	folate pathway antagonist	No resistance	0	
+R0051_HK2002	penicillin	beta-lactam	Resistant	2	blaZ (blaZ_CP003979)
+R0051_HK2002	erythromycin	macrolide	No resistance	0	
+R0051_HK2002	amikacin	aminoglycoside	No resistance	0	
+R0051_HK2002	vancomycin	glycopeptide	No resistance	0	
+R0051_HK2002	fusidic acid	steroid antibacterial	No resistance	0	
+R0051_HK2002	gentamicin	aminoglycoside	No resistance	0	
+R0051_HK2002	spiramycin	macrolide	No resistance	0	
+R0051_HK2002	tetracycline	tetracycline	No resistance	0	
+R0051_TC00219	# Sample: R0051_TC00219.fasta
+R0051_TC00219	# 
+R0051_TC00219	# The phenotype 'No resistance' should be interpreted with
+R0051_TC00219	# caution, as it only means that nothing in the used
+R0051_TC00219	# database indicate resistance, but resistance could exist
+R0051_TC00219	# from 'unknown' or not yet implemented sources.
+R0051_TC00219	# 
+R0051_TC00219	# The 'Match' column stores one of the integers 0, 1, 2, 3.
+R0051_TC00219	#      0: No match found
+R0051_TC00219	#      1: Match < 100% ID AND match length < ref length
+R0051_TC00219	#      2: Match < 100% ID AND match length = ref length
+R0051_TC00219	#      3: Match = 100% ID AND match length = ref length
+R0051_TC00219	# If several hits causing the same resistance are found,
+R0051_TC00219	# the highest number will be stored in the 'Match' column.
+R0051_TC00219	# Antimicrobial	Class	WGS-predicted phenotype	Match	Genetic background
+R0051_TC00219	clindamycin	lincosamide	No resistance	0	
+R0051_TC00219	quinupristin+dalfopristin	streptogramin a	No resistance	0	
+R0051_TC00219	spiramycin	macrolide	No resistance	0	
+R0051_TC00219	mupirocin	pseudomonic acid	No resistance	0	
+R0051_TC00219	vancomycin	glycopeptide	No resistance	0	
+R0051_TC00219	penicillin	beta-lactam	Resistant	3	blaZ (blaZ_AHVO01000010)
+R0051_TC00219	tiamulin	pleuromutilin	No resistance	0	
+R0051_TC00219	sulfamethoxazole	folate pathway antagonist	No resistance	0	
+R0051_TC00219	cefoxitin	beta-lactam	No resistance	0	
+R0051_TC00219	trimethoprim	folate pathway antagonist	No resistance	0	
+R0051_TC00219	amikacin	aminoglycoside	No resistance	0	
+R0051_TC00219	telithromycin	macrolide	No resistance	0	
+R0051_TC00219	erythromycin	macrolide	No resistance	0	
+R0051_TC00219	teicoplanin	glycopeptide	No resistance	0	
+R0051_TC00219	fosfomycin	fosfomycin	No resistance	0	
+R0051_TC00219	fusidic acid	steroid antibacterial	No resistance	0	
+R0051_TC00219	linezolid	oxazolidinone	No resistance	0	
+R0051_TC00219	tobramycin	aminoglycoside	No resistance	0	
+R0051_TC00219	chloramphenicol	amphenicol	No resistance	0	
+R0051_TC00219	ciprofloxacin	quinolone	No resistance	0	
+R0051_TC00219	tetracycline	tetracycline	No resistance	0	
+R0051_TC00219	gentamicin	aminoglycoside	No resistance	0	
+R0051_TC00219	# WARNING: Features with unknown phenotype 
+R0051_TC00219	# Feature_ID	Region	Database	Hit	Class
+R0051_TC00219	grlB;;1;;CP026964.1_422_d_AA	grlB;;1;;CP026964.1			
+R0051_TC00402	# Sample: R0051_TC00402.fasta
+R0051_TC00402	# 
+R0051_TC00402	# The phenotype 'No resistance' should be interpreted with
+R0051_TC00402	# caution, as it only means that nothing in the used
+R0051_TC00402	# database indicate resistance, but resistance could exist
+R0051_TC00402	# from 'unknown' or not yet implemented sources.
+R0051_TC00402	# 
+R0051_TC00402	# The 'Match' column stores one of the integers 0, 1, 2, 3.
+R0051_TC00402	#      0: No match found
+R0051_TC00402	#      1: Match < 100% ID AND match length < ref length
+R0051_TC00402	#      2: Match < 100% ID AND match length = ref length
+R0051_TC00402	#      3: Match = 100% ID AND match length = ref length
+R0051_TC00402	# If several hits causing the same resistance are found,
+R0051_TC00402	# the highest number will be stored in the 'Match' column.
+R0051_TC00402	# Antimicrobial	Class	WGS-predicted phenotype	Match	Genetic background
+R0051_TC00402	clindamycin	lincosamide	Resistant	3	erm(C) (erm(C)_M13761)
+R0051_TC00402	linezolid	oxazolidinone	No resistance	0	
+R0051_TC00402	cefoxitin	beta-lactam	No resistance	0	
+R0051_TC00402	amikacin	aminoglycoside	No resistance	0	
+R0051_TC00402	vancomycin	glycopeptide	No resistance	0	
+R0051_TC00402	spiramycin	macrolide	No resistance	0	
+R0051_TC00402	teicoplanin	glycopeptide	No resistance	0	
+R0051_TC00402	tobramycin	aminoglycoside	No resistance	0	
+R0051_TC00402	ciprofloxacin	quinolone	No resistance	0	
+R0051_TC00402	penicillin	beta-lactam	Resistant	2	blaZ (blaZ_CP003979)
+R0051_TC00402	telithromycin	macrolide	No resistance	0	
+R0051_TC00402	erythromycin	macrolide	Resistant	3	erm(C) (erm(C)_M13761)
+R0051_TC00402	gentamicin	aminoglycoside	No resistance	0	
+R0051_TC00402	tiamulin	pleuromutilin	No resistance	0	
+R0051_TC00402	fusidic acid	steroid antibacterial	No resistance	0	
+R0051_TC00402	mupirocin	pseudomonic acid	No resistance	0	
+R0051_TC00402	trimethoprim	folate pathway antagonist	Resistant	3	dfrG (dfrG_AB205645)
+R0051_TC00402	sulfamethoxazole	folate pathway antagonist	No resistance	0	
+R0051_TC00402	quinupristin+dalfopristin	streptogramin a	No resistance	0	
+R0051_TC00402	chloramphenicol	amphenicol	No resistance	0	
+R0051_TC00402	fosfomycin	fosfomycin	No resistance	0	
+R0051_TC00402	tetracycline	tetracycline	No resistance	0	
+R0051_TC00402	# WARNING: Features with unknown phenotype 
+R0051_TC00402	# Feature_ID	Region	Database	Hit	Class
+R0051_TC00402	grlB;;1;;CP026964.1_422_d_AA	grlB;;1;;CP026964.1			
+R0051_TC00505	# Sample: R0051_TC00505.fasta
+R0051_TC00505	# 
+R0051_TC00505	# The phenotype 'No resistance' should be interpreted with
+R0051_TC00505	# caution, as it only means that nothing in the used
+R0051_TC00505	# database indicate resistance, but resistance could exist
+R0051_TC00505	# from 'unknown' or not yet implemented sources.
+R0051_TC00505	# 
+R0051_TC00505	# The 'Match' column stores one of the integers 0, 1, 2, 3.
+R0051_TC00505	#      0: No match found
+R0051_TC00505	#      1: Match < 100% ID AND match length < ref length
+R0051_TC00505	#      2: Match < 100% ID AND match length = ref length
+R0051_TC00505	#      3: Match = 100% ID AND match length = ref length
+R0051_TC00505	# If several hits causing the same resistance are found,
+R0051_TC00505	# the highest number will be stored in the 'Match' column.
+R0051_TC00505	# Antimicrobial	Class	WGS-predicted phenotype	Match	Genetic background
+R0051_TC00505	chloramphenicol	amphenicol	No resistance	0	
+R0051_TC00505	fusidic acid	steroid antibacterial	No resistance	0	
+R0051_TC00505	tiamulin	pleuromutilin	No resistance	0	
+R0051_TC00505	fosfomycin	fosfomycin	No resistance	0	
+R0051_TC00505	mupirocin	pseudomonic acid	No resistance	0	
+R0051_TC00505	quinupristin+dalfopristin	streptogramin a	No resistance	0	
+R0051_TC00505	penicillin	beta-lactam	No resistance	0	
+R0051_TC00505	trimethoprim	folate pathway antagonist	No resistance	0	
+R0051_TC00505	linezolid	oxazolidinone	No resistance	0	
+R0051_TC00505	ciprofloxacin	quinolone	No resistance	0	
+R0051_TC00505	vancomycin	glycopeptide	No resistance	0	
+R0051_TC00505	telithromycin	macrolide	No resistance	0	
+R0051_TC00505	sulfamethoxazole	folate pathway antagonist	No resistance	0	
+R0051_TC00505	clindamycin	lincosamide	No resistance	0	
+R0051_TC00505	teicoplanin	glycopeptide	No resistance	0	
+R0051_TC00505	amikacin	aminoglycoside	No resistance	0	
+R0051_TC00505	spiramycin	macrolide	No resistance	0	
+R0051_TC00505	gentamicin	aminoglycoside	No resistance	0	
+R0051_TC00505	cefoxitin	beta-lactam	No resistance	0	
+R0051_TC00505	erythromycin	macrolide	No resistance	0	
+R0051_TC00505	tetracycline	tetracycline	Resistant	3	tet(K) (tet(K)_U38656)
+R0051_TC00505	tobramycin	aminoglycoside	No resistance	0	
+R0051_TC00505	# WARNING: Features with unknown phenotype 
+R0051_TC00505	# Feature_ID	Region	Database	Hit	Class
+R0051_TC00505	grlB;;1;;CP026964.1_422_d_AA	grlB;;1;;CP026964.1			

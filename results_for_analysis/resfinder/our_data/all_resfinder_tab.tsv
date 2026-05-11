@@ -1,0 +1,215 @@
+sample	Resistance gene	Identity	Alignment Length/Gene Length	Coverage	Position in reference	Contig	Position in contig	Phenotype	Accession no.
+Q0003_BC00102	blaZ	100.00	846/846	100.0	1..846	NODE_7_length_109823_cov_36.637799	71900..72745	Amoxicillin, Ampicillin, Penicillin, Piperacillin	AHVO01000010
+Q0003_BC00104	blaZ	100.00	846/846	100.0	1..846	NODE_6_length_230373_cov_10.884041	157700..158545	Amoxicillin, Ampicillin, Penicillin, Piperacillin	AHVO01000010
+Q0003_BC00105	blaZ	100.00	846/846	100.0	1..846	NODE_22_length_20530_cov_19.059060	5279..6124	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP000732
+Q0003_BC00105	tet(K)	100.00	1380/1380	100.0	1..1380	NODE_24_length_4566_cov_448.628069	2691..4070	Doxycycline, Tetracycline	U38656
+Q0003_BC00106	blaZ	100.00	846/846	100.0	1..846	NODE_8_length_99872_cov_14.452795	71845..72690	Amoxicillin, Ampicillin, Penicillin, Piperacillin	AHVO01000010
+Q0003_BC00107	blaZ	100.00	846/846	100.0	1..846	NODE_7_length_109823_cov_18.842337	37079..37924	Amoxicillin, Ampicillin, Penicillin, Piperacillin	AHVO01000010
+Q0003_BC00108	str	99.65	849/849	100.0	1..849	NODE_25_length_3920_cov_809.363828	1355..2203	Streptomycin	X92946
+Q0003_BC00108	blaZ	99.88	846/846	100.0	1..846	NODE_12_length_77363_cov_7.379745	69858..70703	Amoxicillin, Ampicillin, Penicillin, Piperacillin	MAJJ01000071
+Q0003_BC00108	blaZ	99.88	846/846	100.0	1..846	NODE_12_length_77363_cov_7.379745	69858..70703	Amoxicillin, Ampicillin, Penicillin, Piperacillin	FKPS01000007
+Q0003_BC00108	blaZ	99.88	846/846	100.0	1..846	NODE_12_length_77363_cov_7.379745	69858..70703	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JVAT01000021
+Q0003_BC00108	blaZ	99.88	846/846	100.0	1..846	NODE_12_length_77363_cov_7.379745	69858..70703	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JUUA01000057
+Q0003_BC00108	blaZ	99.88	846/846	100.0	1..846	NODE_12_length_77363_cov_7.379745	69858..70703	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JVLY01000044
+Q0003_BC00108	blaZ	99.88	846/846	100.0	1..846	NODE_12_length_77363_cov_7.379745	69858..70703	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JVRB01000003
+Q0003_BC00108	blaZ	99.88	846/846	100.0	1..846	NODE_12_length_77363_cov_7.379745	69858..70703	Amoxicillin, Ampicillin, Penicillin, Piperacillin	JIFD01000012
+Q0003_BC00108	blaZ	99.88	846/846	100.0	1..846	NODE_12_length_77363_cov_7.379745	69858..70703	Amoxicillin, Ampicillin, Penicillin, Piperacillin	JIFU01000008
+Q0003_BC00110	str	99.65	849/849	100.0	1..849	NODE_27_length_3990_cov_1518.827595	1718..2566	Streptomycin	X92946
+Q0003_BC00110	blaZ	99.88	846/846	100.0	1..846	NODE_10_length_108346_cov_21.359918	69858..70703	Amoxicillin, Ampicillin, Penicillin, Piperacillin	MAJJ01000071
+Q0003_BC00110	blaZ	99.88	846/846	100.0	1..846	NODE_10_length_108346_cov_21.359918	69858..70703	Amoxicillin, Ampicillin, Penicillin, Piperacillin	FKPS01000007
+Q0003_BC00110	blaZ	99.88	846/846	100.0	1..846	NODE_10_length_108346_cov_21.359918	69858..70703	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JVAT01000021
+Q0003_BC00110	blaZ	99.88	846/846	100.0	1..846	NODE_10_length_108346_cov_21.359918	69858..70703	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JUUA01000057
+Q0003_BC00110	blaZ	99.88	846/846	100.0	1..846	NODE_10_length_108346_cov_21.359918	69858..70703	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JVLY01000044
+Q0003_BC00110	blaZ	99.88	846/846	100.0	1..846	NODE_10_length_108346_cov_21.359918	69858..70703	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JVRB01000003
+Q0003_BC00110	blaZ	99.88	846/846	100.0	1..846	NODE_10_length_108346_cov_21.359918	69858..70703	Amoxicillin, Ampicillin, Penicillin, Piperacillin	JIFD01000012
+Q0003_BC00110	blaZ	99.88	846/846	100.0	1..846	NODE_10_length_108346_cov_21.359918	69858..70703	Amoxicillin, Ampicillin, Penicillin, Piperacillin	JIFU01000008
+Q0003_BC00111	blaZ	99.89	888/888	100.0	1..888	NODE_4_length_191834_cov_20.271216	61881..62768	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP003979
+Q0003_BC00117	blaZ	100.00	846/846	100.0	1..846	NODE_19_length_20530_cov_119.409057	11184..12029	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP000732
+Q0003_BC00117	tet(K)	100.00	1380/1380	100.0	1..1380	NODE_21_length_4566_cov_6749.945033	2327..3706	Doxycycline, Tetracycline	U38656
+Q0003_BC00118	blaZ	100.00	846/846	100.0	1..846	NODE_32_length_20530_cov_13.891781	1524..2369	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP000732
+Q0003_BC00118	tet(K)	100.00	1380/1380	100.0	1..1380	NODE_42_length_4566_cov_377.889615	1186..2565	Doxycycline, Tetracycline	U38656
+Q0003_BC00201	str	100.00	849/849	100.0	1..849	NODE_20_length_4524_cov_987.755288	2791..3639	Streptomycin	FN435330
+Q0003_BC00201	blaZ	100.00	846/846	100.0	1..846	NODE_5_length_156552_cov_20.008694	83749..84594	Amoxicillin, Ampicillin, Penicillin, Piperacillin	AHVO01000010
+Q0003_BC00201	tet(K)	99.89	888/888	99.88738738738738	1..888	NODE_18_length_4902_cov_2227.063665	3823..4709	Doxycycline, Tetracycline	J01764
+Q0003_BC00211	str	100.00	849/849	100.0	1..849	NODE_25_length_4524_cov_292.561747	486..1334	Streptomycin	FN435330
+Q0003_BC00211	blaZ	99.88	846/846	100.0	1..846	NODE_7_length_138166_cov_7.528923	69938..70783	Amoxicillin, Ampicillin, Penicillin, Piperacillin	MAJJ01000071
+Q0003_BC00211	blaZ	99.88	846/846	100.0	1..846	NODE_7_length_138166_cov_7.528923	69938..70783	Amoxicillin, Ampicillin, Penicillin, Piperacillin	FKPS01000007
+Q0003_BC00211	blaZ	99.88	846/846	100.0	1..846	NODE_7_length_138166_cov_7.528923	69938..70783	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JVAT01000021
+Q0003_BC00211	blaZ	99.88	846/846	100.0	1..846	NODE_7_length_138166_cov_7.528923	69938..70783	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JUUA01000057
+Q0003_BC00211	blaZ	99.88	846/846	100.0	1..846	NODE_7_length_138166_cov_7.528923	69938..70783	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JVLY01000044
+Q0003_BC00211	blaZ	99.88	846/846	100.0	1..846	NODE_7_length_138166_cov_7.528923	69938..70783	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JVRB01000003
+Q0003_BC00211	blaZ	99.88	846/846	100.0	1..846	NODE_7_length_138166_cov_7.528923	69938..70783	Amoxicillin, Ampicillin, Penicillin, Piperacillin	JIFD01000012
+Q0003_BC00211	blaZ	99.88	846/846	100.0	1..846	NODE_7_length_138166_cov_7.528923	69938..70783	Amoxicillin, Ampicillin, Penicillin, Piperacillin	JIFU01000008
+Q0003_BC00303	erm(C)	100.00	735/735	100.0	1..735	NODE_23_length_2600_cov_1391.220784	396..1130	Erythromycin, Lincomycin, Clindamycin, Quinupristin, Pristinamycin IA, Virginiamycin S	M13761
+Q0003_BC00303	tet(K)	99.89	888/888	99.88738738738738	1..888	NODE_21_length_4501_cov_1227.056013	3433..4319	Doxycycline, Tetracycline	J01764
+Q0003_BC00303	dfrG	100.00	498/498	100.0	1..498	NODE_2_length_489342_cov_15.613272	175268..175765	Trimethoprim	AB205645
+Q0003_BC00304	str	100.00	849/849	100.0	1..849	NODE_14_length_4524_cov_684.118035	2223..3071	Streptomycin	FN435330
+Q0003_BC00304	blaZ	99.88	846/846	100.0	1..846	NODE_6_length_154716_cov_10.049570	83928..84773	Amoxicillin, Ampicillin, Penicillin, Piperacillin	MAJJ01000071
+Q0003_BC00304	blaZ	99.88	846/846	100.0	1..846	NODE_6_length_154716_cov_10.049570	83928..84773	Amoxicillin, Ampicillin, Penicillin, Piperacillin	FKPS01000007
+Q0003_BC00304	blaZ	99.88	846/846	100.0	1..846	NODE_6_length_154716_cov_10.049570	83928..84773	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JVAT01000021
+Q0003_BC00304	blaZ	99.88	846/846	100.0	1..846	NODE_6_length_154716_cov_10.049570	83928..84773	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JUUA01000057
+Q0003_BC00304	blaZ	99.88	846/846	100.0	1..846	NODE_6_length_154716_cov_10.049570	83928..84773	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JVLY01000044
+Q0003_BC00304	blaZ	99.88	846/846	100.0	1..846	NODE_6_length_154716_cov_10.049570	83928..84773	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JVRB01000003
+Q0003_BC00304	blaZ	99.88	846/846	100.0	1..846	NODE_6_length_154716_cov_10.049570	83928..84773	Amoxicillin, Ampicillin, Penicillin, Piperacillin	JIFD01000012
+Q0003_BC00304	blaZ	99.88	846/846	100.0	1..846	NODE_6_length_154716_cov_10.049570	83928..84773	Amoxicillin, Ampicillin, Penicillin, Piperacillin	JIFU01000008
+Q0003_BC00310	blaZ	100.00	846/846	100.0	1..846	NODE_20_length_33452_cov_1.434509	4526..5371	Amoxicillin, Ampicillin, Penicillin, Piperacillin	AHVO01000010
+Q0003_BC00406	blaZ	99.89	888/888	100.0	1..888	NODE_31_length_8462_cov_6.900780	2304..3191	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP003979
+Q0003_BC00406	tet(K)	100.00	1380/1380	100.0	1..1380	NODE_35_length_4587_cov_2998.497534	1616..2995	Doxycycline, Tetracycline	U38656
+Q0003_BC00416	blaZ	99.89	888/888	100.0	1..888	NODE_3_length_287841_cov_21.302477	284346..285233	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP003979
+Q0003_BC00416	tet(K)	100.00	1380/1380	100.0	1..1380	NODE_22_length_4587_cov_114.164126	1519..2898	Doxycycline, Tetracycline	U38656
+Q0003_BH404	tet(K)	100.00	1350/1380	97.82608695652173	31..1380	NODE_36_length_2172_cov_0.703178	823..2172	Doxycycline, Tetracycline	U38656
+Q0003_HB00604	blaZ	99.81	519/846	61.347517730496456	328..846	NODE_19_length_20857_cov_87.711288	20339..20857	Amoxicillin, Ampicillin, Penicillin, Piperacillin	AB811795
+Q0003_HB00604	blaZ	99.81	519/846	61.347517730496456	328..846	NODE_19_length_20857_cov_87.711288	20339..20857	Amoxicillin, Ampicillin, Penicillin, Piperacillin	FMOK01000003
+Q0003_HB00604	blaZ	99.81	519/846	61.347517730496456	328..846	NODE_19_length_20857_cov_87.711288	20339..20857	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP010941
+Q0003_HB00604	blaZ	99.81	519/846	61.347517730496456	328..846	NODE_19_length_20857_cov_87.711288	20339..20857	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_CAVU010000015
+Q0003_HB00604	blaZ	99.81	519/846	61.347517730496456	328..846	NODE_19_length_20857_cov_87.711288	20339..20857	Amoxicillin, Ampicillin, Penicillin, Piperacillin	AP004832
+Q0003_HB00604	erm(C)	100.00	735/735	100.0	1..735	NODE_25_length_2600_cov_7774.672463	1738..2472	Erythromycin, Lincomycin, Clindamycin, Quinupristin, Pristinamycin IA, Virginiamycin S	M13761
+Q0003_HB00604	dfrG	100.00	498/498	100.0	1..498	NODE_1_length_489413_cov_15.108166	175168..175665	Trimethoprim	AB205645
+Q0003_MC00105	blaZ	99.88	846/846	100.0	1..846	NODE_24_length_20857_cov_12.417414	13281..14126	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP010941
+Q0003_MC00105	tet(K)	100.00	1380/1380	100.0	1..1380	NODE_33_length_4501_cov_77.803841	93..1472	Doxycycline, Tetracycline	U38656
+Q0003_MC00105	dfrG	100.00	498/498	100.0	1..498	NODE_15_length_54087_cov_4.811601	30071..30568	Trimethoprim	AB205645
+Q0003_MC00111	erm(C)	100.00	735/735	100.0	1..735	NODE_18_length_2600_cov_5.136272	481..1215	Erythromycin, Lincomycin, Clindamycin, Quinupristin, Pristinamycin IA, Virginiamycin S	M13761
+Q0003_MC00201	blaZ	99.88	846/846	100.0	1..846	NODE_8_length_77323_cov_15.818903	6581..7426	Amoxicillin, Ampicillin, Penicillin, Piperacillin	MAJJ01000071
+Q0003_MC00201	blaZ	99.88	846/846	100.0	1..846	NODE_8_length_77323_cov_15.818903	6581..7426	Amoxicillin, Ampicillin, Penicillin, Piperacillin	FKPS01000007
+Q0003_MC00201	blaZ	99.88	846/846	100.0	1..846	NODE_8_length_77323_cov_15.818903	6581..7426	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JVAT01000021
+Q0003_MC00201	blaZ	99.88	846/846	100.0	1..846	NODE_8_length_77323_cov_15.818903	6581..7426	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JUUA01000057
+Q0003_MC00201	blaZ	99.88	846/846	100.0	1..846	NODE_8_length_77323_cov_15.818903	6581..7426	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JVLY01000044
+Q0003_MC00201	blaZ	99.88	846/846	100.0	1..846	NODE_8_length_77323_cov_15.818903	6581..7426	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JVRB01000003
+Q0003_MC00201	blaZ	99.88	846/846	100.0	1..846	NODE_8_length_77323_cov_15.818903	6581..7426	Amoxicillin, Ampicillin, Penicillin, Piperacillin	JIFD01000012
+Q0003_MC00201	blaZ	99.88	846/846	100.0	1..846	NODE_8_length_77323_cov_15.818903	6581..7426	Amoxicillin, Ampicillin, Penicillin, Piperacillin	JIFU01000008
+Q0003_MC00201	tet(K)	100.00	1380/1380	100.0	1..1380	NODE_20_length_4590_cov_65.132422	1584..2963	Doxycycline, Tetracycline	U38656
+Q0003_MC00203	blaZ	99.88	846/846	100.0	1..846	NODE_15_length_77393_cov_6.601442	69880..70725	Amoxicillin, Ampicillin, Penicillin, Piperacillin	MAJJ01000071
+Q0003_MC00203	blaZ	99.88	846/846	100.0	1..846	NODE_15_length_77393_cov_6.601442	69880..70725	Amoxicillin, Ampicillin, Penicillin, Piperacillin	FKPS01000007
+Q0003_MC00203	blaZ	99.88	846/846	100.0	1..846	NODE_15_length_77393_cov_6.601442	69880..70725	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JVAT01000021
+Q0003_MC00203	blaZ	99.88	846/846	100.0	1..846	NODE_15_length_77393_cov_6.601442	69880..70725	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JUUA01000057
+Q0003_MC00203	blaZ	99.88	846/846	100.0	1..846	NODE_15_length_77393_cov_6.601442	69880..70725	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JVLY01000044
+Q0003_MC00203	blaZ	99.88	846/846	100.0	1..846	NODE_15_length_77393_cov_6.601442	69880..70725	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JVRB01000003
+Q0003_MC00203	blaZ	99.88	846/846	100.0	1..846	NODE_15_length_77393_cov_6.601442	69880..70725	Amoxicillin, Ampicillin, Penicillin, Piperacillin	JIFD01000012
+Q0003_MC00203	blaZ	99.88	846/846	100.0	1..846	NODE_15_length_77393_cov_6.601442	69880..70725	Amoxicillin, Ampicillin, Penicillin, Piperacillin	JIFU01000008
+Q0003_MC00205	str	100.00	849/849	100.0	1..849	NODE_19_length_4524_cov_85.657721	2437..3285	Streptomycin	FN435330
+Q0003_MC00205	blaZ	99.88	846/846	100.0	1..846	NODE_7_length_77369_cov_8.731726	6581..7426	Amoxicillin, Ampicillin, Penicillin, Piperacillin	MAJJ01000071
+Q0003_MC00205	blaZ	99.88	846/846	100.0	1..846	NODE_7_length_77369_cov_8.731726	6581..7426	Amoxicillin, Ampicillin, Penicillin, Piperacillin	FKPS01000007
+Q0003_MC00205	blaZ	99.88	846/846	100.0	1..846	NODE_7_length_77369_cov_8.731726	6581..7426	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JVAT01000021
+Q0003_MC00205	blaZ	99.88	846/846	100.0	1..846	NODE_7_length_77369_cov_8.731726	6581..7426	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JUUA01000057
+Q0003_MC00205	blaZ	99.88	846/846	100.0	1..846	NODE_7_length_77369_cov_8.731726	6581..7426	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JVLY01000044
+Q0003_MC00205	blaZ	99.88	846/846	100.0	1..846	NODE_7_length_77369_cov_8.731726	6581..7426	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JVRB01000003
+Q0003_MC00205	blaZ	99.88	846/846	100.0	1..846	NODE_7_length_77369_cov_8.731726	6581..7426	Amoxicillin, Ampicillin, Penicillin, Piperacillin	JIFD01000012
+Q0003_MC00205	blaZ	99.88	846/846	100.0	1..846	NODE_7_length_77369_cov_8.731726	6581..7426	Amoxicillin, Ampicillin, Penicillin, Piperacillin	JIFU01000008
+Q0003_MC00210	str	100.00	849/849	100.0	1..849	NODE_23_length_4524_cov_1372.912895	2826..3674	Streptomycin	FN435330
+Q0003_MC00210	blaZ	99.88	846/846	100.0	1..846	NODE_11_length_77457_cov_10.304164	6669..7514	Amoxicillin, Ampicillin, Penicillin, Piperacillin	MAJJ01000071
+Q0003_MC00210	blaZ	99.88	846/846	100.0	1..846	NODE_11_length_77457_cov_10.304164	6669..7514	Amoxicillin, Ampicillin, Penicillin, Piperacillin	FKPS01000007
+Q0003_MC00210	blaZ	99.88	846/846	100.0	1..846	NODE_11_length_77457_cov_10.304164	6669..7514	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JVAT01000021
+Q0003_MC00210	blaZ	99.88	846/846	100.0	1..846	NODE_11_length_77457_cov_10.304164	6669..7514	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JUUA01000057
+Q0003_MC00210	blaZ	99.88	846/846	100.0	1..846	NODE_11_length_77457_cov_10.304164	6669..7514	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JVLY01000044
+Q0003_MC00210	blaZ	99.88	846/846	100.0	1..846	NODE_11_length_77457_cov_10.304164	6669..7514	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JVRB01000003
+Q0003_MC00210	blaZ	99.88	846/846	100.0	1..846	NODE_11_length_77457_cov_10.304164	6669..7514	Amoxicillin, Ampicillin, Penicillin, Piperacillin	JIFD01000012
+Q0003_MC00210	blaZ	99.88	846/846	100.0	1..846	NODE_11_length_77457_cov_10.304164	6669..7514	Amoxicillin, Ampicillin, Penicillin, Piperacillin	JIFU01000008
+Q0003_MC00211	blaZ	99.88	846/846	100.0	1..846	NODE_10_length_77402_cov_12.302038	6660..7505	Amoxicillin, Ampicillin, Penicillin, Piperacillin	MAJJ01000071
+Q0003_MC00211	blaZ	99.88	846/846	100.0	1..846	NODE_10_length_77402_cov_12.302038	6660..7505	Amoxicillin, Ampicillin, Penicillin, Piperacillin	FKPS01000007
+Q0003_MC00211	blaZ	99.88	846/846	100.0	1..846	NODE_10_length_77402_cov_12.302038	6660..7505	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JVAT01000021
+Q0003_MC00211	blaZ	99.88	846/846	100.0	1..846	NODE_10_length_77402_cov_12.302038	6660..7505	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JUUA01000057
+Q0003_MC00211	blaZ	99.88	846/846	100.0	1..846	NODE_10_length_77402_cov_12.302038	6660..7505	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JVLY01000044
+Q0003_MC00211	blaZ	99.88	846/846	100.0	1..846	NODE_10_length_77402_cov_12.302038	6660..7505	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JVRB01000003
+Q0003_MC00211	blaZ	99.88	846/846	100.0	1..846	NODE_10_length_77402_cov_12.302038	6660..7505	Amoxicillin, Ampicillin, Penicillin, Piperacillin	JIFD01000012
+Q0003_MC00211	blaZ	99.88	846/846	100.0	1..846	NODE_10_length_77402_cov_12.302038	6660..7505	Amoxicillin, Ampicillin, Penicillin, Piperacillin	JIFU01000008
+Q0003_MC00214	str	100.00	849/849	100.0	1..849	NODE_23_length_4524_cov_31.321128	1422..2270	Streptomycin	FN435330
+Q0003_MC00214	blaZ	99.88	846/846	100.0	1..846	NODE_10_length_108069_cov_21.620231	69898..70743	Amoxicillin, Ampicillin, Penicillin, Piperacillin	MAJJ01000071
+Q0003_MC00214	blaZ	99.88	846/846	100.0	1..846	NODE_10_length_108069_cov_21.620231	69898..70743	Amoxicillin, Ampicillin, Penicillin, Piperacillin	FKPS01000007
+Q0003_MC00214	blaZ	99.88	846/846	100.0	1..846	NODE_10_length_108069_cov_21.620231	69898..70743	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JVAT01000021
+Q0003_MC00214	blaZ	99.88	846/846	100.0	1..846	NODE_10_length_108069_cov_21.620231	69898..70743	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JUUA01000057
+Q0003_MC00214	blaZ	99.88	846/846	100.0	1..846	NODE_10_length_108069_cov_21.620231	69898..70743	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JVLY01000044
+Q0003_MC00214	blaZ	99.88	846/846	100.0	1..846	NODE_10_length_108069_cov_21.620231	69898..70743	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JVRB01000003
+Q0003_MC00214	blaZ	99.88	846/846	100.0	1..846	NODE_10_length_108069_cov_21.620231	69898..70743	Amoxicillin, Ampicillin, Penicillin, Piperacillin	JIFD01000012
+Q0003_MC00214	blaZ	99.88	846/846	100.0	1..846	NODE_10_length_108069_cov_21.620231	69898..70743	Amoxicillin, Ampicillin, Penicillin, Piperacillin	JIFU01000008
+Q0003_MC00215	str	100.00	849/849	100.0	1..849	NODE_19_length_4524_cov_2975.045486	1824..2672	Streptomycin	FN435330
+Q0003_MC00215	blaZ	99.88	846/846	100.0	1..846	NODE_9_length_77322_cov_31.881508	69897..70742	Amoxicillin, Ampicillin, Penicillin, Piperacillin	MAJJ01000071
+Q0003_MC00215	blaZ	99.88	846/846	100.0	1..846	NODE_9_length_77322_cov_31.881508	69897..70742	Amoxicillin, Ampicillin, Penicillin, Piperacillin	FKPS01000007
+Q0003_MC00215	blaZ	99.88	846/846	100.0	1..846	NODE_9_length_77322_cov_31.881508	69897..70742	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JVAT01000021
+Q0003_MC00215	blaZ	99.88	846/846	100.0	1..846	NODE_9_length_77322_cov_31.881508	69897..70742	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JUUA01000057
+Q0003_MC00215	blaZ	99.88	846/846	100.0	1..846	NODE_9_length_77322_cov_31.881508	69897..70742	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JVLY01000044
+Q0003_MC00215	blaZ	99.88	846/846	100.0	1..846	NODE_9_length_77322_cov_31.881508	69897..70742	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JVRB01000003
+Q0003_MC00215	blaZ	99.88	846/846	100.0	1..846	NODE_9_length_77322_cov_31.881508	69897..70742	Amoxicillin, Ampicillin, Penicillin, Piperacillin	JIFD01000012
+Q0003_MC00215	blaZ	99.88	846/846	100.0	1..846	NODE_9_length_77322_cov_31.881508	69897..70742	Amoxicillin, Ampicillin, Penicillin, Piperacillin	JIFU01000008
+Q0003_MC00216	blaZ	99.88	846/846	100.0	1..846	NODE_6_length_137783_cov_13.516483	66994..67839	Amoxicillin, Ampicillin, Penicillin, Piperacillin	MAJJ01000071
+Q0003_MC00216	blaZ	99.88	846/846	100.0	1..846	NODE_6_length_137783_cov_13.516483	66994..67839	Amoxicillin, Ampicillin, Penicillin, Piperacillin	FKPS01000007
+Q0003_MC00216	blaZ	99.88	846/846	100.0	1..846	NODE_6_length_137783_cov_13.516483	66994..67839	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JVAT01000021
+Q0003_MC00216	blaZ	99.88	846/846	100.0	1..846	NODE_6_length_137783_cov_13.516483	66994..67839	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JUUA01000057
+Q0003_MC00216	blaZ	99.88	846/846	100.0	1..846	NODE_6_length_137783_cov_13.516483	66994..67839	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JVLY01000044
+Q0003_MC00216	blaZ	99.88	846/846	100.0	1..846	NODE_6_length_137783_cov_13.516483	66994..67839	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JVRB01000003
+Q0003_MC00216	blaZ	99.88	846/846	100.0	1..846	NODE_6_length_137783_cov_13.516483	66994..67839	Amoxicillin, Ampicillin, Penicillin, Piperacillin	JIFD01000012
+Q0003_MC00216	blaZ	99.88	846/846	100.0	1..846	NODE_6_length_137783_cov_13.516483	66994..67839	Amoxicillin, Ampicillin, Penicillin, Piperacillin	JIFU01000008
+Q0003_MC0026	str	100.00	849/849	100.0	1..849	NODE_26_length_4524_cov_160.656811	1540..2388	Streptomycin	FN435330
+Q0003_MC0026	blaZ	99.88	846/846	100.0	1..846	NODE_11_length_77411_cov_10.250712	69898..70743	Amoxicillin, Ampicillin, Penicillin, Piperacillin	MAJJ01000071
+Q0003_MC0026	blaZ	99.88	846/846	100.0	1..846	NODE_11_length_77411_cov_10.250712	69898..70743	Amoxicillin, Ampicillin, Penicillin, Piperacillin	FKPS01000007
+Q0003_MC0026	blaZ	99.88	846/846	100.0	1..846	NODE_11_length_77411_cov_10.250712	69898..70743	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JVAT01000021
+Q0003_MC0026	blaZ	99.88	846/846	100.0	1..846	NODE_11_length_77411_cov_10.250712	69898..70743	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JUUA01000057
+Q0003_MC0026	blaZ	99.88	846/846	100.0	1..846	NODE_11_length_77411_cov_10.250712	69898..70743	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JVLY01000044
+Q0003_MC0026	blaZ	99.88	846/846	100.0	1..846	NODE_11_length_77411_cov_10.250712	69898..70743	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JVRB01000003
+Q0003_MC0026	blaZ	99.88	846/846	100.0	1..846	NODE_11_length_77411_cov_10.250712	69898..70743	Amoxicillin, Ampicillin, Penicillin, Piperacillin	JIFD01000012
+Q0003_MC0026	blaZ	99.88	846/846	100.0	1..846	NODE_11_length_77411_cov_10.250712	69898..70743	Amoxicillin, Ampicillin, Penicillin, Piperacillin	JIFU01000008
+Q0003_TC00102	blaZ	99.89	888/888	100.0	1..888	NODE_17_length_31914_cov_9.383270	26533..27420	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP003979
+Q0003_TC00512	blaZ	100.00	846/846	100.0	1..846	NODE_7_length_109823_cov_20.171766	37079..37924	Amoxicillin, Ampicillin, Penicillin, Piperacillin	AHVO01000010
+Q0003_TC00516	blaZ	99.88	846/846	100.0	1..846	NODE_18_length_20857_cov_93.424843	15546..16391	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP010941
+Q0003_TC00516	erm(C)	100.00	735/735	100.0	1..735	NODE_25_length_2600_cov_2813.209462	396..1130	Erythromycin, Lincomycin, Clindamycin, Quinupristin, Pristinamycin IA, Virginiamycin S	M13761
+Q0003_TC00516	dfrG	100.00	498/498	100.0	1..498	NODE_1_length_489359_cov_15.977313	313217..313714	Trimethoprim	AB205645
+Q0003_TC00522	blaZ	99.88	846/846	100.0	1..846	NODE_20_length_20857_cov_183.306995	11071..11916	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP010941
+Q0003_TC00522	erm(C)	100.00	735/735	100.0	1..735	NODE_27_length_2600_cov_4155.382936	660..1394	Erythromycin, Lincomycin, Clindamycin, Quinupristin, Pristinamycin IA, Virginiamycin S	M13761
+Q0003_TC00522	dfrG	100.00	498/498	100.0	1..498	NODE_1_length_467504_cov_23.587526	174937..175434	Trimethoprim	AB205645
+Q0003_TC00523	blaZ	99.88	846/846	100.0	1..846	NODE_20_length_20857_cov_135.079691	15518..16363	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP010941
+Q0003_TC00523	erm(C)	100.00	735/735	100.0	1..735	NODE_27_length_2600_cov_9244.114032	930..1664	Erythromycin, Lincomycin, Clindamycin, Quinupristin, Pristinamycin IA, Virginiamycin S	M13761
+Q0003_TC00523	dfrG	100.00	498/498	100.0	1..498	NODE_1_length_489619_cov_27.980386	175546..176043	Trimethoprim	AB205645
+R0047_DABST013	blaZ	99.89	888/888	100.0	1..888	NODE_8_length_90443_cov_7.394603	43075..43962	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP003979
+R0047_DABST013	erm(C)	100.00	735/735	100.0	1..735	NODE_56_length_2600_cov_743.833401	156..890	Erythromycin, Lincomycin, Clindamycin, Quinupristin, Pristinamycin IA, Virginiamycin S	M13761
+R0047_DABST013	tet(K)	99.86	715/888	80.51801801801803	1..715	NODE_71_length_1009_cov_1.585034	295..1009	Doxycycline, Tetracycline	J01764
+R0047_DABST013	dfrG	100.00	498/498	100.0	1..498	NODE_11_length_68765_cov_6.919942	42813..43310	Trimethoprim	AB205645
+R0047_DADST035	blaZ	100.00	888/888	100.0	1..888	NODE_8_length_179642_cov_7.744317	70143..71030	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP003979
+R0047_DADST035	dfrG	100.00	498/498	100.0	1..498	NODE_15_length_51298_cov_8.204120	49841..50338	Trimethoprim	AB205645
+R0047_MH0081	aac(6')-aph(2'')	100.00	1440/1440	100.0	1..1440	NODE_71_length_1918_cov_5.243032	80..1519	Gentamicin, Tobramycin, Netilmicin, Kanamycin, Amikacin, Dibekacin, Isepamicin, Fortimicin, Streptomycin	M13771
+R0047_MH0081	blaZ	100.00	846/846	100.0	1..846	NODE_49_length_8728_cov_5.015580	1228..2073	Amoxicillin, Ampicillin, Penicillin, Piperacillin	AHVO01000010
+R0047_MH0081	mecA	100.00	2007/2007	100.0	1..2007	NODE_53_length_5295_cov_7.822368	2765..4771	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Cefepime, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Ertapenem, Imipenem, Meropenem, Piperacillin, Piperacillin+Tazobactam	NC_007168
+R0047_MH0081	erm(C)	100.00	735/735	100.0	1..735	NODE_65_length_2600_cov_340.134654	718..1452	Erythromycin, Lincomycin, Clindamycin, Quinupristin, Pristinamycin IA, Virginiamycin S	M13761
+R0047_MH0081	tet(K)	99.57	1380/1380	100.0	1..1380	NODE_57_length_4707_cov_6.418996	267..1646	Doxycycline, Tetracycline	U38656
+R0047_MH0081	dfrG	100.00	498/498	100.0	1..498	NODE_13_length_76872_cov_6.477595	15672..16169	Trimethoprim	AB205645
+R0047_TC0201	str	100.00	849/849	100.0	1..849	NODE_59_length_4388_cov_133.696550	1105..1953	Streptomycin	FN435330
+R0047_TC0201	blaZ	100.00	846/846	100.0	1..846	NODE_22_length_38511_cov_5.339647	36921..37766	Amoxicillin, Ampicillin, Penicillin, Piperacillin	AHVO01000010
+R0047_TH0405	blaZ	100.00	846/846	100.0	1..846	NODE_42_length_20857_cov_17.322238	5400..6245	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP010941
+R0047_TH0405	tet(K)	100.00	1380/1380	100.0	1..1380	NODE_64_length_4566_cov_60.203875	599..1978	Doxycycline, Tetracycline	U38656
+R0051_BC00101	str	99.65	849/849	100.0	1..849	NODE_29_length_3990_cov_3232.713694	1425..2273	Streptomycin	X92946
+R0051_BC00101	blaZ	99.88	846/846	100.0	1..846	NODE_6_length_129116_cov_9.884820	69905..70750	Amoxicillin, Ampicillin, Penicillin, Piperacillin	MAJJ01000071
+R0051_BC00101	blaZ	99.88	846/846	100.0	1..846	NODE_6_length_129116_cov_9.884820	69905..70750	Amoxicillin, Ampicillin, Penicillin, Piperacillin	FKPS01000007
+R0051_BC00101	blaZ	99.88	846/846	100.0	1..846	NODE_6_length_129116_cov_9.884820	69905..70750	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JVAT01000021
+R0051_BC00101	blaZ	99.88	846/846	100.0	1..846	NODE_6_length_129116_cov_9.884820	69905..70750	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JUUA01000057
+R0051_BC00101	blaZ	99.88	846/846	100.0	1..846	NODE_6_length_129116_cov_9.884820	69905..70750	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JVLY01000044
+R0051_BC00101	blaZ	99.88	846/846	100.0	1..846	NODE_6_length_129116_cov_9.884820	69905..70750	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JVRB01000003
+R0051_BC00101	blaZ	99.88	846/846	100.0	1..846	NODE_6_length_129116_cov_9.884820	69905..70750	Amoxicillin, Ampicillin, Penicillin, Piperacillin	JIFD01000012
+R0051_BC00101	blaZ	99.88	846/846	100.0	1..846	NODE_6_length_129116_cov_9.884820	69905..70750	Amoxicillin, Ampicillin, Penicillin, Piperacillin	JIFU01000008
+R0051_BC00115	blaZ	99.88	846/846	100.0	1..846	NODE_10_length_77410_cov_8.060738	6661..7506	Amoxicillin, Ampicillin, Penicillin, Piperacillin	MAJJ01000071
+R0051_BC00115	blaZ	99.88	846/846	100.0	1..846	NODE_10_length_77410_cov_8.060738	6661..7506	Amoxicillin, Ampicillin, Penicillin, Piperacillin	FKPS01000007
+R0051_BC00115	blaZ	99.88	846/846	100.0	1..846	NODE_10_length_77410_cov_8.060738	6661..7506	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JVAT01000021
+R0051_BC00115	blaZ	99.88	846/846	100.0	1..846	NODE_10_length_77410_cov_8.060738	6661..7506	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JUUA01000057
+R0051_BC00115	blaZ	99.88	846/846	100.0	1..846	NODE_10_length_77410_cov_8.060738	6661..7506	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JVLY01000044
+R0051_BC00115	blaZ	99.88	846/846	100.0	1..846	NODE_10_length_77410_cov_8.060738	6661..7506	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JVRB01000003
+R0051_BC00115	blaZ	99.88	846/846	100.0	1..846	NODE_10_length_77410_cov_8.060738	6661..7506	Amoxicillin, Ampicillin, Penicillin, Piperacillin	JIFD01000012
+R0051_BC00115	blaZ	99.88	846/846	100.0	1..846	NODE_10_length_77410_cov_8.060738	6661..7506	Amoxicillin, Ampicillin, Penicillin, Piperacillin	JIFU01000008
+R0051_BC00306	blaZ	99.88	846/846	100.0	1..846	NODE_37_length_20857_cov_25.701495	11951..12796	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP010941
+R0051_BC00306	erm(C)	100.00	735/735	100.0	1..735	NODE_68_length_2600_cov_147.364739	1062..1796	Erythromycin, Lincomycin, Clindamycin, Quinupristin, Pristinamycin IA, Virginiamycin S	M13761
+R0051_BC00306	tet(K)	100.00	1380/1380	100.0	1..1380	NODE_60_length_4501_cov_201.017375	1050..2429	Doxycycline, Tetracycline	U38656
+R0051_BC00306	dfrG	100.00	498/498	100.0	1..498	NODE_2_length_194627_cov_6.851748	164448..164945	Trimethoprim	AB205645
+R0051_BH00403	blaZ	99.88	846/846	100.0	1..846	NODE_10_length_77323_cov_32.157171	69898..70743	Amoxicillin, Ampicillin, Penicillin, Piperacillin	MAJJ01000071
+R0051_BH00403	blaZ	99.88	846/846	100.0	1..846	NODE_10_length_77323_cov_32.157171	69898..70743	Amoxicillin, Ampicillin, Penicillin, Piperacillin	FKPS01000007
+R0051_BH00403	blaZ	99.88	846/846	100.0	1..846	NODE_10_length_77323_cov_32.157171	69898..70743	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JVAT01000021
+R0051_BH00403	blaZ	99.88	846/846	100.0	1..846	NODE_10_length_77323_cov_32.157171	69898..70743	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JUUA01000057
+R0051_BH00403	blaZ	99.88	846/846	100.0	1..846	NODE_10_length_77323_cov_32.157171	69898..70743	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JVLY01000044
+R0051_BH00403	blaZ	99.88	846/846	100.0	1..846	NODE_10_length_77323_cov_32.157171	69898..70743	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JVRB01000003
+R0051_BH00403	blaZ	99.88	846/846	100.0	1..846	NODE_10_length_77323_cov_32.157171	69898..70743	Amoxicillin, Ampicillin, Penicillin, Piperacillin	JIFD01000012
+R0051_BH00403	blaZ	99.88	846/846	100.0	1..846	NODE_10_length_77323_cov_32.157171	69898..70743	Amoxicillin, Ampicillin, Penicillin, Piperacillin	JIFU01000008
+R0051_BH00403	tet(K)	100.00	1380/1380	100.0	1..1380	NODE_21_length_4590_cov_302.170513	1583..2962	Doxycycline, Tetracycline	U38656
+R0051_DADST084	blaZ	100.00	846/846	100.0	1..846	NODE_20_length_20530_cov_37.549331	13012..13857	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP000732
+R0051_DADST088	blaZ	100.00	846/846	100.0	1..846	NODE_13_length_20530_cov_80.313434	3242..4087	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP000732
+R0051_HK2002	blaZ	99.89	888/888	100.0	1..888	NODE_43_length_21536_cov_9.219487	4474..5361	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP003979
+R0051_TC00219	str	100.00	849/849	100.0	1..849	NODE_22_length_4523_cov_608.903321	3140..3988	Streptomycin	FN435330
+R0051_TC00219	blaZ	100.00	846/846	100.0	1..846	NODE_7_length_109823_cov_20.321452	71900..72745	Amoxicillin, Ampicillin, Penicillin, Piperacillin	AHVO01000010
+R0051_TC00402	blaZ	99.89	888/888	100.0	1..888	NODE_11_length_91817_cov_33.478242	71719..72606	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP003979
+R0051_TC00402	erm(C)	100.00	735/735	100.0	1..735	NODE_37_length_2600_cov_807.035584	279..1013	Erythromycin, Lincomycin, Clindamycin, Quinupristin, Pristinamycin IA, Virginiamycin S	M13761
+R0051_TC00402	dfrG	100.00	498/498	100.0	1..498	NODE_15_length_68354_cov_43.924048	42300..42797	Trimethoprim	AB205645
+R0051_TC00505	tet(K)	100.00	1380/1380	100.0	1..1380	NODE_21_length_4566_cov_5231.029286	2618..3997	Doxycycline, Tetracycline	U38656

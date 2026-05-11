@@ -1,0 +1,420 @@
+sample	Resistance gene	Identity	Alignment Length/Gene Length	Coverage	Position in reference	Contig	Position in contig	Phenotype	Accession no.
+ST121_id24328_ERR505363.fasta	blaZ	100.00	846/846	100.0	1..846	ERR505363_A130980_NODE_27_COV_59.977810	6658..7503	Amoxicillin, Ampicillin, Penicillin, Piperacillin	AP004832
+ST121_id24328_ERR505363.fasta	dfrG	100.00	498/498	100.0	1..498	ERR505363_A130980_NODE_29_COV_18.282499	53332..53829	Trimethoprim	AB205645
+ST121_id24971_ERR505373.fasta	blaZ	100.00	888/888	100.0	1..888	ERR505373_A131753_NODE_4_COV_24.781187	9189..10076	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP003979
+ST121_id24971_ERR505373.fasta	erm(C)	100.00	735/735	100.0	1..735	ERR505373_A131753_NODE_20_COV_278.088959	396..1130	Erythromycin, Lincomycin, Clindamycin, Quinupristin, Pristinamycin IA, Virginiamycin S	M13761
+ST121_id24971_ERR505373.fasta	tet(K)	100.0	1112/1380	80.57971014492755	269..1380	ERR505373_A131753_NODE_111_COV_259.767303	1..1112	Doxycycline, Tetracycline	U38656
+ST121_id24971_ERR505373.fasta	tet(K)	100.0	352/1380	25.507246376811594	1..352	ERR505373_A131753_NODE_111_COV_259.767303	4172..4523	Doxycycline, Tetracycline	U38656
+ST121_id24971_ERR505373.fasta	dfrG	100.00	498/498	100.0	1..498	ERR505373_A131753_NODE_114_COV_20.237772	52753..53250	Trimethoprim	AB205645
+ST121_id24973_ERR505392.fasta	blaZ	100.00	846/846	100.0	1..846	ERR505392_A131742_NODE_8_COV_93.341133	6650..7495	Amoxicillin, Ampicillin, Penicillin, Piperacillin	AP004832
+ST121_id24973_ERR505392.fasta	tet(K)	99.89	888/888	99.88738738738738	1..888	ERR505392_A131742_NODE_117_COV_325.639160	323..1209	Doxycycline, Tetracycline	J01764
+ST121_id24973_ERR505392.fasta	dfrG	100.00	498/498	100.0	1..498	ERR505392_A131742_NODE_121_COV_27.675945	53324..53821	Trimethoprim	AB205645
+ST121_id30867_ERR490597.fasta	blaZ	100.00	846/846	100.0	1..846	ERR490597_A170317_NODE_89_COV_76.010498	13342..14187	Amoxicillin, Ampicillin, Penicillin, Piperacillin	AP004832
+ST121_id30867_ERR490597.fasta	dfrG	100.00	498/498	100.0	1..498	ERR490597_A170317_NODE_18_COV_22.971415	66943..67440	Trimethoprim	AB205645
+ST121_id30879_ERR490626.fasta	blaZ	100.00	846/846	100.0	1..846	ERR490626_A170333_NODE_108_COV_77.962280	13342..14187	Amoxicillin, Ampicillin, Penicillin, Piperacillin	AP004832
+ST121_id30879_ERR490626.fasta	tet(K)	100.00	1380/1380	100.0	1..1380	ERR490626_A170333_NODE_12_COV_267.106506	1250..2629	Doxycycline, Tetracycline	U38656
+ST121_id30879_ERR490626.fasta	dfrG	100.00	498/498	100.0	1..498	ERR490626_A170333_NODE_125_COV_22.673813	66943..67440	Trimethoprim	AB205645
+ST121_id31033_ERR490607.fasta	blaZ	100.00	888/888	100.0	1..888	ERR490607_A170400_NODE_27_COV_28.383562	403618..404505	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP003979
+ST121_id31033_ERR490607.fasta	erm(C)	100.00	735/735	100.0	1..735	ERR490607_A170400_NODE_5_COV_359.980988	1352..2086	Erythromycin, Lincomycin, Clindamycin, Quinupristin, Pristinamycin IA, Virginiamycin S	M13761
+ST121_id31033_ERR490607.fasta	tet(K)	100.0	995/1380	72.10144927536231	386..1380	ERR490607_A170400_NODE_9_COV_332.443329	1..995	Doxycycline, Tetracycline	U38656
+ST121_id31033_ERR490607.fasta	tet(K)	100.0	455/1380	32.971014492753625	1..455	ERR490607_A170400_NODE_9_COV_332.443329	4055..4509	Doxycycline, Tetracycline	U38656
+ST121_id31033_ERR490607.fasta	dfrG	100.00	498/498	100.0	1..498	ERR490607_A170400_NODE_109_COV_25.224514	42993..43490	Trimethoprim	AB205645
+ST121_id38040_18SP.fasta	blaZ	99.88	846/846	100.0	1..846	18SP-2_contig_8 length 102870 coverage 302.9 normalized_cov 0.91	55851..56696	Amoxicillin, Ampicillin, Penicillin, Piperacillin	MAJJ01000071
+ST121_id38040_18SP.fasta	blaZ	99.88	846/846	100.0	1..846	18SP-2_contig_8 length 102870 coverage 302.9 normalized_cov 0.91	55851..56696	Amoxicillin, Ampicillin, Penicillin, Piperacillin	FKPS01000007
+ST121_id38040_18SP.fasta	blaZ	99.88	846/846	100.0	1..846	18SP-2_contig_8 length 102870 coverage 302.9 normalized_cov 0.91	55851..56696	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JVAT01000021
+ST121_id38040_18SP.fasta	blaZ	99.88	846/846	100.0	1..846	18SP-2_contig_8 length 102870 coverage 302.9 normalized_cov 0.91	55851..56696	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JUUA01000057
+ST121_id38040_18SP.fasta	blaZ	99.88	846/846	100.0	1..846	18SP-2_contig_8 length 102870 coverage 302.9 normalized_cov 0.91	55851..56696	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JVLY01000044
+ST121_id38040_18SP.fasta	blaZ	99.88	846/846	100.0	1..846	18SP-2_contig_8 length 102870 coverage 302.9 normalized_cov 0.91	55851..56696	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JVRB01000003
+ST121_id38040_18SP.fasta	blaZ	99.88	846/846	100.0	1..846	18SP-2_contig_8 length 102870 coverage 302.9 normalized_cov 0.91	55851..56696	Amoxicillin, Ampicillin, Penicillin, Piperacillin	JIFD01000012
+ST121_id38040_18SP.fasta	blaZ	99.88	846/846	100.0	1..846	18SP-2_contig_8 length 102870 coverage 302.9 normalized_cov 0.91	55851..56696	Amoxicillin, Ampicillin, Penicillin, Piperacillin	JIFU01000008
+ST121_id38040_18SP.fasta	erm(C)	100.00	735/735	100.0	1..735	18SP-2_contig_31 length 2473 coverage 3031.0 normalized_cov 9.09	1289..2023	Erythromycin, Lincomycin, Clindamycin, Quinupristin, Pristinamycin IA, Virginiamycin S	M13761
+ST121_id42066_CA-MRSA-117.fasta	aac(6')-aph(2'')	100.00	1315/1440	91.31944444444444	1..1315	NODE_478_length_1827_cov_1.91353	513..1827	Gentamicin, Tobramycin, Netilmicin, Kanamycin, Amikacin, Dibekacin, Isepamicin, Fortimicin, Streptomycin	M13771
+ST121_id42066_CA-MRSA-117.fasta	aph(2'')-Ia	100.00	1315/1476	89.09214092140921	1..1315	NODE_478_length_1827_cov_1.91353	513..1827	Amikacin, Gentamicin, Tobramycin, Kanamycin	AP009486
+ST121_id42066_CA-MRSA-117.fasta	mecA	100.00	2007/2007	100.0	1..2007	NODE_118_length_4958_cov_2.35914	2853..4859	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Cefepime, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Ertapenem, Imipenem, Meropenem, Piperacillin, Piperacillin+Tazobactam	NC_007168
+ST121_id42066_CA-MRSA-117.fasta	fusC	99.81	527/639	82.47261345852895	1..527	NODE_833_length_777_cov_1.82923	251..777	Fusidic acid	KF527883
+ST121_id42067_CA-MRSA-118.fasta	mecA	100.00	1402/2007	69.8555057299452	98..1499	NODE_585_length_1402_cov_1.85569	1..1402	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Cefepime, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Ertapenem, Imipenem, Meropenem, Piperacillin, Piperacillin+Tazobactam	NC_007168
+ST121_id42067_CA-MRSA-118.fasta	tet(K)	100.00	1112/1380	80.57971014492755	269..1380	NODE_509_length_1609_cov_1.62213	1..1112	Doxycycline, Tetracycline	U38656
+ST121_id42076_CA-MRSA-127.fasta	aac(6')-aph(2'')	99.93	1338/1440	92.91666666666667	1..1338	NODE_449_length_1836_cov_1.37858	1..1338	Gentamicin, Tobramycin, Netilmicin, Kanamycin, Amikacin, Dibekacin, Isepamicin, Fortimicin, Streptomycin	M13771
+ST121_id42076_CA-MRSA-127.fasta	aph(2'')-Ia	99.93	1338/1476	90.65040650406505	1..1338	NODE_449_length_1836_cov_1.37858	1..1338	Amikacin, Gentamicin, Tobramycin, Kanamycin	AP009486
+ST121_id42076_CA-MRSA-127.fasta	blaZ	100.00	735/846	86.87943262411348	1..735	NODE_738_length_757_cov_1.10317	1..735	Amoxicillin, Ampicillin, Penicillin, Piperacillin	MAJJ01000071
+ST121_id42076_CA-MRSA-127.fasta	blaZ	100.00	735/846	86.87943262411348	1..735	NODE_738_length_757_cov_1.10317	1..735	Amoxicillin, Ampicillin, Penicillin, Piperacillin	JIFU01000008
+ST121_id42076_CA-MRSA-127.fasta	mecA	99.90	2007/2007	100.0	1..2007	NODE_89_length_6518_cov_4.44484	4490..6496	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Cefepime, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Ertapenem, Imipenem, Meropenem, Piperacillin, Piperacillin+Tazobactam	NC_007168
+ST121_id42076_CA-MRSA-127.fasta	fusC	99.82	552/639	86.3849765258216	1..552	NODE_481_length_1661_cov_3.7073	1110..1661	Fusidic acid	KF527883
+ST121_id42112_CA-MRSA-164.fasta	blaZ	100.00	741/846	87.58865248226951	106..846	NODE_309_length_1546_cov_1.2389	1..741	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JVLY01000044
+ST121_id42112_CA-MRSA-164.fasta	blaZ	100.00	741/846	87.58865248226951	106..846	NODE_309_length_1546_cov_1.2389	1..741	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JVRB01000003
+ST121_id42112_CA-MRSA-164.fasta	mecA	100.00	2007/2007	100.0	1..2007	NODE_161_length_5061_cov_4.88914	65..2071	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Cefepime, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Ertapenem, Imipenem, Meropenem, Piperacillin, Piperacillin+Tazobactam	NC_007168
+ST121_id42112_CA-MRSA-164.fasta	fusC	99.84	639/639	100.0	1..639	NODE_148_length_5598_cov_3.33102	1357..1995	Fusidic acid	KF527883
+ST121_id42141_CA-MRSA-198.fasta	mecA	100.00	1958/2007	97.55854509217738	50..2007	NODE_54_length_5885_cov_5.01841	1..1958	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Cefepime, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Ertapenem, Imipenem, Meropenem, Piperacillin, Piperacillin+Tazobactam	NC_007168
+ST121_id42143_CA-MRSA-200.fasta	mecA	100.00	1737/2007	86.54708520179372	271..2007	NODE_429_length_1808_cov_2.01844	1..1737	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Cefepime, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Ertapenem, Imipenem, Meropenem, Piperacillin, Piperacillin+Tazobactam	NC_007168
+ST121_id42143_CA-MRSA-200.fasta	blaZ	100.00	582/846	68.79432624113475	265..846	NODE_1228_length_605_cov_0.792887	1..582	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JVLY01000044
+ST121_id42143_CA-MRSA-200.fasta	blaZ	100.00	582/846	68.79432624113475	265..846	NODE_1228_length_605_cov_0.792887	1..582	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JVRB01000003
+ST121_id42171_HA-MRSA-47.fasta	mecA	100.00	1772/2007	88.29098156452416	236..2007	NODE_11_length_12121_cov_8.32733	1..1772	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Cefepime, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Ertapenem, Imipenem, Meropenem, Piperacillin, Piperacillin+Tazobactam	NC_007168
+ST121_id42171_HA-MRSA-47.fasta	fusC	99.82	562/639	87.94992175273866	78..639	NODE_679_length_1154_cov_1.12756	1..562	Fusidic acid	KF527883
+ST121_id42178_HA-MRSA-59.fasta	mecA	100.00	1769/2007	88.14150473343298	239..2007	NODE_237_length_2788_cov_3.70763	1..1769	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Cefepime, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Ertapenem, Imipenem, Meropenem, Piperacillin, Piperacillin+Tazobactam	NC_007168
+ST121_id42178_HA-MRSA-59.fasta	fusC	99.81	525/639	82.15962441314554	1..525	NODE_710_length_1086_cov_3.12826	562..1086	Fusidic acid	KF527883
+ST121_id46096_KGH0001.fasta	blaZ	100.00	888/888	100.0	1..888	5 length=180388 depth=1.06x	71475..72362	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP003979
+ST121_id46096_KGH0001.fasta	dfrG	100.00	498/498	100.0	1..498	3 length=289485 depth=0.93x	25229..25726	Trimethoprim	AB205645
+ST121_id46118_SPHL046.fasta	blaZ	100.00	888/888	100.0	1..888	5 length=221605 depth=1.04x	106359..107246	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP003979
+ST121_id46118_SPHL046.fasta	cat(pC221)	100.00	648/648	100.0	1..648	33 length=4377 depth=32.33x circular=true	430..1077	Chloramphenicol	X02529
+ST121_id46118_SPHL046.fasta	dfrG	100.00	498/498	100.0	1..498	2 length=289485 depth=0.92x	25229..25726	Trimethoprim	AB205645
+ST121_id46119_SPHL048.fasta	blaZ	100.00	888/888	100.0	1..888	5 length=221605 depth=1.00x	114360..115247	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP003979
+ST121_id46119_SPHL048.fasta	cat(pC221)	100.00	648/648	100.0	1..648	31 length=4377 depth=56.63x circular=true	3400..4047	Chloramphenicol	X02529
+ST121_id46119_SPHL048.fasta	dfrG	100.00	498/498	100.0	1..498	2 length=289485 depth=0.96x	25229..25726	Trimethoprim	AB205645
+ST152_id37087_st152_kp2016.fasta	blaZ	100.00	846/846	100.0	1..846	12 length=20731 depth=2.21x circular=true	10211..11056	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP010941
+ST152_id37092_st152i_np2017.fasta	blaZ	100.00	846/846	100.0	1..846	20 length=20730 depth=2.82x circular=true	10210..11055	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP010941
+ST152_id37093_st152i_ep2017.fasta	blaZ	100.00	846/846	100.0	1..846	18 length=20730 depth=2.50x circular=true	10210..11055	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP010941
+ST152_id37093_st152i_ep2017.fasta	dfrG	100.00	498/498	100.0	1..498	15 length=35402 depth=0.85x	11513..12010	Trimethoprim	AB205645
+ST152_id37104_st152ii_np2017.fasta	blaZ	100.00	846/846	100.0	1..846	21 length=20730 depth=2.37x circular=true	10210..11055	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP010941
+ST152_id37105_st152_wp2017.fasta	blaZ	100.00	846/846	100.0	1..846	17 length=20730 depth=2.11x circular=true	10210..11055	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP010941
+ST152_id37105_st152_wp2017.fasta	dfrG	100.00	498/498	100.0	1..498	2 length=488009 depth=0.89x	175040..175537	Trimethoprim	AB205645
+ST152_id37109_st152ii_ep2017.fasta	blaZ	99.88	846/846	100.0	1..846	18 length=20731 depth=2.90x circular=true	10210..11055	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP010941
+ST152_id37109_st152ii_ep2017.fasta	dfrG	100.00	498/498	100.0	1..498	12 length=53445 depth=0.80x	23393..23890	Trimethoprim	AB205645
+ST152_id42099_CA-MRSA-150.fasta	blaZ	95.73	750/801	93.63295880149812	52..801	NODE_105_length_5422_cov_2.26591	4672..5421	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_FHDT01000016
+ST152_id42099_CA-MRSA-150.fasta	blaZ	95.73	750/846	88.65248226950354	97..846	NODE_105_length_5422_cov_2.26591	4672..5421	Amoxicillin, Ampicillin, Penicillin, Piperacillin	FHDH01000010
+ST152_id42099_CA-MRSA-150.fasta	blaZ	95.73	750/846	88.65248226950354	97..846	NODE_105_length_5422_cov_2.26591	4672..5421	Amoxicillin, Ampicillin, Penicillin, Piperacillin	LNTF01000008
+ST152_id42099_CA-MRSA-150.fasta	blaZ	95.73	750/846	88.65248226950354	97..846	NODE_105_length_5422_cov_2.26591	4672..5421	Amoxicillin, Ampicillin, Penicillin, Piperacillin	JITV01000006
+ST152_id42099_CA-MRSA-150.fasta	mecA	99.85	2007/2007	100.0	1..2007	NODE_84_length_5907_cov_3.28841	1235..3241	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Cefepime, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Ertapenem, Imipenem, Meropenem, Piperacillin, Piperacillin+Tazobactam	NC_007168
+ST152_id42099_CA-MRSA-150.fasta	erm(C)	100.00	735/735	100.0	1..735	NODE_307_length_2600_cov_2.46826	499..1233	Erythromycin, Lincomycin, Clindamycin, Quinupristin, Pristinamycin IA, Virginiamycin S	M13761
+ST152_id42099_CA-MRSA-150.fasta	tet(K)	100.0	1070/1380	77.53623188405797	311..1380	NODE_146_length_4500_cov_5.82232	3431..4500	Doxycycline, Tetracycline	U38656
+ST152_id42099_CA-MRSA-150.fasta	tet(K)	100.0	437/1380	31.666666666666664	1..437	NODE_146_length_4500_cov_5.82232	1..437	Doxycycline, Tetracycline	U38656
+ST152_id42101_CA-MRSA-152.fasta	mecA	99.95	2007/2007	100.0	1..2007	NODE_189_length_4053_cov_4.41671	107..2113	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Cefepime, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Ertapenem, Imipenem, Meropenem, Piperacillin, Piperacillin+Tazobactam	NC_007168
+ST152_id42101_CA-MRSA-152.fasta	blaZ	100.00	846/846	100.0	1..846	NODE_256_length_3278_cov_3.48017	1744..2589	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP010941
+ST152_id42101_CA-MRSA-152.fasta	fusC	98.77	407/639	63.69327073552425	233..639	NODE_592_length_1025_cov_1.10579	1..407	Fusidic acid	KF527883
+ST152_id42132_CA-MRSA-187.fasta	mecA	100.00	1235/2007	61.53462879920279	265..1499	NODE_623_length_1235_cov_1.66426	1..1235	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Cefepime, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Ertapenem, Imipenem, Meropenem, Piperacillin, Piperacillin+Tazobactam	NC_007168
+ST152_id42132_CA-MRSA-187.fasta	blaZ	100.00	846/846	100.0	1..846	NODE_1_length_20857_cov_12.3196	13279..14124	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP010941
+ST152_id42132_CA-MRSA-187.fasta	fusC	99.52	413/639	64.63223787167449	227..639	NODE_818_length_917_cov_1.03544	1..413	Fusidic acid	KF527883
+ST152_id42164_HA-MRSA-37.fasta	mecA	100.00	1726/2007	85.99900348779272	282..2007	NODE_166_length_4461_cov_1.98823	2736..4461	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Cefepime, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Ertapenem, Imipenem, Meropenem, Piperacillin, Piperacillin+Tazobactam	NC_007168
+ST152_id42164_HA-MRSA-37.fasta	blaZ	100.00	846/846	100.0	1..846	NODE_5_length_20857_cov_78.1113	8480..9325	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP010941
+ST152_id42164_HA-MRSA-37.fasta	fusC	99.83	583/639	91.23630672926447	57..639	NODE_280_length_2887_cov_1.65725	2305..2887	Fusidic acid	KF527883
+ST152_id46014_002EAR.fasta	mecA	100.00	2007/2007	100.0	1..2007	1 length=575802 depth=1.14x	353706..355712	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Cefepime, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Ertapenem, Imipenem, Meropenem, Piperacillin, Piperacillin+Tazobactam	BX571856
+ST152_id46014_002EAR.fasta	blaZ	100.00	846/846	100.0	1..846	14 length=20733 depth=3.57x circular=true	10210..11055	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP010941
+ST152_id46014_002EAR.fasta	cat(pC221)	100.00	648/648	100.0	1..648	19 length=4224 depth=35.23x circular=true	1315..1962	Chloramphenicol	X02529
+ST152_id46015_003WOUND.fasta	blaZ	100.00	846/846	100.0	1..846	18 length=20733 depth=5.14x circular=true	10210..11055	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP010941
+ST152_id46015_003WOUND.fasta	mecA	100.00	2007/2007	100.0	1..2007	5 length=199485 depth=1.16x	126784..128790	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Cefepime, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Ertapenem, Imipenem, Meropenem, Piperacillin, Piperacillin+Tazobactam	BX571856
+ST152_id46015_003WOUND.fasta	cat(pC221)	100.00	648/648	100.0	1..648	24 length=4224 depth=122.09x circular=true	2414..3061	Chloramphenicol	X02529
+ST152_id46016_005.fasta	blaZ	100.00	846/846	100.0	1..846	20 length=20730 depth=20.94x circular=true	10210..11055	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP010941
+ST152_id46016_005.fasta	mecA	100.00	2007/2007	100.0	1..2007	3 length=233539 depth=1.01x	11425..13431	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Cefepime, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Ertapenem, Imipenem, Meropenem, Piperacillin, Piperacillin+Tazobactam	BX571856
+ST152_id46016_005.fasta	cat(pC221)	100.00	648/648	100.0	1..648	26 length=4224 depth=82.86x circular=true	321..968	Chloramphenicol	X02529
+ST152_id46016_005.fasta	tet(K)	100.00	1380/1380	100.0	1..1380	25 length=4439 depth=0.34x circular=true	933..2312	Doxycycline, Tetracycline	U38656
+ST152_id46017_0106EAR.fasta	blaZ	100.00	846/846	100.0	1..846	17 length=20730 depth=3.38x circular=true	10210..11055	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP010941
+ST152_id46017_0106EAR.fasta	cat(pC221)	100.00	648/648	100.0	1..648	23 length=4224 depth=75.60x circular=true	322..969	Chloramphenicol	X02529
+ST152_id46017_0106EAR.fasta	tet(K)	100.00	1380/1380	100.0	1..1380	22 length=4439 depth=41.94x circular=true	2951..4330	Doxycycline, Tetracycline	U38656
+ST152_id46019_041.fasta	mecA	100.00	2007/2007	100.0	1..2007	8 length=160127 depth=1.05x	87343..89349	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Cefepime, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Ertapenem, Imipenem, Meropenem, Piperacillin, Piperacillin+Tazobactam	BX571856
+ST152_id46019_041.fasta	blaZ	100.00	846/846	100.0	1..846	22 length=20730 depth=18.05x circular=true	10210..11055	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP010941
+ST152_id46019_041.fasta	cat(pC221)	100.00	648/648	100.0	1..648	27 length=4224 depth=54.77x circular=true	1297..1944	Chloramphenicol	X02529
+ST152_id46019_041.fasta	qnrD3	100.00	645/645	100.0	1..645	29 length=2562 depth=5.94x circular=true	1917..2561	Ciprofloxacin	KX130945
+ST152_id46020_047.fasta	blaZ	100.00	846/846	100.0	1..846	17 length=20730 depth=18.20x circular=true	10210..11055	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP010941
+ST152_id46020_047.fasta	mecA	100.00	2007/2007	100.0	1..2007	1 length=627658 depth=1.02x	220168..222174	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Cefepime, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Ertapenem, Imipenem, Meropenem, Piperacillin, Piperacillin+Tazobactam	BX571856
+ST152_id46020_047.fasta	cat(pC221)	100.00	648/648	100.0	1..648	24 length=4224 depth=83.44x circular=true	321..968	Chloramphenicol	X02529
+ST152_id46024_111.fasta	mecA	100.00	2007/2007	100.0	1..2007	5 length=233592 depth=1.02x	11425..13431	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Cefepime, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Ertapenem, Imipenem, Meropenem, Piperacillin, Piperacillin+Tazobactam	BX571856
+ST152_id46024_111.fasta	blaZ	100.00	846/846	100.0	1..846	16 length=20730 depth=13.00x circular=true	10210..11055	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP010941
+ST152_id46024_111.fasta	cat(pC221)	100.00	648/648	100.0	1..648	23 length=4224 depth=57.60x circular=true	3129..3776	Chloramphenicol	X02529
+ST152_id46024_111.fasta	tet(K)	100.00	1380/1380	100.0	1..1380	22 length=4439 depth=28.95x circular=true	2981..4360	Doxycycline, Tetracycline	U38656
+ST152_id46030_2133.fasta	mecA	100.00	2007/2007	100.0	1..2007	1 length=617331 depth=1.06x	210055..212061	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Cefepime, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Ertapenem, Imipenem, Meropenem, Piperacillin, Piperacillin+Tazobactam	BX571856
+ST152_id46030_2133.fasta	blaZ	100.00	846/846	100.0	1..846	15 length=20730 depth=9.92x circular=true	10210..11055	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP010941
+ST152_id46030_2133.fasta	cat(pC221)	100.0	343/648	52.9320987654321	1..343	22 length=4224 depth=47.68x circular=true	3882..4224	Chloramphenicol	X02529
+ST152_id46030_2133.fasta	cat(pC221)	100.0	305/648	47.0679012345679	344..648	22 length=4224 depth=47.68x circular=true	1..305	Chloramphenicol	X02529
+ST152_id46030_2133.fasta	tet(K)	100.00	1380/1380	100.0	1..1380	21 length=4439 depth=0.44x circular=true	1597..2976	Doxycycline, Tetracycline	U38656
+ST152_id46031_224.fasta	mecA	100.00	2007/2007	100.0	1..2007	1 length=454788 depth=1.02x	47242..49248	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Cefepime, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Ertapenem, Imipenem, Meropenem, Piperacillin, Piperacillin+Tazobactam	BX571856
+ST152_id46031_224.fasta	blaZ	100.00	846/846	100.0	1..846	18 length=20730 depth=7.11x circular=true	10210..11055	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP010941
+ST152_id46031_224.fasta	cat(pC221)	100.00	648/648	100.0	1..648	25 length=4224 depth=21.72x circular=true	1075..1722	Chloramphenicol	X02529
+ST152_id46031_224.fasta	tet(K)	100.00	1380/1380	100.0	1..1380	24 length=4439 depth=11.26x circular=true	1015..2394	Doxycycline, Tetracycline	U38656
+ST152_id46032_237.fasta	blaZ	100.00	846/846	100.0	1..846	23 length=20730 depth=6.03x circular=true	10210..11055	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP010941
+ST152_id46032_237.fasta	mecA	100.00	2007/2007	100.0	1..2007	2 length=268795 depth=1.09x	126223..128229	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Cefepime, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Ertapenem, Imipenem, Meropenem, Piperacillin, Piperacillin+Tazobactam	BX571856
+ST152_id46036_3.fasta	mecA	100.00	2007/2007	100.0	1..2007	14 length=73768 depth=1.33x	11356..13362	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Cefepime, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Ertapenem, Imipenem, Meropenem, Piperacillin, Piperacillin+Tazobactam	BX571856
+ST152_id46036_3.fasta	blaZ	100.00	846/846	100.0	1..846	30 length=20686 depth=6.91x	6345..7190	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP010941
+ST152_id46036_3.fasta	cat(pC221)	100.00	648/648	100.0	1..648	39 length=4224 depth=267.15x circular=true	2441..3088	Chloramphenicol	X02529
+ST152_id46036_3.fasta	tet(K)	100.00	1380/1380	100.0	1..1380	38 length=4373 depth=164.60x	2984..4363	Doxycycline, Tetracycline	U38656
+ST152_id46038_4877.fasta	blaZ	100.00	846/846	100.0	1..846	20 length=20730 depth=12.76x circular=true	10210..11055	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP010941
+ST152_id46038_4877.fasta	tet(K)	100.00	1362/1380	98.69565217391305	19..1380	26 length=4439 depth=35.84x circular=true	1..1362	Doxycycline, Tetracycline	U38656
+ST152_id46039_4887.fasta	mecA	100.00	2007/2007	100.0	1..2007	6 length=198982 depth=1.04x	126223..128229	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Cefepime, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Ertapenem, Imipenem, Meropenem, Piperacillin, Piperacillin+Tazobactam	BX571856
+ST152_id46039_4887.fasta	blaZ	100.00	846/846	100.0	1..846	17 length=20719 depth=8.53x circular=true	10210..11055	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP010941
+ST152_id46039_4887.fasta	cat(pC221)	100.00	648/648	100.0	1..648	26 length=4224 depth=247.62x circular=true	322..969	Chloramphenicol	X02529
+ST152_id46046_719.fasta	blaZ	100.00	846/846	100.0	1..846	17 length=20730 depth=8.32x circular=true	10210..11055	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP010941
+ST152_id46046_719.fasta	mecA	100.00	2007/2007	100.0	1..2007	1 length=534137 depth=1.02x	126742..128748	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Cefepime, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Ertapenem, Imipenem, Meropenem, Piperacillin, Piperacillin+Tazobactam	BX571856
+ST152_id46046_719.fasta	cat(pC221)	100.00	648/648	100.0	1..648	23 length=4224 depth=24.39x circular=true	242..889	Chloramphenicol	X02529
+ST152_id46047_7450.fasta	mecA	100.00	2007/2007	100.0	1..2007	4 length=232961 depth=1.23x	11408..13414	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Cefepime, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Ertapenem, Imipenem, Meropenem, Piperacillin, Piperacillin+Tazobactam	BX571856
+ST152_id46047_7450.fasta	blaZ	100.00	846/846	100.0	1..846	14 length=20730 depth=2.51x circular=true	10210..11055	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP010941
+ST152_id46047_7450.fasta	cat(pC221)	100.00	648/648	100.0	1..648	19 length=4224 depth=23.11x circular=true	321..968	Chloramphenicol	X02529
+ST152_id46048_8122B.fasta	mecA	100.00	2007/2007	100.0	1..2007	5 length=226755 depth=1.03x	11426..13432	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Cefepime, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Ertapenem, Imipenem, Meropenem, Piperacillin, Piperacillin+Tazobactam	BX571856
+ST152_id46048_8122B.fasta	blaZ	100.00	846/846	100.0	1..846	18 length=20730 depth=2.95x circular=true	10210..11055	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP010941
+ST152_id46048_8122B.fasta	cat(pC221)	100.00	648/648	100.0	1..648	30 length=4224 depth=42.90x circular=true	2822..3469	Chloramphenicol	X02529
+ST152_id46048_8122B.fasta	tet(K)	100.00	1362/1380	98.69565217391305	19..1380	29 length=4439 depth=22.62x circular=true	1..1362	Doxycycline, Tetracycline	U38656
+ST152_id46052_97877.fasta	blaZ	100.00	846/846	100.0	1..846	14 length=20733 depth=4.34x circular=true	10210..11055	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP010941
+ST152_id46052_97877.fasta	mecA	100.00	2007/2007	100.0	1..2007	1 length=627557 depth=1.11x	220091..222097	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Cefepime, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Ertapenem, Imipenem, Meropenem, Piperacillin, Piperacillin+Tazobactam	BX571856
+ST152_id46052_97877.fasta	cat(pC221)	100.00	648/648	100.0	1..648	19 length=4224 depth=149.97x circular=true	1292..1939	Chloramphenicol	X02529
+ST152_id46054_AAB3625.fasta	blaZ	100.00	846/846	100.0	1..846	17 length=20730 depth=8.59x circular=true	10210..11055	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP010941
+ST152_id46054_AAB3625.fasta	mecA	100.00	2007/2007	100.0	1..2007	1 length=566281 depth=1.06x	353872..355878	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Cefepime, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Ertapenem, Imipenem, Meropenem, Piperacillin, Piperacillin+Tazobactam	BX571856
+ST152_id46055_AAB6669.fasta	mecA	100.00	2007/2007	100.0	1..2007	1 length=627611 depth=1.03x	220091..222097	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Cefepime, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Ertapenem, Imipenem, Meropenem, Piperacillin, Piperacillin+Tazobactam	BX571856
+ST152_id46055_AAB6669.fasta	blaZ	100.00	846/846	100.0	1..846	16 length=20730 depth=9.03x circular=true	10210..11055	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP010941
+ST152_id46055_AAB6669.fasta	cat(pC221)	100.00	648/648	100.0	1..648	30 length=4224 depth=21.31x circular=true	1555..2202	Chloramphenicol	X02529
+ST152_id46055_AAB6669.fasta	tet(K)	100.00	1380/1380	100.0	1..1380	29 length=4439 depth=16.25x circular=true	2951..4330	Doxycycline, Tetracycline	U38656
+ST152_id46056_AAD9642.fasta	blaZ	100.00	657/846	77.6595744680851	190..846	56 length=12480 depth=9.06x	1..657	Amoxicillin, Ampicillin, Penicillin, Piperacillin	FMOK01000003
+ST152_id46056_AAD9642.fasta	blaZ	100.00	657/846	77.6595744680851	190..846	56 length=12480 depth=9.06x	1..657	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP010941
+ST152_id46056_AAD9642.fasta	blaZ	100.00	657/846	77.6595744680851	190..846	56 length=12480 depth=9.06x	1..657	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_CAVU010000015
+ST152_id46056_AAD9642.fasta	blaZ	100.00	657/846	77.6595744680851	190..846	56 length=12480 depth=9.06x	1..657	Amoxicillin, Ampicillin, Penicillin, Piperacillin	AP004832
+ST152_id46056_AAD9642.fasta	blaZ	100.00	548/846	64.77541371158392	299..846	112 length=5036 depth=0.46x	1..548	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_ALWE01000009
+ST152_id46056_AAD9642.fasta	blaZ	100.00	548/846	64.77541371158392	299..846	112 length=5036 depth=0.46x	1..548	Amoxicillin, Ampicillin, Penicillin, Piperacillin	FQPO01000005
+ST152_id46056_AAD9642.fasta	blaZ	100.00	548/801	68.41448189762797	254..801	112 length=5036 depth=0.46x	1..548	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_FHDT01000016
+ST152_id46056_AAD9642.fasta	blaZ	100.00	548/846	64.77541371158392	299..846	112 length=5036 depth=0.46x	1..548	Amoxicillin, Ampicillin, Penicillin, Piperacillin	FHDH01000010
+ST152_id46056_AAD9642.fasta	blaZ	100.00	548/846	64.77541371158392	299..846	112 length=5036 depth=0.46x	1..548	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_AZBT01000050
+ST152_id46058_AAE5707.fasta	blaZ	100.00	846/846	100.0	1..846	22 length=20730 depth=18.94x circular=true	10210..11055	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP010941
+ST152_id46058_AAE5707.fasta	mecA	100.00	2007/2007	100.0	1..2007	7 length=140215 depth=1.04x	126784..128790	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Cefepime, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Ertapenem, Imipenem, Meropenem, Piperacillin, Piperacillin+Tazobactam	BX571856
+ST152_id46058_AAE5707.fasta	cat(pC221)	98.37962962962963	432/648	66.66666666666666	217..648	32 length=3473 depth=0.44x	1..432	Chloramphenicol	X02529
+ST152_id46058_AAE5707.fasta	cat(pC221)	100.0	350/648	54.01234567901234	299..648	30 length=4224 depth=52.11x circular=true	3875..4224	Chloramphenicol	X02529
+ST152_id46058_AAE5707.fasta	cat(pC221)	100.0	298/648	45.98765432098765	1..298	30 length=4224 depth=52.11x circular=true	1..298	Chloramphenicol	X02529
+ST152_id46058_AAE5707.fasta	tet(K)	99.89	888/888	99.88738738738738	1..888	29 length=4439 depth=25.26x circular=true	396..1282	Doxycycline, Tetracycline	J01764
+ST152_id46059_AAF0093.fasta	blaZ	100.00	846/846	100.0	1..846	16 length=20730 depth=11.30x circular=true	10210..11055	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP010941
+ST152_id46059_AAF0093.fasta	mecA	100.00	2007/2007	100.0	1..2007	1 length=544621 depth=1.03x	220051..222057	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Cefepime, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Ertapenem, Imipenem, Meropenem, Piperacillin, Piperacillin+Tazobactam	BX571856
+ST152_id46060_AAF490.fasta	blaZ	100.00	846/846	100.0	1..846	13 length=20730 depth=7.29x circular=true	10210..11055	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP010941
+ST152_id46064_AAG0106.fasta	blaZ	100.00	846/846	100.0	1..846	18 length=20730 depth=8.98x circular=true	10210..11055	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP010941
+ST152_id46064_AAG0106.fasta	mecA	100.00	2007/2007	100.0	1..2007	4 length=233539 depth=1.04x	220109..222115	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Cefepime, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Ertapenem, Imipenem, Meropenem, Piperacillin, Piperacillin+Tazobactam	BX571856
+ST152_id46064_AAG0106.fasta	cat(pC221)	100.00	648/648	100.0	1..648	30 length=4224 depth=33.07x circular=true	321..968	Chloramphenicol	X02529
+ST152_id46065_AAG1683.fasta	mecA	100.00	2007/2007	100.0	1..2007	4 length=233480 depth=1.04x	11421..13427	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Cefepime, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Ertapenem, Imipenem, Meropenem, Piperacillin, Piperacillin+Tazobactam	BX571856
+ST152_id46065_AAG1683.fasta	blaZ	100.00	846/846	100.0	1..846	16 length=20730 depth=11.71x circular=true	10210..11055	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP010941
+ST152_id46065_AAG1683.fasta	cat(pC221)	100.00	648/648	100.0	1..648	21 length=4224 depth=54.03x circular=true	1075..1722	Chloramphenicol	X02529
+ST152_id46068_AAG5197.fasta	mecA	100.00	2007/2007	100.0	1..2007	1 length=627561 depth=1.03x	405520..407526	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Cefepime, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Ertapenem, Imipenem, Meropenem, Piperacillin, Piperacillin+Tazobactam	BX571856
+ST152_id46068_AAG5197.fasta	blaZ	100.00	846/846	100.0	1..846	17 length=20719 depth=11.33x circular=true	10210..11055	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP010941
+ST152_id46068_AAG5197.fasta	cat(pC221)	100.00	648/648	100.0	1..648	24 length=4224 depth=62.45x circular=true	230..877	Chloramphenicol	X02529
+ST152_id46069_AAG6052.fasta	blaZ	100.00	846/846	100.0	1..846	17 length=20730 depth=11.35x circular=true	10210..11055	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP010941
+ST152_id46070_AAO.fasta	blaZ	100.00	846/846	100.0	1..846	21 length=20730 depth=3.97x circular=true	10210..11055	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP010941
+ST152_id46070_AAO.fasta	mecA	100.00	2007/2007	100.0	1..2007	10 length=101335 depth=1.15x	87904..89910	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Cefepime, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Ertapenem, Imipenem, Meropenem, Piperacillin, Piperacillin+Tazobactam	BX571856
+ST152_id46070_AAO.fasta	cat(pC221)	100.00	648/648	100.0	1..648	29 length=4224 depth=33.27x circular=true	3348..3995	Chloramphenicol	X02529
+ST152_id46070_AAO.fasta	tet(K)	99.89	888/888	99.88738738738738	1..888	28 length=4439 depth=23.51x circular=true	3128..4014	Doxycycline, Tetracycline	J01764
+ST152_id46072_ABB1391.fasta	blaZ	100.00	846/846	100.0	1..846	18 length=20730 depth=9.87x circular=true	10210..11055	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP010941
+ST152_id46072_ABB1391.fasta	mecA	100.00	2007/2007	100.0	1..2007	5 length=233516 depth=1.10x	11425..13431	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Cefepime, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Ertapenem, Imipenem, Meropenem, Piperacillin, Piperacillin+Tazobactam	BX571856
+ST152_id46072_ABB1391.fasta	cat(pC221)	100.00	648/648	100.0	1..648	24 length=4106 depth=116.96x	1115..1762	Chloramphenicol	X02529
+ST152_id46073_ABE4195.fasta	blaZ	100.00	846/846	100.0	1..846	18 length=20730 depth=5.76x circular=true	10210..11055	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP010941
+ST152_id46073_ABE4195.fasta	mecA	100.00	2007/2007	100.0	1..2007	5 length=233537 depth=1.07x	11425..13431	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Cefepime, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Ertapenem, Imipenem, Meropenem, Piperacillin, Piperacillin+Tazobactam	BX571856
+ST152_id46073_ABE4195.fasta	cat(pC221)	100.00	648/648	100.0	1..648	26 length=4224 depth=101.27x circular=true	2860..3507	Chloramphenicol	X02529
+ST152_id46074_ABE4195.fasta	blaZ	100.00	846/846	100.0	1..846	18 length=20730 depth=5.39x circular=true	10210..11055	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP010941
+ST152_id46074_ABE4195.fasta	mecA	100.00	2007/2007	100.0	1..2007	4 length=233522 depth=1.18x	220109..222115	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Cefepime, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Ertapenem, Imipenem, Meropenem, Piperacillin, Piperacillin+Tazobactam	BX571856
+ST152_id46074_ABE4195.fasta	cat(pC221)	100.00	648/648	100.0	1..648	24 length=4224 depth=64.81x circular=true	1421..2068	Chloramphenicol	X02529
+ST152_id46077_ACJ3976.fasta	mecA	100.00	2007/2007	100.0	1..2007	4 length=233430 depth=1.21x	11425..13431	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Cefepime, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Ertapenem, Imipenem, Meropenem, Piperacillin, Piperacillin+Tazobactam	BX571856
+ST152_id46077_ACJ3976.fasta	blaZ	100.00	846/846	100.0	1..846	18 length=20730 depth=3.30x circular=true	10210..11055	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP010941
+ST152_id46077_ACJ3976.fasta	erm(C)	99.46	735/735	100.0	1..735	27 length=2383 depth=116.62x circular=true	479..1213	Erythromycin, Lincomycin, Clindamycin, Quinupristin, Pristinamycin IA, Virginiamycin S	M19652
+ST152_id46077_ACJ3976.fasta	erm(C)	99.46	735/735	100.0	1..735	27 length=2383 depth=116.62x circular=true	479..1213	Erythromycin, Lincomycin, Clindamycin, Quinupristin, Pristinamycin IA, Virginiamycin S	V01278
+ST152_id46077_ACJ3976.fasta	cat(pC221)	100.00	648/648	100.0	1..648	25 length=4224 depth=78.16x circular=true	321..968	Chloramphenicol	X02529
+ST152_id46078_ACJ4246.fasta	blaZ	100.00	846/846	100.0	1..846	20 length=20730 depth=8.89x circular=true	10210..11055	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP010941
+ST152_id46078_ACJ4246.fasta	mecA	100.00	2007/2007	100.0	1..2007	5 length=233485 depth=1.08x	11425..13431	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Cefepime, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Ertapenem, Imipenem, Meropenem, Piperacillin, Piperacillin+Tazobactam	BX571856
+ST152_id46078_ACJ4246.fasta	cat(pC221)	100.00	648/648	100.0	1..648	28 length=4224 depth=184.33x circular=true	1297..1944	Chloramphenicol	X02529
+ST152_id46079_ACJ5898.fasta	aac(6')-aph(2'')	100.00	1440/1440	100.0	1..1440	25 length=1917 depth=1.26x	79..1518	Gentamicin, Tobramycin, Netilmicin, Kanamycin, Amikacin, Dibekacin, Isepamicin, Fortimicin, Streptomycin	M13771
+ST152_id46079_ACJ5898.fasta	blaZ	100.00	846/846	100.0	1..846	18 length=20730 depth=5.89x circular=true	10210..11055	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP010941
+ST152_id46079_ACJ5898.fasta	mecA	100.00	2007/2007	100.0	1..2007	22 length=6866 depth=1.31x	2440..4446	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Cefepime, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Ertapenem, Imipenem, Meropenem, Piperacillin, Piperacillin+Tazobactam	BX571856
+ST152_id46080_ACK0380.fasta	mecA	100.00	2007/2007	100.0	1..2007	1 length=544827 depth=1.15x	220090..222096	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Cefepime, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Ertapenem, Imipenem, Meropenem, Piperacillin, Piperacillin+Tazobactam	BX571856
+ST152_id46080_ACK0380.fasta	blaZ	100.00	846/846	100.0	1..846	16 length=20730 depth=5.49x circular=true	10210..11055	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP010941
+ST152_id46080_ACK0380.fasta	cat(pC221)	100.00	648/648	100.0	1..648	21 length=4224 depth=140.59x circular=true	321..968	Chloramphenicol	X02529
+ST152_id46082_ACL2618.fasta	blaZ	100.00	846/846	100.0	1..846	17 length=20730 depth=2.49x circular=true	10210..11055	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP010941
+ST152_id46082_ACL2618.fasta	mecA	100.00	2007/2007	100.0	1..2007	5 length=233544 depth=1.23x	11426..13432	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Cefepime, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Ertapenem, Imipenem, Meropenem, Piperacillin, Piperacillin+Tazobactam	BX571856
+ST152_id46082_ACL2618.fasta	cat(pC221)	100.00	648/648	100.0	1..648	24 length=4224 depth=49.67x circular=true	3129..3776	Chloramphenicol	X02529
+ST152_id46083_ACL4565.fasta	blaZ	100.00	849/849	100.0	1..849	22 length=7467 depth=2.76x	5418..6266	Amoxicillin, Ampicillin, Penicillin, Piperacillin	JBTH01000015
+ST152_id46083_ACL4565.fasta	tet(K)	100.00	1380/1380	100.0	1..1380	24 length=4439 depth=4.84x circular=true	110..1489	Doxycycline, Tetracycline	U38656
+ST152_id46084_ACL8519.fasta	blaZ	100.00	846/846	100.0	1..846	18 length=20730 depth=14.32x circular=true	10210..11055	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP010941
+ST152_id46087_ACM1669.fasta	blaZ	100.00	846/846	100.0	1..846	16 length=20730 depth=3.12x circular=true	10210..11055	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP010941
+ST152_id46088_ACM4717.fasta	blaZ	100.00	846/846	100.0	1..846	13 length=20730 depth=4.58x circular=true	10210..11055	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP010941
+ST152_id46088_ACM4717.fasta	mecA	100.00	2007/2007	100.0	1..2007	5 length=233539 depth=1.15x	11425..13431	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Cefepime, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Ertapenem, Imipenem, Meropenem, Piperacillin, Piperacillin+Tazobactam	BX571856
+ST152_id46088_ACM4717.fasta	cat(pC221)	100.00	648/648	100.0	1..648	18 length=4224 depth=44.78x circular=true	2979..3626	Chloramphenicol	X02529
+ST152_id46088_ACM4717.fasta	tet(K)	100.00	1380/1380	100.0	1..1380	17 length=4439 depth=32.99x circular=true	2489..3868	Doxycycline, Tetracycline	U38656
+ST152_id46097_KGH0002.fasta	mecA	100.00	2007/2007	100.0	1..2007	5 length=233539 depth=1.14x	11425..13431	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Cefepime, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Ertapenem, Imipenem, Meropenem, Piperacillin, Piperacillin+Tazobactam	BX571856
+ST152_id46097_KGH0002.fasta	blaZ	100.00	846/846	100.0	1..846	16 length=20730 depth=3.33x circular=true	10210..11055	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP010941
+ST152_id46097_KGH0002.fasta	cat(pC221)	100.00	648/648	100.0	1..648	22 length=4224 depth=110.65x circular=true	321..968	Chloramphenicol	X02529
+ST152_id46099_SA013.fasta	blaZ	100.00	846/846	100.0	1..846	15 length=20730 depth=6.69x circular=true	10210..11055	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP010941
+ST152_id46099_SA013.fasta	mecA	100.00	2007/2007	100.0	1..2007	5 length=233540 depth=1.08x	220109..222115	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Cefepime, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Ertapenem, Imipenem, Meropenem, Piperacillin, Piperacillin+Tazobactam	BX571856
+ST152_id46099_SA013.fasta	cat(pC221)	100.00	648/648	100.0	1..648	24 length=4224 depth=99.01x circular=true	1379..2026	Chloramphenicol	X02529
+ST152_id46099_SA013.fasta	tet(K)	100.00	1362/1380	98.69565217391305	19..1380	23 length=4439 depth=75.99x circular=true	1..1362	Doxycycline, Tetracycline	U38656
+ST152_id46100_SA138.fasta	blaZ	100.00	846/846	100.0	1..846	12 length=20730 depth=8.89x circular=true	10210..11055	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP010941
+ST152_id46100_SA138.fasta	cat(pC221)	100.00	648/648	100.0	1..648	20 length=4224 depth=97.42x circular=true	3039..3686	Chloramphenicol	X02529
+ST152_id46100_SA138.fasta	tet(K)	100.00	1380/1380	100.0	1..1380	19 length=4439 depth=62.63x circular=true	2490..3869	Doxycycline, Tetracycline	U38656
+ST152_id46103_SA169.fasta	mecA	100.00	2007/2007	100.0	1..2007	5 length=224026 depth=1.10x	210614..212620	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Cefepime, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Ertapenem, Imipenem, Meropenem, Piperacillin, Piperacillin+Tazobactam	BX571856
+ST152_id46103_SA169.fasta	blaZ	100.00	846/846	100.0	1..846	19 length=20730 depth=9.37x circular=true	10210..11055	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP010941
+ST152_id46103_SA169.fasta	cat(pC221)	100.00	648/648	100.0	1..648	26 length=4224 depth=67.85x circular=true	2414..3061	Chloramphenicol	X02529
+ST152_id46103_SA169.fasta	tet(K)	100.00	1380/1380	100.0	1..1380	25 length=4439 depth=39.00x circular=true	2490..3869	Doxycycline, Tetracycline	U38656
+ST152_id46109_SA38.fasta	blaZ	99.88	849/849	100.0	1..849	17 length=20730 depth=5.69x circular=true	10207..11055	Amoxicillin, Ampicillin, Penicillin, Piperacillin	JBTH01000015
+ST152_id46109_SA38.fasta	mecA	100.00	2007/2007	100.0	1..2007	22 length=13014 depth=1.17x	8174..10180	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Cefepime, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Ertapenem, Imipenem, Meropenem, Piperacillin, Piperacillin+Tazobactam	NC_007168
+ST152_id46109_SA38.fasta	erm(C)	100.00	735/735	100.0	1..735	28 length=2473 depth=75.35x circular=true	1032..1766	Erythromycin, Lincomycin, Clindamycin, Quinupristin, Pristinamycin IA, Virginiamycin S	M19652
+ST152_id46109_SA38.fasta	tet(K)	100.00	1380/1380	100.0	1..1380	24 length=4456 depth=1.05x	140..1519	Doxycycline, Tetracycline	U38656
+ST152_id46109_SA38.fasta	dfrG	100.00	498/498	100.0	1..498	6 length=142822 depth=1.12x	102733..103230	Trimethoprim	AB205645
+ST152_id46110_SA43.fasta	blaZ	100.00	846/846	100.0	1..846	16 length=20730 depth=5.65x circular=true	10210..11055	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP010941
+ST152_id46110_SA43.fasta	mecA	100.00	2007/2007	100.0	1..2007	1 length=626117 depth=1.10x	405461..407467	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Cefepime, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Ertapenem, Imipenem, Meropenem, Piperacillin, Piperacillin+Tazobactam	BX571856
+ST152_id46110_SA43.fasta	tet(K)	100.00	1362/1380	98.69565217391305	19..1380	21 length=4439 depth=25.72x circular=true	1..1362	Doxycycline, Tetracycline	U38656
+ST152_id46112_SA-HVS.fasta	blaZ	100.00	846/846	100.0	1..846	21 length=20730 depth=5.03x circular=true	10210..11055	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP010941
+ST152_id46120_STAPH46-B.fasta	blaZ	100.00	846/846	100.0	1..846	22 length=20730 depth=8.54x circular=true	10210..11055	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP010941
+ST152_id46120_STAPH46-B.fasta	mecA	100.00	2007/2007	100.0	1..2007	4 length=233523 depth=1.13x	220092..222098	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Cefepime, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Ertapenem, Imipenem, Meropenem, Piperacillin, Piperacillin+Tazobactam	BX571856
+ST152_id46120_STAPH46-B.fasta	cat(pC221)	100.00	648/648	100.0	1..648	30 length=4224 depth=149.95x circular=true	1297..1944	Chloramphenicol	X02529
+ST152_id46120_STAPH46-B.fasta	tet(K)	100.00	1380/1380	100.0	1..1380	29 length=4439 depth=87.54x circular=true	383..1762	Doxycycline, Tetracycline	U38656
+ST22_id42176_HA-MRSA-56.fasta	mecA	100.00	1826/2007	90.98156452416542	182..2007	NODE_166_length_3266_cov_3.6483	1..1826	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Cefepime, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Ertapenem, Imipenem, Meropenem, Piperacillin, Piperacillin+Tazobactam	NC_002951
+ST22_id7459_ERR017301.fasta	aac(6')-aph(2'')	100.00	873/1440	60.62499999999999	1..873	ERR017301_A2391_NODE_253_COV_10.030661	1..873	Gentamicin, Tobramycin, Netilmicin, Kanamycin, Amikacin, Dibekacin, Isepamicin, Fortimicin, Streptomycin	M13771
+ST22_id7459_ERR017301.fasta	blaZ	99.89	888/888	100.0	1..888	ERR017301_A2391_NODE_624_COV_13.034225	11177..12064	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP003979
+ST22_id7529_ERR017291.fasta	aac(6')-aph(2'')	100.00	1440/1440	100.0	1..1440	ERR017291_A3208_NODE_61_COV_11.827198	439..1878	Gentamicin, Tobramycin, Netilmicin, Kanamycin, Amikacin, Dibekacin, Isepamicin, Fortimicin, Streptomycin	M13771
+ST22_id7529_ERR017291.fasta	blaZ	99.89	888/888	100.0	1..888	ERR017291_A3208_NODE_71_COV_16.901272	4583..5470	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP003979
+ST22_id7684_ERR017256.fasta	mecA	100.00	2007/2007	100.0	1..2007	ERR017256_A4441_NODE_7_COV_37.223850	1823..3829	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Cefepime, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Ertapenem, Imipenem, Meropenem, Piperacillin, Piperacillin+Tazobactam	NC_002951
+ST22_id7684_ERR017256.fasta	blaZ	100.00	888/888	100.0	1..888	ERR017256_A4441_NODE_38_COV_31.277826	16109..16996	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP003979
+ST22_id7684_ERR017256.fasta	erm(C)	100.00	735/735	100.0	1..735	ERR017256_A4441_NODE_10_COV_351.706024	1352..2086	Erythromycin, Lincomycin, Clindamycin, Quinupristin, Pristinamycin IA, Virginiamycin S	M13761
+ST22_id7684_ERR017256.fasta	tet(K)	100.00	1380/1380	100.0	1..1380	ERR017256_A4441_NODE_32_COV_489.229218	710..2089	Doxycycline, Tetracycline	U38656
+ST22_id7735_ERR017257.fasta	blaZ	99.89	888/888	100.0	1..888	ERR017257_A4069_NODE_56_COV_25.897072	16113..17000	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP003979
+ST22_id7735_ERR017257.fasta	tet(K)	100.00	1380/1380	100.0	1..1380	ERR017257_A4069_NODE_35_COV_440.775177	1283..2662	Doxycycline, Tetracycline	U38656
+ST5477_id37088_st5477_kp2016.fasta	blaZ	100.00	846/846	100.0	1..846	6 length=109089 depth=1.03x	36480..37325	Amoxicillin, Ampicillin, Penicillin, Piperacillin	AHVO01000010
+ST5477_id37088_st5477_kp2016.fasta	tet(K)	100.00	1380/1380	100.0	1..1380	21 length=4775 depth=12.34x circular=true	3298..4677	Doxycycline, Tetracycline	U38656
+ST5477_id37094_st5477_sp2017.fasta	blaZ	100.00	846/846	100.0	1..846	7 length=112232 depth=0.97x	71777..72622	Amoxicillin, Ampicillin, Penicillin, Piperacillin	AHVO01000010
+ST5477_id37098_st5477_np2017.fasta	str	92.93	566/669	84.30493273542601	1..565	23 length=3793 depth=28.68x circular=true	3153..3717	Streptomycin	AM932524
+ST5477_id37098_st5477_np2017.fasta	blaZ	100.00	846/846	100.0	1..846	7 length=109090 depth=1.00x	36480..37325	Amoxicillin, Ampicillin, Penicillin, Piperacillin	AHVO01000010
+ST5477_id37103_st5477i_wp2017.fasta	blaZ	100.00	846/846	100.0	1..846	6 length=109089 depth=1.03x	71765..72610	Amoxicillin, Ampicillin, Penicillin, Piperacillin	AHVO01000010
+ST5477_id37107_st5477ii_wp2017.fasta	str	99.65	849/849	100.0	1..849	21 length=3793 depth=31.97x circular=true	957..1805	Streptomycin	X92946
+ST5477_id37107_st5477ii_wp2017.fasta	blaZ	100.00	846/846	100.0	1..846	6 length=109089 depth=1.04x	71765..72610	Amoxicillin, Ampicillin, Penicillin, Piperacillin	AHVO01000010
+ST72_id38586_FF22_DADST035.fasta	blaZ	100.00	888/888	100.0	1..888	FF22_DADST035.1:21 Staphylococcus aureus isolate FF22_DADST035 Contig_4_24.8794	17692..18579	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP003979
+ST72_id38586_FF22_DADST035.fasta	dfrG	100.00	498/498	100.0	1..498	FF22_DADST035.1:20 Staphylococcus aureus isolate FF22_DADST035 Contig_32_26.7495	855..1352	Trimethoprim	AB205645
+ST72_id42177_HA-MRSA-58.fasta	blaZ	100.00	846/846	100.0	1..846	NODE_2_length_20855_cov_19.3859	7888..8733	Amoxicillin, Ampicillin, Penicillin, Piperacillin	AP004832
+ST72_id42177_HA-MRSA-58.fasta	mecA	100.00	2007/2007	100.0	1..2007	NODE_280_length_2493_cov_2.46661	208..2214	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Cefepime, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Ertapenem, Imipenem, Meropenem, Piperacillin, Piperacillin+Tazobactam	NC_007168
+ST72_id42177_HA-MRSA-58.fasta	fusC	100.00	399/639	62.441314553990615	241..639	NODE_718_length_1099_cov_2.47119	1..399	Fusidic acid	KF527883
+ST72_id42177_HA-MRSA-58.fasta	msr(A)	99.73	1458/1467	99.38650306748467	1..1458	NODE_8_length_13209_cov_4.84482	11752..13209	Erythromycin, Azithromycin, Telithromycin, Quinupristin, Pristinamycin IA, Virginiamycin S	X52085
+ST72_id46051_94YELLOW.fasta	blaZ	100.00	849/849	100.0	1..849	27 length=17135 depth=4.48x	6932..7780	Amoxicillin, Ampicillin, Penicillin, Piperacillin	JBTH01000015
+ST72_id46051_94YELLOW.fasta	cat(pC221)	100.00	648/648	100.0	1..648	32 length=4377 depth=82.55x circular=true	1124..1771	Chloramphenicol	X02529
+ST72_id46051_94YELLOW.fasta	tet(K)	100.00	1380/1380	100.0	1..1380	31 length=4512 depth=4.30x	895..2274	Doxycycline, Tetracycline	U38656
+ST72_id46076_ABS.fasta	blaZ	100.00	849/849	100.0	1..849	1 length=367781 depth=1.10x	196638..197486	Amoxicillin, Ampicillin, Penicillin, Piperacillin	JBTH01000015
+ST72_id46106_SA232.fasta	blaZ	100.00	849/849	100.0	1..849	1 length=314622 depth=1.11x	170296..171144	Amoxicillin, Ampicillin, Penicillin, Piperacillin	JBTH01000015
+ST72_id46108_SA299.fasta	cat(pC221)	100.00	648/648	100.0	1..648	26 length=4377 depth=60.51x circular=true	637..1284	Chloramphenicol	X02529
+ST7840_id38587_FF22_MC00111.fasta	erm(C)	100.00	735/735	100.0	1..735	FF22_MC00111.1:26 Staphylococcus aureus isolate FF22_MC00111 Contig_1_38.5249_Circ [topology=circular]	397..1131	Erythromycin, Lincomycin, Clindamycin, Quinupristin, Pristinamycin IA, Virginiamycin S	M13761
+ST7841_id38588_FF22_BC00110.fasta	str	99.65	849/849	100.0	1..849	FF22_BC00110.1:53 Staphylococcus aureus isolate FF22_BC00110 Contig_2_12801_Circ [topology=circular]	1835..2683	Streptomycin	X92946
+ST7841_id38588_FF22_BC00110.fasta	blaZ	99.88	846/846	100.0	1..846	FF22_BC00110.1:36 Staphylococcus aureus isolate FF22_BC00110 Contig_76_134.331	17755..18600	Amoxicillin, Ampicillin, Penicillin, Piperacillin	MAJJ01000071
+ST7841_id38588_FF22_BC00110.fasta	blaZ	99.88	846/846	100.0	1..846	FF22_BC00110.1:36 Staphylococcus aureus isolate FF22_BC00110 Contig_76_134.331	17755..18600	Amoxicillin, Ampicillin, Penicillin, Piperacillin	FKPS01000007
+ST7841_id38588_FF22_BC00110.fasta	blaZ	99.88	846/846	100.0	1..846	FF22_BC00110.1:36 Staphylococcus aureus isolate FF22_BC00110 Contig_76_134.331	17755..18600	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JVAT01000021
+ST7841_id38588_FF22_BC00110.fasta	blaZ	99.88	846/846	100.0	1..846	FF22_BC00110.1:36 Staphylococcus aureus isolate FF22_BC00110 Contig_76_134.331	17755..18600	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JUUA01000057
+ST7841_id38588_FF22_BC00110.fasta	blaZ	99.88	846/846	100.0	1..846	FF22_BC00110.1:36 Staphylococcus aureus isolate FF22_BC00110 Contig_76_134.331	17755..18600	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JVLY01000044
+ST7841_id38588_FF22_BC00110.fasta	blaZ	99.88	846/846	100.0	1..846	FF22_BC00110.1:36 Staphylococcus aureus isolate FF22_BC00110 Contig_76_134.331	17755..18600	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JVRB01000003
+ST7841_id38588_FF22_BC00110.fasta	blaZ	99.88	846/846	100.0	1..846	FF22_BC00110.1:36 Staphylococcus aureus isolate FF22_BC00110 Contig_76_134.331	17755..18600	Amoxicillin, Ampicillin, Penicillin, Piperacillin	JIFD01000012
+ST7841_id38588_FF22_BC00110.fasta	blaZ	99.88	846/846	100.0	1..846	FF22_BC00110.1:36 Staphylococcus aureus isolate FF22_BC00110 Contig_76_134.331	17755..18600	Amoxicillin, Ampicillin, Penicillin, Piperacillin	JIFU01000008
+ST7845_id38589_FF22_BC00201.fasta	str	100.00	849/849	100.0	1..849	FF22_BC00201.1:21 Staphylococcus aureus isolate FF22_BC00201 Contig_1_7742.14_Circ [topology=circular]	1140..1988	Streptomycin	FN435330
+ST7845_id38589_FF22_BC00201.fasta	blaZ	100.00	846/846	100.0	1..846	FF22_BC00201.1:6 Staphylococcus aureus isolate FF22_BC00201 Contig_6_152.664	71931..72776	Amoxicillin, Ampicillin, Penicillin, Piperacillin	AHVO01000010
+ST7845_id38589_FF22_BC00201.fasta	tet(K)	100.0	979/1380	70.94202898550725	402..1380	FF22_BC00201.1:20 Staphylococcus aureus isolate FF22_BC00201 Contig_2_16816.2_Circ [topology=circular]	1..979	Doxycycline, Tetracycline	U38656
+ST7845_id38589_FF22_BC00201.fasta	tet(K)	100.0	401/1380	29.057971014492757	1..401	FF22_BC00201.1:20 Staphylococcus aureus isolate FF22_BC00201 Contig_2_16816.2_Circ [topology=circular]	4375..4775	Doxycycline, Tetracycline	U38656
+ST7846_id38590_FF22_BC00304.fasta	str	100.00	849/849	100.0	1..849	FF22_BC00304.1:25 Staphylococcus aureus isolate FF22_BC00304 Contig_2_5181.73_Circ [topology=circular]	1140..1988	Streptomycin	FN435330
+ST7846_id38590_FF22_BC00304.fasta	blaZ	99.88	846/846	100.0	1..846	FF22_BC00304.1:14 Staphylococcus aureus isolate FF22_BC00304 Contig_16_73.6048	41586..42431	Amoxicillin, Ampicillin, Penicillin, Piperacillin	MAJJ01000071
+ST7846_id38590_FF22_BC00304.fasta	blaZ	99.88	846/846	100.0	1..846	FF22_BC00304.1:14 Staphylococcus aureus isolate FF22_BC00304 Contig_16_73.6048	41586..42431	Amoxicillin, Ampicillin, Penicillin, Piperacillin	FKPS01000007
+ST7846_id38590_FF22_BC00304.fasta	blaZ	99.88	846/846	100.0	1..846	FF22_BC00304.1:14 Staphylococcus aureus isolate FF22_BC00304 Contig_16_73.6048	41586..42431	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JVAT01000021
+ST7846_id38590_FF22_BC00304.fasta	blaZ	99.88	846/846	100.0	1..846	FF22_BC00304.1:14 Staphylococcus aureus isolate FF22_BC00304 Contig_16_73.6048	41586..42431	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JUUA01000057
+ST7846_id38590_FF22_BC00304.fasta	blaZ	99.88	846/846	100.0	1..846	FF22_BC00304.1:14 Staphylococcus aureus isolate FF22_BC00304 Contig_16_73.6048	41586..42431	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JVLY01000044
+ST7846_id38590_FF22_BC00304.fasta	blaZ	99.88	846/846	100.0	1..846	FF22_BC00304.1:14 Staphylococcus aureus isolate FF22_BC00304 Contig_16_73.6048	41586..42431	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JVRB01000003
+ST7846_id38590_FF22_BC00304.fasta	blaZ	99.88	846/846	100.0	1..846	FF22_BC00304.1:14 Staphylococcus aureus isolate FF22_BC00304 Contig_16_73.6048	41586..42431	Amoxicillin, Ampicillin, Penicillin, Piperacillin	JIFD01000012
+ST7846_id38590_FF22_BC00304.fasta	blaZ	99.88	846/846	100.0	1..846	FF22_BC00304.1:14 Staphylococcus aureus isolate FF22_BC00304 Contig_16_73.6048	41586..42431	Amoxicillin, Ampicillin, Penicillin, Piperacillin	JIFU01000008
+ST7848_id38592_FF22_TC00505.fasta	tet(K)	100.0	979/1380	70.94202898550725	402..1380	FF22_TC00505.1:26 Staphylococcus aureus isolate FF22_TC00505 Contig_2_10771.6_Circ [topology=circular]	1..979	Doxycycline, Tetracycline	U38656
+ST7848_id38592_FF22_TC00505.fasta	tet(K)	100.0	401/1380	29.057971014492757	1..401	FF22_TC00505.1:26 Staphylococcus aureus isolate FF22_TC00505 Contig_2_10771.6_Circ [topology=circular]	4039..4439	Doxycycline, Tetracycline	U38656
+ST8_id24326_ERR505358.fasta	mecA	100.00	2007/2007	100.0	1..2007	ERR505358_A130354_NODE_1_COV_22.501875	45817..47823	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Cefepime, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Ertapenem, Imipenem, Meropenem, Piperacillin, Piperacillin+Tazobactam	BX571856
+ST8_id24326_ERR505358.fasta	blaZ	100.00	849/849	100.0	1..849	ERR505358_A130354_NODE_5_COV_22.084383	12549..13397	Amoxicillin, Ampicillin, Penicillin, Piperacillin	JBTH01000015
+ST8_id24326_ERR505358.fasta	dfrG	100.00	498/498	100.0	1..498	ERR505358_A130354_NODE_5_COV_22.084383	35766..36263	Trimethoprim	AB205645
+ST8_id24340_ERR505387.fasta	blaZ	100.00	849/849	100.0	1..849	ERR505387_A131304_NODE_1_COV_26.855896	47850..48698	Amoxicillin, Ampicillin, Penicillin, Piperacillin	JBTH01000015
+ST8_id24340_ERR505387.fasta	erm(C)	100.00	735/735	100.0	1..735	ERR505387_A131304_NODE_178_COV_438.618958	396..1130	Erythromycin, Lincomycin, Clindamycin, Quinupristin, Pristinamycin IA, Virginiamycin S	M13761
+ST8_id24340_ERR505387.fasta	tet(K)	99.93	1380/1380	99.92753623188406	1..1380	ERR505387_A131304_NODE_65_COV_365.443604	643..2021	Doxycycline, Tetracycline	U38656
+ST8_id24340_ERR505387.fasta	dfrG	100.00	498/498	100.0	1..498	ERR505387_A131304_NODE_14_COV_26.663818	140389..140886	Trimethoprim	AB205645
+ST8_id24969_ERR505360.fasta	str	100.00	849/849	100.0	1..849	ERR505360_A131835_NODE_154_COV_159.189224	217..1065	Streptomycin	FN435330
+ST8_id24969_ERR505360.fasta	aac(6')-aph(2'')	100.00	1440/1440	100.0	1..1440	ERR505360_A131835_NODE_197_COV_66.069069	162..1601	Gentamicin, Tobramycin, Netilmicin, Kanamycin, Amikacin, Dibekacin, Isepamicin, Fortimicin, Streptomycin	M13771
+ST8_id24969_ERR505360.fasta	mecA	100.00	2007/2007	100.0	1..2007	ERR505360_A131835_NODE_16_COV_19.422819	2524..4530	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Cefepime, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Ertapenem, Imipenem, Meropenem, Piperacillin, Piperacillin+Tazobactam	NC_002951
+ST8_id24969_ERR505360.fasta	blaZ	100.00	546/846	64.53900709219859	301..846	ERR505360_A131835_NODE_170_COV_90.935783	1..546	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NC_013944
+ST8_id24969_ERR505360.fasta	blaZ	100.00	546/846	64.53900709219859	301..846	ERR505360_A131835_NODE_170_COV_90.935783	1..546	Amoxicillin, Ampicillin, Penicillin, Piperacillin	FGSJ01000003
+ST8_id24969_ERR505360.fasta	blaZ	100.00	546/846	64.53900709219859	301..846	ERR505360_A131835_NODE_170_COV_90.935783	1..546	Amoxicillin, Ampicillin, Penicillin, Piperacillin	FFOR01000002
+ST8_id24969_ERR505360.fasta	blaZ	100.00	546/846	64.53900709219859	301..846	ERR505360_A131835_NODE_170_COV_90.935783	1..546	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_CUGR01000082
+ST8_id24969_ERR505360.fasta	blaZ	100.00	546/846	64.53900709219859	301..846	ERR505360_A131835_NODE_170_COV_90.935783	1..546	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_CUHK01000055
+ST8_id24969_ERR505360.fasta	blaZ	100.00	546/846	64.53900709219859	301..846	ERR505360_A131835_NODE_170_COV_90.935783	1..546	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JVBT01000063
+ST8_id24969_ERR505360.fasta	blaZ	100.00	546/849	64.31095406360424	304..849	ERR505360_A131835_NODE_170_COV_90.935783	1..546	Amoxicillin, Ampicillin, Penicillin, Piperacillin	JBTH01000015
+ST8_id24969_ERR505360.fasta	blaZ	100.00	546/846	64.53900709219859	301..846	ERR505360_A131835_NODE_170_COV_90.935783	1..546	Amoxicillin, Ampicillin, Penicillin, Piperacillin	AJ400722
+ST8_id24969_ERR505360.fasta	erm(C)	100.00	735/735	100.0	1..735	ERR505360_A131835_NODE_29_COV_302.892853	1352..2086	Erythromycin, Lincomycin, Clindamycin, Quinupristin, Pristinamycin IA, Virginiamycin S	M13761
+ST8_id24969_ERR505360.fasta	tet(M)	100.00	1920/1920	100.0	1..1920	ERR505360_A131835_NODE_49_COV_19.380114	21192..23111	Doxycycline, Tetracycline, Minocycline	FN433596
+ST8_id25290_ERR505339.fasta	blaZ	100.00	849/849	100.0	1..849	ERR505339_A147056_NODE_67_COV_23.114107	287626..288474	Amoxicillin, Ampicillin, Penicillin, Piperacillin	JBTH01000015
+ST8_id25290_ERR505339.fasta	erm(C)	100.00	735/735	100.0	1..735	ERR505339_A147056_NODE_110_COV_447.772552	396..1130	Erythromycin, Lincomycin, Clindamycin, Quinupristin, Pristinamycin IA, Virginiamycin S	M13761
+ST8_id25290_ERR505339.fasta	tet(K)	99.93	1380/1380	99.92753623188406	1..1380	ERR505339_A147056_NODE_15_COV_402.201080	1123..2501	Doxycycline, Tetracycline	U38656
+ST8_id25290_ERR505339.fasta	dfrG	100.00	498/498	100.0	1..498	ERR505339_A147056_NODE_16_COV_22.693708	147934..148431	Trimethoprim	AB205645
+ST8_id25291_ERR505344.fasta	blaZ	100.00	849/849	100.0	1..849	ERR505344_A146631_NODE_3_COV_23.666536	71220..72068	Amoxicillin, Ampicillin, Penicillin, Piperacillin	JBTH01000015
+ST8_id25291_ERR505344.fasta	mecA	100.00	2007/2007	100.0	1..2007	ERR505344_A146631_NODE_89_COV_24.081764	209248..211254	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Cefepime, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Ertapenem, Imipenem, Meropenem, Piperacillin, Piperacillin+Tazobactam	BX571856
+ST8_id25291_ERR505344.fasta	erm(C)	100.00	735/735	100.0	1..735	ERR505344_A146631_NODE_103_COV_332.020447	397..1131	Erythromycin, Lincomycin, Clindamycin, Quinupristin, Pristinamycin IA, Virginiamycin S	M13761
+ST8_id25291_ERR505344.fasta	dfrG	100.00	498/498	100.0	1..498	ERR505344_A146631_NODE_3_COV_23.666536	48354..48851	Trimethoprim	AB205645
+ST8_id25293_ERR505357.fasta	blaZ	100.00	849/849	100.0	1..849	ERR505357_A147369_NODE_124_COV_27.131889	67933..68781	Amoxicillin, Ampicillin, Penicillin, Piperacillin	JBTH01000015
+ST8_id25293_ERR505357.fasta	erm(C)	100.00	735/735	100.0	1..735	ERR505357_A147369_NODE_69_COV_448.370117	1262..1996	Erythromycin, Lincomycin, Clindamycin, Quinupristin, Pristinamycin IA, Virginiamycin S	M13761
+ST8_id25293_ERR505357.fasta	tet(K)	99.93	1380/1380	99.92753623188406	1..1380	ERR505357_A147369_NODE_4_COV_358.007416	428..1806	Doxycycline, Tetracycline	U38656
+ST8_id25293_ERR505357.fasta	dfrG	100.00	498/498	100.0	1..498	ERR505357_A147369_NODE_8_COV_27.126690	151468..151965	Trimethoprim	AB205645
+ST8_id30866_ERR490594.fasta	str	100.00	849/849	100.0	1..849	ERR490594_A170363_NODE_192_COV_189.283829	205..1053	Streptomycin	FN435330
+ST8_id30866_ERR490594.fasta	aac(6')-aph(2'')	100.00	1440/1440	100.0	1..1440	ERR490594_A170363_NODE_196_COV_82.236153	150..1589	Gentamicin, Tobramycin, Netilmicin, Kanamycin, Amikacin, Dibekacin, Isepamicin, Fortimicin, Streptomycin	M13771
+ST8_id30866_ERR490594.fasta	mecA	100.00	2007/2007	100.0	1..2007	ERR490594_A170363_NODE_12_COV_22.506508	24326..26332	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Cefepime, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Ertapenem, Imipenem, Meropenem, Piperacillin, Piperacillin+Tazobactam	NC_002951
+ST8_id30866_ERR490594.fasta	blaZ	100.00	546/846	64.53900709219859	301..846	ERR490594_A170363_NODE_160_COV_102.423225	302..847	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NC_013944
+ST8_id30866_ERR490594.fasta	blaZ	100.00	546/846	64.53900709219859	301..846	ERR490594_A170363_NODE_160_COV_102.423225	302..847	Amoxicillin, Ampicillin, Penicillin, Piperacillin	FGSJ01000003
+ST8_id30866_ERR490594.fasta	blaZ	100.00	546/846	64.53900709219859	301..846	ERR490594_A170363_NODE_160_COV_102.423225	302..847	Amoxicillin, Ampicillin, Penicillin, Piperacillin	FFOR01000002
+ST8_id30866_ERR490594.fasta	blaZ	100.00	546/846	64.53900709219859	301..846	ERR490594_A170363_NODE_160_COV_102.423225	302..847	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_CUGR01000082
+ST8_id30866_ERR490594.fasta	blaZ	100.00	546/846	64.53900709219859	301..846	ERR490594_A170363_NODE_160_COV_102.423225	302..847	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_CUHK01000055
+ST8_id30866_ERR490594.fasta	blaZ	100.00	546/846	64.53900709219859	301..846	ERR490594_A170363_NODE_160_COV_102.423225	302..847	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JVBT01000063
+ST8_id30866_ERR490594.fasta	blaZ	100.00	546/849	64.31095406360424	304..849	ERR490594_A170363_NODE_160_COV_102.423225	302..847	Amoxicillin, Ampicillin, Penicillin, Piperacillin	JBTH01000015
+ST8_id30866_ERR490594.fasta	blaZ	100.00	546/846	64.53900709219859	301..846	ERR490594_A170363_NODE_160_COV_102.423225	302..847	Amoxicillin, Ampicillin, Penicillin, Piperacillin	AJ400722
+ST8_id30866_ERR490594.fasta	erm(C)	100.00	735/735	100.0	1..735	ERR490594_A170363_NODE_193_COV_360.379303	1352..2086	Erythromycin, Lincomycin, Clindamycin, Quinupristin, Pristinamycin IA, Virginiamycin S	M13761
+ST8_id30866_ERR490594.fasta	tet(M)	100.00	1920/1920	100.0	1..1920	ERR490594_A170363_NODE_36_COV_23.412411	271659..273578	Doxycycline, Tetracycline, Minocycline	FN433596
+ST8_id30877_ERR490621.fasta	blaZ	100.00	849/849	100.0	1..849	ERR490621_A170353_NODE_7_COV_29.234831	67919..68767	Amoxicillin, Ampicillin, Penicillin, Piperacillin	JBTH01000015
+ST8_id30877_ERR490621.fasta	erm(C)	100.00	735/735	100.0	1..735	ERR490621_A170353_NODE_181_COV_469.450287	396..1130	Erythromycin, Lincomycin, Clindamycin, Quinupristin, Pristinamycin IA, Virginiamycin S	M13761
+ST8_id30877_ERR490621.fasta	tet(K)	99.89	888/888	99.88738738738738	1..888	ERR490621_A170353_NODE_128_COV_397.827728	3199..4085	Doxycycline, Tetracycline	J01764
+ST8_id30877_ERR490621.fasta	dfrG	100.00	498/498	100.0	1..498	ERR490621_A170353_NODE_33_COV_28.810446	140716..141213	Trimethoprim	AB205645
+ST8_id31015_ERR490573.fasta	blaZ	100.00	849/849	100.0	1..849	ERR490573_A170570_NODE_5_COV_21.956245	287620..288468	Amoxicillin, Ampicillin, Penicillin, Piperacillin	JBTH01000015
+ST8_id31015_ERR490573.fasta	erm(C)	100.00	735/735	100.0	1..735	ERR490573_A170570_NODE_68_COV_421.685272	396..1130	Erythromycin, Lincomycin, Clindamycin, Quinupristin, Pristinamycin IA, Virginiamycin S	M13761
+ST8_id31015_ERR490573.fasta	tet(K)	99.93	1380/1380	99.92753623188406	1..1380	ERR490573_A170570_NODE_108_COV_382.261414	40..1418	Doxycycline, Tetracycline	U38656
+ST8_id31015_ERR490573.fasta	dfrG	100.00	498/498	100.0	1..498	ERR490573_A170570_NODE_5_COV_21.956245	508085..508582	Trimethoprim	AB205645
+ST8_id31020_ERR490578.fasta	blaZ	100.00	849/849	100.0	1..849	ERR490578_A170608_NODE_21_COV_26.113035	258566..259414	Amoxicillin, Ampicillin, Penicillin, Piperacillin	JBTH01000015
+ST8_id31020_ERR490578.fasta	mecA	100.00	2007/2007	100.0	1..2007	ERR490578_A170608_NODE_87_COV_26.054203	209238..211244	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Cefepime, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Ertapenem, Imipenem, Meropenem, Piperacillin, Piperacillin+Tazobactam	BX571856
+ST8_id31020_ERR490578.fasta	erm(C)	100.00	735/735	100.0	1..735	ERR490578_A170608_NODE_128_COV_362.627441	1351..2085	Erythromycin, Lincomycin, Clindamycin, Quinupristin, Pristinamycin IA, Virginiamycin S	M13761
+ST8_id31020_ERR490578.fasta	dfrG	100.00	498/498	100.0	1..498	ERR490578_A170608_NODE_21_COV_26.113035	235700..236197	Trimethoprim	AB205645
+ST8_id31026_ERR490591.fasta	blaZ	100.00	849/849	100.0	1..849	ERR490591_A170613_NODE_106_COV_29.074562	287545..288393	Amoxicillin, Ampicillin, Penicillin, Piperacillin	JBTH01000015
+ST8_id31026_ERR490591.fasta	erm(C)	100.00	735/735	100.0	1..735	ERR490591_A170613_NODE_6_COV_471.612244	396..1130	Erythromycin, Lincomycin, Clindamycin, Quinupristin, Pristinamycin IA, Virginiamycin S	M13761
+ST8_id31026_ERR490591.fasta	tet(K)	99.93	1380/1380	99.92753623188406	1..1380	ERR490591_A170613_NODE_50_COV_379.278992	1882..3260	Doxycycline, Tetracycline	U38656
+ST8_id31026_ERR490591.fasta	dfrG	100.00	498/498	100.0	1..498	ERR490591_A170613_NODE_10_COV_29.098429	140775..141272	Trimethoprim	AB205645
+ST8_id31027_ERR490592.fasta	mecA	100.00	2007/2007	100.0	1..2007	ERR490592_A170445_NODE_4_COV_26.482805	11432..13438	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Cefepime, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Ertapenem, Imipenem, Meropenem, Piperacillin, Piperacillin+Tazobactam	BX571856
+ST8_id31027_ERR490592.fasta	blaZ	100.00	849/849	100.0	1..849	ERR490592_A170445_NODE_8_COV_25.513441	38466..39314	Amoxicillin, Ampicillin, Penicillin, Piperacillin	JBTH01000015
+ST8_id31027_ERR490592.fasta	dfrG	100.00	498/498	100.0	1..498	ERR490592_A170445_NODE_8_COV_25.513441	15600..16097	Trimethoprim	AB205645
+ST8_id38621_AAU9502_S232.fasta	aph(2'')-Ia	100.00	1476/1476	100.0	1..1476	20 length=6827 depth=0.83x	4568..6043	Amikacin, Gentamicin, Tobramycin, Kanamycin	AP009486
+ST8_id38621_AAU9502_S232.fasta	ant(6)-Ia	100.00	909/909	100.0	1..909	20 length=6827 depth=0.83x	2037..2945	Streptomycin	AF330699
+ST8_id38621_AAU9502_S232.fasta	aph(3')-III	100.00	795/795	100.0	1..795	20 length=6827 depth=0.83x	611..1405	Kanamycin, Amikacin, Neomycin, Butirosin, Isepamicin, Lividomycin, Paromomycin, Ribostamycin	M26832
+ST8_id38621_AAU9502_S232.fasta	mecA	100.00	2007/2007	100.0	1..2007	2 length=304465 depth=1.02x	11055..13061	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Cefepime, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Ertapenem, Imipenem, Meropenem, Piperacillin, Piperacillin+Tazobactam	NC_007168
+ST8_id38621_AAU9502_S232.fasta	blaZ	100.00	849/849	100.0	1..849	3 length=244543 depth=1.04x	221950..222798	Amoxicillin, Ampicillin, Penicillin, Piperacillin	JBTH01000015
+ST8_id38621_AAU9502_S232.fasta	erm(B)	100.00	738/738	100.0	1..738	20 length=6827 depth=0.83x	3250..3987	Erythromycin, Lincomycin, Clindamycin, Quinupristin, Pristinamycin IA, Virginiamycin S	U18931
+ST8_id38621_AAU9502_S232.fasta	tet(K)	100.00	1380/1380	100.0	1..1380	22 length=4456 depth=0.89x	2938..4317	Doxycycline, Tetracycline	U38656
+ST8_id38621_AAU9502_S232.fasta	dfrG	100.00	498/498	100.0	1..498	1 length=688091 depth=1.00x	300597..301094	Trimethoprim	AB205645
+ST8_id38623_ABP5011_S53.fasta	aac(6')-aph(2'')	100.00	1440/1440	100.0	1..1440	51 length=3161 depth=4.51x	1269..2708	Gentamicin, Tobramycin, Netilmicin, Kanamycin, Amikacin, Dibekacin, Isepamicin, Fortimicin, Streptomycin	M13771
+ST8_id38623_ABP5011_S53.fasta	blaZ	100.00	849/849	100.0	1..849	41 length=15431 depth=1.14x	2491..3339	Amoxicillin, Ampicillin, Penicillin, Piperacillin	JBTH01000015
+ST8_id38623_ABP5011_S53.fasta	erm(C)	100.00	735/735	100.0	1..735	57 length=2415 depth=652.09x circular=true	347..1081	Erythromycin, Lincomycin, Clindamycin, Quinupristin, Pristinamycin IA, Virginiamycin S	M13761
+ST8_id38623_ABP5011_S53.fasta	tet(K)	100.00	1380/1380	100.0	1..1380	49 length=4534 depth=0.71x	171..1550	Doxycycline, Tetracycline	U38656
+ST8_id38623_ABP5011_S53.fasta	dfrG	100.00	498/498	100.0	1..498	5 length=151477 depth=0.95x	123653..124150	Trimethoprim	AB205645
+ST8_id38630_SA32_S33.fasta	blaZ	100.00	846/846	100.0	1..846	Contig_30_62.5583	110881..111726	Amoxicillin, Ampicillin, Penicillin, Piperacillin	AHVO01000010
+ST8_id42161_HA-MRSA-33.fasta	blaZ	100.00	846/846	100.0	1..846	NODE_1_length_20857_cov_38.809	19465..20310	Amoxicillin, Ampicillin, Penicillin, Piperacillin	AP004832
+ST8_id42161_HA-MRSA-33.fasta	erm(C)	100.00	735/735	100.0	1..735	NODE_119_length_2600_cov_59.1892	1354..2088	Erythromycin, Lincomycin, Clindamycin, Quinupristin, Pristinamycin IA, Virginiamycin S	M13761
+ST8_id46085_ACL.fasta	blaZ	100.00	846/846	100.0	1..846	3 length=181650 depth=1.17x	110861..111706	Amoxicillin, Ampicillin, Penicillin, Piperacillin	AHVO01000010
+ST8_id46085_ACL.fasta	erm(C)	100.00	735/735	100.0	1..735	18 length=2473 depth=53.08x circular=true	12..746	Erythromycin, Lincomycin, Clindamycin, Quinupristin, Pristinamycin IA, Virginiamycin S	M19652
+ST8_id46125_W-357.fasta	blaZ	100.00	846/846	100.0	1..846	13 length=77359 depth=0.97x	69986..70831	Amoxicillin, Ampicillin, Penicillin, Piperacillin	AHVO01000010
+ST8_id46125_W-357.fasta	fosD	100.00	420/420	100.0	1..420	19 length=20527 depth=3.90x	7467..7886	Fosfomycin	KC989517
+ST8_id46125_W-357.fasta	erm(C)	99.86	735/735	100.0	1..735	24 length=2415 depth=200.90x circular=true	1075..1809	Erythromycin, Lincomycin, Clindamycin, Quinupristin, Pristinamycin IA, Virginiamycin S	M19652
+ST8_id46125_W-357.fasta	fexB	99.36	1410/1410	100.0	1..1410	19 length=20527 depth=3.90x	9939..11348	Chloramphenicol, Florfenicol	JN201336
+ST97_id24332_ERR505370.fasta	blaZ	100.00	846/846	100.0	1..846	ERR505370_A129947_NODE_14_COV_95.391655	4628..5473	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP000732
+ST97_id30870_ERR490604.fasta	blaZ	100.00	846/846	100.0	1..846	ERR490604_A170344_NODE_95_COV_109.555412	15000..15845	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP000732
+ST97_id37086_st97i_kp2016.fasta	str	99.65	849/849	100.0	1..849	18 length=3158 depth=30.34x	1193..2041	Streptomycin	X92946
+ST97_id37086_st97i_kp2016.fasta	blaZ	99.88	846/846	100.0	1..846	5 length=154461 depth=0.97x	69772..70617	Amoxicillin, Ampicillin, Penicillin, Piperacillin	MAJJ01000071
+ST97_id37086_st97i_kp2016.fasta	blaZ	99.88	846/846	100.0	1..846	5 length=154461 depth=0.97x	69772..70617	Amoxicillin, Ampicillin, Penicillin, Piperacillin	FKPS01000007
+ST97_id37086_st97i_kp2016.fasta	blaZ	99.88	846/846	100.0	1..846	5 length=154461 depth=0.97x	69772..70617	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JVAT01000021
+ST97_id37086_st97i_kp2016.fasta	blaZ	99.88	846/846	100.0	1..846	5 length=154461 depth=0.97x	69772..70617	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JUUA01000057
+ST97_id37086_st97i_kp2016.fasta	blaZ	99.88	846/846	100.0	1..846	5 length=154461 depth=0.97x	69772..70617	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JVLY01000044
+ST97_id37086_st97i_kp2016.fasta	blaZ	99.88	846/846	100.0	1..846	5 length=154461 depth=0.97x	69772..70617	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JVRB01000003
+ST97_id37086_st97i_kp2016.fasta	blaZ	99.88	846/846	100.0	1..846	5 length=154461 depth=0.97x	69772..70617	Amoxicillin, Ampicillin, Penicillin, Piperacillin	JIFD01000012
+ST97_id37086_st97i_kp2016.fasta	blaZ	99.88	846/846	100.0	1..846	5 length=154461 depth=0.97x	69772..70617	Amoxicillin, Ampicillin, Penicillin, Piperacillin	JIFU01000008
+ST97_id37086_st97i_kp2016.fasta	tet(K)	100.00	1380/1380	100.0	1..1380	16 length=3825 depth=32.73x	1171..2550	Doxycycline, Tetracycline	U38656
+ST97_id37089_st97ii_kp2016.fasta	str	100.00	743/849	87.51472320376914	107..849	17 length=4397 depth=5.01x circular=true	3655..4397	Streptomycin	FN435330
+ST97_id37089_st97ii_kp2016.fasta	blaZ	99.88	846/846	100.0	1..846	5 length=154254 depth=0.98x	69772..70617	Amoxicillin, Ampicillin, Penicillin, Piperacillin	MAJJ01000071
+ST97_id37089_st97ii_kp2016.fasta	blaZ	99.88	846/846	100.0	1..846	5 length=154254 depth=0.98x	69772..70617	Amoxicillin, Ampicillin, Penicillin, Piperacillin	FKPS01000007
+ST97_id37089_st97ii_kp2016.fasta	blaZ	99.88	846/846	100.0	1..846	5 length=154254 depth=0.98x	69772..70617	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JVAT01000021
+ST97_id37089_st97ii_kp2016.fasta	blaZ	99.88	846/846	100.0	1..846	5 length=154254 depth=0.98x	69772..70617	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JUUA01000057
+ST97_id37089_st97ii_kp2016.fasta	blaZ	99.88	846/846	100.0	1..846	5 length=154254 depth=0.98x	69772..70617	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JVLY01000044
+ST97_id37089_st97ii_kp2016.fasta	blaZ	99.88	846/846	100.0	1..846	5 length=154254 depth=0.98x	69772..70617	Amoxicillin, Ampicillin, Penicillin, Piperacillin	NZ_JVRB01000003
+ST97_id37089_st97ii_kp2016.fasta	blaZ	99.88	846/846	100.0	1..846	5 length=154254 depth=0.98x	69772..70617	Amoxicillin, Ampicillin, Penicillin, Piperacillin	JIFD01000012
+ST97_id37089_st97ii_kp2016.fasta	blaZ	99.88	846/846	100.0	1..846	5 length=154254 depth=0.98x	69772..70617	Amoxicillin, Ampicillin, Penicillin, Piperacillin	JIFU01000008
+ST97_id37096_st97_sp2017.fasta	str	99.47	562/849	66.19552414605418	288..849	16 length=3793 depth=29.59x circular=true	1..562	Streptomycin	FN435330
+ST97_id37096_st97_sp2017.fasta	str	99.4661921708185	562/849	66.19552414605418	288..849	16 length=3793 depth=29.59x circular=true	1..562	Streptomycin	X92946
+ST97_id37096_st97_sp2017.fasta	str	100.0	287/849	33.80447585394582	1..287	16 length=3793 depth=29.59x circular=true	3507..3793	Streptomycin	X92946
+ST97_id37096_st97_sp2017.fasta	blaZ	99.89	888/888	100.0	1..888	5 length=194385 depth=0.94x	130129..131016	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP003979
+ST97_id37108_st97_wp2017.fasta	str	99.65	849/849	100.0	1..849	20 length=3793 depth=38.60x circular=true	2772..3620	Streptomycin	X92946
+ST97_id37108_st97_wp2017.fasta	blaZ	99.89	888/888	100.0	1..888	16 length=9565 depth=1.87x	2279..3166	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP003979
+ST97_id37108_st97_wp2017.fasta	tet(K)	100.00	1380/1380	100.0	1..1380	18 length=4443 depth=11.65x circular=true	2647..4026	Doxycycline, Tetracycline	U38656
+ST97_id38035_8SP.fasta	mecA	100.00	2007/2007	100.0	1..2007	8SP_contig_1 length 820733 coverage 511.0 normalized_cov 1.14	374357..376363	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Cefepime, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Ertapenem, Imipenem, Meropenem, Piperacillin, Piperacillin+Tazobactam	BX571856
+ST97_id38035_8SP.fasta	tet(K)	100.00	1380/1380	100.0	1..1380	8SP_contig_16 length 4445 coverage 4888.5 normalized_cov 10.92	2957..4336	Doxycycline, Tetracycline	U38656
+ST97_id42130_CA-MRSA-185.fasta	mecA	100.00	2007/2007	100.0	1..2007	NODE_91_length_6071_cov_2.81931	2660..4666	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Cefepime, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Ertapenem, Imipenem, Meropenem, Piperacillin, Piperacillin+Tazobactam	BX571856
+ST97_id42130_CA-MRSA-185.fasta	blaZ	100.00	846/846	100.0	1..846	NODE_4_length_20530_cov_17.4885	7114..7959	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP000732
+test_129	blaZ	100.00	846/846	100.0	1..846	ERR505363_A130980_NODE_27_COV_59.977810	6658..7503	Amoxicillin, Ampicillin, Penicillin, Piperacillin	AP004832
+test_129	dfrG	100.00	498/498	100.0	1..498	ERR505363_A130980_NODE_29_COV_18.282499	53332..53829	Trimethoprim	AB205645

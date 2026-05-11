@@ -1,0 +1,25 @@
+sample	Mutation	Nucleotide change	Amino acid change	Resistance	PMID
+ST152_id42099_CA-MRSA-150.fasta	fusA p.L461K	TTA -> AAA	L -> K	Fusidic Acid	12519196
+ST152_id42099_CA-MRSA-150.fasta	grlA p.S80F	TCC -> TTC	S -> F	Ciprofloxacin	15848290
+ST152_id42099_CA-MRSA-150.fasta	gyrA p.S84L	TCA -> TTA	S -> L	Ciprofloxacin	2174869
+ST22_id7684_ERR017256.fasta	grlA p.S80F	TCC -> TTC	S -> F	Ciprofloxacin	15848290
+ST22_id7684_ERR017256.fasta	gyrA p.S84L	TCA -> TTA	S -> L	Ciprofloxacin	2174869
+ST72_id42177_HA-MRSA-58.fasta	dfrB p.F99Y	TTT -> TAT	F -> Y	Trimethoprim	19383727
+ST72_id42177_HA-MRSA-58.fasta	grlA p.S80F	TCC -> TTC	S -> F	Ciprofloxacin	15848290
+ST72_id42177_HA-MRSA-58.fasta	gyrA p.S84L	TCA -> TTA	S -> L	Ciprofloxacin	2174869
+ST8_id24969_ERR505360.fasta	grlA p.S80F	TCC -> TTC	S -> F	Ciprofloxacin	15848290
+ST8_id24969_ERR505360.fasta	rpoB p.A473T	GCA -> ACA	A -> T	Rifampicin	11157898
+ST8_id24969_ERR505360.fasta	rpoB p.A477T	GCT -> ACT	A -> T	Rifampicin	11157898
+ST8_id24969_ERR505360.fasta	rpoB p.H481N	CAT -> AAT	H -> N	Rifampicin	11157898
+ST8_id30866_ERR490594.fasta	grlA p.S80F	TCC -> TTC	S -> F	Ciprofloxacin	15848290
+ST8_id30866_ERR490594.fasta	rpoB p.A473T	GCA -> ACA	A -> T	Rifampicin	11157898
+ST8_id30866_ERR490594.fasta	rpoB p.A477T	GCT -> ACT	A -> T	Rifampicin	11157898
+ST8_id30866_ERR490594.fasta	rpoB p.H481N	CAT -> AAT	H -> N	Rifampicin	11157898
+ST8_id38621_AAU9502_S232.fasta	grlA p.S80F	TCC -> TTC	S -> F	Ciprofloxacin	15848290
+ST8_id38621_AAU9502_S232.fasta	gyrA p.S84L	TCA -> TTA	S -> L	Ciprofloxacin	2174869
+ST8_id38623_ABP5011_S53.fasta	grlA p.S80F	TCC -> TTC	S -> F	Ciprofloxacin	15848290
+ST8_id38623_ABP5011_S53.fasta	grlA p.E84G	GAA -> GGA	E -> G	Ciprofloxacin	21996946
+ST8_id38623_ABP5011_S53.fasta	gyrA p.S84L	TCA -> TTA	S -> L	Ciprofloxacin	2174869
+ST8_id42161_HA-MRSA-33.fasta	fusA p.L461K	TTA -> AAA	L -> K	Fusidic Acid	12519196
+ST8_id42161_HA-MRSA-33.fasta	gyrA p.S84L	TCA -> TTA	S -> L	Ciprofloxacin	2174869
+ST8_id46125_W-357.fasta	grlA p.S80Y	TCC -> TAC	S -> Y	Ciprofloxacin	9511037
