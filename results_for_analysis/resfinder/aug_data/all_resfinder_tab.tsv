@@ -1,4 +1,4 @@
-sample	Resistance gene	Identity	Alignment Length/Gene Length	Coverage	Position in reference	Contig	Position in contig	Phenotype	Accession no.
+Sample	Resistance gene	Identity	Alignment Length/Gene Length	Coverage	Position in reference	Contig	Position in contig	Phenotype	Accession no.
 ST121_id24328_ERR505363.fasta	blaZ	100.00	846/846	100.0	1..846	ERR505363_A130980_NODE_27_COV_59.977810	6658..7503	Amoxicillin, Ampicillin, Penicillin, Piperacillin	AP004832
 ST121_id24328_ERR505363.fasta	dfrG	100.00	498/498	100.0	1..498	ERR505363_A130980_NODE_29_COV_18.282499	53332..53829	Trimethoprim	AB205645
 ST121_id24971_ERR505373.fasta	blaZ	100.00	888/888	100.0	1..888	ERR505373_A131753_NODE_4_COV_24.781187	9189..10076	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP003979

@@ -1,0 +1,84 @@
+Sequence file name	Date of isolation	Sample type	Sample source 	Region	Human Contact with animals 	Species	ST	Sequencing machine
+Q0003_BC00102	10/10/2017	Milk 	Cow 	Bagamoyo	N/A	S. aureus	ST5477	MiSeq
+Q0003_BC00104	10/10/2017	Milk 	Cow 	Bagamoyo	N/A	S. aureus	ST5477	MiSeq
+Q0003_BC00105	10/10/2017	Milk 	Cow 	Bagamoyo	N/A	S. aureus	ST97	MiSeq
+Q0003_BC00106	10/10/2017	Milk 	Cow 	Bagamoyo	N/A	S. aureus	ST5477	MiSeq
+Q0003_BC00107	10/10/2017	Milk 	Cow 	Bagamoyo	N/A	S. aureus	ST5477	MiSeq
+Q0003_BC00108	10/10/2017	Milk 	Cow 	Bagamoyo	N/A	S. aureus	ST7841	MiSeq
+Q0003_BC00110	10/10/2017	Milk 	Cow 	Bagamoyo	N/A	S. aureus	ST7841	MiSeq
+Q0003_BC00111	10/10/2017	Milk 	Cow 	Bagamoyo	N/A	S. aureus	ST97	MiSeq
+Q0003_BC00117	10/10/2017	Milk 	Cow 	Bagamoyo	N/A	S. aureus	ST97	MiSeq
+Q0003_BC00118	10/10/2017	Milk 	Cow 	Bagamoyo	N/A	S. aureus	ST97	MiSeq
+Q0003_BC00201	11/10/2017	Milk 	Cow 	Bagamoyo	N/A	S. aureus	ST7845	MiSeq
+Q0003_BC00211	11/10/2017	Milk 	Cow 	Bagamoyo	N/A	S. aureus	ST7846	MiSeq
+Q0003_BC00303	12/10/2017	Milk 	Cow 	Bagamoyo	N/A	S. aureus	ST152	MiSeq
+Q0003_BC00304	12/10/2017	Milk 	Cow 	Bagamoyo	N/A	S. aureus	ST7846	MiSeq
+Q0003_BC00310	12/10/2017	Milk 	Cow 	Bagamoyo	N/A	S. aureus	ST7845	MiSeq
+Q0003_BC00406	14/10/2017	Milk 	Cow 	Bagamoyo	N/A	S. aureus	ST97	MiSeq
+Q0003_BC00410-2	14/10/2017	Milk 	Cow 	Bagamoyo	N/A	S. aureus	ST7847	MiSeq
+Q0003_BC00416	14/10/2017	Milk 	Cow 	Bagamoyo	N/A	S. aureus	ST97	MiSeq
+Q0003_BH404	14/10/2017	Nasal swab	Human 	Bagamoyo	Yes	S. aureus	ST243	MiSeq
+Q0003_HB00604	17/09/2017	Nasal swab	Human 	Bagamoyo	Yes	S. aureus	ST152	MiSeq
+Q0003_MC00105	28/11/2017	Milk 	Cow 	Morogoro	N/A	S. aureus	ST152	MiSeq
+Q0003_MC00111	28/11/2017	Milk 	Cow 	Morogoro	N/A	S. aureus	ST7840	MiSeq
+Q0003_MC00114-1	28/11/2017	Milk 	Cow 	Morogoro	N/A	S. aureus	ST7840	MiSeq
+Q0003_MC00115-2	28/11/2017	Milk 	Cow 	Morogoro	N/A	S. aureus	ST7840	MiSeq
+Q0003_MC00201	30/11/2017	Milk 	Cow 	Morogoro	N/A	S. aureus	ST7846	MiSeq
+Q0003_MC00203	30/11/2017	Milk 	Cow 	Morogoro	N/A	S. aureus	ST7846	MiSeq
+Q0003_MC00205	30/11/2017	Milk 	Cow 	Morogoro	N/A	S. aureus	ST7846	MiSeq
+Q0003_MC00210	30/11/2017	Milk 	Cow 	Morogoro	N/A	S. aureus	ST7846	MiSeq
+Q0003_MC00211	30/11/2017	Milk 	Cow 	Morogoro	N/A	S. aureus	ST7846	MiSeq
+Q0003_MC00214	30/11/2017	Milk 	Cow 	Morogoro	N/A	S. aureus	ST7846	MiSeq
+Q0003_MC00215	30/11/2017	Milk 	Cow 	Morogoro	N/A	S. aureus	ST7846	MiSeq
+Q0003_MC00216	30/11/2017	Milk 	Cow 	Morogoro	N/A	S. aureus	ST7846	MiSeq
+Q0003_MC0026	30/11/2017	Milk 	Cow 	Morogoro	N/A	S. aureus	ST7846	MiSeq
+Q0003_TC00102	17/09/2017	Milk 	Cow 	Tanga	N/A	S. aureus	ST97	MiSeq
+Q0003_TC00512	18/09/2017	Milk 	Cow 	Tanga	N/A	S. aureus	ST5477	MiSeq
+Q0003_TC00516	18/09/2017	Milk 	Cow 	Tanga	N/A	S. aureus	ST152	MiSeq
+Q0003_TC00522	18/09/2017	Milk 	Cow 	Tanga	N/A	S. aureus	ST152	MiSeq
+Q0003_TC00523	18/09/2017	Milk 	Cow 	Tanga	N/A	S. aureus	ST152	MiSeq
+R0047_DABST013	10/4/2019	Nasal swab	Human 	D’Salaam	No	S. aureus	ST121	MiSeq
+R0047_DADST030	10/4/2019	Nasal swab	Human 	D’Salaam	No	S. aureus	Unknown	MiSeq
+R0047_DADST035	10/4/2019	Nasal swab	Human 	D’Salaam	No	S. aureus	ST72	MiSeq
+R0047_MH0081	30/11/2017	Nasal swab	Human 	Morogoro	Yes	S. aureus	ST8	MiSeq
+R0047_TC0201	17/09/2017	Milk 	Cow 	Tanga	N/A	S. aureus	ST5477	MiSeq
+R0047_TH0405	14/10/2017	Nasal swab	Human 	Tanga	Yes	S. aureus	ST152	MiSeq
+R0051_BC00101	10/10/2017	Milk 	Cow 	Bagamoyo	N/A	S. aureus	ST7841	MiSeq
+R0051_BC00115	10/10/2017	Milk 	Cow 	Bagamoyo	N/A	S. aureus	ST7841	MiSeq
+R0051_BC00306	12/10/2017	Milk 	Cow 	Bagamoyo	N/A	S. aureus	ST152	MiSeq
+R0051_BH00403	14/10/2017	Nasal swab	Human 	Bagamoyo	Yes	S. aureus	ST7846	MiSeq
+R0051_DADST045	10/4/2019	Nasal swab	Human 	D’Salaam	No	S. aureus	ST121	MiSeq
+R0051_DADST084	12/4/2019	Nasal swab	Human 	D’Salaam	No	S. aureus	ST97	MiSeq
+R0051_DADST088	12/4/2019	Nasal swab	Human 	D’Salaam	No	S. aureus	ST97	MiSeq
+R0051_HK2002	30/11/2017	Nasal swab	Human 	Bagamoyo	Yes	S. aureus	ST22	MiSeq
+R0051_TC00219	17/09/2017	Milk 	Cow 	Tanga	N/A	S. aureus	ST5477	MiSeq
+R0051_TC00402	18/09/2017	Milk 	Cow 	Tanga	N/A	S. aureus	ST121	MiSeq
+R0051_TC00505	18/09/2017	Milk 	Cow 	Tanga	N/A	S. aureus	ST7848	MiSeq
+R0052_BH0034	12/10/2017	Nasal swab	Human 	Bagamoyo	Yes	S. aureus	ST152	MiSeq
+R0052_DADST001	10/4/2019	Nasal swab	Human 	D’Salaam	No	S. aureus	ST152	MiSeq
+R0052_DADST013-B	10/4/2019	Nasal swab	Human 	D’Salaam	No	S. aureus	ST121	MiSeq
+R0052_DADST015	10/4/2019	Nasal swab	Human 	D’Salaam	No	S. aureus	ST152	MiSeq
+R0052_DADST053	15/4/2019	Nasal swab	Human 	D’Salaam	No	S. aureus	Unkown	MiSeq
+R0052_DADST067	15/4/2019	Nasal swab	Human 	D’Salaam	No	S. aureus	Unkown	MiSeq
+R0052_DADST091	12/4/2019	Nasal swab	Human 	D’Salaam	No	S. aureus	Unkown	MiSeq
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								

@@ -1,4 +1,4 @@
-sample	Resistance gene	Identity	Alignment Length/Gene Length	Coverage	Position in reference	Contig	Position in contig	Phenotype	Accession no.
+Sample	Resistance gene	Identity	Alignment Length/Gene Length	Coverage	Position in reference	Contig	Position in contig	Phenotype	Accession no.
 Q0003_BC00102	blaZ	100.00	846/846	100.0	1..846	NODE_7_length_109823_cov_36.637799	71900..72745	Amoxicillin, Ampicillin, Penicillin, Piperacillin	AHVO01000010
 Q0003_BC00104	blaZ	100.00	846/846	100.0	1..846	NODE_6_length_230373_cov_10.884041	157700..158545	Amoxicillin, Ampicillin, Penicillin, Piperacillin	AHVO01000010
 Q0003_BC00105	blaZ	100.00	846/846	100.0	1..846	NODE_22_length_20530_cov_19.059060	5279..6124	Amoxicillin, Ampicillin, Penicillin, Piperacillin	CP000732
