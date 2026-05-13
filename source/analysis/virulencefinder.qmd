@@ -44,8 +44,36 @@ virfinder_overview  <- read_excel(virulence_finder_path, sheet = "Detailed_overv
 ```
 
 ```{r}
+virfinder_overview
+```
+
+```{r}
+virfinder_overview <- virfinder_overview |>
+  rename(
+    sample              = `Sample`,
+    hit_database        = `Hit database`,
+    virulence_factor    = `Virulence factor`,
+    identity            = `%Identity`,
+    query_hsp_length    = `Query/HSP length`,
+    contig              = `Contig`,
+    position_in_contig  = `Position in contig`,
+    protein_function    = `Protein function`,
+    accession_number    = `Accession number`,
+    coverage            = `Coverage`,
+    hit_id              = `Hit ID`,
+    position_in_reference = `Positions in reference`
+  )
+```
+
+```{r}
+virfinder_overview
+```
+
+```{r}
 virfinder_overview |>
-  filter(`Virulence factor` == "splA")
+  filter(virulence_factor == "splA") |> 
+  ggplot(mapping = aes( x = identity)) +
+  geom_bar()
 ```
 
 ```{r}
