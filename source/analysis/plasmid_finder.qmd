@@ -109,8 +109,8 @@ mlst_df |> count(ST, sort = TRUE)
 #| label: process-virulencefinder
 
 # QC thresholds — used for both your data and augmented
-VIR_IDENTITY <- 50   # min %identity
-VIR_COVERAGE <- 50   # min coverage %
+VIR_IDENTITY <- 90   # min %identity
+VIR_COVERAGE <- 60   # min coverage %
 
 vir_df <- virfinder_overview |>
   rename(
