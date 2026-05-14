@@ -9,8 +9,8 @@
 #PBS -l walltime=1:00:00
 
 RESULTS_DIR="/home/projects/course_23262/group/group1/23262_infectious_disease_project/results/virulencefinder"
-echo Working directory is $RESULTS_DIR
-cd $RESULTS_DIR
+echo "Working directory is $RESULTS_DIR"
+cd "$RESULTS_DIR"
 
 module purge
 module load tools
@@ -20,8 +20,17 @@ module load perl/5.36.1
 module load ncbi-blast/2.2.31+
 
 summary_script="/home/projects/course_23262/tools/WGStools_summary/virulencefinder_summary.py"
-output_file="virulencefinder_summary"
 
-python $summary_script \
-    -i $RESULTS_DIR/. \
-    -o $output_file
+# --- summarise original data ---
+echo "Summarising our_data..."
+python "$summary_script" \
+    -i "$RESULTS_DIR/our_data/." \
+    -o "virulencefinder_summary_our_data"
+
+# --- summarise augmented data ---
+echo "Summarising augmented data..."
+python "$summary_script" \
+    -i "$RESULTS_DIR/augmented/." \
+    -o "virulencefinder_summary_augmented"
+
+echo "Summary done."

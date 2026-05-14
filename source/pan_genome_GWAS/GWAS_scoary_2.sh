@@ -3,9 +3,9 @@
 #PBS -N GWAS_group1
 #PBS -e /home/projects/course_23262/group/group1/23262_infectious_disease_project/results/pan_genome_GWAS/scoary_GWAS.err
 #PBS -o /home/projects/course_23262/group/group1/23262_infectious_disease_project/results/pan_genome_GWAS/scoary_GWAS.log
-#PBS -l nodes=1:ppn=16
-#PBS -l mem=64gb
-#PBS -l walltime=12:00:00
+#PBS -l nodes=1:ppn=4
+#PBS -l mem=32gb
+#PBS -l walltime=6:00:00
 
 module purge
 module load tools ngs
@@ -19,4 +19,4 @@ TRAITS_FILE=/home/projects/course_23262/group/group1/23262_infectious_disease_pr
 
 mkdir -p -m 777 "$OUTPUT_DIR"
 
-scoary -t "$TRAITS_FILE" -g "$ROARY_DIR/Gene_presence_absence.csv" -o "$OUTPUT_DIR" -u -c I EPW --threads
+scoary -t "$TRAITS_FILE" -g "$ROARY_DIR/gene_presence_absence.csv" -o "$OUTPUT_DIR" -u -c I EPW --threads 4
