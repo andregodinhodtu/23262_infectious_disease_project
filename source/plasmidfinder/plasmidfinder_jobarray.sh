@@ -16,7 +16,7 @@
 ### Requesting time
 #PBS -l walltime=4:00:00
 ### Using Job Arrays to launch multiple jobs simultaneously
-#PBS -t 1-62%20
+#PBS -t 1-112%20
 
 RESULTS_DIR="/home/projects/course_23262/group/group1/23262_infectious_disease_project/results/plasmidfinder"
 echo "Working directory is $RESULTS_DIR"

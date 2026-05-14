@@ -7,7 +7,7 @@
 #PBS -l nodes=1:ppn=4
 #PBS -l mem=16gb
 #PBS -l walltime=4:00:00
-#PBS -t 1-62%20
+#PBS -t 1-112%20
 
 RESULTS_DIR="/home/projects/course_23262/group/group1/23262_infectious_disease_project/results/virulencefinder"
 echo "Working directory is $RESULTS_DIR"
