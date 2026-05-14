@@ -15,6 +15,7 @@ editor: visual
 library(tidyverse)
 library(readxl)
 library(here)
+library(pheatmap)
 ```
 
 # Data Upload
@@ -66,17 +67,254 @@ virfinder_overview <- virfinder_overview |>
 ```
 
 ```{r}
-virfinder_overview
+#| label: virfinder-qc-filter
+
+# QC thresholds
+VIR_IDENTITY <- 90   # min %identity
+VIR_COVERAGE <- 60   # min coverage %
+
+vir_df <- virfinder_overview |>
+  filter(!is.na(virulence_factor)) |>
+  filter(sample %in% sample_list) |>
+  filter(identity >= VIR_IDENTITY, coverage >= VIR_COVERAGE) |>
+  group_by(sample, hit_database, virulence_factor) |>
+  slice_max(identity, n = 1, with_ties = FALSE) |>
+  ungroup()
+
+cat("Total hits after QC:", nrow(vir_df), "\n")
+count(vir_df, hit_database)
+count(vir_df, virulence_factor, sort = TRUE) |> head(15)
 ```
 
 ```{r}
-virfinder_overview |>
-  filter(virulence_factor == "splA") |> 
-  ggplot(mapping = aes( x = identity)) +
-  geom_bar()
+#| label: load-metadata
+
+metadata <- read_tsv(
+  here("results_for_analysis", "s_aureus_metadata.tsv"),
+  show_col_types = FALSE
+) |>
+  rename(
+    sample         = `Sequence file name`,
+    date           = `Date of isolation`,
+    sample_type    = `Sample type`,
+    host           = `Sample source`,
+    region         = Region,
+    animal_contact = `Human Contact with animals`,
+    species        = Species,
+    ST_meta        = ST
+  )
 ```
 
 ```{r}
+metadata
+```
 
-sample_list
+```{r}
+#| label: load-mlst
+
+mlst_df <- read_tsv(
+  here("results_for_analysis", "mlst", "mlst_summary.txt"),
+  col_names  = FALSE,
+  show_col_types = FALSE
+)
+
+colnames(mlst_df) <- c("sample", "species", "ST",
+                       "gene1", "gene2", "gene3",
+                       "gene4", "gene5", "gene6", "gene7")
+
+mlst_df <- mlst_df |>
+  mutate(
+    sample = sample |>
+      str_remove("^.*/") |>     # strip any directory prefix
+      str_remove("\\.fasta$")
+  ) |>
+  filter(sample %in% sample_list)
+
+mlst_df |> count(ST, sort = TRUE)
+```
+
+```{r}
+#| label: build-final-strain-data
+
+meta_vs_mlst <- metadata |>
+  left_join(mlst_df |> select(sample, ST_mlst = ST), by = "sample") |>
+  mutate(
+    ST_meta_clean = str_remove(ST_meta, "^ST") |> str_trim(),
+    ST_meta_clean = case_when(
+      ST_meta_clean == "Unknown" ~ NA_character_,
+      ST_meta_clean == "Unkown"  ~ NA_character_,   # metadata typo
+      TRUE                       ~ ST_meta_clean
+    ),
+    ST_mlst_clean = as.character(ST_mlst)
+  ) |>
+  filter(sample %in% sample_list)
+
+# resolve final ST: MLST priority, metadata fallback
+final_strain_data <- meta_vs_mlst |>
+  mutate(ST_final = case_when(
+    ST_mlst_clean != "-"      ~ ST_mlst_clean,
+    !is.na(ST_meta_clean)     ~ ST_meta_clean
+  )) |>
+  select(-c(ST_meta, ST_meta_clean, ST_mlst_clean))
+
+count(final_strain_data, ST_final, sort = TRUE)
+```
+
+```{r}
+final_strain_data
+```
+
+```{r}
+#| label: build-annotation
+
+# row annotation: ST, host, region — ordered by ST then host
+annot_row <- final_strain_data |>
+  mutate(
+    ST     = paste0("ST", ST_final),
+    region = iconv(region, from = "UTF-8", to = "ASCII//TRANSLIT")
+  ) |>
+  select(sample, ST, host, region) |>
+  arrange(ST, host) |>
+  column_to_rownames("sample")
+
+# gap positions between ST groups
+gap_pos <- annot_row |>
+  mutate(row_n = row_number()) |>
+  group_by(ST) |>
+  summarise(last = max(row_n), .groups = "drop") |>
+  arrange(last) |>
+  pull(last) |>
+  head(-1)
+
+# color palette for STs (auto-scales to however many you have)
+st_levels <- sort(unique(annot_row$ST))
+st_cols <- setNames(
+  colorRampPalette(c("#378ADD", "#fa0606", "#3B6D11", "#BA7517",
+                     "#534AB7", "#0F6E56", "#993556", "#5F5E5A",
+                     "#D85A30", "#185FA5"))(length(st_levels)),
+  st_levels
+)
+
+ann_colors <- list(
+  ST = st_cols,
+  host = c(
+    "Cow"   = "#a0d69c",
+    "Human" = "#c9937b"
+  ),
+  region = c(
+    "Bagamoyo" = "#EEEDFE",
+    "Morogoro" = "#AFA9EC",
+    "Tanga"    = "#7F77DD",
+    "D'Salaam" = "#3C3489"
+  )
+)
+
+# sanity
+head(annot_row)
+gap_pos
+```
+
+```{r}
+#| label: vir-helper
+
+build_identity_matrix <- function(long_df, db_name, all_samples, annot) {
+  
+  sub <- long_df |> filter(hit_database == db_name)
+  
+  # wide identity matrix: rows = samples, cols = genes
+  mat <- sub |>
+    pivot_wider(
+      id_cols     = sample,
+      names_from  = virulence_factor,
+      values_from = identity
+    )
+  
+  # add samples with no hits in this database
+  missing <- setdiff(all_samples, mat$sample)
+  if (length(missing) > 0) {
+    mat <- bind_rows(mat, tibble(sample = missing))
+  }
+  
+  mat <- mat |>
+    column_to_rownames("sample") |>
+    as.matrix()
+  
+  # match row order to annotation
+  mat[rownames(annot), , drop = FALSE]
+}
+```
+
+```{r}
+#| label: vir-matrices
+
+mat_exo  <- build_identity_matrix(vir_df, "s.aureus_exoenzyme", sample_list, annot_row)
+mat_tox  <- build_identity_matrix(vir_df, "s.aureus_toxin",     sample_list, annot_row)
+mat_host <- build_identity_matrix(vir_df, "s.
+                                  aureus_hostimm",   sample_list, annot_row)
+
+cat("Exoenzyme: ", nrow(mat_exo),  "x", ncol(mat_exo),  "\n")
+cat("Toxin:     ", nrow(mat_tox),  "x", ncol(mat_tox),  "\n")
+cat("Hostimm:   ", nrow(mat_host), "x", ncol(mat_host), "\n")
+
+# add ST152 highlight column to the annotation
+annot_row_vir <- annot_row |>
+  mutate(highlight = if_else(ST == "ST152", "ST152", "other"))
+
+ann_colors_vir <- c(
+  ann_colors,
+  list(highlight = c("ST152" = "#ebf830", "other" = "white"))
+)
+```
+
+```{r}
+#| label: vir-heatmap_function
+
+draw_vir_heatmap <- function(mat, title) {
+  pheatmap(
+    mat,
+    annotation_row    = annot_row_vir,
+    annotation_colors = ann_colors_vir,
+    cluster_rows      = FALSE,
+    cluster_cols      = FALSE,
+    gaps_row          = gap_pos,
+    color             = colorRampPalette(c("#cfe3f5", "#0a4d8c"))(50),
+    na_col            = "white",
+    border_color      = "grey90",
+    cellwidth         = 30,
+    cellheight        = 10,
+    fontsize_row      = 7,
+    fontsize_col      = 10,
+    angle_col         = 45,
+    legend            = TRUE,
+    main              = title
+  )
+}
+```
+
+```{r}
+draw_vir_heatmap(mat_exo,  "Virulence: exoenzymes — S. aureus Tanzania (n=53)")
+```
+
+```{r}
+#| fig-width: 16
+#| fig-height: 10
+draw_vir_heatmap(mat_tox,  "Virulence: toxins — S. aureus Tanzania (n=53)")
+```
+
+```{r}
+mat_host
+```
+
+```{r}
+draw_vir_heatmap(mat_host, "Virulence: host-immune evasion — S. aureus Tanzania (n=53)")
+```
+
+```{r}
+sum(!is.na(mat_exo))
+sum(!is.na(mat_tox))
+sum(!is.na(mat_host))
+```
+
+```{r}
+vir_df |> count(hit_database)
 ```
