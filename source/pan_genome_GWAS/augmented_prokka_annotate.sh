@@ -23,7 +23,13 @@ cd "$INPUT_DIR" || exit
 
 # Looping over all the genomes
 for assembly in *.fasta; do
-# for assembly in ST8_id38630_SA32_S33.fasta ST152_id46083_ACL4565.fasta ST152_id46112_SA-HVS.fasta ST72_id46108_SA299.fasta; do
+# for assembly in ST22_id37156_SA82.fasta \
+#                ST5477_id37103_wp2017.fasta \
+#                ST5477_id37107_wp2017.fasta \
+#                ST7847_id38591_FF22.fasta \
+#                ST8_id37152_SA20.fasta \
+#                ST97_id37151_SA18.fasta; do
+
 	# Getting the name of the sample
 	sample=${assembly%.fasta}
 
@@ -35,5 +41,6 @@ for assembly in *.fasta; do
    		--prefix "$sample" \
 		--locustag "$sample" \
 		--cpus 8 \
+		--compliant --centre X \
 		"$assembly"
 done

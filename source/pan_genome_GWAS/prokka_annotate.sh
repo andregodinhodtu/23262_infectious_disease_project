@@ -32,5 +32,6 @@ for assembly in *.fasta; do
    		--prefix "$sample" \
 		--locustag "$sample" \
 		--cpus 8 \
+		--compliant --centre X \
 		"$assembly"
 done

@@ -22,7 +22,6 @@ OUTPUT_DIR="/home/projects/course_23262/group/group1/23262_infectious_disease_pr
 
 
 mkdir -p -m 777 "$GFF_folder"
-mkdir -p -m 777 "$OUTPUT_DIR"
 
 cd "$WORKING_DIR" || exit
 

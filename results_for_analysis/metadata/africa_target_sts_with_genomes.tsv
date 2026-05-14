@@ -1,0 +1,131 @@
+id	isolate	country	continent	region	year	sex	disease	source_category	source	arcC	aroE	glpF	gmk	pta	tpi	yqiL	ST (MLST)
+7459	ERR017301	Namibia	Africa		2009		unknown	unknown	unknown	7	6	1	5	8	8	6	22
+7529	ERR017291	Namibia	Africa		2009		unknown	unknown	unknown	7	6	1	5	8	8	6	22
+7684	ERR017256	Nigeria	Africa		2002		unknown	unknown	unknown	7	6	1	5	8	8	6	22
+7735	ERR017257	Sudan	Africa		2007		unknown	unknown	unknown	7	6	1	5	8	8	6	22
+21212	ERR227490	Algeria	Africa		2005		unknown	unknown	unknown	3	1	1	1	1	5	3	97
+24326	ERR505358	Tanzania	Africa		2013		unknown	unknown	unknown	3	3	1	1	4	4	3	8
+24328	ERR505363	Tanzania	Africa		2005		unknown	unknown	unknown	6	5	6	2	7	14	5	121
+24332	ERR505370	Tanzania	Africa		2008		unknown	unknown	unknown	3	1	1	1	1	5	3	97
+24340	ERR505387	Tanzania	Africa		2008		unknown	unknown	unknown	3	3	1	1	4	4	3	8
+24969	ERR505360	Tanzania	Africa		2008		unknown	unknown	unknown	3	3	1	1	4	4	3	8
+24971	ERR505373	Tanzania	Africa		2013		unknown	unknown	unknown	6	5	6	2	7	14	5	121
+24973	ERR505392	Tanzania	Africa		2013		unknown	unknown	unknown	6	5	6	2	7	14	5	121
+25290	ERR505339	Tanzania	Africa		2008		unknown	unknown	unknown	3	3	1	1	4	4	3	8
+25291	ERR505344	Tanzania	Africa		2008		unknown	unknown	unknown	3	3	1	1	4	4	3	8
+25293	ERR505357	Tanzania	Africa		2013		unknown	unknown	unknown	3	3	1	1	4	4	3	8
+30866	ERR490594	Tanzania	Africa		2008		unknown	unknown	unknown	3	3	1	1	4	4	3	8
+30867	ERR490597	Tanzania	Africa		2005		unknown	unknown	unknown	6	5	6	2	7	14	5	121
+30870	ERR490604	Tanzania	Africa		2008		unknown	unknown	unknown	3	1	1	1	1	5	3	97
+30877	ERR490621	Tanzania	Africa		2008		unknown	unknown	unknown	3	3	1	1	4	4	3	8
+30879	ERR490626	Tanzania	Africa		2013		unknown	unknown	unknown	6	5	6	2	7	14	5	121
+31015	ERR490573	Tanzania	Africa		2008		unknown	unknown	unknown	3	3	1	1	4	4	3	8
+31020	ERR490578	Tanzania	Africa		2008		unknown	unknown	unknown	3	3	1	1	4	4	3	8
+31026	ERR490591	Tanzania	Africa		2013		unknown	unknown	unknown	3	3	1	1	4	4	3	8
+31027	ERR490592	Tanzania	Africa		2013		unknown	unknown	unknown	3	3	1	1	4	4	3	8
+31033	ERR490607	Tanzania	Africa		2013		unknown	unknown	unknown	6	5	6	2	7	14	5	121
+37086	st97i_kp2016	Rwanda	Africa	Kigali province	2016	female	mastitis	food	milk	3	1	1	1	1	5	3	97
+37087	st152_kp2016	Rwanda	Africa	Kigali province	2016	female	mastitis	food	milk	46	75	49	44	13	68	60	152
+37088	st5477_kp2016	Rwanda	Africa	Kigali province	2016	female	mastitis	food	milk	6	55	45	2	109	14	741	5477
+37089	st97ii_kp2016	Rwanda	Africa	Kigali province	2016	female	mastitis	food	milk	3	1	1	1	1	5	3	97
+37092	st152i_np2017	Rwanda	Africa	Northern province	2017	female	mastitis	food	milk	46	75	49	44	13	68	60	152
+37093	st152i_ep2017	Rwanda	Africa	Eastern province	2017	female	mastitis	food	milk	46	75	49	44	13	68	60	152
+37094	st5477_sp2017	Rwanda	Africa	Southern province	2017	female	mastitis	food	milk	6	55	45	2	109	14	741	5477
+37096	st97_sp2017	Rwanda	Africa	Southern province	2017	female	mastitis	food	milk	3	1	1	1	1	5	3	97
+37098	st5477_np2017	Rwanda	Africa	Northern province	2017	female	mastitis	food	milk	6	55	45	2	109	14	741	5477
+37103	st5477i_wp2017	Rwanda	Africa	Western province	2017	female	mastitis	food	milk	6	55	45	2	109	14	741	5477
+37104	st152ii_np2017	Rwanda	Africa	Northern province	2017	female	mastitis	food	milk	46	75	49	44	13	68	60	152
+37105	st152_wp2017	Rwanda	Africa	Western province	2017	female	mastitis	food	milk	46	75	49	44	13	68	60	152
+37107	st5477ii_wp2017	Rwanda	Africa	Western province	2017	female	mastitis	food	milk	6	55	45	2	109	14	741	5477
+37108	st97_wp2017	Rwanda	Africa	Western province	2017	female	mastitis	food	milk	3	1	1	1	1	5	3	97
+37109	st152ii_ep2017	Rwanda	Africa	Eastern province	2017	female	mastitis	food	milk	46	75	49	44	13	68	60	152
+37151	S. aureus SA18	Algeria	Africa		2020		food poisoning	food	food	3	1	1	1	1	5	3	97
+37152	S. aureus SA20	Algeria	Africa		2020		food poisoning	food	food	3	3	1	1	4	4	3	8
+37156	S. aureus SA82	Algeria	Africa		2020		food poisoning	food	food	7	6	1	5	8	8	6	22
+38035	8SP	Sudan	Africa		2021		urinary tract infection	human	urine	3	1	1	1	1	5	3	97
+38040	18SP	Sudan	Africa		2021		septicaemia	human	blood	6	5	6	2	7	14	5	121
+38586	FF22_DADST035	Tanzania	Africa		2019		unknown	human	nasal swab	1	4	1	8	4	4	3	72
+38587	FF22_MC00111	Tanzania	Africa		2017		none (food/environmental)	food	milk	196	55	67	2	109	14	5	7840
+38588	FF22_BC00110	Tanzania	Africa		2017		none (food/environmental)	food	milk	3	1	958	1	1	519	3	7841
+38589	FF22_BC00201	Tanzania	Africa		2017		none (food/environmental)	food	milk	6	55	959	2	109	14	741	7845
+38590	FF22_BC00304	Tanzania	Africa		2017		none (food/environmental)	food	milk	3	1	1	1	938	5	3	7846
+38591	FF22_BC00410-2	Tanzania	Africa		2017		none (food/environmental)	food	milk	903	1	1	1	12	556	1027	7847
+38592	FF22_TC00505	Tanzania	Africa		2017		none (food/environmental)	food	milk	196	55	45	2	939	14	1028	7848
+38621	AAU9502_S232	Ghana	Africa	Eastern region	2022	female	urinary tract infection	human	urine	3	3	1	1	4	4	3	8
+38623	ABP5011_S53	Ghana	Africa	Eastern region	2022	female	wound	human	wound swab	3	3	1	1	4	4	3	8
+38630	SA32_S33	Ghana	Africa	Greater Accra region	2022	male	wound	human	wound swab	3	3	1	1	4	4	3	8
+42066	CA-MRSA-117	Egypt	Africa		2021		unknown	human	unknown	6	5	6	2	7	14	5	121
+42067	CA-MRSA-118	Egypt	Africa		2021		unknown	human	unknown	6	5	6	2	7	14	5	121
+42076	CA-MRSA-127	Egypt	Africa		2021		unknown	human	unknown	6	5	6	2	7	14	5	121
+42099	CA-MRSA-150	Egypt	Africa		2021		unknown	human	unknown	46	75	49	44	13	68	60	152
+42101	CA-MRSA-152	Egypt	Africa		2021		unknown	human	unknown	46	75	49	44	13	68	60	152
+42112	CA-MRSA-164	Egypt	Africa		2021		unknown	human	unknown	6	5	6	2	7	14	5	121
+42130	CA-MRSA-185	Egypt	Africa		2021		unknown	human	unknown	3	1	1	1	1	5	3	97
+42132	CA-MRSA-187	Egypt	Africa		2021		unknown	human	unknown	46	75	49	44	13	68	60	152
+42141	CA-MRSA-198	Egypt	Africa		2021		unknown	human	unknown	6	5	6	2	7	14	5	121
+42143	CA-MRSA-200	Egypt	Africa		2021		unknown	human	unknown	6	5	6	2	7	14	5	121
+42161	HA-MRSA-33	Egypt	Africa		2021		unknown	human	unknown	4			8		10	8	
+42164	HA-MRSA-37	Egypt	Africa		2021		unknown	human	unknown	46	75	49	44	13	68	60	152
+42171	HA-MRSA-47	Egypt	Africa		2021		unknown	human	unknown	6	5	6	2	7	14	5	121
+42176	HA-MRSA-56	Egypt	Africa		2021		unknown	human	unknown	7	6	1	5	8	8	6	22
+42177	HA-MRSA-58	Egypt	Africa		2021		unknown	human	unknown	4		1	1	11	72		
+42178	HA-MRSA-59	Egypt	Africa		2021		unknown	human	unknown	6	5	6	2	7	14	5	121
+46014	002EAR	Ghana	Africa		2022		unknown	human	other	46	75	49	44	13	68	60	152
+46015	003WOUND	Ghana	Africa		2022		wound	human	wound swab	46	75	49	44	13	68	60	152
+46016	005	Ghana	Africa		2022		unknown	human	other	46	75	49	44	13	68	60	152
+46017	0106EAR	Ghana	Africa		2022		unknown	human	other	46	75	49	44	13	68	60	152
+46019	041	Ghana	Africa		2022		wound	human	wound swab	46	75	49	44	13	68	60	152
+46020	047	Ghana	Africa		2022		urinary tract infection	human	urine	46	75	49	44	13	68	60	152
+46024	111	Ghana	Africa		2022		unknown	human	unknown	46	75	49	44	13	68	60	152
+46030	2133	Ghana	Africa		2022		unknown	human	unknown	46	75	49	44	13	68	60	152
+46031	224	Ghana	Africa		2022		wound	human	wound swab	46	75	49	44	13	68	60	152
+46032	237	Ghana	Africa		2022		wound	human	wound swab	46	75	49	44	13	68	60	152
+46036	3	Ghana	Africa		2022		unknown	human	unknown	46	75	49	44	13	68	60	152
+46038	4877	Ghana	Africa		2022		wound	human	wound swab	46	75	49	44	13	68	60	152
+46039	4887	Ghana	Africa		2022		wound	human	wound swab	46	75	49	44	13	68	60	152
+46046	719	Ghana	Africa		2022		unknown	human	unknown	46	75	49	44	13	68	60	152
+46047	7450	Ghana	Africa		2022		unknown	human	other	46	75	49	44	13	68	60	152
+46048	8122B	Ghana	Africa		2022		septicaemia	human	blood	46	75	49	44	13	68	60	152
+46051	94YELLOW	Ghana	Africa		2022		unknown	human	unknown	1	4	1	8	4	4	3	72
+46052	97877	Ghana	Africa		2022		wound	human	wound swab	46	75	49	44	13	68	60	152
+46054	AAB3625	Ghana	Africa		2022		wound	human	wound swab	46	75	49	44	13	68	60	152
+46055	AAB6669	Ghana	Africa		2022		wound	human	wound swab	46	75	49	44	13	68	60	152
+46056	AAD9642	Ghana	Africa		2022		septicaemia	human	blood	46	75	49	44	13	68	60	152
+46058	AAE5707	Ghana	Africa		2022		urinary tract infection	human	urine	46	75	49	44	13	68	60	152
+46059	AAF0093	Ghana	Africa		2022		wound	human	wound swab	46	75	49	44	13	68	60	152
+46060	AAF490	Ghana	Africa		2022		wound	human	wound swab	46	75	49	44	13	68	60	152
+46064	AAG0106	Ghana	Africa		2022		unknown	human	unknown	46	75	49	44	13	68	60	152
+46065	AAG1683	Ghana	Africa		2022		wound	human	wound swab	46	75	49	44	13	68	60	152
+46068	AAG5197	Ghana	Africa		2022		wound	human	wound swab	46	75	49	44	13	68	60	152
+46069	AAG6052	Ghana	Africa		2022		wound	human	wound swab	46	75	49	44	13	68	60	152
+46070	AAO	Ghana	Africa		2022		wound	human	wound swab	46	75	49	44	13	68	60	152
+46071	AAP-5997	Ghana	Africa		2022		wound	human	wound swab	46	75	49	44	13	68	60	152
+46072	ABB1391	Ghana	Africa		2022		wound	human	wound swab	46	75	49	44	13	68	60	152
+46073	ABE4195	Ghana	Africa		2022		wound	human	wound swab	46	75	49	44	13	68	60	152
+46074	ABE4195	Ghana	Africa		2022		wound	human	wound swab	46	75	49	44	13	68	60	152
+46076	ABS	Ghana	Africa		2022		unknown	human	other	1	4	1	8	4	4	3	72
+46077	ACJ3976	Ghana	Africa		2022		wound	human	wound swab	46	75	49	44	13	68	60	152
+46078	ACJ4246	Ghana	Africa		2022		wound	human	wound swab	46	75	49	44	13	68	60	152
+46079	ACJ5898	Ghana	Africa		2022		wound	human	wound swab	46	75	49	44	13	68	60	152
+46080	ACK0380	Ghana	Africa		2022		unknown	human	eye suppuration	46	75	49	44	13	68	60	152
+46082	ACL2618	Ghana	Africa		2022		septicaemia	human	blood	46	75	49	44	13	68	60	152
+46083	ACL4565	Ghana	Africa		2022		wound	human	wound swab	46	75	49	44	13	68	60	152
+46084	ACL8519	Ghana	Africa		2022		septicaemia	human	blood	46	75	49	44	13	68	60	152
+46085	ACL	Ghana	Africa		2022		septicaemia	human	blood	3	3	1	1	4	4	3	8
+46087	ACM1669	Ghana	Africa		2022		urinary tract infection	human	urine	46	75	49	44	13	68	60	152
+46088	ACM4717	Ghana	Africa		2022		wound	human	wound swab	46	75	49	44	13	68	60	152
+46095	ECJ	Ghana	Africa		2022		unknown	human	unknown	46	75	49	44	13	68	60	152
+46096	KGH0001	Ghana	Africa		2022		septicaemia	human	blood	6	5	6	2	7	14	5	121
+46097	KGH0002	Ghana	Africa		2022		wound	human	wound swab	46	75	49	44	13	68	60	152
+46099	SA013	Ghana	Africa		2022		wound	human	wound swab	46	75	49	44	13	68	60	152
+46100	SA138	Ghana	Africa		2022		wound	human	wound swab	46	75	49	44	13	68	60	152
+46103	SA169	Ghana	Africa		2022		wound	human	wound swab	46	75	49	44	13	68	60	152
+46106	SA232	Ghana	Africa		2022		unknown	human	unknown	1	4	1	8	4	4	3	72
+46108	SA299	Ghana	Africa		2022		wound	human	wound swab	1	4	1	8	4	4	3	72
+46109	SA38	Ghana	Africa		2022		wound	human	wound swab	46	75	49	44	13	68	60	152
+46110	SA43	Ghana	Africa		2022		urinary tract infection	human	urine	46	75	49	44	13	68	60	152
+46112	SA-HVS	Ghana	Africa		2022		unknown	human	other	46	75	49	44	13	68	60	152
+46118	SPHL046	Ghana	Africa		2022		wound	human	wound swab	6	5	6	2	7	14	5	121
+46119	SPHL048	Ghana	Africa		2022		unknown	human	sputum	6	5	6	2	7	14	5	121
+46120	STAPH46-B	Ghana	Africa		2022		wound	human	wound swab	46	75	49	44	13	68	60	152
+46125	W-357	Ghana	Africa		2022		wound	human	wound swab	3	3	1	1	4	4	3	8
