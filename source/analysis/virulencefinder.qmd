@@ -292,6 +292,8 @@ draw_vir_heatmap <- function(mat, title) {
 ```
 
 ```{r}
+#| fig-width: 12
+#| fig-height: 10
 draw_vir_heatmap(mat_exo,  "Virulence: exoenzymes — S. aureus Tanzania (n=53)")
 ```
 
