@@ -1,0 +1,13 @@
+#!/bin/bash
+# This script is to be used as a command line, as it's just file manipulation
+# Goal: retrieve all assemblies from Tanzania and augmented data in a single folder
+
+CSI_DIR="/home/projects/course_23262/group/group1/23262_infectious_disease_project/results/CSI_phylogeny/data_csi"
+TANZ_DATA="/home/projects/course_23262/group/group1/23262_infectious_disease_project/data/assemblies_QC_passed/"
+AUGM_DATA="/home/projects/course_23262/group/group1/23262_infectious_disease_project/data/assemblies_augm_postQC/"
+
+mkdir -p -m 777 "$CSI_DIR"
+
+
+cp "$TANZ_DATA"/*.fasta "$CSI_DIR"
+cp "$AUGM_DATA"/*.fasta "$CSI_DIR"

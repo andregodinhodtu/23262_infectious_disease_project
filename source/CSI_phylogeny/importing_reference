@@ -1,0 +1,10 @@
+#!/bin/bash
+# This script is to be used as a command line, as it's just file manipulation
+# Goal: retrieve a reference genome from KmerFinder using KMA
+
+CSI_DIR="/home/projects/course_23262/group/group1/23262_infectious_disease_project/data/CSI_Phylogeny/"
+
+mkdir -p -m 777 "$CSI_DIR"
+
+
+kma seq2fasta -t_db "/home/projects/course_23262/tools/kmerfinder/kmerfinder_db/bacteria/bacteria.ATG" -seqs 23310 > "$CSI_DIR"/S_Aureus_ref.fsa
