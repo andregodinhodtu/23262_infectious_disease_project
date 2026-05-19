@@ -1,0 +1,166 @@
+id	source	country	ST	host
+Q0003_BC00102	DTU food	Tanzania	5477	cow
+Q0003_BC00104	DTU food	Tanzania	5477	cow
+Q0003_BC00105	DTU food	Tanzania	97	cow
+Q0003_BC00106	DTU food	Tanzania	5477	cow
+Q0003_BC00107	DTU food	Tanzania	5477	cow
+Q0003_BC00108	DTU food	Tanzania	7841	cow
+Q0003_BC00110	DTU food	Tanzania	7841	cow
+Q0003_BC00111	DTU food	Tanzania	97	cow
+Q0003_BC00117	DTU food	Tanzania	97	cow
+Q0003_BC00118	DTU food	Tanzania	97	cow
+Q0003_BC00201	DTU food	Tanzania	7845	cow
+Q0003_BC00211	DTU food	Tanzania	7846	cow
+Q0003_BC00303	DTU food	Tanzania	152	cow
+Q0003_BC00304	DTU food	Tanzania	7846	cow
+Q0003_BC00310	DTU food	Tanzania	7845	cow
+Q0003_BC00406	DTU food	Tanzania	97	cow
+Q0003_BC00410-2	DTU food	Tanzania	7847	cow
+Q0003_BC00416	DTU food	Tanzania	97	cow
+Q0003_BH404	DTU food	Tanzania	243	human
+Q0003_HB00604	DTU food	Tanzania	152	human
+Q0003_MC00105	DTU food	Tanzania	152	cow
+Q0003_MC00111	DTU food	Tanzania	7840	cow
+Q0003_MC00114-1	DTU food	Tanzania	7840	cow
+Q0003_MC00115-2	DTU food	Tanzania	7840	cow
+Q0003_MC00201	DTU food	Tanzania	7846	cow
+Q0003_MC00203	DTU food	Tanzania	7846	cow
+Q0003_MC00205	DTU food	Tanzania	7846	cow
+Q0003_MC00210	DTU food	Tanzania	7846	cow
+Q0003_MC00211	DTU food	Tanzania	7846	cow
+Q0003_MC00214	DTU food	Tanzania	7846	cow
+Q0003_MC00215	DTU food	Tanzania	7846	cow
+Q0003_MC00216	DTU food	Tanzania	7846	cow
+Q0003_MC0026	DTU food	Tanzania	7846	cow
+Q0003_TC00102	DTU food	Tanzania	97	cow
+Q0003_TC00512	DTU food	Tanzania	5477	cow
+Q0003_TC00516	DTU food	Tanzania	152	cow
+Q0003_TC00522	DTU food	Tanzania	152	cow
+Q0003_TC00523	DTU food	Tanzania	152	cow
+R0047_DABST013	DTU food	Tanzania	121	human
+R0047_DADST035	DTU food	Tanzania	72	human
+R0047_MH0081	DTU food	Tanzania	8	human
+R0047_TC0201	DTU food	Tanzania	5477	cow
+R0047_TH0405	DTU food	Tanzania	152	human
+R0051_BC00101	DTU food	Tanzania	7841	cow
+R0051_BC00115	DTU food	Tanzania	7841	cow
+R0051_BC00306	DTU food	Tanzania	152	cow
+R0051_BH00403	DTU food	Tanzania	7846	human
+R0051_DADST084	DTU food	Tanzania	97	human
+R0051_DADST088	DTU food	Tanzania	97	human
+R0051_HK2002	DTU food	Tanzania	22	human
+R0051_TC00219	DTU food	Tanzania	5477	cow
+R0051_TC00402	DTU food	Tanzania	121	cow
+R0051_TC00505	DTU food	Tanzania	7848	cow
+7459	MLSTPUB	Namibia	22	unknown
+7529	MLSTPUB	Namibia	22	unknown
+7684	MLSTPUB	Nigeria	22	unknown
+7735	MLSTPUB	Sudan	22	unknown
+21212	MLSTPUB	Algeria	97	unknown
+24326	MLSTPUB	Tanzania	8	unknown
+24328	MLSTPUB	Tanzania	121	unknown
+24332	MLSTPUB	Tanzania	97	unknown
+24340	MLSTPUB	Tanzania	8	unknown
+24969	MLSTPUB	Tanzania	8	unknown
+24971	MLSTPUB	Tanzania	121	unknown
+24973	MLSTPUB	Tanzania	121	unknown
+25290	MLSTPUB	Tanzania	8	unknown
+25291	MLSTPUB	Tanzania	8	unknown
+25293	MLSTPUB	Tanzania	8	unknown
+30866	MLSTPUB	Tanzania	8	unknown
+30867	MLSTPUB	Tanzania	121	unknown
+30870	MLSTPUB	Tanzania	97	unknown
+30877	MLSTPUB	Tanzania	8	unknown
+30879	MLSTPUB	Tanzania	121	unknown
+31015	MLSTPUB	Tanzania	8	unknown
+31020	MLSTPUB	Tanzania	8	unknown
+31026	MLSTPUB	Tanzania	8	unknown
+31027	MLSTPUB	Tanzania	8	unknown
+31033	MLSTPUB	Tanzania	121	unknown
+37086	MLSTPUB	Rwanda	97	food
+37087	MLSTPUB	Rwanda	152	food
+37088	MLSTPUB	Rwanda	5477	food
+37089	MLSTPUB	Rwanda	97	food
+37092	MLSTPUB	Rwanda	152	food
+37093	MLSTPUB	Rwanda	152	food
+37094	MLSTPUB	Rwanda	5477	food
+37096	MLSTPUB	Rwanda	97	food
+37098	MLSTPUB	Rwanda	5477	food
+37103	MLSTPUB	Rwanda	5477	food
+37104	MLSTPUB	Rwanda	152	food
+37105	MLSTPUB	Rwanda	152	food
+37107	MLSTPUB	Rwanda	5477	food
+37108	MLSTPUB	Rwanda	97	food
+37109	MLSTPUB	Rwanda	152	food
+37151	MLSTPUB	Algeria	97	food
+37152	MLSTPUB	Algeria	8	food
+37156	MLSTPUB	Algeria	22	food
+38035	MLSTPUB	Sudan	97	human
+38040	MLSTPUB	Sudan	121	human
+38586	MLSTPUB	Tanzania	72	human
+38587	MLSTPUB	Tanzania	7840	food
+38588	MLSTPUB	Tanzania	7841	food
+38589	MLSTPUB	Tanzania	7845	food
+38590	MLSTPUB	Tanzania	7846	food
+38591	MLSTPUB	Tanzania	7847	food
+38592	MLSTPUB	Tanzania	7848	food
+38621	MLSTPUB	Ghana	8	human
+38623	MLSTPUB	Ghana	8	human
+38630	MLSTPUB	Ghana	8	human
+46014	MLSTPUB	Ghana	152	human
+46015	MLSTPUB	Ghana	152	human
+46016	MLSTPUB	Ghana	152	human
+46017	MLSTPUB	Ghana	152	human
+46019	MLSTPUB	Ghana	152	human
+46020	MLSTPUB	Ghana	152	human
+46024	MLSTPUB	Ghana	152	human
+46030	MLSTPUB	Ghana	152	human
+46031	MLSTPUB	Ghana	152	human
+46032	MLSTPUB	Ghana	152	human
+46036	MLSTPUB	Ghana	152	human
+46038	MLSTPUB	Ghana	152	human
+46039	MLSTPUB	Ghana	152	human
+46046	MLSTPUB	Ghana	152	human
+46047	MLSTPUB	Ghana	152	human
+46048	MLSTPUB	Ghana	152	human
+46051	MLSTPUB	Ghana	72	human
+46052	MLSTPUB	Ghana	152	human
+46054	MLSTPUB	Ghana	152	human
+46055	MLSTPUB	Ghana	152	human
+46058	MLSTPUB	Ghana	152	human
+46059	MLSTPUB	Ghana	152	human
+46060	MLSTPUB	Ghana	152	human
+46064	MLSTPUB	Ghana	152	human
+46065	MLSTPUB	Ghana	152	human
+46068	MLSTPUB	Ghana	152	human
+46069	MLSTPUB	Ghana	152	human
+46070	MLSTPUB	Ghana	152	human
+46072	MLSTPUB	Ghana	152	human
+46073	MLSTPUB	Ghana	152	human
+46074	MLSTPUB	Ghana	152	human
+46076	MLSTPUB	Ghana	72	human
+46077	MLSTPUB	Ghana	152	human
+46078	MLSTPUB	Ghana	152	human
+46079	MLSTPUB	Ghana	152	human
+46080	MLSTPUB	Ghana	152	human
+46082	MLSTPUB	Ghana	152	human
+46083	MLSTPUB	Ghana	152	human
+46084	MLSTPUB	Ghana	152	human
+46085	MLSTPUB	Ghana	8	human
+46087	MLSTPUB	Ghana	152	human
+46088	MLSTPUB	Ghana	152	human
+46095	MLSTPUB	Ghana	152	human
+46096	MLSTPUB	Ghana	121	human
+46097	MLSTPUB	Ghana	152	human
+46099	MLSTPUB	Ghana	152	human
+46100	MLSTPUB	Ghana	152	human
+46103	MLSTPUB	Ghana	152	human
+46106	MLSTPUB	Ghana	72	human
+46108	MLSTPUB	Ghana	72	human
+46109	MLSTPUB	Ghana	152	human
+46110	MLSTPUB	Ghana	152	human
+46112	MLSTPUB	Ghana	152	human
+46118	MLSTPUB	Ghana	121	human
+46119	MLSTPUB	Ghana	121	human
+46120	MLSTPUB	Ghana	152	human
+46125	MLSTPUB	Ghana	8	human

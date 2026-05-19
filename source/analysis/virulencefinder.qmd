@@ -222,7 +222,8 @@ ann_colors <- list(
   ST = st_cols,
   host = c(
     "Cow"   = "#a0d69c",
-    "Human" = "#c9937b"
+    "Human" = "#c9937b",
+    "MLSTPUB_avg" = "#ebe270"
   ),
   region = c(
     "Bagamoyo" = "#EEEDFE",
@@ -279,14 +280,27 @@ cat("Exoenzyme: ", nrow(mat_exo),  "x", ncol(mat_exo),  "\n")
 cat("Toxin:     ", nrow(mat_tox),  "x", ncol(mat_tox),  "\n")
 cat("Hostimm:   ", nrow(mat_host), "x", ncol(mat_host), "\n")
 
-# ST152 highlight annotation
-annot_row_vir <- annot_row |>
-  mutate(highlight = if_else(ST == "ST152", "ST152", "other"))
+# no highlight column needed — ST152 is marked by yellow cells instead
+annot_row_vir  <- annot_row
+ann_colors_vir <- ann_colors
+```
 
-ann_colors_vir <- c(
-  ann_colors,
-  list(highlight = c("ST152" = "#ebf830", "other" = "white"))
-)
+```{r}
+
+```
+
+```{r}
+#| label: discretize-isolate-matrices
+
+discretize <- function(mat) {
+  out <- ifelse(is.na(mat), 0, 1)
+  dimnames(out) <- dimnames(mat)
+  out
+}
+
+mat_exo  <- discretize(mat_exo)
+mat_tox  <- discretize(mat_tox)
+mat_host <- discretize(mat_host)
 ```
 
 ```{r}
@@ -362,11 +376,10 @@ build_mean_row <- function(prev_df, db_name, iso_mat, st) {
     filter(ST_aug == st, hit_database == db_name) |>
     select(virulence_factor, prevalence) |>
     tibble::deframe()
-
-  vec <- setNames(rep(0, length(genes)), genes)   # genes absent in augmented -> 0%
-  # only fill genes present in BOTH row_vals and iso_mat's columns
+  
+  vec <- setNames(rep(0, length(genes)), genes)
   shared <- intersect(names(row_vals), genes)
-  vec[shared] <- row_vals[shared]
+  vec[shared] <- row_vals[shared] / 100     # <-- divide by 100
 
   matrix(vec, nrow = 1,
          dimnames = list(paste0("mean of ST", st, " (n=", n_aug, ")"), genes))
@@ -414,18 +427,36 @@ cat("Hostimm rows:  ", nrow(host_aug$mat), "\n")
 ```
 
 ```{r}
+#| label: highlight-st152
+
+# flag ST152 ISOLATE rows (not the mean row) and recode their 0s as -1
+mark_st152 <- function(aug_mat, annot) {
+  st152_isolates <- rownames(annot)[annot$ST == "ST152"]
+  st152_isolates <- intersect(st152_isolates, rownames(aug_mat))   # exclude "mean of ST152..."
+  
+  m <- aug_mat
+  block <- m[st152_isolates, , drop = FALSE]
+  block[block == 0] <- -1
+  m[st152_isolates, ] <- block
+  m
+}
+
+exo_aug$mat  <- mark_st152(exo_aug$mat,  annot_row_vir)
+tox_aug$mat  <- mark_st152(tox_aug$mat,  annot_row_vir)
+host_aug$mat <- mark_st152(host_aug$mat, annot_row_vir)
+```
+
+```{r}
 #| label: augmented-annotation
 
-# extend the annotation to cover the inserted "mean of ST..." rows
 make_extended_annot <- function(aug_mat) {
   new_rows <- setdiff(rownames(aug_mat), rownames(annot_row_vir))
 
   extra <- tibble(
-    rowname   = new_rows,
-    ST        = str_extract(new_rows, "ST[0-9]+"),
-    host      = NA_character_,
-    region    = NA_character_,
-    highlight = if_else(str_detect(new_rows, "ST152"), "ST152", "other")
+    rowname = new_rows,
+    ST      = str_extract(new_rows, "ST[0-9]+"),
+    host    = "MLSTPUB_avg",                                   # was NA
+    region  = NA_character_
   ) |>
     column_to_rownames("rowname")
 
@@ -440,8 +471,6 @@ annot_host <- make_extended_annot(host_aug$mat)
 
 ```{r}
 #| label: vir-heatmaps-augmented
-#| fig-width: 12
-#| fig-height: 11
 
 draw_vir_heatmap_aug <- function(aug_obj, annot, title) {
   if (ncol(aug_obj$mat) == 0 || all(is.na(aug_obj$mat))) {
@@ -454,7 +483,10 @@ draw_vir_heatmap_aug <- function(aug_obj, annot, title) {
     cluster_rows = FALSE,
     cluster_cols = FALSE,
     gaps_row     = aug_obj$gaps,
-    color        = colorRampPalette(c("#cfe3f5", "#0a4d8c"))(50),
+    color  = c("#ebf830",                                  # yellow for -1
+           colorRampPalette(c("white", "black"))(100)),
+            breaks = c(-1.5, -0.5,                                 # -1 -> yellow band
+           seq(0, 1, length.out = 100)),               # 0 -> white, 1 -> black, gradient                   between
     na_col       = "white",
     border_color = "grey90",
     cellwidth    = 30,
@@ -466,11 +498,117 @@ draw_vir_heatmap_aug <- function(aug_obj, annot, title) {
     main         = title
   )
 }
+```
 
+```{r}
+#| fig-width: 12
+#| fig-height: 11
 draw_vir_heatmap_aug(exo_aug,  annot_exo,
   "Virulence: exoenzymes — isolates + augmented ST prevalence")
+```
+
+### The four genes — all secreted proteases
+
+All four are **extracellular proteases** that *S. aureus* secretes into its environment. They digest host proteins, which can help the bacterium spread through tissue, evade immune attack, and acquire nutrients. S. aureus secretes a diverse cocktail of proteases, including staphylococcal serine proteases (SspA, SplA-F), cysteine proteases (staphopain A, SspB), and the metalloprotease aureolysin (Aur). [[Taylor & Francis Online]{.underline}](https://www.tandfonline.com/doi/full/10.1080/21505594.2025.2514790)
+
+#### aur (aureolysin)
+
+-   **Type:** Metalloprotease (zinc-dependent)
+
+-   **What it does:** Cleaves host antimicrobial peptides like cathelicidin LL-37, degrades complement proteins (immune defense), and even processes other *S. aureus* proteases — it's a "master activator" of the protease cascade.
+
+-   **The twist:** Four mutants lacking aureolysin (Aur), staphopain A (ScpA) and SspB, or the serine protease SspA displayed enhanced cytotoxicity toward human lung epithelial cells, showing that they serve to suppress virulence. That's counterintuitive — these proteases sometimes *limit* damage by digesting the bacterium's own toxins. Whether they're "virulent" depends on the infection context. [[Taylor & Francis Online]{.underline}](https://www.tandfonline.com/doi/full/10.1080/21505594.2025.2514790)
+
+#### splA, splB, splE (serine protease-like proteins)
+
+The **Spls** are a family of six closely related proteases (SplA–F) encoded by a single operon. They were discovered \~20 years ago and their functions are still being figured out.
+
+-   **What they do:** They're **highly specific** — each one cleaves only a narrow range of host proteins. Structural and activity analyses of SplA, SplB, and SplD have revealed that these enzymes are likely highly specific, given that they have cleavage preferences at subsites beyond the P1 residue of cleavage. Unlike a "shotgun" protease that chews up anything, the Spls seem to surgically cleave specific host targets. [[ASM Journals]{.underline}](https://journals.asm.org/doi/10.1128/msphere.00208-16)
+
+-   **Specific findings:**
+
+    -   **SplA** — degrades **mucin 16**, a glycoprotein on epithelial surfaces. So SplA helps bacteria penetrate mucosal layers.
+
+    -   **SplB** — selectively cleaves and activates human proteinase-activated receptor-2 (PAR2), inducing pro-inflammatory signaling and endothelial barrier dysfunction. Important for bloodstream infections — SplB lets *S. aureus* breach blood vessel walls. [[bioRxiv]{.underline}](https://www.biorxiv.org/content/10.1101/2020.12.30.424670v2.full)
+
+    -   **SplE** — less well characterized, but cleavage specificity overlaps with SplB
+
+-   **Clinical relevance:** the Spls promote disseminated lung damage in a rabbit pneumonia model. They're also implicated in **allergic asthma** — some people develop IgE antibodies against Spl proteins. [[ASM Journals]{.underline}](https://journals.asm.org/doi/10.1128/msphere.00208-16)
+
+```{r}
+#| fig-width: 18
+#| fig-height: 11
 draw_vir_heatmap_aug(tox_aug,  annot_tox,
   "Virulence: toxins — isolates + augmented ST prevalence")
+```
+
+### Cytolytic toxins (kill cells by poking holes)
+
+**`edinB`** — epidermal cell differentiation inhibitor. Disrupts host actin cytoskeleton, helps bacterial dissemination across barriers. Often on the same pathogenicity island as PVL.
+
+**`hlgA`, `hlgB`, `hlgC`** — γ-hemolysin components. Nearly all S. aureus strains secrete four hemolysins (alpha, beta, gamma, delta). Two bi-component pores: HlgA+HlgB and HlgC+HlgB. Lyse red blood cells and neutrophils. Core virulence factor — expected in almost everything. [[NCBI]{.underline}](https://ncbi.nlm.nih.gov/pmc/articles/PMC88931)
+
+**`lukD`, `lukE`** — bi-component leukotoxin. LukDE binds CCR5 on immune cells; PVL and LukAB bind C5aR, C5L2, and CD11b. PVL has 100-fold higher leukocytotic activity than the others. Lyses neutrophils and macrophages. [[PubMed Central]{.underline}](https://pmc.ncbi.nlm.nih.gov/articles/PMC8540901/)
+
+**`lukS-PV`, `lukF-PV`** — **Panton-Valentine Leukocidin (PVL)**. The headline finding. PVL is made of two parts (LukS-PV and LukF-PV) that excrete and assemble into a pore-forming heptamer on neutrophil membranes, resulting in their lysis. PVL is primarily linked to skin and soft tissue disease, with other invasive disease like pneumonia, musculoskeletal disease, and bacteremia. **PVL+ isolates are the classic CA-MRSA marker**, and ST152 is a known PVL-positive lineage in Africa. [[PubMed Central]{.underline}](https://pmc.ncbi.nlm.nih.gov/articles/PMC8540901/)
+
+### Superantigens (cause massive immune overreaction)
+
+**`tst`** — **toxic shock syndrome toxin-1 (TSST-1)**. A pyrogenic toxin superantigen with lethal activity, pyrogenicity, superantigenicity, and the capacity to induce lethal hypersensitivity. The classic "tampon-associated" toxin, but causes TSS in any context. Important in cattle mastitis too. [[NCBI]{.underline}](https://ncbi.nlm.nih.gov/pmc/articles/PMC88931)
+
+**Staphylococcal enterotoxins (SEs)** — `seb`, `sec`, `sed`, `sei`, `sel`, `sem`, `sen`, `seo`, `seq`, `sep`, `seu`, `ser`, `seg`, `sej`, `sek`. 21 identified SE genes (sea to see, seg to sev). Heat-stable, cause staphylococcal food poisoning. Two things to know: [[PLOS]{.underline}](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0028276)
+
+-   **They're superantigens** like TSST-1 — they cross-link MHC class II and T-cell receptors non-specifically, triggering massive cytokine release.
+
+-   **They're emetic** — they cause vomiting when ingested in food. This is why *S. aureus* mastitis matters for milk safety: enterotoxins survive pasteurization.
+
+-   The **`egc` cluster** (`seg`, `sei`, `sem`, `sen`, `seo`, `seu`) is genetically linked — they sit on the same pathogenicity island (Saβ-1) and almost always travel together. If you see one, you usually see all of them.
+
+### Exfoliative toxins (cause skin peeling)
+
+**`eta`, `etb`** — exfoliative toxins A and B. Cleave **desmoglein-1**, the protein that holds skin cells together. Cause **staphylococcal scalded skin syndrome (SSSS)** — primarily in infants. Exfoliative toxin B was produced by 1.3% of strains, only found in isolates from Buruli ulcers. Rare in most populations. [[nih]{.underline}](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3750628/)
+
+### "Other"
+
+**`sak`** — **staphylokinase**. Activates host plasminogen → plasmin, which breaks down fibrin clots. Helps the bacterium escape clots and spread. Sometimes classified with hostimm rather than toxins because it also cleaves IgG. Carried on the same phage as `scn` (complement inhibitor) and `chp` (chemotaxis inhibitor) — the "immune evasion cluster" (IEC) phage, a human-adaptation marker.
+
+```{r}
+#| fig-width: 14
+#| fig-height: 11
 draw_vir_heatmap_aug(host_aug, annot_host,
   "Virulence: host-immune evasion — isolates + augmented ST prevalence")
 ```
+
+### `sak` — staphylokinase
+
+Activates human plasminogen → plasmin, which dissolves fibrin clots. Lets the bacterium escape encapsulation by clotting and spread through tissue. Also cleaves bound IgG and C3b, reducing opsonization (the "tag me for the immune system" signal).
+
+### `scn` — staphylococcal complement inhibitor
+
+Binds and inhibits the **C3 convertase** of the complement system, blocking complement activation. Stops C3b deposition on the bacterium → no opsonization → neutrophils can't recognize and engulf it.
+
+### Why they almost always come together
+
+Both genes sit on the **same φSa3 prophage** (a bacteriophage integrated into the genome), along with `chp` (chemotaxis inhibitor). They're collectively called the **immune evasion cluster (IEC)**, and they're famously **human-specific**:
+
+-   `scn` only inhibits **human** complement (not bovine, ovine, etc.)
+
+-   `sak` only activates **human** plasminogen
+
+-   `chp` only blocks **human** chemoattractant receptors
+
+So the IEC phage is a **molecular signature of human adaptation**. An *S. aureus* lineage that's been circulating in humans tends to carry it; a lineage that's been circulating in livestock tends to have lost it (the phage gets excised when the bacterium adapts to a new host).
+
+### What to look for in your data
+
+This is **the most directly testable host-adaptation signal in your whole panel** — even more than PVL. Specifically:
+
+1.  **Are `sak`/`scn` enriched in your human nasal-swab isolates vs. cow milk isolates?** That's the textbook prediction. The 19 human isolates (R0047\_*, R0051\_*) should mostly have `sak`+`scn` black; the 43 milk isolates should mostly have them white.
+
+2.  
+
+3.  **Look at ST97 mean row (n=9) in your screenshot.** Both `sak` and `scn` appear grey-ish there — meaning the prevalence in the augmented ST97 population is intermediate (\~50%?). Interesting because ST97 is a **classic livestock lineage** — high IEC prevalence in augmented ST97 would suggest those reference isolates are from human carriage, not livestock. Low prevalence would fit the cattle-association story.
+
+4.  
+
+5.  **The "exceptions" are biology, not noise.** If a cow-milk isolate carries `sak`+`scn`, it's plausibly a recent **human-to-cow spillover** (anthroponosis). If a human isolate lacks them, it might be a recent **cow-to-human spillover** (zoonosis) — a livestock-adapted strain that just colonized a person. Both are interesting and reportable.

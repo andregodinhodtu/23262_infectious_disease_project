@@ -1,0 +1,529 @@
+---
+title: "Infectious Disease Bioinoformatics Project "
+format:
+  html:
+    embed-resources: true
+editor: visual 
+---
+
+# Load Libraries
+
+```{r}
+#| label: setup
+#| include: true
+
+library(tidyverse)
+library(readxl)
+library(here)
+library(pheatmap)
+```
+
+# Data Upload
+
+```{r}
+#| label: data-upload-sample-list
+
+# the 53 QC-passed sample IDs
+sample_list <- readLines(
+  here("results_for_analysis", "metadata", "sample_list_QC_passed.txt")
+)
+
+cat("QC-passed samples:", length(sample_list), "\n")
+head(sample_list)
+```
+
+```{r}
+#| label: data-upload-plasmidfinder
+
+plasmid_overview <- read_excel(
+  here("results_for_analysis", "plasmidfinder",
+       "plasmidfinder_summary_our_data.xlsx"),
+  sheet = "Detailed_overview"
+)
+
+plasmid_aug_raw <- read_excel(
+  here("results_for_analysis", "plasmidfinder",
+       "plasmidfinder_summary_augmented.xlsx"),
+  sheet = "Detailed_overview"
+)
+
+plasmid_overview
+```
+
+```{r}
+#| label: data-upload-metadata
+
+metadata <- read_tsv(
+  here("results_for_analysis", "metadata", "s_aureus_metadata.tsv"),
+  show_col_types = FALSE
+) |>
+  rename(
+    sample         = `Sequence file name`,
+    date           = `Date of isolation`,
+    sample_type    = `Sample type`,
+    host           = `Sample source`,
+    region         = Region,
+    animal_contact = `Human Contact with animals`,
+    species        = Species,
+    ST_meta        = ST
+  )
+
+metadata
+```
+
+```{r}
+#| label: data-upload-mlst
+
+mlst_df <- read_tsv(
+  here("results_for_analysis", "mlst", "mlst_summary.txt"),
+  col_names = FALSE,
+  show_col_types = FALSE
+)
+
+colnames(mlst_df) <- c("sample", "species", "ST",
+                       "gene1", "gene2", "gene3",
+                       "gene4", "gene5", "gene6", "gene7")
+
+mlst_df <- mlst_df |>
+  mutate(
+    sample = sample |>
+      str_remove("^.*/") |>
+      str_remove("\\.fasta$")
+  ) |>
+  filter(sample %in% sample_list)
+
+mlst_df |> count(ST, sort = TRUE)
+```
+
+# **Processing**
+
+```{r}
+#| label: process-plasmidfinder
+
+PLASMID_IDENTITY <- 90
+PLASMID_COVERAGE <- 60
+
+plasmid_df <- plasmid_overview |>
+  rename(
+    sample   = Sample,
+    plasmid  = Plasmid,
+    identity = `%Identity`,
+    coverage = Coverage
+  ) |>
+  filter(!is.na(plasmid)) |>
+  filter(sample %in% sample_list) |>
+  filter(identity >= PLASMID_IDENTITY, coverage >= PLASMID_COVERAGE) |>
+  group_by(sample, plasmid) |>
+  slice_max(identity, n = 1, with_ties = FALSE) |>
+  ungroup()
+
+cat("Plasmid hits after QC:", nrow(plasmid_df), "\n")
+count(plasmid_df, plasmid, sort = TRUE)
+```
+
+```{r}
+#| label: process-plasmidfinder-augmented
+
+plasmid_aug_df <- plasmid_aug_raw |>
+  rename(
+    sample   = Sample,
+    plasmid  = Plasmid,
+    identity = `%Identity`,
+    coverage = Coverage
+  ) |>
+  mutate(ST_aug = str_extract(sample, "^ST[0-9]+") |> str_remove("^ST")) |>
+  filter(!is.na(plasmid)) |>
+  filter(identity >= PLASMID_IDENTITY, coverage >= PLASMID_COVERAGE) |>
+  group_by(sample, plasmid) |>
+  slice_max(identity, n = 1, with_ties = FALSE) |>
+  ungroup()
+
+cat("Augmented plasmid hits after QC:", nrow(plasmid_aug_df), "\n")
+plasmid_aug_df |>
+  distinct(sample, ST_aug) |>
+  count(ST_aug, sort = TRUE)
+```
+
+```{r}
+#| label: build-final-strain-data
+
+meta_vs_mlst <- metadata |>
+  left_join(mlst_df |> select(sample, ST_mlst = ST), by = "sample") |>
+  mutate(
+    ST_meta_clean = str_remove(ST_meta, "^ST") |> str_trim(),
+    ST_meta_clean = case_when(
+      ST_meta_clean == "Unknown" ~ NA_character_,
+      ST_meta_clean == "Unkown"  ~ NA_character_,   # metadata typo
+      TRUE                       ~ ST_meta_clean
+    ),
+    ST_mlst_clean = as.character(ST_mlst)
+  ) |>
+  filter(sample %in% sample_list)
+
+# resolve final ST: MLST priority, metadata fallback
+final_strain_data <- meta_vs_mlst |>
+  mutate(ST_final = case_when(
+    ST_mlst_clean != "-"  ~ ST_mlst_clean,
+    !is.na(ST_meta_clean) ~ ST_meta_clean
+  )) |>
+  select(-c(ST_meta, ST_meta_clean, ST_mlst_clean))
+
+cat("final_strain_data rows:", nrow(final_strain_data), "\n")
+count(final_strain_data, ST_final, sort = TRUE)
+```
+
+```{r}
+#| label: build-annotation
+
+# row annotation: ST, host, region — ordered by ST then host
+annot_row <- final_strain_data |>
+  mutate(
+    ST     = paste0("ST", ST_final),
+    region = iconv(region, from = "UTF-8", to = "ASCII//TRANSLIT")
+  ) |>
+  select(sample, ST, host, region) |>
+  arrange(ST, host) |>
+  column_to_rownames("sample")
+
+# gap positions between ST groups
+gap_pos <- annot_row |>
+  mutate(row_n = row_number()) |>
+  group_by(ST) |>
+  summarise(last = max(row_n), .groups = "drop") |>
+  arrange(last) |>
+  pull(last) |>
+  head(-1)
+
+# ST color palette (auto-scales)
+st_levels <- sort(unique(annot_row$ST))
+st_cols <- setNames(
+  colorRampPalette(c("#378ADD", "#fa0606", "#3B6D11", "#BA7517",
+                     "#534AB7", "#0F6E56", "#993556", "#5F5E5A",
+                     "#D85A30", "#185FA5"))(length(st_levels)),
+  st_levels
+)
+
+ann_colors <- list(
+  ST = st_cols,
+  host = c(
+    "Cow"   = "#a0d69c",
+    "Human" = "#c9937b",
+    "MLSTPUB_avg" = "#ebe270"
+  ),
+  region = c(
+    "Bagamoyo" = "#EEEDFE",
+    "Morogoro" = "#AFA9EC",
+    "Tanga"    = "#7F77DD",
+    "D'Salaam" = "#3C3489"
+  )
+)
+
+head(annot_row)
+gap_pos
+```
+
+```{r}
+#| label: vir-helper
+
+# build an identity matrix for one database, ordered to match the annotation
+build_identity_matrix <- function(long_df, db_name, all_samples, annot) {
+
+  sub <- long_df |> filter(hit_database == db_name)
+
+  mat <- sub |>
+    pivot_wider(
+      id_cols     = sample,
+      names_from  = virulence_factor,
+      values_from = identity
+    )
+
+  # add samples with no hits in this database
+  missing <- setdiff(all_samples, mat$sample)
+  if (length(missing) > 0) {
+    mat <- bind_rows(mat, tibble(sample = missing))
+  }
+
+  mat <- mat |>
+    column_to_rownames("sample") |>
+    as.matrix()
+
+  # match row order to annotation
+  mat[rownames(annot), , drop = FALSE]
+}
+```
+
+# Matrices + heatmaps
+
+```{r}
+#| label: discretize-isolate-matrices
+
+discretize <- function(mat) {
+  out <- ifelse(is.na(mat), 0, 1)
+  dimnames(out) <- dimnames(mat)
+  out
+}
+```
+
+```{r}
+#| label: plasmid-matrix
+
+build_plasmid_matrix <- function(long_df, all_samples, annot) {
+  mat <- long_df |>
+    pivot_wider(id_cols = sample, names_from = plasmid,
+                values_from = identity, values_fn = max)
+
+  missing <- setdiff(all_samples, mat$sample)
+  if (length(missing) > 0) {
+    mat <- bind_rows(mat, tibble(sample = missing))
+  }
+
+  m <- mat |>
+    column_to_rownames("sample") |>
+    as.matrix()
+
+  m[rownames(annot), , drop = FALSE]
+}
+
+mat_plasmid <- build_plasmid_matrix(plasmid_df, sample_list, annot_row)
+cat("Plasmid:", nrow(mat_plasmid), "x", ncol(mat_plasmid), "\n")
+
+# binarize to match the AMR/virulence style
+mat_plasmid <- discretize(mat_plasmid)
+
+annot_row_plasmid  <- annot_row
+ann_colors_plasmid <- ann_colors
+```
+
+```{r}
+#| label: vir-heatmap-function
+
+draw_vir_heatmap <- function(mat, title) {
+  # guard: an empty matrix would crash pheatmap's color scaling
+  if (ncol(mat) == 0 || all(is.na(mat))) {
+    message("Skipping '", title, "' — no genes passed QC.")
+    return(invisible(NULL))
+  }
+  pheatmap(
+    mat,
+    annotation_row    = annot_row_vir,
+    annotation_colors = ann_colors_vir,
+    cluster_rows = FALSE,
+    cluster_cols = FALSE,
+    gaps_row     = gap_pos,
+    color        = colorRampPalette(c("#cfe3f5", "#0a4d8c"))(50),
+    na_col       = "white",
+    border_color = "grey90",
+    cellwidth    = 30,
+    cellheight   = 10,
+    fontsize_row = 7,
+    fontsize_col = 10,
+    angle_col    = 45,
+    legend       = TRUE,
+    main         = title
+  )
+}
+```
+
+# Augmented Prevelance
+
+```{r}
+#| label: plasmid-augmented-prevalence
+
+MIN_AUG_N <- 5
+
+plasmid_aug_st_n <- plasmid_aug_df |>
+  distinct(sample, ST_aug) |>
+  count(ST_aug, name = "n_aug")
+
+plasmid_prevalence <- plasmid_aug_df |>
+  distinct(sample, ST_aug, plasmid) |>
+  count(ST_aug, plasmid, name = "n_present") |>
+  left_join(plasmid_aug_st_n, by = "ST_aug") |>
+  mutate(prevalence = n_present / n_aug * 100)
+
+build_plasmid_mean_row <- function(prev_df, iso_mat, st) {
+  reps  <- colnames(iso_mat)
+  n_aug <- plasmid_aug_st_n |> filter(ST_aug == st) |> pull(n_aug)
+  if (length(n_aug) == 0) n_aug <- 0
+
+  row_vals <- prev_df |>
+    filter(ST_aug == st) |>
+    select(plasmid, prevalence) |>
+    tibble::deframe()
+
+  vec    <- setNames(rep(0, length(reps)), reps)
+  shared <- intersect(names(row_vals), reps)
+  vec[shared] <- row_vals[shared] / 100
+
+  matrix(vec, nrow = 1,
+         dimnames = list(paste0("mean of ST", st, " (n=", n_aug, ")"), reps))
+}
+
+add_plasmid_mean_rows <- function(iso_mat, annot, prev_df, min_n = MIN_AUG_N) {
+  st_order <- unique(annot[rownames(iso_mat), "ST"])
+  out_rows <- list(); gaps <- integer(0); pos <- 0
+
+  for (st in st_order) {
+    st_clean  <- str_remove(st, "^ST")
+    iso_names <- intersect(rownames(annot)[annot$ST == st], rownames(iso_mat))
+
+    block <- iso_mat[iso_names, , drop = FALSE]
+    out_rows[[length(out_rows) + 1]] <- block
+    pos <- pos + nrow(block)
+
+    n_aug <- plasmid_aug_st_n |> filter(ST_aug == st_clean) |> pull(n_aug)
+    n_aug <- if (length(n_aug) == 0) 0 else n_aug
+
+    if (n_aug >= min_n) {
+      gaps <- c(gaps, pos)
+      out_rows[[length(out_rows) + 1]] <- build_plasmid_mean_row(prev_df, iso_mat, st_clean)
+      pos  <- pos + 1
+      gaps <- c(gaps, pos)
+    } else {
+      gaps <- c(gaps, pos)
+    }
+  }
+
+  list(mat = do.call(rbind, out_rows), gaps = head(gaps, -1))
+}
+
+plasmid_aug <- add_plasmid_mean_rows(mat_plasmid, annot_row, plasmid_prevalence)
+
+# mark ST152 isolate 0-cells as -1 for yellow highlight (mean row excluded)
+st152_isolates <- intersect(rownames(annot_row_plasmid)[annot_row_plasmid$ST == "ST152"],
+                            rownames(plasmid_aug$mat))
+m <- plasmid_aug$mat
+block <- m[st152_isolates, , drop = FALSE]
+block[block == 0] <- -1
+m[st152_isolates, ] <- block
+plasmid_aug$mat <- m
+
+cat("Plasmid matrix with mean rows:", nrow(plasmid_aug$mat), "rows\n")
+```
+
+```{r}
+#| label: highlight-st152
+
+# flag ST152 ISOLATE rows (not the mean row) and recode their 0s as -1
+mark_st152 <- function(aug_mat, annot) {
+  st152_isolates <- rownames(annot)[annot$ST == "ST152"]
+  st152_isolates <- intersect(st152_isolates, rownames(aug_mat))   # exclude "mean of ST152..."
+  
+  m <- aug_mat
+  block <- m[st152_isolates, , drop = FALSE]
+  block[block == 0] <- -1
+  m[st152_isolates, ] <- block
+  m
+}
+```
+
+```{r}
+#| label: augmented-annotation
+
+make_extended_annot <- function(aug_mat) {
+  new_rows <- setdiff(rownames(aug_mat), rownames(annot_row_vir))
+
+  extra <- tibble(
+    rowname = new_rows,
+    ST      = str_extract(new_rows, "ST[0-9]+"),
+    host    = "MLSTPUB_avg",                                   # was NA
+    region  = NA_character_
+  ) |>
+    column_to_rownames("rowname")
+
+  annot_ext <- bind_rows(annot_row_vir, extra)
+  annot_ext[rownames(aug_mat), , drop = FALSE]
+}
+```
+
+```{r}
+#| label: plasmid-heatmap
+#| fig-width: 10
+#| fig-height: 11
+
+make_extended_annot_plasmid <- function(aug_mat) {
+  new_rows <- setdiff(rownames(aug_mat), rownames(annot_row_plasmid))
+
+  extra <- tibble(
+    rowname = new_rows,
+    ST      = str_extract(new_rows, "ST[0-9]+"),
+    host    = "MLSTPUB_avg",
+    region  = NA_character_
+  ) |>
+    column_to_rownames("rowname")
+
+  annot_ext <- bind_rows(annot_row_plasmid, extra)
+  annot_ext[rownames(aug_mat), , drop = FALSE]
+}
+
+annot_plasmid <- make_extended_annot_plasmid(plasmid_aug$mat)
+
+pheatmap(
+  plasmid_aug$mat,
+  annotation_row    = annot_plasmid,
+  annotation_colors = ann_colors_plasmid,
+  cluster_rows = FALSE,
+  cluster_cols = FALSE,
+  gaps_row     = plasmid_aug$gaps,
+  color        = c("#ebf830",
+                   colorRampPalette(c("white", "black"))(100)),
+  breaks       = c(-1.5, -0.5, seq(0, 1, length.out = 100)),
+  na_col       = "white",
+  border_color = "grey90",
+  cellwidth    = 30,
+  cellheight   = 10,
+  fontsize_row = 7,
+  fontsize_col = 10,
+  angle_col    = 45,
+  legend       = TRUE,
+  main         = "Plasmid replicon presence/absence + MLSTPUB strain averages"
+)
+```
+
+### What a "rep" is in PlasmidFinder
+
+PlasmidFinder doesn't detect whole plasmids — it detects **replication initiation genes** (`rep` genes). Each plasmid carries a `rep` gene that encodes the protein that starts plasmid replication. A `rep` family is essentially a fingerprint of *which kind* of plasmid an isolate carries. All seven distinct types of replicases found in staphylococcal plasmids are grouped into families like RepL (rep10), Rep_trans (rep7a), Rep_1 (rep13, rep21...), Rep_3 (rep5a), RepA_N (rep15, rep19, rep20...).
+
+### rep10
+
+-   **Family:** RepL
+
+-   **Plasmid type:** small, low-copy-number cryptic plasmids; the canonical example is **pT181-type/pE194-type** plasmids
+
+-   **Resistance cargo it commonly carries:** rep10 carries the erm(C) gene, which gives **macrolide-lincosamide-streptogramin B (MLSB) resistance** — so erythromycin, clindamycin, etc. [[Springer]{.underline}](https://link.springer.com/article/10.1186/s12920-024-01979-4)
+
+-   **Clinical relevance for your project:** if a Tanzanian isolate has rep10, it's likely macrolide-resistant. In the Tanzania MRSA paper, rep10 was found in 72.0% of MRSA isolates — extremely common in that population.
+
+[[PubMed Central]{.underline}](https://pmc.ncbi.nlm.nih.gov/articles/PMC11323609/)[:]{.underline}
+
+-   Methicillin-resistant *Staphylococcus aureus* (MRSA) colonization increases the risk of subsequent infection by MRSA strain complex interlinking between hospital and community-acquired MRSA which increases the chance of drug resistance and severity of the disease.
+
+The "interlinking" the sentence is getting at: **these buckets have stopped being clean.** Over the past 15-20 years, CA-MRSA strains (especially CC8 / USA300) have moved *into* hospitals, and HA-MRSA strains have moved *into* the community. So a CC8 isolate from a hospital patient today might genetically be a USA300 (CC8 CA-MRSA), not the older hospital CC8 lineage.
+
+When this happens, you get the worst of both worlds: a strain with the **virulence of CA-MRSA** + the **multi-drug resistance of HA-MRSA**. That's the "increases chance of drug resistance and severity of disease" part.
+
+-   Genomic characterization of *Staphylococcus aures* strains isolated from patients attending **regional referral hospitals in Tanzania.**
+
+Among 103 sequences of *S. aureus*, 48.5% (50/103) carry the *mecA* gene for MRSA. High proportions of MRSA were observed among participants aged between 18 and 34 years (52.4%), in females (54.3%), and among outpatients (60.5%). The majority of observed MRSA carried plasmids rep5a (92.0%), rep16 (90.0%), rep7c (90.0%), rep15 (82.0%), rep19 (80.0%) and rep10 (72.0%). Among all plasmids observed rep5a, rep16, rep20, and repUS70 carried the *blaZ* gene, rep10 carried the *erm(C)* gene and rep7a carried the *tet(K)* gene. MLST and phylogeny analysis reveal high diversity among MRSA. Six different clones were observed circulating at selected regional hospitals and MRSA with ST8 was dominant.
+
+AMRfinder: Cool, our data does not have mecA at all even though is common
+
+### rep16
+
+-   **Family:** Inc18 (yes, "Inc18" is the database name but rep16 is the gene)
+
+-   **Plasmid type:** broad-host-range conjugative plasmids — these can jump between Gram-positive species (staphylococci, enterococci, streptococci), which makes them important for cross-species AMR spread
+
+-   **Resistance cargo:** rep16 carries the blaZ gene, encoding **β-lactamase** — penicillin resistance. Found on plasmids like pSaaS6159, pSAS, pSJH101 and pWBG759. [[Springer]{.underline}](https://link.springer.com/article/10.1186/s12920-024-01979-4)[[Frontiers]{.underline}](https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2021.659116/full)
+
+-   **Clinical relevance:** rep16 is one of the most common plasmid types globally in *S. aureus*. In the East China study, rep16 was found in 53.8% of isolates and was the single most prevalent rep type. In Tanzania, 90% of MRSA. [[Wiley Online Library]{.underline}](https://onlinelibrary.wiley.com/doi/10.1155/ijfo/5547073)[[PubMed Central]{.underline}](https://pmc.ncbi.nlm.nih.gov/articles/PMC11323609/)
+
+### rep5a
+
+-   **Family:** Rep_3
+
+-   **Plasmid type:** **pN315-type** plasmids — pN315 is a well-characterized large *S. aureus* plasmid carrying multiple resistance and virulence determinants
+
+-   **Resistance cargo:** rep5a, found on pN315 plasmids, was linked to blaZ (penicillin), qacA (antiseptics) and mupA (mupirocin) genes. So it's β-lactamase + biocide resistance + mupirocin resistance (which matters because mupirocin is used for MRSA decolonization). [[Springer]{.underline}](https://link.springer.com/article/10.1007/s11274-026-04956-4)
+
+-   **Clinical relevance:** another globally dominant type. 92.0% of Tanzanian MRSA carried rep5a. [[PubMed Central]{.underline}](https://pmc.ncbi.nlm.nih.gov/articles/PMC11323609/)

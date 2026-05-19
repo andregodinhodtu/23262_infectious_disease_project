@@ -1,0 +1,54 @@
+sample	date	sample_type	host	region	animal_contact	species	ST
+Q0003_BC00102	10/10/2017	Milk	Cow	Bagamoyo	N/A	S. aureus	5477
+Q0003_BC00104	10/10/2017	Milk	Cow	Bagamoyo	N/A	S. aureus	5477
+Q0003_BC00105	10/10/2017	Milk	Cow	Bagamoyo	N/A	S. aureus	97
+Q0003_BC00106	10/10/2017	Milk	Cow	Bagamoyo	N/A	S. aureus	5477
+Q0003_BC00107	10/10/2017	Milk	Cow	Bagamoyo	N/A	S. aureus	5477
+Q0003_BC00108	10/10/2017	Milk	Cow	Bagamoyo	N/A	S. aureus	7841
+Q0003_BC00110	10/10/2017	Milk	Cow	Bagamoyo	N/A	S. aureus	7841
+Q0003_BC00111	10/10/2017	Milk	Cow	Bagamoyo	N/A	S. aureus	97
+Q0003_BC00117	10/10/2017	Milk	Cow	Bagamoyo	N/A	S. aureus	97
+Q0003_BC00118	10/10/2017	Milk	Cow	Bagamoyo	N/A	S. aureus	97
+Q0003_BC00201	11/10/2017	Milk	Cow	Bagamoyo	N/A	S. aureus	7845
+Q0003_BC00211	11/10/2017	Milk	Cow	Bagamoyo	N/A	S. aureus	7846
+Q0003_BC00303	12/10/2017	Milk	Cow	Bagamoyo	N/A	S. aureus	152
+Q0003_BC00304	12/10/2017	Milk	Cow	Bagamoyo	N/A	S. aureus	7846
+Q0003_BC00310	12/10/2017	Milk	Cow	Bagamoyo	N/A	S. aureus	7845
+Q0003_BC00406	14/10/2017	Milk	Cow	Bagamoyo	N/A	S. aureus	97
+Q0003_BC00410-2	14/10/2017	Milk	Cow	Bagamoyo	N/A	S. aureus	7847
+Q0003_BC00416	14/10/2017	Milk	Cow	Bagamoyo	N/A	S. aureus	97
+Q0003_BH404	14/10/2017	Nasal swab	Human	Bagamoyo	Yes	S. aureus	243
+Q0003_HB00604	17/09/2017	Nasal swab	Human	Bagamoyo	Yes	S. aureus	152
+Q0003_MC00105	28/11/2017	Milk	Cow	Morogoro	N/A	S. aureus	152
+Q0003_MC00111	28/11/2017	Milk	Cow	Morogoro	N/A	S. aureus	7840
+Q0003_MC00114-1	28/11/2017	Milk	Cow	Morogoro	N/A	S. aureus	7840
+Q0003_MC00115-2	28/11/2017	Milk	Cow	Morogoro	N/A	S. aureus	7840
+Q0003_MC00201	30/11/2017	Milk	Cow	Morogoro	N/A	S. aureus	7846
+Q0003_MC00203	30/11/2017	Milk	Cow	Morogoro	N/A	S. aureus	7846
+Q0003_MC00205	30/11/2017	Milk	Cow	Morogoro	N/A	S. aureus	7846
+Q0003_MC00210	30/11/2017	Milk	Cow	Morogoro	N/A	S. aureus	7846
+Q0003_MC00211	30/11/2017	Milk	Cow	Morogoro	N/A	S. aureus	7846
+Q0003_MC00214	30/11/2017	Milk	Cow	Morogoro	N/A	S. aureus	7846
+Q0003_MC00215	30/11/2017	Milk	Cow	Morogoro	N/A	S. aureus	7846
+Q0003_MC00216	30/11/2017	Milk	Cow	Morogoro	N/A	S. aureus	7846
+Q0003_MC0026	30/11/2017	Milk	Cow	Morogoro	N/A	S. aureus	7846
+Q0003_TC00102	17/09/2017	Milk	Cow	Tanga	N/A	S. aureus	97
+Q0003_TC00512	18/09/2017	Milk	Cow	Tanga	N/A	S. aureus	5477
+Q0003_TC00516	18/09/2017	Milk	Cow	Tanga	N/A	S. aureus	152
+Q0003_TC00522	18/09/2017	Milk	Cow	Tanga	N/A	S. aureus	152
+Q0003_TC00523	18/09/2017	Milk	Cow	Tanga	N/A	S. aureus	152
+R0047_DABST013	10/4/2019	Nasal swab	Human	D’Salaam	No	S. aureus	121
+R0047_DADST035	10/4/2019	Nasal swab	Human	D’Salaam	No	S. aureus	72
+R0047_MH0081	30/11/2017	Nasal swab	Human	Morogoro	Yes	S. aureus	8
+R0047_TC0201	17/09/2017	Milk	Cow	Tanga	N/A	S. aureus	5477
+R0047_TH0405	14/10/2017	Nasal swab	Human	Tanga	Yes	S. aureus	152
+R0051_BC00101	10/10/2017	Milk	Cow	Bagamoyo	N/A	S. aureus	7841
+R0051_BC00115	10/10/2017	Milk	Cow	Bagamoyo	N/A	S. aureus	7841
+R0051_BC00306	12/10/2017	Milk	Cow	Bagamoyo	N/A	S. aureus	152
+R0051_BH00403	14/10/2017	Nasal swab	Human	Bagamoyo	Yes	S. aureus	7846
+R0051_DADST084	12/4/2019	Nasal swab	Human	D’Salaam	No	S. aureus	97
+R0051_DADST088	12/4/2019	Nasal swab	Human	D’Salaam	No	S. aureus	97
+R0051_HK2002	30/11/2017	Nasal swab	Human	Bagamoyo	Yes	S. aureus	22
+R0051_TC00219	17/09/2017	Milk	Cow	Tanga	N/A	S. aureus	5477
+R0051_TC00402	18/09/2017	Milk	Cow	Tanga	N/A	S. aureus	121
+R0051_TC00505	18/09/2017	Milk	Cow	Tanga	N/A	S. aureus	7848
