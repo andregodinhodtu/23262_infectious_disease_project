@@ -5,6 +5,9 @@
 .DS_Store
 **/.DS_Store
 
+#vscode junk
+.vscode
+
 # RStudio personal state — never commit
 .Rproj.user/
 
