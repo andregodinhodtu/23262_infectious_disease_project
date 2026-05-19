@@ -458,6 +458,10 @@ make_extended_annot_plasmid <- function(aug_mat) {
 
 annot_plasmid <- make_extended_annot_plasmid(plasmid_aug$mat)
 
+png("plasmid_heatmap.png",
+    width = 10, height = 11, units = "in",
+    res = 300, bg = "white")
+
 pheatmap(
   plasmid_aug$mat,
   annotation_row    = annot_plasmid,
@@ -465,7 +469,7 @@ pheatmap(
   cluster_rows = FALSE,
   cluster_cols = FALSE,
   gaps_row     = plasmid_aug$gaps,
-  color        = c("#ebf830",
+  color        = c("#eeff01",
                    colorRampPalette(c("white", "black"))(100)),
   breaks       = c(-1.5, -0.5, seq(0, 1, length.out = 100)),
   na_col       = "white",
@@ -478,7 +482,11 @@ pheatmap(
   legend       = TRUE,
   main         = "Plasmid replicon presence/absence + MLSTPUB strain averages"
 )
+
+dev.off()
 ```
+
+\
 
 ### What a "rep" is in PlasmidFinder
 
