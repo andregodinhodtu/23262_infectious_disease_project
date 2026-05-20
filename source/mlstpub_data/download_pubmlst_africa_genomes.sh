@@ -32,7 +32,7 @@ BASE_URL="https://rest.pubmlst.org/db/pubmlst_saureus_isolates"
 
 TARGET_STS="8 22 72 97 121 152 243 5477 7840 7841 7845 7846 7847 7848"
 
-# Intermediate files (cleaned up at end unless KEEP_TMP=1)
+# Intermediate files 
 TMP_ST_FILTERED="africa_target_sts.tsv"
 TMP_GENOME_IDS="all_genome_ids.txt"
 FINAL_LIST="africa_target_sts_with_genomes.tsv"
