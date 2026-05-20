@@ -483,7 +483,7 @@ draw_vir_heatmap_aug <- function(aug_obj, annot, title) {
     cluster_rows = FALSE,
     cluster_cols = FALSE,
     gaps_row     = aug_obj$gaps,
-    color  = c("#ebf830",                                  # yellow for -1
+    color  = c("#eeff01",                                  # yellow for -1
            colorRampPalette(c("white", "black"))(100)),
             breaks = c(-1.5, -0.5,                                 # -1 -> yellow band
            seq(0, 1, length.out = 100)),               # 0 -> white, 1 -> black, gradient                   between
@@ -503,8 +503,15 @@ draw_vir_heatmap_aug <- function(aug_obj, annot, title) {
 ```{r}
 #| fig-width: 12
 #| fig-height: 11
+
+png("virulence_exoenzymes.png",
+    width = 10, height = 11, units = "in",
+    res = 300, bg = "white")
+
 draw_vir_heatmap_aug(exo_aug,  annot_exo,
   "Virulence: exoenzymes — isolates + augmented ST prevalence")
+
+dev.off()
 ```
 
 ### The four genes — all secreted proteases
@@ -538,8 +545,15 @@ The **Spls** are a family of six closely related proteases (SplA–F) encoded by
 ```{r}
 #| fig-width: 18
 #| fig-height: 11
+
+png("virulence_toxins.png",
+    width = 10, height = 11, units = "in",
+    res = 300, bg = "white")
+
 draw_vir_heatmap_aug(tox_aug,  annot_tox,
   "Virulence: toxins — isolates + augmented ST prevalence")
+
+dev.off()
 ```
 
 ### Cytolytic toxins (kill cells by poking holes)
@@ -575,8 +589,15 @@ draw_vir_heatmap_aug(tox_aug,  annot_tox,
 ```{r}
 #| fig-width: 14
 #| fig-height: 11
+
+png("virulence_host_immune.png",
+    width = 10, height = 11, units = "in",
+    res = 300, bg = "white")
+
 draw_vir_heatmap_aug(host_aug, annot_host,
   "Virulence: host-immune evasion — isolates + augmented ST prevalence")
+
+dev.off()
 ```
 
 ### `sak` — staphylokinase
@@ -605,10 +626,82 @@ This is **the most directly testable host-adaptation signal in your whole panel*
 
 1.  **Are `sak`/`scn` enriched in your human nasal-swab isolates vs. cow milk isolates?** That's the textbook prediction. The 19 human isolates (R0047\_*, R0051\_*) should mostly have `sak`+`scn` black; the 43 milk isolates should mostly have them white.
 
-2.  
+2.  **Look at ST97 mean row (n=9) in your screenshot.** Both `sak` and `scn` appear grey-ish there — meaning the prevalence in the augmented ST97 population is intermediate (\~50%?). Interesting because ST97 is a **classic livestock lineage** — high IEC prevalence in augmented ST97 would suggest those reference isolates are from human carriage, not livestock. Low prevalence would fit the cattle-association story.
 
-3.  **Look at ST97 mean row (n=9) in your screenshot.** Both `sak` and `scn` appear grey-ish there — meaning the prevalence in the augmented ST97 population is intermediate (\~50%?). Interesting because ST97 is a **classic livestock lineage** — high IEC prevalence in augmented ST97 would suggest those reference isolates are from human carriage, not livestock. Low prevalence would fit the cattle-association story.
+3.  **The "exceptions" are biology, not noise.** If a cow-milk isolate carries `sak`+`scn`, it's plausibly a recent **human-to-cow spillover** (anthroponosis). If a human isolate lacks them, it might be a recent **cow-to-human spillover** (zoonosis) — a livestock-adapted strain that just colonized a person. Both are interesting and reportable.
 
-4.  
+```{r}
+#| label: vir-heatmaps-combined
+#| fig-width: 22
+#| fig-height: 14
 
-5.  **The "exceptions" are biology, not noise.** If a cow-milk isolate carries `sak`+`scn`, it's plausibly a recent **human-to-cow spillover** (anthroponosis). If a human isolate lacks them, it might be a recent **cow-to-human spillover** (zoonosis) — a livestock-adapted strain that just colonized a person. Both are interesting and reportable.
+library(grid)
+library(gridExtra)
+
+draw_vir_heatmap_aug <- function(aug_obj, annot, title, show_legend = FALSE) {
+  if (ncol(aug_obj$mat) == 0 || all(is.na(aug_obj$mat))) {
+    message("Skipping '", title, "'"); return(invisible(NULL))
+  }
+  pheatmap(
+    aug_obj$mat,
+    annotation_row    = annot,
+    annotation_colors = ann_colors_vir,
+    cluster_rows = FALSE,
+    cluster_cols = FALSE,
+    gaps_row     = aug_obj$gaps,
+    color        = c("#eeff01",
+                     colorRampPalette(c("white", "black"))(100)),
+    breaks       = c(-1.5, -0.5, seq(0, 1, length.out = 100)),
+    na_col       = "white",
+    border_color = "grey90",
+    cellwidth    = 30,
+    cellheight   = 10,
+    fontsize_row = 7,
+    fontsize_col = 10,
+    angle_col    = 45,
+    legend              = show_legend,   # main color scale legend
+    annotation_legend   = show_legend,   # region/host/ST legend
+    main                = title,
+    silent              = TRUE
+  )
+}
+
+# build panels — legends OFF for all three
+p_exo  <- draw_vir_heatmap_aug(exo_aug,  annot_exo,  "Exoenzymes",
+                               show_legend = FALSE)
+p_tox  <- draw_vir_heatmap_aug(tox_aug,  annot_tox,  "Toxins",
+                               show_legend = FALSE)
+p_host <- draw_vir_heatmap_aug(host_aug, annot_host, "Host-immune evasion",
+                               show_legend = FALSE)   # only this one
+
+# build ONE panel just to harvest the legend — use the matrix with the most
+# annotation categories present so the legend is complete
+p_legend <- draw_vir_heatmap_aug(tox_aug, annot_tox, "", show_legend = TRUE)
+
+# extract just the legend portions of that gtable
+legend_only <- gtable::gtable_filter(
+  p_legend$gtable,
+  "legend|annotation_legend"
+)
+
+# combine
+png("virulence_combined.png",
+    width = 24, height = 14, units = "in",
+    res = 300, bg = "white")
+
+grid.arrange(
+  p_exo$gtable, p_tox$gtable, p_host$gtable, legend_only,
+  ncol = 4,
+  widths = c(0.7, 1.5, 0.55, 0.2),
+  top = textGrob(
+    "Virulence gene presence/absence — isolates + augmented ST prevalence",
+    gp = gpar(fontsize = 18, fontface = "bold"),
+    vjust = 7    # ← pulls title down toward the plots
+  )
+)
+
+dev.off()
+```
+
+\
+\

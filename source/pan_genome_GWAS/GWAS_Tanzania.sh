@@ -14,9 +14,18 @@ module load scoary/1.6.16
 
 
 ROARY_DIR=/home/projects/course_23262/group/group1/23262_infectious_disease_project/results/pan_genome_GWAS/Tanzania_roary/
-OUTPUT_DIR=/home/projects/course_23262/group/group1/23262_infectious_disease_project/results/pan_genome_GWAS/scoary_GWAS_Tanzania/
+OUTPUT_DIR=/home/projects/course_23262/group/group1/23262_infectious_disease_project/results/pan_genome_GWAS/scoary_GWAS_Tanzania/without_cutoff/
 TRAITS_FILE=/home/projects/course_23262/group/group1/23262_infectious_disease_project/data/traits_Tanzania.csv
 
 mkdir -p -m 777 "$OUTPUT_DIR"
 
-scoary -t "$TRAITS_FILE" -g "$ROARY_DIR/gene_presence_absence.csv" -o "$OUTPUT_DIR" -u -c I EPW --threads 4
+# scoary -t "$TRAITS_FILE" -g "$ROARY_DIR/gene_presence_absence.csv" -o "$OUTPUT_DIR" -u -c I EPW --threads 4
+
+scoary -t "$TRAITS_FILE" \
+       -g "$ROARY_DIR/gene_presence_absence.csv" \
+       -o "$OUTPUT_DIR" \
+       -u \
+       -c I BH PW \
+       -p 1.0 1.0 1.0 \
+       --collapse \
+       --threads 4
